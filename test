@@ -1,0 +1,31 @@
+# Variable 'API_KEY' was defined in the Variables tab
+# Variable 'CAST_EXT_ENVPATH' was defined in the Variables tab
+# Variable 'cast.application.schema.prefix' was defined in the Variables tab
+# Variable 'cast.db.host' was defined in the Variables tab
+# Variable 'cast.db.password' was defined in the Variables tab
+# Variable 'cast.db.port' was defined in the Variables tab
+# Variable 'cast.db.userid' was defined in the Variables tab
+# Variable 'cast.rest.api.application.name' was defined in the Variables tab
+# Variable 'cast.rest.api.pwd' was defined in the Variables tab
+# Variable 'cast.rest.api.url' was defined in the Variables tab
+# Variable 'cast.rest.api.userid' was defined in the Variables tab
+jobs:
+- job: Job_1
+  displayName: Agent job 1
+  pool:
+    name: NewAgent
+  steps:
+  - checkout: self
+  - task: CAST-AIP-Console-Automation-Task@0
+    displayName: Automated application rescan in AIP Console
+    inputs:
+      appname: '$(Build.DefinitionName)'
+      versionname: t6
+      sourcepath: C:\\WORK\\AzuretestFoundationSoft\\$(Build.DefinitionName).zip
+      deliverversion: false
+      analyseversion: false
+      validateresult: false
+      datssecurity: false
+      ignorebuildfailure: false
+      conntimeout: 10000
+...
