@@ -28,4 +28,4 @@ stages:
 
     - task: CmdLine@2
       inputs:
-        script: 'java -jar $(SlaCliJar)  add  --apikey="$(SlaApiKey)" -n "$(Build.Repository.Name)" -f "$(CastSourcePath)\$(Build.Repository.Name)" -s "$(SlaServerName)"'
+        script: 'java -jar $(SlaCliJar)  new -n "$(Build.Repository.Name)" --apikey="$(SlaApiKey)" add -f "$(CastSourcePath)\$(Build.Repository.Name)" -s "$(SlaServerName)"'
