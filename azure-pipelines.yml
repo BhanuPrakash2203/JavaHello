@@ -21,11 +21,11 @@ stages:
       displayName: 'Copy agent working directory from Azure to Cast - Copy files task'
       inputs:
         SourceFolder: '$(Build.SourcesDirectory)'
-        TargetFolder: '$(CastSourcePath)\FSL.MyProjectHQ.CrewHQ.API'
+        TargetFolder: '$(CastSourcePath)\$(Build.Repository.Name)'
         CleanTargetFolder: true
         OverWrite: true
 
 
     - task: CmdLine@2
       inputs:
-        script: 'java -jar $(SlaCliJar)  add  --apikey="$(SlaApyKey)" -n "$(Build.Repository.Name)" -f "E:\Cast\Code_Staging\$(Build.Repository.Name)" -s "$(SlaServerName)"'
+        script: 'java -jar $(SlaCliJar)  add  --apikey="$(SlaApyKey)" -n "$(Build.Repository.Name)" -f "$(CastSourcePath)\$(Build.Repository.Name)" -s "$(SlaServerName)"'
