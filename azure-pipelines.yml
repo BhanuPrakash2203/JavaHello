@@ -1,8 +1,6 @@
 name: $(DayOfYear)$(Rev:rr)_$(GITVERSION.FullSemVer)
 
 variables:
-- group: Agents
-- group: Nuget
 - group: Cast
 
 stages:
