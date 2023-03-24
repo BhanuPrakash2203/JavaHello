@@ -1,7 +1,5 @@
 name: $(DayOfYear)$(Rev:rr)_$(GITVERSION.FullSemVer)
 
-variables:
-- group: Cast
 
 stages:
 - stage: Build
