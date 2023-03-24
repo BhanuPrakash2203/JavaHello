@@ -17,3 +17,22 @@ stages:
     - checkout: self
     - script: echo "$(Build.SourcesDirectory)"
       displayName: 'Display Sources Directory of Azure agent working directory'
+    - task: CopyFiles@2
+      displayName: 'Copy agent working directory from Azure to Cast - Copy files task'
+      inputs:
+        SourceFolder: '$(Build.SourcesDirectory)'
+        TargetFolder: '$(CastSourcePath)\FSL.MyProjectHQ.CrewHQ.API'
+        CleanTargetFolder: true
+        OverWrite: true
+  
+    - task: PowerShell@2
+      displayName: Temporary task to verfy the latest pull
+      inputs:
+        targetType: 'inline'
+        script: |
+          $a = Get-content -path "$(CastSourcePath)\FSL.MyProjectHQ.CrewHQ.API\FSL.MyProjectHQ.CrewHQ.API\appsettings.json" | ConvertFrom-Json
+          $a.TestOnly.Test.TestUrl
+
+    - task: CmdLine@2
+      inputs:
+        script: 'java -jar $(SlaCliJar)  add  --apikey="$(SlaApyKey)" -n "$(Build.Repository.Name)" -f "E:\Cast\Code_Staging\$(Build.Repository.Name)" -s "$(SlaServerName)"'
