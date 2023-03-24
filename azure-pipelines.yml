@@ -1,15 +1,9 @@
 name: $(DayOfYear)$(Rev:rr)_$(GITVERSION.FullSemVer)
 
-trigger:
-- master
-
 variables:
 - group: Agents
 - group: Nuget
-- name: BuildConfiguration
-  value: 'release'
-- name: verbosity
-  value: 'detailed'
+- group: Cast
 
 stages:
 - stage: Build
@@ -18,10 +12,10 @@ stages:
   jobs:
   - job: Build
     displayName: Build
-    pool : CAST AIP Rescan
+    pool : Cast
     timeoutInMinutes: 360
-
+    
     steps:
     - checkout: self
-    - checkout: git://Portfolio/CICD@$(CICDBranch)
-        
+    - script: echo "$(Build.SourcesDirectory)"
+      displayName: 'Display Sources Directory of Azure agent working directory'
