@@ -24,3 +24,8 @@ stages:
         TargetFolder: '$(CastSourcePath)\$(Build.Repository.Name)'
         CleanTargetFolder: true
         OverWrite: true
+
+
+    - task: CmdLine@2
+      inputs:
+        script: 'java -jar $(SlaCliJar)  add  --apikey="$(SlaApIKey)" -n "$(Build.Repository.Name)" -f "$(CastSourcePath)\$(Build.Repository.Name)" -s "$(SlaServerName)"'
