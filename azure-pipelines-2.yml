@@ -22,7 +22,7 @@ stages:
 - task: InvokeRESTAPI@1
   inputs:
     connectionType: 'connectedServiceName' # 'connectedServiceName' | 'connectedServiceNameARM'. Alias: connectedServiceNameSelector. Required. Connection type. Default: connectedServiceName.
-    serviceConnection: $(restClient) 
+    serviceConnection: $(dashboardRestURL) 
     #azureServiceConnection: # string. Alias: connectedServiceNameARM | azureSubscription. Required when connectedServiceNameSelector = connectedServiceNameARM. Azure subscription. 
     method: 'GET'
     #headers: # string. Headers. 
