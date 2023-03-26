@@ -22,9 +22,9 @@ stages:
 - task: InvokeRESTAPI@1
   inputs:
     connectionType: 'connectedServiceName' # 'connectedServiceName' | 'connectedServiceNameARM'. Alias: connectedServiceNameSelector. Required. Connection type. Default: connectedServiceName.
-    serviceConnection: # string. Alias: connectedServiceName | genericService. Required when connectedServiceNameSelector = connectedServiceName. Generic service connection. 
+    serviceConnection: $(restClient) 
     #azureServiceConnection: # string. Alias: connectedServiceNameARM | azureSubscription. Required when connectedServiceNameSelector = connectedServiceNameARM. Azure subscription. 
-    method: 'POST' # 'OPTIONS' | 'GET' | 'HEAD' | 'POST' | 'PUT' | 'DELETE' | 'TRACE' | 'PATCH'. Required. Method. Default: POST.
+    method: 'GET'
     #headers: # string. Headers. 
     #body: # string. Optional. Use when method != GET && method != HEAD. Body. 
     #urlSuffix: # string. URL suffix and parameters. 
