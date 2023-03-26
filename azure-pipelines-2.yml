@@ -19,15 +19,15 @@ stages:
       displayName: 'Display Sources Directory of Azure agent working directory'
     - # Invoke REST API v1
 # Invoke a REST API as a part of your pipeline.
-- task: InvokeRESTAPI@1
-  inputs:
-    connectionType: 'connectedServiceName' # 'connectedServiceName' | 'connectedServiceNameARM'. Alias: connectedServiceNameSelector. Required. Connection type. Default: connectedServiceName.
-    serviceConnection: $(dashboardRestURL) 
-    #azureServiceConnection: # string. Alias: connectedServiceNameARM | azureSubscription. Required when connectedServiceNameSelector = connectedServiceNameARM. Azure subscription. 
-    method: 'GET'
-    #headers: # string. Headers. 
-    #body: # string. Optional. Use when method != GET && method != HEAD. Body. 
-    #urlSuffix: # string. URL suffix and parameters. 
-  # Advanced
-    waitForCompletion: 'false' # 'true' | 'false'. Required. Completion event. Default: false.
-    #successCriteria: # string. Optional. Use when waitForCompletion = false. Success criteria.
+-    task: InvokeRESTAPI@1
+     inputs:
+      connectionType: 'connectedServiceName' # 'connectedServiceName' | 'connectedServiceNameARM'. Alias: connectedServiceNameSelector. Required. Connection type. Default: connectedServiceName.
+      serviceConnection: $(dashboardRestURL) 
+      #azureServiceConnection: # string. Alias: connectedServiceNameARM | azureSubscription. Required when connectedServiceNameSelector = connectedServiceNameARM. Azure subscription. 
+      method: 'GET'
+      #headers: # string. Headers. 
+      #body: # string. Optional. Use when method != GET && method != HEAD. Body. 
+      #urlSuffix: # string. URL suffix and parameters. 
+      # Advanced
+      waitForCompletion: 'false' # 'true' | 'false'. Required. Completion event. Default: false.
+      #successCriteria: # string. Optional. Use when waitForCompletion = false. Success criteria.
