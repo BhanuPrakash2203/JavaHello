@@ -14,7 +14,7 @@ stages:
     timeoutInMinutes: 360
     
     steps:
-    - #checkout: self
+    - checkout: self
     - script: echo "$(Build.SourcesDirectory)"
       displayName: 'Display Sources Directory of Azure agent working directory'
     - # Invoke REST API v1
