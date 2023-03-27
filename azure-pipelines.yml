@@ -33,4 +33,4 @@ stages:
       displayName: 'Run a Python script'
       inputs:
         scriptPath: C:\Data\CastEnv\gatekeeper\gatekeeper.py
-        arguments: '-r http://localhost:8081/rest -u admin -p admin -a TestApp'    
+        arguments: '-r http://localhost:8091/rest -u admin -p admin -a TestApp'    
