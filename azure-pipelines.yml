@@ -29,9 +29,9 @@ stages:
     - task: CmdLine@2
       displayName: 'Run Source Code Scan'
       inputs:
-        script: 'java -jar $(SlaCliJar)  add  --apikey="$(SlaApIKey)" -n "TestApp" -f "$(CastSourcePath)\$(Build.Repository.Name)" -s "$(SlaServerName)" --auto-create --auto-create'
+        script: 'java -jar $(SlaCliJar)  add  --apikey="$(SlaApIKey)" -n "TestApp1" -f "$(CastSourcePath)\$(Build.Repository.Name)" -s "$(SlaServerName)" --auto-create --auto-create'
     - task: PythonScript@0
       displayName: 'Check Added Critical Violations'
       inputs:
         scriptPath: C:\Data\CastEnv\gatekeeper\gatekeeper.py
-        arguments: '-r http://localhost:8091/rest -u admin -p admin -a TestApp'    
+        arguments: '-r http://localhost:8091/rest -u admin -p admin -a TestApp1'    
