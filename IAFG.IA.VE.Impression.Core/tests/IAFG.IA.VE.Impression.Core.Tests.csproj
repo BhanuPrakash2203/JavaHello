@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoFixture.AutoNSubstitute" Version="$(AutoFixtureVersion)" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\src\IAFG.IA.VE.Impression.Core.csproj" />
+  </ItemGroup>
+</Project>

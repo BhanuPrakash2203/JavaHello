@@ -1,0 +1,104 @@
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.pdb
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\AutoFixture.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\AutoFixture.AutoMoq.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Castle.Core.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Fare.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\IAFG.IA.VE.Impression.Core.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Moq.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\NSubstitute.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Buffers.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Memory.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Resources.Extensions.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Core.resources.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.csproj.AssemblyReference.cache
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.AssemblyInfoInputs.cache
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.AssemblyInfo.cs
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.csproj.CoreCompileInputs.cache
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.csproj.CopyComplete
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.pdb
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.pdb
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\AutoFixture.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\AutoFixture.AutoMoq.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Castle.Core.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Fare.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\IAFG.IA.VE.Impression.Core.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Moq.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\NSubstitute.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Buffers.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Memory.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Resources.Extensions.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Core.resources.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.csproj.AssemblyReference.cache
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.AssemblyInfoInputs.cache
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.AssemblyInfo.cs
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.csproj.CoreCompileInputs.cache
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.csproj.CopyComplete
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.pdb
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.pdb
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\AutoFixture.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\AutoFixture.AutoMoq.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Castle.Core.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Fare.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\IAFG.IA.VE.Impression.Core.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Moq.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\NSubstitute.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Buffers.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Memory.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Resources.Extensions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Core.resources.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.csproj.AssemblyReference.cache
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.AssemblyInfoInputs.cache
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.AssemblyInfo.cs
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.csproj.CoreCompileInputs.cache
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.csproj.CopyComplete
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.pdb
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.pdb
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\AutoFixture.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\AutoFixture.AutoMoq.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Castle.Core.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Fare.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\IAFG.IA.VE.Impression.Core.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Moq.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\NSubstitute.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Buffers.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Memory.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Resources.Extensions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Core.resources.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.csproj.AssemblyReference.cache
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.AssemblyInfoInputs.cache
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.AssemblyInfo.cs
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.csproj.CoreCompileInputs.cache
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.csproj.CopyComplete
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.CoreForTests\obj\Debug\net48\IAFG.IA.VE.Impression.CoreForTests.pdb

@@ -1,0 +1,37 @@
+﻿{
+  "SectionId": "BonSuccessoral.PageGraphique",
+  "Titres": [
+    {
+      "Titre": "Valeur à la succession",
+      "TitreEn": "Value to the estate",
+      "Description": "Le graphique ci-dessous illustre la valeur versée à la succession au moment du décès de l’assuré. Le graphique compare les valeurs découlant de la stratégie d’assurance avec celles d'un placement comparatif.",
+      "DescriptionEn": "The graph below illustrates the value paid to the estate at the time of the insured's death. The graph compares the values of the insurance strategy to those of an alternate investment."
+    }
+  ],
+  "Libelles": {
+    "Graphique.Titre": {
+      "Libelle": "Valeur successorale nette – Comparaison de la stratégie d’assurance avec un placement comparatif",
+      "LibelleEn": "Net estate value – Comparison of the insurance strategy with an alternate investment"
+    },
+    "Axe.Annees": {
+      "Libelle": "Année",
+      "LibelleEn": "Year"
+    },
+    "Axe.Age": {
+      "Libelle": "Âge",
+      "LibelleEn": "Age"
+    },
+    "Axe.Valeurs": {
+      "Libelle": "Valeur successorale nette",
+      "LibelleEn": "Net estate value"
+    },
+    "Legendes.BonSuccessoral": {
+      "Libelle": "Stratégie d’assurance",
+      "LibelleEn": "Insurance strategy"
+    },
+    "Legendes.Placement": {
+      "Libelle": "Placement comparatif",
+      "LibelleEn": "Alternate investment"
+    }
+  }
+}

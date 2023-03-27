@@ -1,0 +1,152 @@
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Properties\Resources.resx
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Properties\Resources.Designer.cs
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Business\Pilotage\ConfigurationRapport\ConfigurationRapports_CapitalValeur3.json
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll.config
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.pdb
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\AutoMapper.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Core.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.ImplementationDynamique.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.AF.IPDFVie.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.Data.Extensions.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.Data.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.Messages.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.DataExtensions.Functions.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.DataExtensions.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.PDFVie.Extensions.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Newtonsoft.Json.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Buffers.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Memory.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Resources.Extensions.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Unity.Abstractions.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Core.resources.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Resources.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Types.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Resources.pdb
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Types.pdb
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Illustration.Resources.resources.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.csproj.AssemblyReference.cache
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.AssemblyInfoInputs.cache
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.AssemblyInfo.cs
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.csproj.CoreCompileInputs.cache
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.csproj.CopyComplete
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.pdb
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Properties\Resources.resx
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Properties\Resources.Designer.cs
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Business\Pilotage\ConfigurationRapport\ConfigurationRapports_CapitalValeur3.json
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll.config
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.pdb
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\AutoMapper.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Core.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.ImplementationDynamique.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.AF.IPDFVie.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.Data.Extensions.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.Data.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.Messages.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.DataExtensions.Functions.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.DataExtensions.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.PDFVie.Extensions.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Newtonsoft.Json.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Buffers.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Memory.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Resources.Extensions.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Unity.Abstractions.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Core.resources.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Resources.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Types.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Resources.pdb
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Types.pdb
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Illustration.Resources.resources.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.csproj.AssemblyReference.cache
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.AssemblyInfoInputs.cache
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.AssemblyInfo.cs
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.csproj.CoreCompileInputs.cache
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.csproj.CopyComplete
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.pdb
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Properties\Resources.resx
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Properties\Resources.Designer.cs
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Business\Pilotage\ConfigurationRapport\ConfigurationRapports_CapitalValeur3.json
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll.config
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.pdb
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\AutoMapper.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Core.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.ImplementationDynamique.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.AF.IPDFVie.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.Data.Extensions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.Data.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.Messages.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.DataExtensions.Functions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.DataExtensions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.PDFVie.Extensions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Newtonsoft.Json.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Buffers.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Memory.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Resources.Extensions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Unity.Abstractions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Core.resources.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Resources.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Types.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Resources.pdb
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Types.pdb
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Illustration.Resources.resources.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.csproj.AssemblyReference.cache
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.AssemblyInfoInputs.cache
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.AssemblyInfo.cs
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.csproj.CoreCompileInputs.cache
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.csproj.CopyComplete
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.pdb
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Properties\Resources.resx
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Properties\Resources.Designer.cs
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Business\Pilotage\ConfigurationRapport\ConfigurationRapports_CapitalValeur3.json
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll.config
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.pdb
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\AutoMapper.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Core.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.ImplementationDynamique.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.AF.IPDFVie.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.Data.Extensions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.Data.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.Messages.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.DataExtensions.Functions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.DataExtensions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VI.Projection.PDFVie.Extensions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Newtonsoft.Json.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Buffers.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Memory.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Resources.Extensions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\Unity.Abstractions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Core.resources.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Resources.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Types.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Resources.pdb
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Types.pdb
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Illustration.Resources.resources.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.csproj.AssemblyReference.cache
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.AssemblyInfoInputs.cache
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.AssemblyInfo.cs
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.csproj.CoreCompileInputs.cache
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.csproj.CopyComplete
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.pdb

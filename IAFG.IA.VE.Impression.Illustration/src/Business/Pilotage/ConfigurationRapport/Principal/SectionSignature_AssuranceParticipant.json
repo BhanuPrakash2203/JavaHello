@@ -1,0 +1,88 @@
+﻿{
+  "SectionId": "Signature",
+  "Titres": [
+    {
+      "Titre": "Signature et déclaration",
+      "TitreEn": "Signature and declaration",
+      "Description": "Bien que tous les efforts soient faits pour assurer la qualité du logiciel, les données qui y figurent, et particulièrement les coûts et les primes, sont assujetties à l’approbation d’iA Groupe financier.",
+      "DescriptionEn": "Even though all efforts are made to ensure the quality of the illustration or its use, the figures used in the illustration, particularly costs and/or premiums, are subject to approval by iA Financial Group."
+    }
+  ],
+  "SignatureContractant": {
+    "Texte": "Signature du contractant",
+    "TexteEn": "Applicant’s Signature"
+  },
+  "SignatureContractantCompagnie": {
+    "Texte": "Signature du contractant",
+    "TexteEn": "Applicant’s Signature"
+  },
+  "SignatureRepresentant": {
+    "Texte": "Signature du représentant",
+    "TexteEn": "Advisor’s Signature"
+  },
+  "Textes": [
+    {
+      "Texte": "<html>Je, soussigné(e), déclare avoir reçu une copie du rapport d’illustration et, par ma signature ci-dessous, je confirme en avoir pris connaissance et comprendre ce qui suit :<br></html>",
+      "TexteEn": "<html>I, the undersigned, declare that I have received a copy of the illustration report and by signing below, I confirm that I have read and understand the following:<br></html>",
+      "Bullets": [
+        {
+          "Texte": "<li>Cette illustration ne constitue pas un contrat d’assurance ni une offre d’assurance. En cas de divergence, le contrat a préséance.</li>",
+          "TexteEn": "<li>This illustration is not an insurance contract or an offer of insurance. In case of discrepancy, the insurance contract prevails.</li>",
+          "SequenceId": 1
+        },
+        {
+          "Texte": "<li>Les valeurs et caractéristiques présentées dans cette illustration ne sont pas garanties, à moins qu’il ne soit autrement spécifié.</li>",
+          "TexteEn": "<li>The values and features presented in this illustration are not guaranteed, unless otherwise specified.</li>",
+          "SequenceId": 2
+        },
+        {
+          "Texte": "<li>Les participations annuelles ne sont pas garanties.</li>",
+          "TexteEn": "<li>Annual dividend amounts are not guaranteed.</li>",
+          "SequenceId": 3
+        },
+        {
+          "Texte": "<li>Le montant des participations versées est déterminé en fonction du barème des participations. Ce barème est défini annuellement en fonction des résultats financiers du Compte des contrats avec participation, lequel dépend de plusieurs variables, comme le rendement des placements, la mortalité, les déchéances et les dépenses.</li>",
+          "TexteEn": "<li>The amount of dividends paid is determined according to the dividend scale. This scale is defined annually according to the financial results of the Participating Account, which depends on several variables, such as investment returns, mortality, lapses and expenses.</li>",
+          "SequenceId": 4
+        },
+        {
+          "Texte": "<li>Le scénario principal de l’illustration est fondé sur le maintien du barème des participations courant. Le scénario alternatif illustre l’impact d’une baisse des rendements des placements, sur les valeurs qui y sont projetées.</li>",
+          "TexteEn": "<li>The primary illustration scenario is based on the current dividend scale. The alternative scenario illustrates a reduction in the investment returns and the projected values.</li>",
+          "SequenceId": 5
+        },
+        {
+          "Texte": "<li>Les projections de l’illustration sont basées sur une interprétation de la loi fiscale en vigueur.</li>",
+          "TexteEn": "<li>The illustration projections are based on an interpretation of the current tax legislation.</li>",
+          "SequenceId": 6
+        },
+        {
+          "Texte": "<li>Cette illustration ne remplace pas une consultation juridique ou fiscale.</li>",
+          "TexteEn": "<li>This illustration does not replace legal or tax advice.</li>",
+          "SequenceId": 7
+        },
+        {
+          "Texte": "<li>Les circonstances propres à une personne peuvent influer sur l’effet du traitement fiscal présenté.</li>",
+          "TexteEn": "<li>Differences in an individual’s circumstances may have an impact on the effect of the tax treatment being shown.</li>",
+          "SequenceId": 8
+        },
+        {
+          "Texte": "<li>Cette illustration n'est pas définitive et pourrait varier selon les critères de la société en termes de sélection médicale et financière.</li>",
+          "TexteEn": "<li>This illustration is not definitive and may vary according to the corporation’s medical and financial underwriting criteria.</li>",
+          "Regles": [
+            [ "CapitalAssurePlusDe10M" ]
+          ],
+          "SequenceId": 9
+        },
+        {
+          "Texte": "<li>La tarification préférentielle qui apparaîtra au contrat peut différer de celle présentée dans cette illustration en fonction de l'état de santé de l'assuré.</li>",
+          "TexteEn": "<li>The preferred rates that appear in the contract may be different from the ones shown in this illustration based on the insured’s health.</li>",
+          "Regles": [
+            [ "TauxPreferentielPresent" ]
+          ],
+          "SequenceId": 10
+        }
+      ],
+      "SequenceId": 1
+    }
+  ]
+}

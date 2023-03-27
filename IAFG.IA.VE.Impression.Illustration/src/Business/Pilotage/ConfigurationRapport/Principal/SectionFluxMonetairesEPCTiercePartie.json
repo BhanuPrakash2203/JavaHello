@@ -1,0 +1,170 @@
+{
+  "SectionId": "SommaireFluxMonetairesEPCTiercePartie",
+  "Titres": [
+    {
+      "Titre": "Sommaire des flux monétaires de l'EPC - Tierce partie emprunteur",
+      "TitreEn": "CLF Cash Flow Summary - Third party borrower",
+      "Description": "<html>Ce rapport présente les flux monétaires de l’Entente de Prêt en Collatéral suite à la déduction des intérêts. Les flux monétaires sont la sommation des crédits et des débits pour chacune des parties : le titulaire de la police et l’emprunteur.<ul><li>Pour le titulaire de la police, les déboursés sont la sommation des primes payées durant l’année moins les retraits incluant les remboursements de l’IRP après impôt.</li><li> Pour l’emprunteur, les débits sont : les intérêts payés annuellement, les impôts à payer sur les frais de garantie, s’il y a lieu et tout manque à gagner lors du remboursement d’un prêt.</li><li>Pour l’emprunteur, les crédits sont : les prêts consentis durant l’année et les gains suite à la déduction des intérêts.</li></ul>Prendre note que pour assurer la déductibilité des intérêts, les prêts doivent être investis dans des véhicules éligibles.<br><html>",
+      "DescriptionEn": "<html>This ledger shows the Collateral Loan Facility Cash Flow following the Interest deductions. The Cash Flows are the sums of Credits and Debits.<ul><li>For the policy owner, disbursements are the sums of all paid premiums during the year less all net withdrawal and IIT refund.</li><li>For the borrower, debits are: annual paid interests, tax on Guarantor fee, if applicable, and any additional amount required following a loan repayment.</li><li>For the borrower, credits are: Granted loan and any gain following the interest deduction.</li></ul>Please note that to insure interest deductibility, granted loan must be invested in qualified investments.<br><html>"
+    }
+  ],
+  "Tableau": {
+    "Titres": [
+      {
+     "Titre": "Sommaire des flux monétaires de l'EPC - Tierce partie emprunteur",
+      "TitreEn": "CLF Cash Flow Summary - Third party borrower"
+      }
+    ],
+    "GroupeColonnes": [
+      {
+        "Produits": [ ],
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee"
+          },
+          {
+            "Colonne": 77,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          }
+        ]
+      },
+      {
+        "Produits": [ ],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 154,
+            "Titres": {
+              "Titre": "Retraits et IRP après impôts",
+              "TitreEn": "Withdrawal and IIT refund after tax"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 189,
+            "Titres": {
+              "Titre": "Total des déboursés",
+              "TitreEn": "Total disbursements"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+		  {
+            "Colonne": 163,
+            "Titres": {
+              "Titre": "Prêt en collatéral annuel",
+              "TitreEn": "Annual Collateral Loan"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 179,
+            "Titres": {
+              "Titre": "Remb. du prêt",
+              "TitreEn": "Loan Principal Repayment"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 127,
+            "Titres": {
+              "Titre": "Fonds requis pour paiement",
+              "TitreEn": "Additional funds for repayment"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+           "Colonne": 180,
+            "Titres": {
+              "Titre": "Intérêts totaux payés sur le prêt en collatéral",
+              "TitreEn": "Total Paid Interest on Collateral Loan"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 164,
+            "Titres": {
+              "Titre": "Emprunt en fin d'année",
+              "TitreEn": "EOY Additional Loan"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 181,
+            "Titres": {
+              "Titre": "Remb. de prêt en fin d'année",
+              "TitreEn": "EOY Loan Principal Repayment"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+             "Colonne": 176,
+            "Titres": {
+              "Titre": "Épargne fiscale (intérêts)",
+              "TitreEn": "Tax Savings deductible Interest"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+             "Colonne": 185,
+            "Titres": {
+              "Titre": "Impôt à payer sur les frais de garantie",
+              "TitreEn": "Tax payable on guarantee fees"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 178,
+            "Titres": {
+              "Titre": "Flux monétaires annuels nets",
+              "TitreEn": "Annual Net Cash Flow"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Contrat",
+    "Notes": [
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus âgé couvert par la protection de base. ",
+        "TexteEn": "The age shown is the age of the oldest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointPremierDeces" ]
+        ],
+        "SequenceId": 1
+      },
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus jeune couvert par la protection de base.",
+        "TexteEn": "The age shown is the age of the youngest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointDernierDeces" ]
+        ],
+        "SequenceId": 1
+      }
+    ]
+  }
+}

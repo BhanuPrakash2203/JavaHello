@@ -1,0 +1,53 @@
+{
+  "SectionId": "GlossaireRevenuAppoint",
+  "Titres": [
+    {
+      "Titre": "Glossaire spécifique : Revenu d’appoint",
+      "TitreEn": "Glossary of terms specific: Supplementary Income",
+      "Description": "",
+      "DescriptionEn": ""
+    }
+  ],
+  "GlossaireTextes": [
+    {
+      "Libelle": "Qu’est-ce que le Revenu d’appoint :",
+      "LibelleEn": "What is the Supplementary Income:",
+      "Texte": "L’avenant Revenu d’appoint prévoit le versement d’un revenu mensuel lors d’une invalidité totale à la suite d’un accident ou d’une maladie, selon l’option choisie.",
+      "TexteEn": "The Supplementary Income benefit pays a monthly income in the case of a total disability following an accident or illness, depending on the type of product chosen.",
+      "Codes": [ "REVENUAPPOINT" ],
+      "SequenceId": 0
+    },
+    {
+      "Libelle": "Type de protection :",
+      "LibelleEn": "Type of Coverage:",
+      "Texte": "Accident seulement ou accident et maladie",
+      "TexteEn": "Accident only or Accident and Illness",
+      "Codes": [ "REVENUAPPOINT" ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Versement mensuel :",
+      "LibelleEn": "Monthly Benefit:",
+      "Texte": "Le montant est établi en fonction des revenus de l’assuré. La prestation minimale est de 100 $ et celle-ci ne peut excéder 2 000 $ par mois.",
+      "TexteEn": "The monthly benefit is based on the insured’s income. The minimal benefit is $100 and cannot exceed $2,000 per month.",
+      "Codes": [ "REVENUAPPOINT" ],
+      "SequenceId": 2
+    },
+    {
+      "Libelle": "Durée des prestations :",
+      "LibelleEn": "Duration of Benefits:",
+      "Texte": "Vous choisissez la durée des prestations : 2 ans ou jusqu’à l’âge de 65 ans. Le versement mensuel débute 3 mois après le début de l’invalidité (rétroactif à 1 mois après la date de début de l’invalidité).",
+      "TexteEn": "You choose the duration of monthly benefit: 2 years or to age 65. The monthly benefit starts after a 3-month waiting period (retroactive to 1 month after the date of onset of disability).",
+      "Codes": [ "REVENUAPPOINT" ],
+      "SequenceId": 3
+    },
+    {
+      "Libelle": "Définition d’invalidité :",
+      "LibelleEn": "Definition of “Disability”:",
+      "Texte": "<html>Pour les 24 premiers mois suivant le début de l’invalidité : incapacité totale et continue de l’assuré d’accomplir les fonctions de son emploi principal.<br><br>Par la suite : incapacité totale et continue de l’assuré d’occuper quelque emploi que se soit, pour lequel l’assuré est raisonnablement qualifié.</html>",
+      "TexteEn": "<html>During the first 24 months following the start of the disability: total and continuous inability to carry out the functions of the insured’s primary employment.<br><br>Subsequently: total and continuous inability of the insured to carry out any employment for which he/she is reasonably qualified.</html>",
+      "Codes": [ "REVENUAPPOINT" ],
+      "SequenceId": 4
+    }
+  ]
+}

@@ -1,0 +1,356 @@
+{
+  "SectionId": "ValeursDuContrat",
+  "Titres": [
+    {
+      "Titre": "Projection des valeurs du contrat",
+      "TitreEn": "Policy Projected Values"
+    }
+  ],
+  "Tableau": {
+    "Titres": [
+      {
+        "Titre": "Valeurs établies selon vos hypothèses d’investissement",
+        "TitreEn": "Values Based on your Investment Assumptions"
+      }
+    ],
+    "GroupeColonnes": [
+      {
+        "Produits": [ ],
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee"
+          },
+          {
+            "Colonne": 77,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          }
+        ]
+      },
+      {
+        "Produits": [ "CapitalValeur", "CapitalValeur3" ],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 116,
+            "Titres": {
+              "Titre": "Primes annuelles versées",
+              "TitreEn": "Annual Premiums Paid"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 108,
+            "Titres": {
+              "Titre": "Prestation de décès totale",
+              "TitreEn": "Total Death Benefit"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 97,
+            "Titres": {
+              "Titre": "Valeur de rachat totale",
+              "TitreEn": "Total Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 114,
+            "Titres": {
+              "Titre": "Valeur de rachat garantie de la base",
+              "TitreEn": "Base Guaranteed Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 113,
+            "Titres": {
+              "Titre": "Valeur de rachat de l'ASL totale",
+              "TitreEn": "Total PUA Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 117,
+            "Titres": {
+              "Titre": "AVM total",
+              "TitreEn": "Total MVA"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero", "CompteAVM" ]
+            ]
+          },
+          {
+            "Colonne": 90,
+            "Titres": {
+              "Titre": "Remb. de l'IRP",
+              "TitreEn": "IIT refund"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 128,
+            "Titres": {
+              "Titre": "Fonds de capitalisation",
+              "TitreEn": "Accumulation Fund"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 155,
+            "Titres": {
+              "Titre": "Fonds transitoire avant impôts",
+              "TitreEn": "Shuttle Fund (Before Taxes)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 131,
+            "Titres": {
+              "Titre": "Solde des avances sur polices",
+              "TitreEn": "Balance of Policy Loan"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          }
+        ]
+      },
+      {
+        "Produits": [ ],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 116,
+            "Titres": {
+              "Titre": "Primes annuelles versées",
+              "TitreEn": "Annual Premiums Paid"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 101,
+            "Titres": {
+              "Titre": "Taux moyen pondéré (incl. boni) (%)",
+              "TitreEn": "Weighted Average Yield (incl. bonus) (%)"
+            },
+            "TypeAffichageValeur": "PourcentageSansSymbol"
+          },
+          {
+            "Colonne": 128,
+            "Titres": {
+              "Titre": "Fonds de capitalisation",
+              "TitreEn": "Accumulation Fund"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 131,
+            "Titres": {
+              "Titre": "Solde des avances sur police",
+              "TitreEn": "Balance of Policy Loan"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 50,
+            "Titres": {
+              "Titre": "Valeur de rachat garantie",
+              "TitreEn": "Guaranteed Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 90,
+            "Titres": {
+              "Titre": "Remb. de l'IRP",
+              "TitreEn": "IIT refund"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurDifferenteZero" ]
+            ]
+          },
+          {
+            "Colonne": 97,
+            "Titres": {
+              "Titre": "Valeur de rachat totale",
+              "TitreEn": "Total Surrender Value"
+            },
+            "NoteReferences": [ "NoteAjustementAVM" ],
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 216,
+            "Titres": {
+              "Titre": "AVM CDRL",
+              "TitreEn": "SRDA MVA"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "EnVigueur", "CompteAVM", "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 217,
+            "Titres": {
+              "Titre": "AVM CIRS",
+              "TitreEn": "SRIA MVA"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "EnVigueur", "CompteAVM", "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 218,
+            "Titres": {
+              "Titre": "AVM (autre)",
+              "TitreEn": "MVA (other)"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "EnVigueur", "CompteAVM", "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 155,
+            "Titres": {
+              "Titre": "Fonds transitoire avant impôts",
+              "TitreEn": "Shuttle Fund (Before Taxes)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 108,
+            "Titres": {
+              "Titre": "Prestation de décès Assuré 1",
+              "TitreEn": "Death Benefit Insured 1"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 91,
+            "Titres": {
+              "Titre": "Assurance prolongée",
+              "TitreEn": "Extended Insurance"
+            },
+            "NoteReferences": [ "NoteAssuranceProlongee" ],
+            "TypeAffichageValeur": "SansDecimale"
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Contrat",
+    "Avis": [
+      {
+        "Texte": "Cette illustration n'est fournie qu'à titre informatif pour faciliter votre compréhension du produit. Les données ci-dessus ne doivent pas être considérées comme une garantie des rendements futurs, car ceux-ci pourront fluctuer, à la baisse ou à la hausse, selon les rendements réels générés par vos investissements. En cas de divergence, votre police a préséance.",
+        "TexteEn": "This illustration is provided for information purposes to facilitate your understanding of the product. The above data must not be considered as a guarantee of the future results, which could be higher or lower depending on the real returns obtained on your investments. If there is any discrepancy, your policy contract prevails.",
+        "SequenceId": 1
+      }
+    ],
+    "Notes": [
+      {
+        "Id": "NoteAjustementAVM",
+        "Texte": "La valeur de rachat présentée dans l’illustration ne prend pas en compte l’ajustement de la valeur marchande qui pourrait être applicable.",
+        "TexteEn": "The Surrender Value presented in the illustration does not take into account any market value adjustment which may apply.",
+        "EstReference": true,
+        "Colonne": 97,
+        "Regles": [
+          [ "ContratEnVigueur" ]
+        ],
+        "SequenceId": 0
+      },
+      {
+        "Id": "NoteAssuranceProlongee",
+        "Texte": "L'assurance prolongée représente le nombre d'années pendant lesquelles votre police serait maintenue en vigueur si vous cessiez de verser vos primes à ce moment. Ce nombre d’années n'est pas garanti et peut varier en fonction de plusieurs facteurs, notamment les rendements réels de vos investissements.",
+        "TexteEn": "Extended insurance represents the number of years during which your policy will remain in effect if you stop paying premiums. This duration is not guaranteed and can vary based on several factors, particularly the real returns that your investments obtain.",
+        "EstReference": true,
+        "Colonne": 91,
+        "Regles": [
+          [ "ValeurSuperieureOuEgaleZero" ]
+        ],
+        "SequenceId": 1
+      },
+      {
+        "Texte": "Le versement des primes s'effectue aux années {0} à {1}.",
+        "TexteEn": "Premiums are payable in years {0} to {1}.",
+        "Params": [
+          "AnneeDebutVersementPrime",
+          "AnneeFinVersementPrime"
+        ],
+        "Regles": [
+          [ "PrimeAnnuelleVersee" ]
+        ],
+        "SequenceId": 2
+      },
+      {
+        "Texte": "Les primes sont déposées au début de chaque année.",
+        "TexteEn": "Premiums are deposited at the beginning of each year.",
+        "Regles": [
+          [ "FrequenceFacturationAnnuelle" ]
+        ],
+        "SequenceId": 3
+      },
+      {
+        "Texte": "Les primes sont déposées au début de chaque mois.",
+        "TexteEn": "Premiums are deposited at the beginning of each month.",
+        "Regles": [
+          [ "FrequenceFacturationMensuelle" ]
+        ],
+        "SequenceId": 3
+      },
+      {
+        "Texte": "Selon les hypothèses d’investissement indiquées, la police se maintiendra jusqu’à {0} ans.",
+        "TexteEn": "According to the investment assumptions shown, the policy will remain in effect until age {0}.",
+        "Params": [
+          "AgeReferenceFinProjection"
+        ],
+        "SequenceId": 4
+      },
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus âgé couvert par la protection de base. ",
+        "TexteEn": "The age shown is the age of the oldest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointPremierDeces" ]
+        ],
+        "SequenceId": 5
+      },
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus jeune couvert par la protection de base.",
+        "TexteEn": "The age shown is the age of the youngest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointDernierDeces" ]
+        ],
+        "SequenceId": 5
+      },
+      {
+        "TypeNote": "MessageMoteur",
+        "SequenceId": 6
+      }
+    ]
+  }
+}

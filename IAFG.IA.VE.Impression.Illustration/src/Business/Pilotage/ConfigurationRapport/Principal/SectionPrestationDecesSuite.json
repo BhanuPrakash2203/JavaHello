@@ -1,0 +1,83 @@
+{
+  "SectionId": "PrestationDecesSuite",
+  "Titres": [
+    {
+      "Titre": "Sommaire des prestations de décès (Suite)",
+      "TitreEn": "Death benefit Summary (Continued)",
+      "Description": "<html>Ce rapport fait état du capital-décès au titre de l’assurance vie de toutes les personnes assurées en vertu de votre police Vie Universelle.<br>La totalité des fonds est ajoutée au capital assuré lors d'un décès.<html>",
+      "DescriptionEn": "<html>This report shows the life insurance death benefit of all insureds covered under your Universal Life policy.<br>Upon death, all the funds are added to the face amount.<html>"
+    }
+  ],
+  "Tableau": {
+    "Titres": [
+      {
+        "Titre": "Détails des prestations de décès : {0}",
+        "TitreEn": "Details of the Death Benefit: {0}"
+      }
+    ],
+    "GroupeColonnes": [
+      {
+        "Produits": [ ],
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee"
+          },
+          {
+            "Colonne": 58,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          }
+        ]
+      },
+      {
+        "Produits": [ ],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 24,
+            "Titres": {
+              "Titre": "Capital Assuré",
+              "TitreEn": "Face amount Insured"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [
+                "ValeurPlusGrandeZero"
+              ]
+            ]
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "AssureAdditionnel",
+    "Notes": [
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus âgé couvert par la protection de base. ",
+        "TexteEn": "The age shown is the age of the oldest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointPremierDeces" ]
+        ],
+        "SequenceId": 1
+      },
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus jeune couvert par la protection de base.",
+        "TexteEn": "The age shown is the age of the youngest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointDernierDeces" ]
+        ],
+        "SequenceId": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,440 @@
+{
+  "SectionId": "PrestationDeces",
+  "Titres": [
+    {
+      "Titre": "Sommaire des prestations de décès",
+      "TitreEn": "Death benefit Summary",
+      "Description": "<html>Ce rapport fait état du capital-décès au titre de l’assurance vie de toutes les personnes assurées en vertu de votre police Vie Universelle.<br>La totalité des fonds est ajoutée au capital assuré lors d'un décès.<html>",
+      "DescriptionEn": "<html>This report shows the life insurance death benefit of all insureds covered under your Universal Life policy.<br>Upon death, all the funds are added to the face amount.<html>"
+    },
+    {
+      "Titre": "Sommaire des prestations de décès",
+      "TitreEn": "Death benefit Summary",
+      "Description": "<html>Le tableau ci-dessous vous donne les détails de votre montant d'assurance vie par protection. Le scénario présenté présume que vous allez recevoir des participations à votre anniversaire de contrat.<html>",
+      "DescriptionEn": "<html>The table below gives you the details of your life insurance amount per coverage. The scenario assumes that you will receive dividends on your policy anniversary.<html>",
+      "Produit": "AssuranceParticipant"
+    },
+    {
+      "Titre": "Sommaire des prestations de décès",
+      "TitreEn": "Death benefit Summary",
+      "Description": "<html>Le tableau ci-dessous vous donne les détails de votre montant d'assurance vie par protection. Le scénario présenté présume que vous allez recevoir des participations à votre anniversaire de contrat.<html>",
+      "DescriptionEn": "<html>The table below gives you the details of your life insurance amount per coverage. The scenario assumes that you will receive dividends on your policy anniversary.<html>",
+      "Produit": "AssuranceParticipantValeur"
+    },
+    {
+      "Titre": "Sommaire des prestations de décès",
+      "TitreEn": "Death benefit Summary",
+      "Description": "<html>Le tableau ci-dessous vous donne les détails de votre montant d'assurance vie par protection. Le scénario présenté présume que vous allez recevoir des participations à votre anniversaire de contrat.<html>",
+      "DescriptionEn": "<html>The table below gives you the details of your life insurance amount per coverage. The scenario assumes that you will receive dividends on your policy anniversary.<html>",
+      "Produit": "AssuranceParticipantPatrimoine"
+    }
+  ],
+  "Tableau": {
+    "Titres": [
+      {
+        "Titre": "Détails des prestations de décès : {0}",
+        "TitreEn": "Details of the Death Benefit: {0}"
+      },
+      {
+        "Titre": "Scénario illustré : Barème de participations courant (scénario principal)",
+        "TitreEn": "Illustrated scenario: Current dividend scale (main scenario)",
+        "Produit": "AssuranceParticipant"
+      },
+      {
+        "Titre": "Scénario illustré : Barème de participations courant (scénario principal)",
+        "TitreEn": "Illustrated scenario: Current dividend scale (main scenario)",
+        "Produit": "AssuranceParticipantValeur"
+      },
+      {
+        "Titre": "Scénario illustré : Barème de participations courant (scénario principal)",
+        "TitreEn": "Illustrated scenario: Current dividend scale (main scenario)",
+        "Produit": "AssuranceParticipantPatrimoine"
+      }
+    ],
+    "GroupeColonnes": [
+      {
+        "Produits": [],
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee"
+          }
+        ]
+      },
+      {
+        "Produits": [ "CapitalValeur", "CapitalValeur3" ],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 77,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          },
+          {
+            "Colonne": 83,
+            "Titres": {
+              "Titre": "Capital assuré de la protection Intégrée",
+              "TitreEn": "Integrated Coverage Face Amount"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "Regles": [
+              [ "ValeurDifferenteZero" ]
+            ]
+          },
+          {
+            "Colonne": 111,
+            "Titres": {
+              "Titre": "Capital assuré de Capital Valeur",
+              "TitreEn": "EquiBuild Face Amount"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 79,
+            "Titres": {
+              "Titre": "Capital assuré total des protections temporaires",
+              "TitreEn": "Term Rider Face Amount"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurDifferenteZero" ]
+            ]
+          },
+          {
+            "Colonne": 121,
+            "Titres": {
+              "Titre": "Fonds totaux",
+              "TitreEn": "Total Funds"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 108,
+            "Titres": {
+              "Titre": "Prestation de décès totale",
+              "TitreEn": "Total Death Benefit"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 132,
+            "Titres": {
+              "Titre": "Primes versées cumulées",
+              "TitreEn": "Accumulated premiums paid"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 100,
+            "Titres": {
+              "Titre": "Rendement au décès (%)",
+              "TitreEn": "Rate of Return (Death) (%)"
+            },
+            "TypeAffichageValeur": "PourcentageSansSymbol"
+          },
+          {
+            "Colonne": 194,
+            "Titres": {
+              "Titre": "Dividende non taxable (CDC)",
+              "TitreEn": "Non-Taxable Dividend Paid (CDA)"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ContractantEstCompagnie" ]
+            ]
+          },
+          {
+            "Colonne": 196,
+            "Titres": {
+              "Titre": "Dividende taxable",
+              "TitreEn": "Taxable Dividend Paid"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ContractantEstCompagnie" ]
+            ]
+          }
+        ]
+      },
+      {
+        "Produits": [ "AssuranceParticipant", "AssuranceParticipantValeur", "AssuranceParticipantPatrimoine" ],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 1,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          },
+          {
+            "Colonne": 2015,
+            "Titres": {
+              "Titre": "Montant d’assurance vie garanti de la protection de base",
+              "TitreEn": "Basic Coverage Guaranteed Life Insurance Amount"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 79,
+            "Titres": {
+              "Titre": "Montant d’assurance vie des avenants temporaires",
+              "TitreEn": "Term Rider Life Insurance Amount"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurDifferenteZero" ]
+            ]
+          },
+          {
+            "Colonne": 2031,
+            "Titres": {
+              "Titre": "Montant d'assurance libérée acquis",
+              "TitreEn": "Paid-up Insurance Acquired"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [
+                "EnVigueur",
+                "VecteurPresent"
+              ]
+            ]
+          },
+          {
+            "Colonne": 2005,
+            "Titres": {
+              "Titre": "Montant d’assurance libérée provenant de l’ODS",
+              "TitreEn": "Paid-Up Insurance Purchased with ADO"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 2014,
+            "Titres": {
+              "Titre": "Montant d'assurance vie provenant des participations",
+              "TitreEn": "Paid-Up Insurance Purchased with Dividends"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 2004,
+            "Titres": {
+              "Titre": "Solde du compte des participations en dépôt",
+              "TitreEn": "Balance of Dividends on Deposit Account"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurDifferenteZero" ]
+            ]
+          },
+          {
+            "Colonne": 166,
+            "Titres": {
+              "Titre": "Solde des avances sur police",
+              "TitreEn": "Balance of Policy Loan"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurDifferenteZero" ]
+            ]
+          },
+          {
+            "Colonne": 2008,
+            "Titres": {
+              "Titre": "Montant d’assurance vie total",
+              "TitreEn": "Total Life Insurance Amount"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 2023,
+            "Titres": {
+              "Titre": "Participations payables au comptant cumulatives",
+              "TitreEn": "Accumulated Dividends Payable in Cash"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [
+                "ValeurDifferenteZero",
+                "NouvelleVente"
+              ]
+            ]
+          },
+          {
+            "Colonne": 2016,
+            "Titres": {
+              "Titre": "Primes et contributions annuelles cumulatives",
+              "TitreEn": "Accumulated Annual Premiums and Contributions Paid"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "NouvelleVente" ]
+            ]
+          },
+          {
+            "Colonne": 100,
+            "Titres": {
+              "Titre": "Rendement au décès",
+              "TitreEn": "Rate of Return (Death)"
+            },
+            "TypeAffichageValeur": "Pourcentage",
+            "Regles": [
+              [ "NouvelleVente" ]
+            ]
+          }
+        ]
+      },
+      {
+        "Produits": [],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 77,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          },
+          {
+            "Colonne": 121,
+            "Titres": {
+              "Titre": "Fonds totaux",
+              "TitreEn": "Total Funds"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 24,
+            "Titres": {
+              "Titre": "Capital Assuré",
+              "TitreEn": "Face amount Insured"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 88,
+            "Titres": {
+              "Titre": "OACA",
+              "TitreEn": "AOFA"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "Regles": [
+              [ "VecteurPresent" ]
+            ]
+          },
+          {
+            "Colonne": 108,
+            "Titres": {
+              "Titre": "Prestation de décès Assuré",
+              "TitreEn": "Death Benefit Insured"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 132,
+            "Titres": {
+              "Titre": "Primes versées cumulées",
+              "TitreEn": "Accumulated premiums paid"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 100,
+            "Titres": {
+              "Titre": "Rendement au décès (%)",
+              "TitreEn": "Rate of Return (Death) (%)"
+            },
+            "TypeAffichageValeur": "PourcentageSansSymbol"
+          },
+          {
+            "Colonne": 62,
+            "Titres": {
+              "Titre": "Coût net d'assurance pure (CNAP)",
+              "TitreEn": "Net Cost of Pure Insurance (NCPI)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 40,
+            "Titres": {
+              "Titre": "Coût de base rajusté (CBR)",
+              "TitreEn": "Adjusted Cost Basis (ACB)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 194,
+            "Titres": {
+              "Titre": "Dividende non taxable (CDC)",
+              "TitreEn": "Non-Taxable Dividend Paid (CDA)"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ContractantEstCompagnie" ]
+            ]
+          },
+          {
+            "Colonne": 196,
+            "Titres": {
+              "Titre": "Dividende taxable",
+              "TitreEn": "Taxable Dividend Paid"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ContractantEstCompagnie" ]
+            ]
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "AssurePrincipal",
+    "Notes": [
+      {
+        "Texte": "Malgré le fait qu'il s'agisse d'une police d'assurance au dernier décès, le fonds de capitalisation et le fonds transitoire seront versés en fonction des montants accumulés au moment de chacun des décès.",
+        "TexteEn": "Despite the fact that it is a last to die policy, the accumulation fund and the Shuttle fund balance will be paid on each death according to the current balance.",
+        "Regles": [
+          [ "ConjointeDernierDeces", "AssuranceVieUniverselle" ]
+        ],
+        "SequenceId": 1
+      },
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus âgé couvert par la protection de base. ",
+        "TexteEn": "The age shown is the age of the oldest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointPremierDeces" ]
+        ],
+        "SequenceId": 1
+      },
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus jeune couvert par la protection de base.",
+        "TexteEn": "The age shown is the age of the youngest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointDernierDeces" ]
+        ],
+        "SequenceId": 1
+      },
+       {
+          "Texte": "Avant le 5ème anniversaire, le versement du fonds de capitalisation sera payable uniquement si l'assuré décédé était assurable à l'émission du contrat.",
+          "TexteEn": "The accumulation fund will be payable before the 5th coverage anniversary only if the insured was insurable at issue of the coverage.",
+          "Regles": [
+            [ "PresenceClientNonAssurable", "AssuranceVieUniverselle" ]
+          ],
+          "SequenceId": 1
+        }
+    ]
+  }
+}

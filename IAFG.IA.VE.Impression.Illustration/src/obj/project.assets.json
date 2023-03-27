@@ -1,0 +1,677 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "AutoMapper/6.2.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net45/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AutoMapper.dll": {}
+        }
+      },
+      "IAFG.IA.VE.Impression.Core/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Resources.Extensions": "6.0.0"
+        },
+        "compile": {
+          "lib/net48/IAFG.IA.VE.Impression.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net48/IAFG.IA.VE.Impression.Core.dll": {}
+        },
+        "resource": {
+          "lib/net48/en-CA/IAFG.IA.VE.Impression.Core.resources.dll": {
+            "locale": "en-CA"
+          }
+        }
+      },
+      "IAFG.IA.VI.ImplementationDynamique/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net48/IAFG.IA.VI.ImplementationDynamique.dll": {}
+        },
+        "runtime": {
+          "lib/net48/IAFG.IA.VI.ImplementationDynamique.dll": {}
+        }
+      },
+      "IAFG.IA.VI.IPDFVie/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "IAFG.IA.VI.ImplementationDynamique": "1.2.0"
+        },
+        "compile": {
+          "lib/net48/IAFG.IA.VI.AF.IPDFVie.dll": {}
+        },
+        "runtime": {
+          "lib/net48/IAFG.IA.VI.AF.IPDFVie.dll": {}
+        }
+      },
+      "IAFG.IA.VI.Projection.Data/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net48/IAFG.IA.VI.Projection.Data.Extensions.dll": {},
+          "lib/net48/IAFG.IA.VI.Projection.Data.dll": {},
+          "lib/net48/IAFG.IA.VI.Projection.Messages.dll": {}
+        },
+        "runtime": {
+          "lib/net48/IAFG.IA.VI.Projection.Data.Extensions.dll": {},
+          "lib/net48/IAFG.IA.VI.Projection.Data.dll": {},
+          "lib/net48/IAFG.IA.VI.Projection.Messages.dll": {}
+        }
+      },
+      "IAFG.IA.VI.Projection.DataExtensions/6.6.0": {
+        "type": "package",
+        "dependencies": {
+          "IAFG.IA.VI.Projection.Data": "7.0.0",
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/net48/IAFG.IA.VI.Projection.DataExtensions.Functions.dll": {},
+          "lib/net48/IAFG.IA.VI.Projection.DataExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/net48/IAFG.IA.VI.Projection.DataExtensions.Functions.dll": {},
+          "lib/net48/IAFG.IA.VI.Projection.DataExtensions.dll": {}
+        }
+      },
+      "IAFG.IA.VI.Projection.Extensions.PDFVie/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IAFG.IA.VI.IPDFVie": "[4.6.2, 6.0.0)",
+          "IAFG.IA.VI.Projection.Data": "7.6.0"
+        },
+        "compile": {
+          "lib/net48/IAFG.IA.VI.Projection.PDFVie.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net48/IAFG.IA.VI.Projection.PDFVie.Extensions.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Buffers.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Resources.Extensions/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "compile": {
+          "lib/net461/System.Resources.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Resources.Extensions.dll": {}
+        },
+        "build": {
+          "buildTransitive/net461/System.Resources.Extensions.targets": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "Unity.Abstractions/5.11.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "lib/net48/Unity.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Unity.Abstractions.dll": {}
+        }
+      },
+      "IAFG.IA.VE.Impression.Illustration.Resources/9.37.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "IAFG.IA.VE.Impression.Core": "3.2.0",
+          "Unity.Abstractions": "5.11.6"
+        },
+        "compile": {
+          "bin/placeholder/IAFG.IA.VE.Impression.Illustration.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IAFG.IA.VE.Impression.Illustration.Resources.dll": {}
+        }
+      },
+      "IAFG.IA.VE.Impression.Illustration.Types/9.37.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "IAFG.IA.VE.Impression.Core": "3.2.0",
+          "IAFG.IA.VI.Projection.Data": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IAFG.IA.VE.Impression.Illustration.Types.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IAFG.IA.VE.Impression.Illustration.Types.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoMapper/6.2.2": {
+      "sha512": "eGKcnJdoF5rYMWPUaSPtlWdvua9xw4hnQN5kM/X4AXLGKghrtPIaMv+RYoA3sj0kyZ3X6wZ1Qj67F+u0pCCPaw==",
+      "type": "package",
+      "path": "automapper/6.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.6.2.2.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/net40/AutoMapper.dll",
+        "lib/net40/AutoMapper.xml",
+        "lib/net45/AutoMapper.dll",
+        "lib/net45/AutoMapper.xml",
+        "lib/netstandard1.1/AutoMapper.dll",
+        "lib/netstandard1.1/AutoMapper.xml",
+        "lib/netstandard1.3/AutoMapper.dll",
+        "lib/netstandard1.3/AutoMapper.xml"
+      ]
+    },
+    "IAFG.IA.VE.Impression.Core/3.2.0": {
+      "sha512": "X/dUNuL+kIJFXGTsETDFzCg5YXlPK6Buz1f89jgTC2yM6WruwKoKnrm6fYd5PqNAIa4HEGsYsLXXZ4IN4J3N3g==",
+      "type": "package",
+      "path": "iafg.ia.ve.impression.core/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        "iafg.ia.ve.impression.core.3.2.0.nupkg.sha512",
+        "iafg.ia.ve.impression.core.nuspec",
+        "lib/net48/IAFG.IA.VE.Impression.Core.dll",
+        "lib/net48/en-CA/IAFG.IA.VE.Impression.Core.resources.dll"
+      ]
+    },
+    "IAFG.IA.VI.ImplementationDynamique/1.2.0": {
+      "sha512": "1Mrkpe7vVdbm0li5SfbrR3PpjUJBIyPwxp2ei1glPIxaneU0Eedm6Fufbm0LuEUZ6mz9w21KZfOxV2pfquuUnw==",
+      "type": "package",
+      "path": "iafg.ia.vi.implementationdynamique/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        "iafg.ia.vi.implementationdynamique.1.2.0.nupkg.sha512",
+        "iafg.ia.vi.implementationdynamique.nuspec",
+        "lib/net48/IAFG.IA.VI.ImplementationDynamique.dll"
+      ]
+    },
+    "IAFG.IA.VI.IPDFVie/5.1.0": {
+      "sha512": "qVdqMyw0G8+uIEhWXOd+gigyeoCPe60y/+ZAa/liKpbFeJCFIxsW5OjBtSMO2vCsq5KwfkUeMQYXc/tZ6OAwFg==",
+      "type": "package",
+      "path": "iafg.ia.vi.ipdfvie/5.1.0",
+      "files": [
+        ".nupkg.metadata",
+        "iafg.ia.vi.ipdfvie.5.1.0.nupkg.sha512",
+        "iafg.ia.vi.ipdfvie.nuspec",
+        "lib/net48/IAFG.IA.VI.AF.IPDFVie.dll"
+      ]
+    },
+    "IAFG.IA.VI.Projection.Data/8.0.0": {
+      "sha512": "Y2Z7djXA9ZS58bd3UZ1PY17+YzhO4h5JGLKyUiJtEGM4t5HEAGCbGflVduhMCCyr0AYozIuU2+/nt9kxlUJIiQ==",
+      "type": "package",
+      "path": "iafg.ia.vi.projection.data/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "iafg.ia.vi.projection.data.8.0.0.nupkg.sha512",
+        "iafg.ia.vi.projection.data.nuspec",
+        "lib/net48/IAFG.IA.VI.Projection.Data.Extensions.dll",
+        "lib/net48/IAFG.IA.VI.Projection.Data.dll",
+        "lib/net48/IAFG.IA.VI.Projection.Messages.dll"
+      ]
+    },
+    "IAFG.IA.VI.Projection.DataExtensions/6.6.0": {
+      "sha512": "SahuLyyLOlN4fijbV8LKoiJvWE27jie4njuJBlCUP1A1vNKWY/dj9OPluJ08RNVw+R3yszP61oK7kRE7pusLqA==",
+      "type": "package",
+      "path": "iafg.ia.vi.projection.dataextensions/6.6.0",
+      "files": [
+        ".nupkg.metadata",
+        "iafg.ia.vi.projection.dataextensions.6.6.0.nupkg.sha512",
+        "iafg.ia.vi.projection.dataextensions.nuspec",
+        "lib/net48/IAFG.IA.VI.Projection.DataExtensions.Functions.dll",
+        "lib/net48/IAFG.IA.VI.Projection.DataExtensions.dll"
+      ]
+    },
+    "IAFG.IA.VI.Projection.Extensions.PDFVie/4.0.0": {
+      "sha512": "MePFcu/L+mrXu8+l/lwVsQnu7GNCIZY0njy5AygfPaNhAP1EN8gdGkGAe9hNXIL9mYGFtJ4JjFBTwvJWBQ5ImA==",
+      "type": "package",
+      "path": "iafg.ia.vi.projection.extensions.pdfvie/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "iafg.ia.vi.projection.extensions.pdfvie.4.0.0.nupkg.sha512",
+        "iafg.ia.vi.projection.extensions.pdfvie.nuspec",
+        "lib/net48/IAFG.IA.VI.Projection.PDFVie.Extensions.dll"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "System.Buffers/4.5.1": {
+      "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "type": "package",
+      "path": "system.buffers/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Buffers.dll",
+        "lib/net461/System.Buffers.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net45/System.Buffers.dll",
+        "ref/net45/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "ref/uap10.0.16299/_._",
+        "system.buffers.4.5.1.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Numerics.Vectors.dll",
+        "lib/net46/System.Numerics.Vectors.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Numerics.Vectors.dll",
+        "lib/netstandard1.0/System.Numerics.Vectors.xml",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/System.Numerics.Vectors.dll",
+        "ref/net45/System.Numerics.Vectors.xml",
+        "ref/net46/System.Numerics.Vectors.dll",
+        "ref/net46/System.Numerics.Vectors.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Numerics.Vectors.dll",
+        "ref/netstandard1.0/System.Numerics.Vectors.xml",
+        "ref/netstandard2.0/System.Numerics.Vectors.dll",
+        "ref/netstandard2.0/System.Numerics.Vectors.xml",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.numerics.vectors.4.5.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Resources.Extensions/6.0.0": {
+      "sha512": "pBnVzNQYd0OHqh0VLu/hi0zFOTtyF8QwtziQBmzX/ZtVOea4+JEVOGu29DHeSOA0a9SFrYjQorBrOLuKLhcMNQ==",
+      "type": "package",
+      "path": "system.resources.extensions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Resources.Extensions.targets",
+        "buildTransitive/netcoreapp2.0/System.Resources.Extensions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Resources.Extensions.dll",
+        "lib/net461/System.Resources.Extensions.xml",
+        "lib/net6.0/System.Resources.Extensions.dll",
+        "lib/net6.0/System.Resources.Extensions.xml",
+        "lib/netstandard2.0/System.Resources.Extensions.dll",
+        "lib/netstandard2.0/System.Resources.Extensions.xml",
+        "system.resources.extensions.6.0.0.nupkg.sha512",
+        "system.resources.extensions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.3": {
+      "sha512": "3TIsJhD1EiiT0w2CcDMN/iSSwnNnsrnbzeVHSKkaEgV85txMprmuO+Yq2AdSbeVGcg28pdNDTPK87tJhX7VFHw==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.2": {
+      "sha512": "BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Unity.Abstractions/5.11.6": {
+      "sha512": "G2nhnzlvizcNYrEDnGsC6aCTT+8FmVbd0PLoItJlJBHHqeX5cYi9neIE2odbkVWGFXZJwbNfwkVHPqHVEIULIg==",
+      "type": "package",
+      "path": "unity.abstractions/5.11.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Unity.Abstractions.dll",
+        "lib/net40/Unity.Abstractions.pdb",
+        "lib/net45/Unity.Abstractions.dll",
+        "lib/net45/Unity.Abstractions.pdb",
+        "lib/net46/Unity.Abstractions.dll",
+        "lib/net46/Unity.Abstractions.pdb",
+        "lib/net47/Unity.Abstractions.dll",
+        "lib/net47/Unity.Abstractions.pdb",
+        "lib/net48/Unity.Abstractions.dll",
+        "lib/net48/Unity.Abstractions.pdb",
+        "lib/netcoreapp1.0/Unity.Abstractions.dll",
+        "lib/netcoreapp1.0/Unity.Abstractions.pdb",
+        "lib/netcoreapp2.0/Unity.Abstractions.dll",
+        "lib/netcoreapp2.0/Unity.Abstractions.pdb",
+        "lib/netcoreapp3.0/Unity.Abstractions.dll",
+        "lib/netcoreapp3.0/Unity.Abstractions.pdb",
+        "lib/netstandard1.0/Unity.Abstractions.dll",
+        "lib/netstandard1.0/Unity.Abstractions.pdb",
+        "lib/netstandard2.0/Unity.Abstractions.dll",
+        "lib/netstandard2.0/Unity.Abstractions.pdb",
+        "unity.abstractions.5.11.6.nupkg.sha512",
+        "unity.abstractions.nuspec"
+      ]
+    },
+    "IAFG.IA.VE.Impression.Illustration.Resources/9.37.0": {
+      "type": "project",
+      "path": "../../IAFG.IA.VE.Impression.Illustration.Resources/src/IAFG.IA.VE.Impression.Illustration.Resources.csproj",
+      "msbuildProject": "../../IAFG.IA.VE.Impression.Illustration.Resources/src/IAFG.IA.VE.Impression.Illustration.Resources.csproj"
+    },
+    "IAFG.IA.VE.Impression.Illustration.Types/9.37.0": {
+      "type": "project",
+      "path": "../../IAFG.IA.VE.Impression.Illustration.Types/src/IAFG.IA.VE.Impression.Illustration.Types.csproj",
+      "msbuildProject": "../../IAFG.IA.VE.Impression.Illustration.Types/src/IAFG.IA.VE.Impression.Illustration.Types.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "AutoMapper >= 6.2.2",
+      "IAFG.IA.VE.Impression.Core >= 3.2.0",
+      "IAFG.IA.VE.Impression.Illustration.Resources >= 9.37.0",
+      "IAFG.IA.VE.Impression.Illustration.Types >= 9.37.0",
+      "IAFG.IA.VI.IPDFVie >= 5.1.0",
+      "IAFG.IA.VI.Projection.Data >= 8.0.0",
+      "IAFG.IA.VI.Projection.DataExtensions >= 6.6.0",
+      "IAFG.IA.VI.Projection.Extensions.PDFVie >= 4.0.0",
+      "Newtonsoft.Json >= 12.0.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\hubfo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "9.37.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\src\\IAFG.IA.VE.Impression.Illustration.csproj",
+      "projectName": "IAFG.IA.VE.Impression.Illustration",
+      "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\src\\IAFG.IA.VE.Impression.Illustration.csproj",
+      "packagesPath": "C:\\Users\\hubfo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\src\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\hubfo\\Downloads\\VE_Impression\\NuGet.Config",
+        "C:\\Users\\hubfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\hubfo\\Downloads\\VE_Impression\\Packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {
+            "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Resources\\src\\IAFG.IA.VE.Impression.Illustration.Resources.csproj": {
+              "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Resources\\src\\IAFG.IA.VE.Impression.Illustration.Resources.csproj"
+            },
+            "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Types\\src\\IAFG.IA.VE.Impression.Illustration.Types.csproj": {
+              "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Types\\src\\IAFG.IA.VE.Impression.Illustration.Types.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[6.2.2, )"
+          },
+          "IAFG.IA.VE.Impression.Core": {
+            "target": "Package",
+            "version": "[3.2.0, )"
+          },
+          "IAFG.IA.VI.IPDFVie": {
+            "target": "Package",
+            "version": "[5.1.0, )"
+          },
+          "IAFG.IA.VI.Projection.Data": {
+            "target": "Package",
+            "version": "[8.0.0, )"
+          },
+          "IAFG.IA.VI.Projection.DataExtensions": {
+            "target": "Package",
+            "version": "[6.6.0, )"
+          },
+          "IAFG.IA.VI.Projection.Extensions.PDFVie": {
+            "target": "Package",
+            "version": "[4.0.0, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

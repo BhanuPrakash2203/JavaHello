@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <Version>$(IllustrationVersion)</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="IAFG.IA.VE.Impression.Core" Version="3.2.0" />
+    <PackageReference Include="IAFG.IA.VI.IPDFVie" Version="5.1.0" />
+    <PackageReference Include="Unity.Abstractions" Version="5.11.6" />
+    <PackageReference Include="Unity.Container" Version="5.11.10" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\IAFG.IA.VE.Impression.Illustration.Resources\src\IAFG.IA.VE.Impression.Illustration.Resources.csproj" />
+    <ProjectReference Include="..\..\IAFG.IA.VE.Impression.Illustration.Tiers.Reports\src\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.csproj" />
+    <ProjectReference Include="..\..\IAFG.IA.VE.Impression.Illustration.Types\src\IAFG.IA.VE.Impression.Illustration.Types.csproj" />
+    <ProjectReference Include="..\..\IAFG.IA.VE.Impression.Illustration\src\IAFG.IA.VE.Impression.Illustration.csproj" />
+  </ItemGroup>
+</Project>

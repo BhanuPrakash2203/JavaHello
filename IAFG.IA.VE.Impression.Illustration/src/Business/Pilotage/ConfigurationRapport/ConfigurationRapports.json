@@ -1,0 +1,18 @@
+{
+  "Version": "1.10",
+  "Fichiers": [
+    "ConfigurationRapports_AssuranceParticipant.json",
+    "ConfigurationRapports_AssuranceParticipantPatrimoine.json",
+    "ConfigurationRapports_AssuranceParticipantValeur.json",
+    "ConfigurationRapports_CapitalValeur.json",
+    "ConfigurationRapports_CapitalValeur3.json",
+    "ConfigurationRapports_Genesis.json",
+    "ConfigurationRapports_RegimeVieMD.json",
+    "ConfigurationRapports_Meridia.json",
+    "ConfigurationRapports_Tendance.json",
+    "ConfigurationRapports_Topaz.json",
+    "ConfigurationRapports_Traditionnel.json",
+    "ConfigurationRapports_Transition.json",
+    "ConfigurationRapports_AccesVie.json"
+  ]
+}

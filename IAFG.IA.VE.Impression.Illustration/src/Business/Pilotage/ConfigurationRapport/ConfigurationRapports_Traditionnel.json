@@ -1,0 +1,73 @@
+[
+  {
+    "Produit": "Traditionnel",
+    "Etat": "NouvelleVente",
+    "AgeReferenceProjection": 100,
+    "Titre": {
+      "French": "Assurance Traditionnelle",
+      "English": "Traditional Insurance"
+    },
+    "Pages": [
+      {
+        "SectionId": "PageTitre",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 1
+      },
+      {
+        "SectionId": "DescriptionsProtections",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 2
+      },
+      {
+        "SectionId": "SommaireProtections",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 3
+      },
+      {
+        "SectionId": "DonneesFiscales",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 4
+      },
+      {
+        "SectionId": "PrimesDeRenouvellement",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 5
+      },
+      {
+        "SectionId": "ApercuProtections",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 6
+      },
+      {
+        "SectionId": "NotesIllustration",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 7
+      },
+      {
+        "SectionId": "ConditionsMedicales",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 8
+      },
+      {
+        "SectionId": "RapportCommission",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 9
+      },
+      {
+        "SectionId": "ExigencesMedicales",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 40
+      }
+    ]
+  }
+]

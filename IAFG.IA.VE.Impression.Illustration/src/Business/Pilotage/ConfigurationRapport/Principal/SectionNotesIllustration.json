@@ -1,0 +1,178 @@
+{
+  "SectionId": "NotesIllustration",
+  "Titres": [
+    {
+      "Titre": "Notes sur l'illustration",
+      "TitreEn": "Illustration Notes"
+    }
+  ],
+  "ListSections": [
+    {
+      "SectionId": "Resultats",
+      "Titres": [
+        {
+          "Titre": "Résultats",
+          "TitreEn": "Results"
+        }
+      ],
+      "Textes": [
+        {
+          "Texte": "Cette illustration ne fait pas partie du contrat.",
+          "TexteEn": "This illustration is not part of the contract."
+        },
+        {
+          "Texte": "Toutes les valeurs affichées dans les tableaux du rapport sont calculées en fin d'année de contrat.",
+          "TexteEn": "All values appearing in the report tables are calculated at the end of the policy year."
+        },
+        {
+          "Texte": "Pour les fins de l’illustration, les protections d’assurance ainsi que les garanties complémentaires qui sont temporaires et renouvelables sont projetées jusqu’à la durée spécifiée.",
+          "TexteEn": "For illustration purposes, renewable term coverages and additional protections are projected to the end of the specified period.",
+          "Regles": [
+            [ "ProtectionTemporaireRenouvelable" ]
+          ]
+        },
+        {
+          "Texte": "Le revenu d’intérêt crédité sur le solde du compte des participations en dépôt constitue un revenu imposable. La projection du solde du compte des participations en dépôt assume que le client ne fera aucun retrait de ce compte pour payer cet impôt.",
+          "TexteEn": "Interest income credited to the balance of the Dividends on Deposit Account is taxable income. The balance of the Dividends on Deposit Account projection assumes that the client will not make any withdrawals from this account to pay this tax.",
+          "RegleProduits": { "Produits": [ "AssuranceParticipant", "AssuranceParticipantValeur", "AssuranceParticipantPatrimoine" ] },
+          "Regles": [
+            [ "AssuranceParticipantDividendesEnDepot" ]
+          ]
+        },
+        {
+          "Texte": "Le produit tel qu’illustré est exonéré selon la Loi de l’impôt sur le revenu actuellement en vigueur. À noter que la Loi peut être modifiée à tout moment.",
+          "TexteEn": "The product as shown is exempt under the Income Tax Act currently in force. Note that the Act can be changed at any time.",
+          "RegleProduits": {
+            "Produits": [ "Transition" ],
+            "Exclusion": true
+          }
+        }
+      ]
+    },
+    {
+      "SectionId": "Garanties",
+      "Titres": [
+        {
+          "Titre": "Garanties",
+          "TitreEn": "Guarantees"
+        }
+      ],
+      "Textes": [
+        {
+          "Texte": "Bien que tous les efforts soient faits pour assurer la qualité du logiciel, les données qui y figurent et particulièrement les coûts et/ou les primes, sont assujettis à approbation par la Compagnie.",
+          "TexteEn": "Even though all efforts are made to ensure the quality of the illustration or its use, the figures used in the illustration, particularly costs and/or premiums, are subject to approval by the Company.",
+          "Regles": [
+            [ "EstContratUniversel" ]
+          ]
+        },
+        {
+          "Texte": "Cette illustration ne constitue pas un contrat d’assurance ni une offre d’assurance. En cas de divergence, le contrat d’assurance a préséance.",
+          "TexteEn": "This illustration is not an insurance contract or an offer of insurance. In case of discrepancy, the insurance contract prevails.",
+          "RegleProduits": {
+            "Produits": [ "AssuranceParticipant", "AssuranceParticipantValeur", "AssuranceParticipantPatrimoine" ],
+            "Exclusion": true
+          }
+        },
+        {
+          "Texte": "Le présent rapport d’illustration ne remplace pas une consultation juridique ou fiscale.",
+          "TexteEn": "This illustration report is not designed to provide professionnal or legal advice.",
+          "RegleProduits": {
+            "Produits": [ "AssuranceParticipant", "AssuranceParticipantValeur", "AssuranceParticipantPatrimoine" ],
+            "Exclusion": true
+          }
+        },
+        {
+          "Texte": "La tarification préférentielle qui sera indiquée au contrat pourrait-être différente de celle présentée dans cette illustration en fonction de l’état de santé de l’assuré.",
+          "TexteEn": "The preferred rates that appear in the contract may be different from the ones shown in this illustration based on the insured’s health.",
+          "RegleProduits": {
+            "Produits": [ "AssuranceParticipant", "AssuranceParticipantValeur", "AssuranceParticipantPatrimoine" ],
+            "Exclusion": true
+          },
+          "Regles": [
+            [ "TauxPreferentielPresent" ]
+          ]
+        },
+        {
+          "Texte": "La prime à l’émission basée sur l'âge d'assurance pour chacun des assurés à la date d'illustration est garantie pour la durée du contrat.",
+          "TexteEn": "The premium at issue is guaranteed for the duration of the contract.",
+          "RegleProduits": { "Produits": [ "Traditionnel", "AccesVie", "Transition", "AssuranceParticipant", "AssuranceParticipantValeur", "AssuranceParticipantPatrimoine" ] }
+        },
+        {
+          "Texte": "Les montants de prestation au décès sont garantis selon les modalités du contrat.",
+          "TexteEn": "The death benefit amounts are guaranteed per the terms of the contract.",
+          "RegleProduits": { "Produits": [ "Traditionnel", "AccesVie" ] },
+          "Regles": [
+            [ "MontantsPrestationDeces" ]
+          ]
+        },
+        {
+          "Texte": "Les montants de la valeur de rachat et d’assurance libérée sont garantis selon les modalités du contrat.",
+          "TexteEn": "The surrender value and paid-up insurance are guaranteed per the terms of the contract.",
+          "RegleProduits": {
+            "Produits": [ "AssuranceParticipant", "AssuranceParticipantValeur", "AssuranceParticipantPatrimoine" ],
+            "Exclusion": true
+          },
+          "Regles": [
+            [ "MontantsValeurRachatAssuranceLiberee " ]
+          ]
+        },
+        {
+          "Texte": "Les montants de prestations en cas de maladie grave sont garantis selon les modalités du contrat.",
+          "TexteEn": "The critical illness benefit amount is guaranteed per the terms of the contract.",
+          "Regles": [
+            [ "MontantsPrestationsMaladieGrave" ]
+          ]
+        },
+        {
+          "Texte": "Les montants de remboursement flexibles sont garantis selon les modalités du contrat.",
+          "TexteEn": "The premium repayment amount is guaranteed per the terms of the contract.",
+          "Regles": [
+            [ "MontantsRemboursementFlexibles" ]
+          ]
+        },
+        {
+          "Texte": "Les valeurs garanties illustrées dans les tableaux supposent le paiement de la prime en totalité. Elles peuvent être réduites en raison d'avances sur police non remboursées ou si vous effectuez des rachats partiels sur votre contrat, par exemple.",
+          "TexteEn": "The guaranteed values shown in the tables assume payment of the total guaranteed annual premiums. They may be reduced due to, for example, policy loans or if you make partial surrenders.",
+          "RegleProduits": {
+            "Produits": [ "AssuranceParticipant", "AssuranceParticipantValeur", "AssuranceParticipantPatrimoine" ]
+          }
+        },
+        {
+          "Texte": "Il est à noter que les protections présentées peuvent être résiliées en tout temps par le contractant.",
+          "TexteEn": "Please note that the applicant may cancel the coverage shown at any time."
+        }
+      ]
+    },
+    {
+      "SectionId": "Participations",
+      "Titres": [
+        {
+          "Titre": "Participations et barèmes de participations",
+          "TitreEn": "Dividends and Dividend Scale"
+        }
+      ],
+      "Textes": [
+        {
+          "Texte": "Les participations ne sont pas garanties et peuvent varier à la hausse ou à la baisse par rapport à ce qui est indiqué dans ce rapport d’illustration. Pour cette raison, le montant d'assurance vie total et la valeur de rachat totale ne sont pas garantis.",
+          "TexteEn": "Dividends are not guaranteed and may vary up or down from what is shown in this illustration report. For this reason, the total life insurance amount and the total cash surrender value are not guaranteed.",
+          "RegleProduits": {
+            "Produits": [ "AssuranceParticipant", "AssuranceParticipantValeur", "AssuranceParticipantPatrimoine" ]
+          }
+        },
+        {
+          "Texte": "La projection prévoit le versement d’un boni annuel de {0} du taux d’intérêt du barème de participations. Ce boni est garanti et s’ajoutera automatiquement au taux d’intérêt du barème de participations déterminé à chaque année par iA Groupe financier, tant que votre contrat demeurera en vigueur.",
+          "TexteEn": "The projection includes an annual bonus of {0} of the dividend scale interest rate. This bonus is guaranteed and will be automatically added to the dividend scale interest rate determined each year by iA Financial Group, for as long as your contract remains in force.",
+          "TexteParams": [
+            "TauxBoniPAR"
+          ],
+          "RegleProduits": {
+            "Produits": [ "AssuranceParticipant", "AssuranceParticipantValeur", "AssuranceParticipantPatrimoine" ]
+          },
+          "Regles": [
+            [ "BoniPARPresent" ]
+          ]
+        }
+      ]
+    }
+  ]
+}

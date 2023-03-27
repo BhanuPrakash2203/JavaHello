@@ -1,0 +1,157 @@
+{
+  "SectionId": "ProjectionProprietePartagee",
+  "Titres": [
+    {
+      "Titre": "Sommaire Propriété partagée",
+      "TitreEn": "Shared Ownership Summary",
+      "Description": "",
+      "DescriptionEn": ""
+    }
+  ],
+  "Tableau": {
+    "Titres": [
+      {
+        "Titre": "Sommaire du concept",
+        "TitreEn": "Concept Summary"
+      }
+    ],
+    "GroupeColonnes": [
+      {
+        "Produits": [ ],
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee"
+          },
+          {
+            "Colonne": 1,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          },
+          {
+            "Colonne": 3,
+            "Titres": {
+              "Titre": "Primes annuelles totales",
+              "TitreEn": "Total Annual Premiums"
+            },
+            "TypeAffichageValeur": "Monetaire"
+          },
+          {
+            "Colonne": 5,
+            "Titres": {
+              "Titre": "Primes annuelles cumulées",
+              "TitreEn": "Accumulated Premiums"
+            },
+            "TypeAffichageValeur": "Monetaire"
+          }
+        ]
+      },
+      {
+        "Produits": [ ],
+        "SequenceId": 1,
+        "Titres": {
+          "Titre": "Société par actions",
+          "TitreEn": "Corporation"
+        },
+        "Colonnes": [
+          {
+            "Colonne": 205,
+            "Titres": {
+              "Titre": "Primes annuelles",
+              "TitreEn": "Annual Premiums"
+            },
+            "TypeAffichageValeur": "Monetaire"
+          },
+          {
+            "Colonne": 26,
+            "Titres": {
+              "Titre": "Capital assuré",
+              "TitreEn": "Face Amount"
+            },
+            "TypeAffichageValeur": "MonetaireSansDecimale",
+            "Regles": [
+              [ "VecteurPresent" ]
+            ]
+          },
+          {
+            "Colonne": 28,
+            "Titres": {
+              "Titre": "Capital assuré",
+              "TitreEn": "Face Amount"
+            },
+            "TypeAffichageValeur": "MonetaireSansDecimale",
+            "Regles": [
+              [ "VecteurPresent" ]
+            ]
+          }
+        ]
+      },
+      {
+        "Produits": [ ],
+        "SequenceId": 2,
+        "Titres": {
+          "Titre": "Actionnaire ou employé clé",
+          "TitreEn": "Shareholder or Key Employee"
+        },
+        "Colonnes": [
+          {
+            "Colonne": 204,
+            "Titres": {
+              "Titre": "Primes annuelles",
+              "TitreEn": "Total Annual Premiums"
+            },
+            "TypeAffichageValeur": "Monetaire"
+          },
+          {
+            "Colonne": 32,
+            "Titres": {
+              "Titre": "Retour flexible des primes",
+              "TitreEn": "Flexible Return of Premiums"
+            },
+            "TypeAffichageValeur": "Monetaire"
+          }
+        ]
+      },
+      {
+        "Produits": [ ],
+        "SequenceId": 3,
+        "Titres": {
+          "Titre": "",
+          "TitreEn": ""
+        },
+        "LigneVerticaleGauche": true,
+        "Colonnes": [
+          {
+            "Colonne": 31,
+            "Titres": {
+              "Titre": "Retour des primes au décès",
+              "TitreEn": "Return of Premiums at Death"
+            },
+            "TypeAffichageValeur": "Monetaire",
+            "Regles": [
+              [ "VecteurPresent" ]
+            ]
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Assure",
+    "Notes": [
+      {
+        "Texte": "Transition garantit le versement d'une somme forfaitaire 30 jours après le diagnostic d'une des maladies graves ou affections couvertes.",
+        "TexteEn": "Transition guarantees the payment of a lump-sum amount 30 days after the diagnosis of one of the covered critical illnesses or medical conditions.",
+        "SequenceId": 1
+      }
+    ]
+  }
+}

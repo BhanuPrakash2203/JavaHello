@@ -1,0 +1,82 @@
+{
+  "SectionId": "DescriptionsProtections",
+  "Descriptions": [
+    {
+      "Libelle": "Assurance vie universelle",
+      "LibelleEn": "Universal life insurance",
+      "Texte": "<html>L’assurance vie universelle Genesis est un outil financier d’une grande flexibilité qui procure une sécurité financière à vos proches selon votre situation personnelle, familiale ou professionnelle. Genesis réunit, dans un seul et même contrat, deux éléments essentiels à une planification financière judicieuse : une protection d’assurance vie et un compte d’épargne dont les rendements s’accumulent à l’abri de l’impôt.</html>",
+      "TexteEn": "<html>Genesis universal life insurance is a very flexible financial tool that gives your loved ones financial security based on your personal, family and work situation. Genesis combines two elements of sound financial planning: life insurance coverage and a tax-free savings account.</html>",
+      "SectionPrincipale": true,
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Protection d’assurance vie",
+      "LibelleEn": "Life insurance coverage",
+      "Texte": "<html>L’assurance vie Genesis garantit, au décès, le versement d’une prestation libre d’impôt à vos bénéficiaires.<br>On choisit l’assurance vie universelle Genesis pour :</html>",
+      "TexteEn": "<html>At death, Genesis life insurance guarantees the payment of a tax-free benefit to your beneficiaries.<br>Choose Genesis universal life insurance to:</html>",
+      "Textes": [
+        {
+          "Texte": "assurer le maintien du niveau de vie de votre famille advenant un décès;",
+          "TexteEn": "protect your family’s lifestyle in the event of premature death",
+          "SequenceId": 1
+        },
+        {
+          "Texte": "couvrir les impôts et les frais liés au décès;",
+          "TexteEn": "cover taxes and final expenses",
+          "SequenceId": 2
+        },
+        {
+          "Texte": "léguer un héritage plus important à vos proches;",
+          "TexteEn": "leave a larger legacy to your loved ones",
+          "SequenceId": 3
+        },
+        {
+          "Texte": "couvrir les besoins de protections financières liés à une entreprise;",
+          "TexteEn": "cover your business’ financial protection needs",
+          "SequenceId": 4
+        },
+        {
+          "Texte": "bénéficier des options de placement variées et du boni d’investissement pour vos versements excédentaires.",
+          "TexteEn": "take advantage of various investment options and the investment bonus for your excess payments.",
+          "SequenceId": 5
+        }
+      ],
+      "SectionPrincipale": false,
+      "SequenceId": 2
+    },
+    {
+      "Libelle": "Épargne",
+      "LibelleEn": "Savings",
+      "Texte": "<html>L’une des particularités d’une assurance vie universelle est de permettre le versement d’une prime excédentaire à la prime d’assurance vie afin d’accumuler de l’épargne à l’abri de l’impôt.<p></p></html>",
+      "TexteEn": "<html>One of the features of universal life insurance is that it is possible to pay an extra premium in addition to the regular life insurance premium to help you save money tax-free.<p></p></html>",
+      "Tableau": [
+        {
+          "Categorie": "Flexible",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>L’assurance vie universelle offre une grande flexibilité de paiement de la prime. Une prime minimale est exigée pour le maintien de l’assurance vie en vigueur. Si vous le souhaitez, vous avez la possibilité de verser une prime excédentaire et ainsi accumuler de l’épargne pour réaliser des projets ou pour filet de sécurité que vous pourrez utiliser pour vos besoins futurs.</td></tr></table></html>",
+          "CategorieEn": "Flexible",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Universal life insurance offers flexible premium payments. A minimum premium is required to keep the life insurance in force. If you want, you can pay an extra premium and save for your future needs</td></tr></table></html>"
+        },
+        {
+          "Categorie": "Sécuritaire",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>L’assurance vie universelle Genesis garantit en cas de décès un patrimoine instantané particulièrement apprécié, et le versement d’une prestation libre d’impôt à vos bénéficiaires.</td></tr></table></html>",
+          "CategorieEn": "Secure",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>At death, Genesis life insurance guarantees the payment of a tax-free benefit to your beneficiaries.</td></tr></table></html>"
+        },
+        {
+          "Categorie": "Avantageux",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>En plus de répondre adéquatement à vos besoins d’assurance, l’assurance vie universelle Genesis vous aide à atteindre vos objectifs d’épargne. Lorsque vous déposez une prime excédentaire à la prime d’assurance vie, vous avez accès à une gamme complète d’options de placement qui répond aux besoins de tous les types d’investisseurs, des plus prudents aux plus audacieux, pour ainsi vous permettre de diversifier votre épargne à l’abri de l’impôt.</td></tr></table></html>",
+          "CategorieEn": "Reassuring",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Genesis universal life insurance helps you meet your insurance and savings needs. When you pay an extra premium, you gain access to a full range of investment options that meet the needs of all types of investors, from the most prudent to the most aggressive, thus allowing you to diversify your savings, tax-free.</td></tr></table></html>"
+        }
+      ],
+      "SectionPrincipale": false,
+      "SequenceId": 3
+    },
+    {
+      "Texte": "<html>Votre contrat d’assurance comporte des conditions et des restrictions; il sera important de les lire. Ces conditions incluent vos droits et obligations en tant que client ainsi que vos droits de résiliation de contrat ou de réclamation, s’il y a lieu.</html>",
+      "TexteEn": "<html>Your insurance policy contains conditions and restrictions. Please read them. They include your rights and obligations as a client and your policy termination right and right of claim, where applicable</html>",
+      "SectionPrincipale": false,
+      "SequenceId": 4
+    }
+  ]
+}

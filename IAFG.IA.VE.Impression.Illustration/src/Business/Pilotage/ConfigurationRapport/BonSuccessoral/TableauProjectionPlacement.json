@@ -1,0 +1,159 @@
+{
+  "SectionId": "BonSuccessoral.TableauProjectionPlacement",
+  "Titres": [
+    {
+      "Titre": "Projection du placement comparatif",
+      "TitreEn": "Alternate Investment Projection",
+      "Description": "Le tableau ci-dessous illustre en détail les valeurs et les transactions annuelles liées au placement comparatif.",
+      "DescriptionEn": "The table below provides a detailed illustration of the values and yearly transactions under the alternate investment."
+    }
+  ],
+  "Tableau": {
+    "Titres": [
+      {
+        "Titre": "",
+        "TitreEn": ""
+      }
+    ],
+    "GroupeColonnes": [
+      {
+        "Produits": [],
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 813,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee",
+            "TypeProjection": "BonSuccessoral"
+          },
+          {
+            "Colonne": 800,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age",
+            "TypeProjection": "BonSuccessoral"
+          }
+        ]
+      },
+      {
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 801,
+            "CouleurAlternative": true,
+            "Titres": {
+              "Titre": "Dépôt annuel",
+              "TitreEn": "Annual Deposit"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeProjection": "BonSuccessoral"
+          },
+          {
+            "Colonne": 802,
+            "CouleurAlternative": true,
+            "Titres": {
+              "Titre": "Retrait annuel",
+              "TitreEn": "Annual Withdrawal"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeProjection": "BonSuccessoral"
+          },
+          {
+            "Colonne": 804,
+            "CouleurAlternative": true,
+            "Titres": {
+              "Titre": "Croissance annuelle des placements",
+              "TitreEn": "Annual Investment Growth"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeProjection": "BonSuccessoral"
+          },
+          {
+            "Colonne": 805,
+            "CouleurAlternative": true,
+            "Titres": {
+              "Titre": "Impôt annuel sur le placement",
+              "TitreEn": "Annual Tax on Investment"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeProjection": "BonSuccessoral"
+          },
+          {
+            "Colonne": 803,
+            "CouleurAlternative": true,
+            "Titres": {
+              "Titre": "Solde du placement",
+              "TitreEn": "Investment Balance"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeProjection": "BonSuccessoral"
+          },
+          {
+            "Colonne": 808,
+            "CouleurAlternative": true,
+            "Titres": {
+              "Titre": "Solde de l’IMRTD",
+              "TitreEn": "RDTOH Balance"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeProjection": "BonSuccessoral",
+            "Regles": [
+              [ "ContractantEstCompagnie" ]
+            ]
+          },
+          {
+            "Colonne": 809,
+            "CouleurAlternative": true,
+            "Titres": {
+              "Titre": "Solde du CDC",
+              "TitreEn": "CDA Balance"
+            },
+            "Regles": [
+              [ "ContractantEstCompagnie" ]
+            ],
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeProjection": "BonSuccessoral"
+          },
+          {
+            "Colonne": 810,
+            "CouleurAlternative": true,
+            "Titres": {
+              "Titre": "Dividende imposable à la succession",
+              "TitreEn": "Taxable Dividend at Death"
+            },
+            "Regles": [
+              [ "ContractantEstCompagnie" ]
+            ],
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeProjection": "BonSuccessoral"
+          },
+          {
+            "Colonne": 811,
+            "CouleurAlternative": true,
+            "Titres": {
+              "Titre": "Valeur successorale nette",
+              "TitreEn": "Net Estate Value"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeProjection": "BonSuccessoral"
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Contrat"
+  },
+  "Notes": [
+    {
+      "TypeNote": "MessageMoteur",
+      "TypeProjection": "BonSuccessoral",
+      "SequenceId": 1
+    }
+  ]
+}

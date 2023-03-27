@@ -1,0 +1,1444 @@
+{
+  "NumeroContrat": null,
+  "DateVersionProduit": null,
+  "VersionProduit": null,
+  "DateMiseAJour": null,
+  "Agents": [],
+  "ParametreRapport": {
+    "Language": 2,
+    "ChoixAnneesRapport": 1,
+    "PagesSelectionnees": null,
+    "IdPagesSelectionnees": [
+      "PageTitre",
+      "SommaireProtections",
+      "PrimesDeRenouvellement",
+      "NotesIllustration"
+    ],
+    "ExigeCalculRendement": false,
+    "PathPdfVie": null,
+    "PathPdfMaladieGrave": null,
+    "PrimeRenouvellementDisponible": false,
+    "VersionEVO": "2.1",
+    "VersionProduitFormattee": "Produit Bidon 3",
+    "IsSignaturePapier": true,
+    "ReductionBaremeParticipation": null
+  },
+  "DonneesClients": [
+    {
+      "Nom": "1",
+      "Prenom": "CLIENT",
+      "Initiale": null,
+      "Id": "3ea97f1f-c191-48b1-be9b-eb713bac4687",
+      "Sexe": 1,
+      "StatutFumeur": 3,
+      "AgeAssurance": 40
+    }
+  ],
+  "Projections": {
+    "List": [
+      {
+        "Contract": {
+          "Identifier": {
+            "Id": "1c1e5a24-58c5-4d8a-9eb1-707c054ab53a"
+          },
+          "Banner": 0,
+          "ContractNumber": "1c1e5a24-58c5-4d8a-9eb1-707c054ab53a",
+          "ContractType": 2,
+          "Product": 7,
+          "ProvinceState": 74780,
+          "Individuals": [
+            {
+              "Identifier": {
+                "Id": "3ea97f1f-c191-48b1-be9b-eb713bac4687"
+              },
+              "Birthdate": null,
+              "Sex": 1,
+              "IsCorporation": false,
+              "IsApplicant": true,
+              "SequenceNumber": 0
+            }
+          ],
+          "Applicants": {
+            "Identifier": {
+              "Id": "0e9e3d08-02c6-437d-a39a-081c0a277534"
+            },
+            "AdditionalBenefits": null
+          },
+          "Insured": [
+            {
+              "Identifier": {
+                "Id": "1"
+              },
+              "IsMain": true,
+              "Coverages": [
+                {
+                  "Identifier": {
+                    "Id": "feeebb89-8410-4e37-9b35-18fa38e10b6d"
+                  },
+                  "IsMain": true,
+                  "Insured": {
+                    "Age": {
+                      "Issuance": 40,
+                      "RiskClassChange": 40,
+                      "Leveling": 40
+                    },
+                    "AverageLifeExpectancy": 80,
+                    "ExtraPremiumAge": {
+                      "Issuance": 0,
+                      "RiskClassChange": 0,
+                      "Leveling": 0
+                    },
+                    "SmokerType": 3,
+                    "Sex": 1,
+                    "ExtraPremiums": null,
+                    "InsuredIndividual": {
+                      "Individual": {
+                        "Id": "3ea97f1f-c191-48b1-be9b-eb713bac4687"
+                      }
+                    },
+                    "Joints": null
+                  },
+                  "FaceAmount": {
+                    "Current": 300000.0,
+                    "Actual": 300000.0,
+                    "Issuance": 300000.0,
+                    "NetAmountAtRisk": 300000.0
+                  },
+                  "PlanCode": "C10A17",
+                  "CoverageCode": 1,
+                  "Dates": {
+                    "Issuance": "2020-05-05T00:00:00-04:00",
+                    "PaidUp": "2065-05-05T00:00:00-04:00",
+                    "Maturity": "2065-05-05T00:00:00-04:00",
+                    "ProductVersion": "2019-05-01T00:00:00",
+                    "Underwriting": "2020-05-05T00:00:00-04:00"
+                  },
+                  "Status": 1,
+                  "InsuranceType": 1,
+                  "ReturnPremiumAmountCriticalIllness": null,
+                  "ReturnPremiumAmount": null,
+                  "ReturnAmountACB": null,
+                  "Premium": {
+                    "PolicyFees": {
+                      "DataType": 1,
+                      "Value": 0.0
+                    },
+                    "TaxRate": 0.0,
+                    "RevisableFactor": 0.0,
+                    "AnnualMinimum": 0.0
+                  },
+                  "AdditionalBenefits": null,
+                  "Coverages": null,
+                  "DeathBenefit": {
+                    "DurationBeforeMinimization": 0,
+                    "MinimalFaceAmount": 0.0,
+                    "Current": 0,
+                    "Issuance": 0,
+                    "AutomaticFaceAmountOptimization": 0
+                  },
+                  "SurrenderCharges": {
+                    "Reference": 0.0,
+                    "Cumulated": null
+                  },
+                  "SubSerie": 0,
+                  "MortalityType": 0
+                },
+                {
+                  "Identifier": {
+                    "Id": "cff8df59-1920-4bb0-8c1c-f1ff74d3fb10"
+                  },
+                  "IsMain": false,
+                  "Insured": {
+                    "Age": {
+                      "Issuance": 40,
+                      "RiskClassChange": 40,
+                      "Leveling": 40
+                    },
+                    "AverageLifeExpectancy": 80,
+                    "ExtraPremiumAge": {
+                      "Issuance": 0,
+                      "RiskClassChange": 0,
+                      "Leveling": 0
+                    },
+                    "SmokerType": 3,
+                    "Sex": 1,
+                    "ExtraPremiums": null,
+                    "InsuredIndividual": {
+                      "Individual": {
+                        "Id": "3ea97f1f-c191-48b1-be9b-eb713bac4687"
+                      }
+                    },
+                    "Joints": null
+                  },
+                  "FaceAmount": {
+                    "Current": 100000.0,
+                    "Actual": 100000.0,
+                    "Issuance": 100000.0,
+                    "NetAmountAtRisk": 100000.0
+                  },
+                  "PlanCode": "120X17",
+                  "CoverageCode": 2,
+                  "Dates": {
+                    "Issuance": "2020-05-05T00:00:00-04:00",
+                    "PaidUp": "2040-05-05T00:00:00-04:00",
+                    "Maturity": "2095-05-05T00:00:00-04:00",
+                    "ProductVersion": "2019-05-01T00:00:00",
+                    "Underwriting": "2020-05-05T00:00:00-04:00"
+                  },
+                  "Status": 1,
+                  "InsuranceType": 1,
+                  "ReturnPremiumAmountCriticalIllness": null,
+                  "ReturnPremiumAmount": null,
+                  "ReturnAmountACB": null,
+                  "Premium": {
+                    "PolicyFees": {
+                      "DataType": 1,
+                      "Value": 0.0
+                    },
+                    "TaxRate": 0.0,
+                    "RevisableFactor": 0.0,
+                    "AnnualMinimum": 0.0
+                  },
+                  "AdditionalBenefits": null,
+                  "Coverages": null,
+                  "DeathBenefit": {
+                    "DurationBeforeMinimization": 0,
+                    "MinimalFaceAmount": 0.0,
+                    "Current": 0,
+                    "Issuance": 0,
+                    "AutomaticFaceAmountOptimization": 0
+                  },
+                  "SurrenderCharges": {
+                    "Reference": 0.0,
+                    "Cumulated": null
+                  },
+                  "SubSerie": 0,
+                  "MortalityType": 0
+                },
+                {
+                  "Identifier": {
+                    "Id": "05231237-1f7f-4063-b78b-d389f80ae49d"
+                  },
+                  "IsMain": false,
+                  "Insured": {
+                    "Age": {
+                      "Issuance": 40,
+                      "RiskClassChange": 40,
+                      "Leveling": 40
+                    },
+                    "AverageLifeExpectancy": 80,
+                    "ExtraPremiumAge": {
+                      "Issuance": 0,
+                      "RiskClassChange": 0,
+                      "Leveling": 0
+                    },
+                    "SmokerType": 3,
+                    "Sex": 1,
+                    "ExtraPremiums": null,
+                    "InsuredIndividual": {
+                      "Individual": {
+                        "Id": "3ea97f1f-c191-48b1-be9b-eb713bac4687"
+                      }
+                    },
+                    "Joints": null
+                  },
+                  "FaceAmount": {
+                    "Current": 300000.0,
+                    "Actual": 300000.0,
+                    "Issuance": 300000.0,
+                    "NetAmountAtRisk": 300000.0
+                  },
+                  "PlanCode": "CY15U8",
+                  "CoverageCode": 2,
+                  "Dates": {
+                    "Issuance": "2020-05-05T00:00:00-04:00",
+                    "PaidUp": "2080-05-05T00:00:00-04:00",
+                    "Maturity": "2095-05-05T00:00:00-04:00",
+                    "ProductVersion": "2019-05-01T00:00:00",
+                    "Underwriting": "2020-05-05T00:00:00-04:00"
+                  },
+                  "Status": 1,
+                  "InsuranceType": 1,
+                  "ReturnPremiumAmountCriticalIllness": null,
+                  "ReturnPremiumAmount": null,
+                  "ReturnAmountACB": null,
+                  "Premium": {
+                    "PolicyFees": {
+                      "DataType": 1,
+                      "Value": 0.0
+                    },
+                    "TaxRate": 0.0,
+                    "RevisableFactor": 0.0,
+                    "AnnualMinimum": 0.0
+                  },
+                  "AdditionalBenefits": null,
+                  "Coverages": null,
+                  "DeathBenefit": {
+                    "DurationBeforeMinimization": 0,
+                    "MinimalFaceAmount": 0.0,
+                    "Current": 0,
+                    "Issuance": 0,
+                    "AutomaticFaceAmountOptimization": 0
+                  },
+                  "SurrenderCharges": {
+                    "Reference": 0.0,
+                    "Cumulated": null
+                  },
+                  "SubSerie": 0,
+                  "MortalityType": 0
+                }
+              ],
+              "Individuals": [
+                {
+                  "Id": "3ea97f1f-c191-48b1-be9b-eb713bac4687"
+                }
+              ]
+            }
+          ],
+          "Billing": {
+            "Frequency": 1,
+            "Premium": {
+              "Scenario": 4000,
+              "Amount": 0.0,
+              "MultiplyingFactor": 0.0,
+              "Year": 0,
+              "PaymentDuration": 0,
+              "TargetedFund": 0.0,
+              "PremiumRatio": 0.0
+            },
+            "PaymentDay": 0
+          },
+          "Legislation": {
+            "AdjustedCostBasis": 0.0,
+            "UnderwritingDate": "2020-05-05T00:00:00-04:00",
+            "AccumulatedTaxableFund": {
+              "Maximum": 0.0,
+              "MaximumWithoutAOFA": 0.0
+            },
+            "PastTaxableFund": {
+              "LessThanOneYear": 0.0,
+              "LessThanTwoYears": 0.0,
+              "LessThanThreeYears": 0.0
+            },
+            "TotalPteFaceAmountLastAnniversary": 0.0,
+            "TotalPteFundsLastAnniversary": 0.0,
+            "DisposablePteBaseFaceAmount": 0.0
+          },
+          "FinancialSection": {
+            "LastInterestRatesUpdate": "2020-05-05T00:00:00-04:00"
+          },
+          "PaidUpAdditionalOption": {
+            "PurchaseOption": 0,
+            "MaximalFaceAmount": 0.0,
+            "AllocationAmount": 0.0,
+            "LastAnniversaryAllocationAmount": 0.0
+          },
+          "Premium": null,
+          "TraditionalOptions": {
+            "DividendOption": 0
+          },
+          "LastUpdate": "2020-05-05T00:00:00-04:00",
+          "IssueDate": "2020-05-05T00:00:00-04:00"
+        },
+        "Values": [
+          {
+            "Key": {
+              "Coverage": {
+                "YearType": 0,
+                "Identifier": {
+                  "Id": "feeebb89-8410-4e37-9b35-18fa38e10b6d"
+                }
+              },
+              "Fund": null,
+              "Income": null,
+              "Individual": null,
+              "Insured": null,
+              "Loan": null,
+              "Flag": 2,
+              "Timing": 0,
+              "Id": 127
+            },
+            "Value": 0.73
+          }
+        ],
+        "Vectors": [
+          {
+            "Key": {
+              "Coverage": null,
+              "Fund": null,
+              "Income": null,
+              "Individual": null,
+              "Insured": null,
+              "Loan": null,
+              "Flag": 1,
+              "Timing": 0,
+              "Id": 11
+            },
+            "Value": [
+              0.0,
+              1957.28,
+              3810.8,
+              5582.05,
+              7264.63,
+              8845.25,
+              10317.65,
+              11668.77,
+              12885.67,
+              13948.71,
+              14845.32,
+              17021.0,
+              18057.91,
+              18963.46,
+              19717.56,
+              20304.36,
+              21838.48,
+              23233.73,
+              24613.25,
+              25976.64,
+              27323.78,
+              26954.52,
+              26554.72,
+              26121.69,
+              25652.76,
+              25144.91,
+              24594.88,
+              23999.27,
+              23354.66,
+              22658.06,
+              21905.89,
+              21094.82,
+              20222.23,
+              19284.89,
+              18280.44,
+              17206.77,
+              16062.1,
+              14844.77,
+              13554.13,
+              12189.5,
+              10750.96,
+              9238.93,
+              7654.38,
+              5998.65,
+              4273.65,
+              2481.69,
+              625.14,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0,
+              0.0
+            ]
+          }
+        ],
+        "Illustration": {
+          "Columns": [
+            {
+              "Id": 0,
+              "Coverage": null,
+              "Insured": null,
+              "Individual": null,
+              "Value": [
+                0.0,
+                1.0,
+                2.0,
+                3.0,
+                4.0,
+                5.0,
+                6.0,
+                7.0,
+                8.0,
+                9.0,
+                10.0,
+                11.0,
+                12.0,
+                13.0,
+                14.0,
+                15.0,
+                16.0,
+                17.0,
+                18.0,
+                19.0,
+                20.0,
+                21.0,
+                22.0,
+                23.0,
+                24.0,
+                25.0,
+                26.0,
+                27.0,
+                28.0,
+                29.0,
+                30.0,
+                31.0,
+                32.0,
+                33.0,
+                34.0,
+                35.0,
+                36.0,
+                37.0,
+                38.0,
+                39.0,
+                40.0,
+                41.0,
+                42.0,
+                43.0,
+                44.0,
+                45.0,
+                46.0,
+                47.0,
+                48.0,
+                49.0,
+                50.0,
+                51.0,
+                52.0,
+                53.0,
+                54.0,
+                55.0,
+                56.0,
+                57.0,
+                58.0,
+                59.0,
+                60.0,
+                61.0,
+                62.0,
+                63.0,
+                64.0,
+                65.0,
+                66.0,
+                67.0,
+                68.0,
+                69.0,
+                70.0,
+                71.0,
+                72.0,
+                73.0,
+                74.0,
+                75.0
+              ]
+            }
+          ],
+          "ColumnDescriptions": [
+            {
+              "Id": 0,
+              "TitleEn": "Year",
+              "TitleFr": "Année",
+              "Attributes": [
+                "Type:Year"
+              ]
+            },
+            {
+              "Id": 1,
+              "TitleEn": "Age",
+              "TitleFr": "Âge",
+              "Attributes": [
+                "Type:Age"
+              ]
+            },
+            {
+              "Id": 2,
+              "TitleEn": "Individual {0} Age",
+              "TitleFr": "Âge Individu {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 3,
+              "TitleEn": "Total Annual Premiums",
+              "TitleFr": "Primes annuelles totales",
+              "Attributes": []
+            },
+            {
+              "Id": 4,
+              "TitleEn": "Insured {0} Total Annual Premiums",
+              "TitleFr": "Primes annuelles totales Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 5,
+              "TitleEn": "Cumulative Annual Premiums",
+              "TitleFr": "Primes annuelles cumulées",
+              "Attributes": []
+            },
+            {
+              "Id": 6,
+              "TitleEn": "Insured {0} Cumulative Annual Premiums",
+              "TitleFr": "Primes annuelles cumulées Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 7,
+              "TitleEn": "Annual Life Premiums",
+              "TitleFr": "Primes annuelles Vie",
+              "Attributes": []
+            },
+            {
+              "Id": 8,
+              "TitleEn": "Insured {0} Life Annual Premiums",
+              "TitleFr": "Primes annuelles Vie Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 9,
+              "TitleEn": "Cumulative Annual Life Premiums",
+              "TitleFr": "Primes annuelles Vie cumulées",
+              "Attributes": []
+            },
+            {
+              "Id": 10,
+              "TitleEn": "Insured {0} Cumulative Annual Life Premiums",
+              "TitleFr": "Primes annuelles Vie cumulées Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 11,
+              "TitleEn": "Annual Premiums (4 illnesses)",
+              "TitleFr": "Primes annuelles (4 maladies)",
+              "Attributes": []
+            },
+            {
+              "Id": 12,
+              "TitleEn": "Insured {0} Annual Premiums (4 illnesses)",
+              "TitleFr": "Primes annuelles (4 maladies) Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 13,
+              "TitleEn": "Cumulative Annual Premiums (4 illnesses)",
+              "TitleFr": "Primes annuelles cumulées (4 maladies)",
+              "Attributes": []
+            },
+            {
+              "Id": 14,
+              "TitleEn": "Insured {0} Cumulative Annual Premiums (4 illnesses)",
+              "TitleFr": "Primes annuelles cumulées (4 maladies) Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 15,
+              "TitleEn": "Annual Premiums (25 illnesses)",
+              "TitleFr": "Primes annuelles (25 maladies)",
+              "Attributes": []
+            },
+            {
+              "Id": 16,
+              "TitleEn": "Insured {0} Annual Premiums (25 illnesses)",
+              "TitleFr": "Primes annuelles (25 maladies) Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 17,
+              "TitleEn": "Cumulative Annual Premiums (25 illnesses)",
+              "TitleFr": "Primes annuelles cumulées (25 maladies)",
+              "Attributes": []
+            },
+            {
+              "Id": 18,
+              "TitleEn": "Insured {0} Cumulative Annual Premiums (25 illnesses)",
+              "TitleFr": "Primes annuelles cumulées (25 maladies) Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 19,
+              "TitleEn": "Total Premiums Additional Coverages",
+              "TitleFr": "Primes totales des protections complémentaires",
+              "Attributes": []
+            },
+            {
+              "Id": 20,
+              "TitleEn": "Insured {0} Total Premiums Additional Coverages",
+              "TitleFr": "Primes totales des protections complémentaires Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 21,
+              "TitleEn": "Cumulative Premiums Additional Coverages",
+              "TitleFr": "Primes cumulées des protections complémentaires",
+              "Attributes": []
+            },
+            {
+              "Id": 22,
+              "TitleEn": "Insured {0} Cumulative Premiums Additional Coverages",
+              "TitleFr": "Primes cumulées des protections complémentaires Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 23,
+              "TitleEn": "Total Life Face Amount",
+              "TitleFr": "Capital assuré Vie total",
+              "Attributes": []
+            },
+            {
+              "Id": 24,
+              "TitleEn": "Insured {0} Life Face Amount",
+              "TitleFr": "Capital assuré Vie Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 25,
+              "TitleEn": "Face Amount (4 illnesses)",
+              "TitleFr": "Capital assuré (4 maladies)",
+              "Attributes": []
+            },
+            {
+              "Id": 26,
+              "TitleEn": "Insured {0} Face Amount (4 illnesses)",
+              "TitleFr": "Capital assuré (4 maladies) Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 27,
+              "TitleEn": "Face Amount (25 illnesses)",
+              "TitleFr": "Capital assuré (25 maladies)",
+              "Attributes": []
+            },
+            {
+              "Id": 28,
+              "TitleEn": "Insured {0} Face Amount (25 illnesses)",
+              "TitleFr": "Capital assuré (25 maladies) Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 29,
+              "TitleEn": "Insured {0} Face Amount AD/ADD",
+              "TitleFr": "Capital assuré DA/DMA Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 30,
+              "TitleEn": "Insured {0} Face Amount Critical Illness - Duo",
+              "TitleFr": "Capital assuré Maladie Grave - Duo Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 31,
+              "TitleEn": "Return of Premiums on Death",
+              "TitleFr": "Retour des primes au décès",
+              "Attributes": []
+            },
+            {
+              "Id": 32,
+              "TitleEn": "Flexible Return of Premiums",
+              "TitleFr": "Retour flexible des primes",
+              "Attributes": []
+            },
+            {
+              "Id": 33,
+              "TitleEn": "Insured {0} Flexible Return of Premiums",
+              "TitleFr": "Retour flexible des primes Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 34,
+              "TitleEn": "Insured {0} Monthly Disability Benefit",
+              "TitleFr": "Prestation mensuelle invalidité Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 35,
+              "TitleEn": "Insured {0} Serenity 65 Benefit",
+              "TitleFr": "Rente sérénité 65 Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 36,
+              "TitleEn": "Insured {0} Guaranteed Surrender Value",
+              "TitleFr": "Valeur de rachat garantie Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 37,
+              "TitleEn": "Insured {0} Surrender Value after tax",
+              "TitleFr": "Valeur de rachat après impôt Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 38,
+              "TitleEn": "Insured {0} Guaranteed Life Paid-up Insurance",
+              "TitleFr": "Assurance libérée Vie Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 39,
+              "TitleEn": "Insured {0} Guaranteed Critical Illness Paid-up Insurance",
+              "TitleFr": "Assurance libérée Maladie Grave Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 40,
+              "TitleEn": "Ajusted Cost Basis (ACB)",
+              "TitleFr": "Coût de base rajusté (CBR)",
+              "Attributes": []
+            },
+            {
+              "Id": 41,
+              "TitleEn": "Net Cost Of Pure Insurance",
+              "TitleFr": "Coût net assurance pure",
+              "Attributes": []
+            },
+            {
+              "Id": 42,
+              "TitleEn": "Bonus Compensation",
+              "TitleFr": "Rémunération boni",
+              "Attributes": []
+            },
+            {
+              "Id": 43,
+              "TitleEn": "Total Compensation",
+              "TitleFr": "Rémunération total",
+              "Attributes": []
+            },
+            {
+              "Id": 44,
+              "TitleEn": "Cumulative Compensation",
+              "TitleFr": "Rémunération cumulées",
+              "Attributes": []
+            },
+            {
+              "Id": 45,
+              "TitleEn": "Life Compensation",
+              "TitleFr": "Rémunération Vie",
+              "Attributes": []
+            },
+            {
+              "Id": 46,
+              "TitleEn": "Critical Illness Compensation",
+              "TitleFr": "Rémunération Maladie Grave",
+              "Attributes": []
+            },
+            {
+              "Id": 47,
+              "TitleEn": "Rider Compensation",
+              "TitleFr": "Rémunération Avenant",
+              "Attributes": []
+            },
+            {
+              "Id": 48,
+              "TitleEn": "Insured {0} Premium Refund upon Death",
+              "TitleFr": "Retour des primes MG au décès Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 49,
+              "TitleEn": "WPDth Credited Amount",
+              "TitleFr": "Montant crédité au CDC",
+              "Attributes": []
+            },
+            {
+              "Id": 50,
+              "TitleEn": "Guaranteed Surrender Value",
+              "TitleFr": "Valeur de rachat garantie",
+              "Attributes": []
+            },
+            {
+              "Id": 51,
+              "TitleEn": "Total Surrender Value after tax",
+              "TitleFr": "Valeur de rachat totale après impôt",
+              "Attributes": []
+            },
+            {
+              "Id": 52,
+              "TitleEn": "Applicant Guaranteed Annual Premium",
+              "TitleFr": "Prime annuelles garanties des contractants",
+              "Attributes": []
+            },
+            {
+              "Id": 53,
+              "TitleEn": "Cumulative Annual Premiums Critical Illness",
+              "TitleFr": "Primes cumulées Maladie grave",
+              "Attributes": []
+            },
+            {
+              "Id": 54,
+              "TitleEn": "Taxable amount on Surrender Value",
+              "TitleFr": "Montant imposable sur valeur de rachat",
+              "Attributes": []
+            },
+            {
+              "Id": 55,
+              "TitleEn": "Tax on Surrender Value",
+              "TitleFr": "Impôt sur valeur de rachat",
+              "Attributes": []
+            },
+            {
+              "Id": 56,
+              "TitleEn": "Insured {0} Cumulative Annual Premiums Critical Illness",
+              "TitleFr": "Primes cumulées Maladie grave Assuré {0}",
+              "Attributes": []
+            },
+            {
+              "Id": 58,
+              "TitleEn": "Insured {0} Age",
+              "TitleFr": "Âge Assuré {0}",
+              "Attributes": [
+                "Type:AgeInsured"
+              ]
+            },
+            {
+              "Id": 59,
+              "TitleEn": "Guaranteed Renewal",
+              "TitleFr": "Prime renouvellement garantie",
+              "Attributes": [
+                "Type:GuaranteedRenewal"
+              ]
+            },
+            {
+              "Id": 60,
+              "TitleEn": "Coverage / LifeAmount",
+              "TitleFr": "Capital assuré Vie / Protection",
+              "Attributes": [
+                "Type:LifeAmount"
+              ]
+            },
+            {
+              "Id": 61,
+              "TitleEn": "Coverage / CriticaI Illness Face Amount",
+              "TitleFr": "Capital assuré MG / Protection",
+              "Attributes": [
+                "Type:CriticalIllnessAmount"
+              ]
+            },
+            {
+              "Id": 65,
+              "TitleEn": "Excess Premium Compensation",
+              "TitleFr": "Rémunération prime excédentaire",
+              "Attributes": []
+            },
+            {
+              "Id": 78,
+              "TitleEn": "Calendar Year",
+              "TitleFr": "Année de calendrier",
+              "Attributes": [
+                "Type:CalendarYear"
+              ]
+            },
+            {
+              "Id": 79,
+              "TitleEn": "Term Rider Face Amount",
+              "TitleFr": "Capital assuré des protections temporaires",
+              "Attributes": []
+            },
+            {
+              "Id": 100,
+              "TitleEn": "Rate of Return (Death)",
+              "TitleFr": "Rendement au décès",
+              "Attributes": []
+            },
+            {
+              "Id": 102,
+              "TitleEn": "Rate of Return (Surrender)",
+              "TitleFr": "Rendement au rachat",
+              "Attributes": []
+            },
+            {
+              "Id": 110,
+              "TitleEn": "PUA Face amount",
+              "TitleFr": "Capital assuré d'ASL",
+              "Attributes": []
+            },
+            {
+              "Id": 113,
+              "TitleEn": "Total PUA Surrender Value",
+              "TitleFr": "Valeur de rachat de l'ASL totale",
+              "Attributes": []
+            },
+            {
+              "Id": 114,
+              "TitleEn": "Base Guaranteed Surrender Value",
+              "TitleFr": "Valeur de rachat garantie de la base",
+              "Attributes": []
+            },
+            {
+              "Id": 166,
+              "TitleEn": "Balance Automatic Loan Advances",
+              "TitleFr": "Solde de l'avance automatique",
+              "Attributes": []
+            },
+            {
+              "Id": 167,
+              "TitleEn": "Interest on Automatic Loan Advances",
+              "TitleFr": "Intérêts sur l'avance automatique",
+              "Attributes": []
+            },
+            {
+              "Id": 168,
+              "TitleEn": "Annual Automatic Loan Advances",
+              "TitleFr": "Avances annuelles automatique sur police",
+              "Attributes": []
+            },
+            {
+              "Id": 202,
+              "TitleEn": "Coverage / LifeAmount After Renewal",
+              "TitleFr": "Capital assuré Vie après renouvellement",
+              "Attributes": [
+                "Type:CoveragePremium"
+              ]
+            },
+            {
+              "Id": 203,
+              "TitleEn": "Coverage / CriticaI Illness Face Amount After Renewal",
+              "TitleFr": "Capital assuré MG après renouvellement",
+              "Attributes": [
+                "Type:CoveragePremium"
+              ]
+            },
+            {
+              "Id": 204,
+              "TitleEn": "Total Annual Premiums ROP",
+              "TitleFr": "Primes annuelles retour de primes",
+              "Attributes": []
+            },
+            {
+              "Id": 205,
+              "TitleEn": "Total Annual Premiums without ROP",
+              "TitleFr": "Primes annuelles excluant retour de primes",
+              "Attributes": []
+            },
+            {
+              "Id": 2000,
+              "TitleEn": "Annual Dividends",
+              "TitleFr": "Participations annuelles",
+              "Attributes": []
+            },
+            {
+              "Id": 2001,
+              "TitleEn": "Additional Deposit Option (ADO) Contribution",
+              "TitleFr": "Contribution à l’option de dépôt supplémentaire (ODS)",
+              "Attributes": []
+            },
+            {
+              "Id": 2002,
+              "TitleEn": "Paid Premium With Dividend",
+              "TitleFr": "Primes payées avec participation",
+              "Attributes": []
+            },
+            {
+              "Id": 2003,
+              "TitleEn": "Cash Annual Premiums",
+              "TitleFr": "Prime annuelles payées au comptant",
+              "Attributes": []
+            },
+            {
+              "Id": 2004,
+              "TitleEn": "Balance of Dividend in Deposits",
+              "TitleFr": "Solde participations en dépôt",
+              "Attributes": []
+            },
+            {
+              "Id": 2005,
+              "TitleEn": "Face Amount Paid With Excess Deposit",
+              "TitleFr": "Capital assuré acheté avec l'ODS",
+              "Attributes": []
+            },
+            {
+              "Id": 2006,
+              "TitleEn": "Tax on Dividends",
+              "TitleFr": "Impôt sur les participations",
+              "Attributes": []
+            },
+            {
+              "Id": 2007,
+              "TitleEn": "Maximum Net Amount At Risk",
+              "TitleFr": "Montant net au risque maximal",
+              "Attributes": []
+            },
+            {
+              "Id": 2008,
+              "TitleEn": "Death Benefit",
+              "TitleFr": "Prestation de décès",
+              "Attributes": []
+            },
+            {
+              "Id": 2009,
+              "TitleEn": "Total Surrender Value",
+              "TitleFr": "Valeur de rachat totale",
+              "Attributes": []
+            },
+            {
+              "Id": 2010,
+              "TitleEn": "Base coverage annual premiums",
+              "TitleFr": "Primes annuelles de la protection de base",
+              "Attributes": []
+            },
+            {
+              "Id": 2011,
+              "TitleEn": "Riders and Additional Benefits Premiums",
+              "TitleFr": "Prime annuelle avenants et garanties complémentaires",
+              "Attributes": []
+            },
+            {
+              "Id": 2012,
+              "TitleEn": "Premiums And Contributions Paid",
+              "TitleFr": "Primes et contributions annuelles versées",
+              "Attributes": []
+            },
+            {
+              "Id": 2013,
+              "TitleEn": "Guaranteed Life Insurance Amount",
+              "TitleFr": "Montant d'assurance vie garantie",
+              "Attributes": []
+            },
+            {
+              "Id": 2014,
+              "TitleEn": "PUA purchased with dividends",
+              "TitleFr": "Capital assuré acheté avec dividendes",
+              "Attributes": []
+            },
+            {
+              "Id": 2015,
+              "TitleEn": "Base coverage guaranteed face amount",
+              "TitleFr": "Capital assuré de la protection de base",
+              "Attributes": []
+            },
+            {
+              "Id": 2016,
+              "TitleEn": "Accumulated premiums and contributions paid",
+              "TitleFr": "Primes et contributions annuelles cumulatives versées",
+              "Attributes": []
+            },
+            {
+              "Id": 2017,
+              "TitleEn": "Annual dividends paid in cash",
+              "TitleFr": "Participations annuelles payables au comptant",
+              "Attributes": []
+            },
+            {
+              "Id": 2018,
+              "TitleEn": "Total Annual Guaranteed Premiums",
+              "TitleFr": "Primes annuelles totales garanties",
+              "Attributes": []
+            },
+            {
+              "Id": 2019,
+              "TitleEn": "Guaranteed Paid-up Insurance",
+              "TitleFr": "Assurance libérée",
+              "Attributes": []
+            },
+            {
+              "Id": 2020,
+              "TitleEn": "Premiums Paid with Policy Values",
+              "TitleFr": "Primes payées au moyen des valeurs du contrat",
+              "Attributes": []
+            },
+            {
+              "Id": 2021,
+              "TitleEn": "PUA face amount reduction",
+              "TitleFr": "Diminution du capital assuré BAL",
+              "Attributes": []
+            },
+            {
+              "Id": 2022,
+              "TitleEn": "Total Guaranteed Annual Premiums",
+              "TitleFr": "Primes annuelles totales garanties",
+              "Attributes": []
+            },
+            {
+              "Id": 2023,
+              "TitleEn": "Cumulative Annual Dividends Paid in Cash",
+              "TitleFr": "Participations annuelles cumulatives payables au comptant",
+              "Attributes": []
+            }
+          ]
+        },
+        "Parameters": {
+          "Assumptions": {
+            "AccumulationFunds": null,
+            "CollateralLoanFacility": null,
+            "PolicyLoans": null,
+            "ReferenceIndex": null,
+            "ShuttleFunds": null
+          },
+          "Compensation": {
+            "BonusRate": 0.699999988079071,
+            "AgentType": 3
+          },
+          "DeductTaxOnShuttleFund": 2,
+          "ExtendedInsuranceCoverage": 0,
+          "LastUpdate": "2020-05-05T00:00:00-04:00",
+          "IllustrationDate": "2020-05-05T00:00:00-04:00",
+          "Taxation": {
+            "Personal": {
+              "MarginalRates": [
+                {
+                  "StartDate": {
+                    "DateType": 1,
+                    "YearContractType": null,
+                    "CalenderDate": "2020-05-05T00:00:00-04:00",
+                    "Year": null,
+                    "Month": null
+                  },
+                  "Value": 0.5331
+                }
+              ],
+              "DividendRates": [
+                {
+                  "StartDate": {
+                    "DateType": 1,
+                    "YearContractType": null,
+                    "CalenderDate": "2020-05-05T00:00:00-04:00",
+                    "Year": null,
+                    "Month": null
+                  },
+                  "Value": 0.4625
+                }
+              ],
+              "CapitalGainsRates": [
+                {
+                  "StartDate": {
+                    "DateType": 1,
+                    "YearContractType": null,
+                    "CalenderDate": "2020-05-05T00:00:00-04:00",
+                    "Year": null,
+                    "Month": null
+                  },
+                  "Value": 0.2666
+                }
+              ]
+            },
+            "Corporate": {
+              "MarginalRates": null,
+              "DividendRates": null,
+              "CapitalGainsRates": null
+            }
+          }
+        },
+        "Transactions": {
+          "BillingChanges": null,
+          "CoverageAdditions": null,
+          "DeathBenefitOptionChanges": null,
+          "DisableAutomaticFaceAmountOptimization": null,
+          "ExtendedCoverageAdditions": null,
+          "FaceAmountChanges": null,
+          "InsuranceTypeChanges": null,
+          "Levelings": null,
+          "PaidUpAdditionalOptionChanges": null,
+          "Terminations": [
+            {
+              "CoverageIdentifier": {
+                "Id": "feeebb89-8410-4e37-9b35-18fa38e10b6d"
+              },
+              "TransactionIdentifier": {
+                "Id": "d6b45c6a-33e8-4953-8370-ef70aeacae50"
+              },
+              "StartDate": {
+                "DateType": 3,
+                "YearContractType": null,
+                "CalenderDate": null,
+                "Year": 12,
+                "Month": 1
+              }
+            },
+            {
+              "CoverageIdentifier": {
+                "Id": "05231237-1f7f-4063-b78b-d389f80ae49d"
+              },
+              "TransactionIdentifier": {
+                "Id": "b34ee848-b6c8-4cfb-8d20-44f471902898"
+              },
+              "StartDate": {
+                "DateType": 3,
+                "YearContractType": null,
+                "CalenderDate": null,
+                "Year": 17,
+                "Month": 1
+              }
+            }
+          ],
+          "TobaccoUsageChanges": null,
+          "Deposits": null,
+          "Withdrawals": null,
+          "LastUpdate": "2020-05-05T13:51:18.8061232-04:00",
+          "TransactionValues": null
+        }
+      }
+    ]
+  },
+  "DonneesPdf": {
+    "ProtectionsPdf": [
+      {
+        "IdProtection": "feeebb89-8410-4e37-9b35-18fa38e10b6d",
+        "CodePlan": "C10A17",
+        "DateVersionProduit": "2019-05-01T00:00:00",
+        "Specification": {
+          "IsAcceleratedPaymentRider": false,
+          "IsAdditionalBenefit": false,
+          "IsChildModule": false,
+          "IsChildModulePlus": false,
+          "IsComplementaryIncome": false,
+          "IsCoverage": true,
+          "IsCriticalIllness": false,
+          "IsCriticalIllnessChildModule": false,
+          "IsGuaranteedPremiumRider": false,
+          "IsHospitalization": false,
+          "IsIncreasedBenefit": false,
+          "IsIntegratedCoverageDecreasing": false,
+          "IsInvalidityCoverage": false,
+          "IsLifeCoverage": true,
+          "IsPickaTerm": false,
+          "IsRembFlexPrime": false,
+          "IsRembPrimeDeces": false,
+          "IsResiliable": true,
+          "IsSubCoverage": false,
+          "IsTermCoverage": true,
+          "IsWithoutInsuranceVolume": false,
+          "IsCashValueAvailable": false,
+          "IsRenewable": true
+        },
+        "Boundaries": {
+          "AmountBoundaries": [
+            {
+              "MinimumIssueAge": 0,
+              "MaximumIssueAge": 99,
+              "MinimumIssueAmount": 10000,
+              "MaximumIssueAmount": 90000000
+            }
+          ]
+        },
+        "TermesDetails": {
+          "CoverageTerm": 10,
+          "PaidUpTermRule": 2,
+          "PaidUpAgeOrDuration": 85,
+          "MaturityTermRule": 85,
+          "MaturityAgeOrDuration": 2,
+          "MaximalAgeForLevel": null
+        },
+        "DescriptiveCodeInfos": {
+          "CodeDescription": [
+            "VieTemporaire1",
+            "VieTraditionnelle1"
+          ]
+        }
+      },
+      {
+        "IdProtection": "cff8df59-1920-4bb0-8c1c-f1ff74d3fb10",
+        "CodePlan": "120X17",
+        "DateVersionProduit": "2019-05-01T00:00:00",
+        "Specification": {
+          "IsAcceleratedPaymentRider": false,
+          "IsAdditionalBenefit": false,
+          "IsChildModule": false,
+          "IsChildModulePlus": false,
+          "IsComplementaryIncome": false,
+          "IsCoverage": true,
+          "IsCriticalIllness": false,
+          "IsCriticalIllnessChildModule": false,
+          "IsGuaranteedPremiumRider": false,
+          "IsHospitalization": false,
+          "IsIncreasedBenefit": false,
+          "IsIntegratedCoverageDecreasing": false,
+          "IsInvalidityCoverage": false,
+          "IsLifeCoverage": true,
+          "IsPickaTerm": false,
+          "IsRembFlexPrime": false,
+          "IsRembPrimeDeces": false,
+          "IsResiliable": true,
+          "IsSubCoverage": false,
+          "IsTermCoverage": false,
+          "IsWithoutInsuranceVolume": false,
+          "IsCashValueAvailable": true,
+          "IsRenewable": false
+        },
+        "Boundaries": {
+          "AmountBoundaries": [
+            {
+              "MinimumIssueAge": 0,
+              "MaximumIssueAge": 99,
+              "MinimumIssueAmount": 10000,
+              "MaximumIssueAmount": 90000000
+            }
+          ]
+        },
+        "TermesDetails": {
+          "CoverageTerm": null,
+          "PaidUpTermRule": 3,
+          "PaidUpAgeOrDuration": 20,
+          "MaturityTermRule": 115,
+          "MaturityAgeOrDuration": 1,
+          "MaximalAgeForLevel": null
+        },
+        "DescriptiveCodeInfos": {
+          "CodeDescription": [
+            "VieEntiere1",
+            "VieTraditionnelle1"
+          ]
+        }
+      },
+      {
+        "IdProtection": "05231237-1f7f-4063-b78b-d389f80ae49d",
+        "CodePlan": "CY15U8",
+        "DateVersionProduit": "2019-05-01T00:00:00",
+        "Specification": {
+          "IsAcceleratedPaymentRider": false,
+          "IsAdditionalBenefit": false,
+          "IsChildModule": false,
+          "IsChildModulePlus": false,
+          "IsComplementaryIncome": false,
+          "IsCoverage": true,
+          "IsCriticalIllness": false,
+          "IsCriticalIllnessChildModule": false,
+          "IsGuaranteedPremiumRider": false,
+          "IsHospitalization": false,
+          "IsIncreasedBenefit": false,
+          "IsIntegratedCoverageDecreasing": false,
+          "IsInvalidityCoverage": false,
+          "IsLifeCoverage": true,
+          "IsPickaTerm": true,
+          "IsRembFlexPrime": false,
+          "IsRembPrimeDeces": false,
+          "IsResiliable": true,
+          "IsSubCoverage": false,
+          "IsTermCoverage": true,
+          "IsWithoutInsuranceVolume": false,
+          "IsCashValueAvailable": false,
+          "IsRenewable": true
+        },
+        "Boundaries": {
+          "AmountBoundaries": [
+            {
+              "MinimumIssueAge": 0,
+              "MaximumIssueAge": 70,
+              "MinimumIssueAmount": 20000,
+              "MaximumIssueAmount": 90000000
+            }
+          ]
+        },
+        "TermesDetails": {
+          "CoverageTerm": 15,
+          "PaidUpTermRule": 2,
+          "PaidUpAgeOrDuration": 100,
+          "MaturityTermRule": 115,
+          "MaturityAgeOrDuration": 2,
+          "MaximalAgeForLevel": null
+        },
+        "DescriptiveCodeInfos": {
+          "CodeDescription": [
+            "VieTemporaire1",
+            "VieTraditionnelle1"
+          ]
+        }
+      }
+    ]
+  }
+}

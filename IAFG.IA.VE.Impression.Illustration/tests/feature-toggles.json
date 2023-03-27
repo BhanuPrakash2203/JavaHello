@@ -1,0 +1,28 @@
+[
+  {
+    "Id": "E133098_MultiPolice",
+    "Name": "E133098_MultiPolice",
+    "Enabled": false,
+    "Description": "E133098_MultiPolice",
+    "Metadata": [
+      "EVO"
+    ],
+    "Rules": [],
+    "LastUpdatedBy": "",
+    "LastUpdateTime": "2019-02-21T00:00:00",
+    "Operator": ""
+  },
+  {
+    "Id": "E108497_Securite",
+    "Name": "E108497_Securite",
+    "Enabled": false,
+    "Description": "E108497_Securite",
+    "Metadata": [
+      "EVO"
+    ],
+    "Rules": [],
+    "LastUpdatedBy": "",
+    "LastUpdateTime": "2019-02-21T00:00:00",
+    "Operator": ""
+  }
+]

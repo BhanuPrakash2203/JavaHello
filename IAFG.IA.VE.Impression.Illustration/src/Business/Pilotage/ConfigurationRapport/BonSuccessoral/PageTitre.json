@@ -1,0 +1,20 @@
+﻿{
+  "SectionId": "BonSuccessoral.PageTitre",
+  "Titres": [
+    {
+      "Titre": "BON SUCCESSORAL POUR LES PARTICULIERS",
+      "TitreEn": "ESTATE BOND FOR INDIVIDUALS"
+    }
+  ],
+  "Libelles": {
+    "Concept.Titre": {
+      "Libelle": "Concept de Vente",
+      "LibelleEn": "Sales concept"
+    }
+  },
+  "Images": {
+    "imagePageTitre": [
+      { "Image": { "ImageId": "BonSuccessoralCouverture" } }
+    ]
+  }
+}

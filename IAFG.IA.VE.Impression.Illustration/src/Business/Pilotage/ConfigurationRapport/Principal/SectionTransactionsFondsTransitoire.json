@@ -1,0 +1,124 @@
+{
+  "SectionId": "TransactionsFondsTransitoire",
+  "Titres": [
+    {
+      "Titre": "Sommaire des transactions du fonds transitoire",
+      "TitreEn": "Shuttle Fund Activity Summary",
+      "Description": "Ce rapport fait état des dépôts, de l'impôt exigible et de la valeur de fin d'année du fonds transitoire.",
+      "DescriptionEn": "This report shows deposits, taxes due and the year end value of the shuttle fund."
+    }
+  ],
+  "Tableau": {
+    "Titres": [
+      {
+        "Titre": "Sommaire des transactions du fonds transitoire",
+        "TitreEn": "Shuttle Fund Activity Summary"
+      }
+    ],
+    "GroupeColonnes": [
+      {
+        "Produits": [ ],
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee"
+          },
+          {
+            "Colonne": 77,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          }
+        ]
+      },
+      {
+        "Produits": [ ],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 116,
+            "Titres": {
+              "Titre": "Primes annuelles versées",
+              "TitreEn": "Annual Premiums Paid"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 97,
+            "Titres": {
+              "Titre": "Valeur de rachat totale",
+              "TitreEn": "Total Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 40,
+            "Titres": {
+              "Titre": "Coût de base rajusté (CBR)",
+              "TitreEn": "Adjusted Cost Basis (ACB)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 137,
+            "Titres": {
+              "Titre": "Transferts au fonds transitoire",
+              "TitreEn": "Transfer to Shuttle Fund"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 155,
+            "Titres": {
+              "Titre": "Fonds transitoire avant impôt",
+              "TitreEn": "Shuttle Fund (Before Taxes)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 140,
+            "Titres": {
+              "Titre": "Impôts sur le fonds transitoire",
+              "TitreEn": "Taxes on Shuttle Fund"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Contrat",
+    "Notes": [
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus âgé couvert par la protection de base. ",
+        "TexteEn": "The age shown is the age of the oldest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointPremierDeces" ]
+        ],
+        "SequenceId": 1
+      },
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus jeune couvert par la protection de base.",
+        "TexteEn": "The age shown is the age of the youngest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointDernierDeces" ]
+        ],
+        "SequenceId": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,147 @@
+﻿{
+  "SectionId": "HypothesesInvestissement",
+  "Titres": [
+    {
+      "Titre": "Sommaire des hypothèses d’investissement",
+      "TitreEn": "Summary of investment assumptions"
+    }
+  ],
+  "ListSections": [
+    {
+      "SectionId": "FondsCapitalisation",
+      "Titres": [
+        {
+          "Titre": "Fonds de capitalisation",
+          "TitreEn": "Accumulation fund"
+        }
+      ],
+      "Notes": [
+        {
+          "Texte": "(1) Directives d'investissement automatique",
+          "TexteEn": "(1) Automatic Investment Instructions",
+          "SequenceId": 0
+        },
+        {
+          "Texte": "(2) Directives de déduction automatique",
+          "TexteEn": "(2) Designated Deduction Account",
+          "SequenceId": 1
+        },
+        {
+          "Texte": "Les rendements présentés dans cette illustration le sont sur une base nette, donc déduction faite des frais de gestion. On peut trouver les frais de gestion courants sur le site Internet de la compagnie, dans la section Publications économiques et financières. Ces frais peuvent varier dans le temps. Des frais maximums garantis sont cependant précisés au contrat et dans la documentation que possède votre conseiller.",
+          "TexteEn": "The returns provided in this illustration are shown on a net basis, after deduction of management fees. Current management fees are available on the Company’s website, in the section Economic and Financial Publications. These fees are subject to change. However, there are guaranteed maximum fees defined in the contract (you may contact your advisor for more information).",
+          "SequenceId": 2
+        },
+        {
+          "Texte": "Les hypothèses ci-dessus ne prennent pas en considération les différents bonis applicables.",
+          "TexteEn": "The assumptions above do not take into account any applicable bonus.",
+          "SequenceId": 3,
+          "Regles": [
+            [ "PresenceRegleBoni" ]
+          ]
+        }
+      ]
+    },
+    {
+      "SectionId": "FondsTransitoire",
+      "Titres": [
+        {
+          "Titre": "Fonds transitoire",
+          "TitreEn": "Shuttle Fund"
+        }
+      ],
+      "Notes": [
+        {
+          "Texte": "(1) Directives d'investissement automatique",
+          "TexteEn": "(1) Automatic Investment Instructions",
+          "SequenceId": 0
+        },
+        {
+          "Texte": "(2) Directives de déduction automatique",
+          "TexteEn": "(2) Designated Deduction Account",
+          "SequenceId": 1
+        },
+        {
+          "Texte": "DIA du fonds transitoire : Les directives d'investissement du fonds transitoire sont identiques au DIA du fonds de capitalisation, à l'exception des comptes à intérêts garantis et du compte Capital Valeur qui seront investis dans le Compte à intérêt quotidien, le cas échéant.",
+          "TexteEn": "Shuttle fund AII: The investment instructions for the shuttle fund are identical to the AII for the accumulation fund, with the exception of guaranteed interest accounts and the EquiBuild Account, which will be invested in the Daily Interest Account, if applicable.",
+          "Regles": [
+            [ "FondsTransitoireAucuneDIA" ]
+          ],
+          "SequenceId": 2
+        },
+        {
+          "Texte": "Il est à noter que la présente illustration ne comporte aucune valeur dans le fonds transitoire selon les paramètres utilisés, et ce, pour toute la durée de la projection.",
+          "TexteEn": "According to the parameters used, this illustration does not contain any values in the shuttle fund for the entire duration of the projection.",
+          "Regles": [
+            [ "FondsTransitoireNonUtilise" ]
+          ],
+          "SequenceId": 3
+        }
+      ]
+    },
+    {
+      "SectionId": "AjustementValeurMarchande",
+      "Titres": [
+        {
+          "Titre": "Ajustement de la valeur marchande (AVM)",
+          "TitreEn": "Market Values Adjustment (MVA)"
+        }
+      ],
+      "Textes": [
+        {
+          "Texte": "Les valeurs de rachat présentées dans l’illustration ne prennent pas en compte l’ajustement de la valeur marchande qui pourrait être applicable. Veuillez communiquer avec votre conseiller pour plus d’information par rapport à l’ajustement de valeur marchande.",
+          "TexteEn": "The surrender values presented in the illustration do not take into account the market value adjustment which may apply. Please contact your advisor for more information about the market value adjustment.",
+          "SautDeLigne": "Apres"
+        },
+        {
+          "Texte": "Précision pour les clients qui investissent dans le Compte indiciel à rendement stabilisé (CIRS) : Le facteur d’AVM utilisé dans les projections est détaillé dans le tableau ci-dessous. Ce facteur est à titre indicatif seulement. L’AVM exact sera calculé lors de la transaction.",
+          "TexteEn": "Precisions for the clients who invest in the Stabilized Return Index Account (SRIA): The details of the MVA factor used in the projections are shown in the table below. This factor is for informational purposes only.The accurate MVA will be calculated at the time of the transaction.",
+          "SautDeLigne": "Apres",
+          "Regles": [
+            [ "PresenceCompteSRA" ]
+          ]
+        },
+        {
+          "Texte": "Précision pour les clients qui investissent dans le Compte Capital Valeur: Ce facteur est mis à jour à chaque fin de mois. L’AVM s’applique à toute transaction à l’exclusion du transfert ou déduction pour couvrir les déductions mensuelles, en cas de paiement de la prestation payable au bénéficiaire des fonds ou encore dans le cas d’une déduction pour l’achat additionnel de protection d’assurance supplémentaire libérée (ASL). Le facteur d’AVM du compte est détaillé dans le tableau ci-dessous.",
+          "TexteEn": "Precisions for the clients who invest in the EquiBuild Account: The current EquiBuild Account MVA factor is 0.00%. This MVA is updated at the end of every month. Note that there are no MVA charges associated with the payment of cost of Insurance, with any deduction to purchase additional PUA coverage or with any benefits payable to the beneficiary of the funds.",
+          "SautDeLigne": "Apres",
+          "Regles": [
+            [ "PresenceCompteCPV" ]
+          ]
+        },
+        {
+          "Texte": "Précisions pour les clients qui investissent dans le Compte diversifié à rendement lissé (CDRL) :\nLe CDRL est conçu pour un client ayant un horizon d’investissement à long terme et prévoyant conserver son assurance de façon permanente avec la possibilité d’utiliser les sommes du compte pour payer ses coûts d’assurance. À cet égard, le paiement des coûts d’assurance n’est sujet à aucun frais (c’est-à-dire l’ajustement de valeur marchande (AVM), contrairement aux autres transactions suivantes, pour lesquelles un AVM peut-être applicable :\n\n- un transfert du CDRL à un autre compte d’investissement,\n- un retrait partiel,\n- un paiement de la valeur de rachat de la police.\n\nLe facteur AVM, qui est utilisé dans le calcul de l’AVM lors de la transaction, est mis à jour régulièrement et est identique pour toutes les polices indépendamment de la date à laquelle les investissements ont été effectués.\n\nLes valeurs de rachat présentées dans l’illustration ne prennent pas en compte tout ajustement de valeur marchande qui pourrait être applicable. Le facteur AVM détaillé dans le tableau ci-dessous est tout de même utilisé dans certaines colonnes de l’illustration. Ce facteur est à titre indicatif seulement et peut varier dans le temps. Le facteur AVM exact sera calculé lors de la transaction.",
+          "TexteEn": "Information for clients who invest in the Smoothed Return Diversified Account (SRDA):\nThe SRDA is designed for clients with a long-term investment horizon who plan to keep their insurance on a permanent basis with the option of using the money in the account to pay their costs of insurance. As such, the payment of the costs of insurance is not subject to any charges (i.e., a market value adjustment - MVA), unlike the following other transactions, for which an MVA may be applicable:\n\n- Transfers from the SRDA to another investment account\n- Partial withdrawal\n- Payment of the surrender value of the policy\n\nThe MVA factor, which is used in the calculation of the MVA at the time of the transaction, is updated regularly and is the same for all policies regardless of when the investments were made.\n\nThe Surrender Value presented in the illustration does not take into account any market value adjustment which may apply. Note, however, that the MVA Factor detailed in the table below is used in certain columns in this illustration. This factor is for information purposes only and may vary over time. The exact MVA Factor will be calculated at the time of the transaction.",
+          "SautDeLigne": "Apres",
+          "Regles": [
+            [ "PresenceCompteSRDIris" ]
+          ]
+        },
+        {
+          "Texte": "Précisions pour les clients qui investissent dans le Compte diversifié à rendement lissé (CDRL) :\nLe CDRL est conçu pour un client ayant un horizon d’investissement à long terme et prévoyant conserver son assurance de façon permanente avec la possibilité d’utiliser les sommes du compte pour payer ses coûts d’assurance. À cet égard, le paiement des coûts d’assurance n’est sujet à aucun frais (c’est-à-dire l’ajustement de valeur marchande (AVM)), contrairement aux autres transactions suivantes, pour lesquelles un AVM peut-être applicable :\n\n- un transfert du CDRL à un autre compte d’investissement,\n- un retrait partiel,\n- un paiement de la valeur de rachat de la police.\n\nLe facteur AVM, qui est utilisé dans le calcul de l’AVM lors de la transaction, est mis à jour régulièrement et est identique pour toutes les polices indépendamment de la date à laquelle les investissements ont été effectués.\n\nVeuillez communiquer avec votre conseiller afin de prendre connaissance du facteur AVM en vigueur du CDRL.",
+          "TexteEn": "Information for clients who invest in the Smoothed Return Diversified Account (SRDA):\nThe SRDA is designed for clients with a long-term investment horizon who plan to keep their insurance on a permanent basis with the option of using the money in the account to pay their costs of insurance. As such, the payment of the costs of insurance is not subject to any charges (i.e., a market value adjustment - MVA), unlike the following other transactions, for which an MVA may be applicable:\n\n- Transfers from the SRDA to another investment account\n- Partial withdrawal\n- Payment of the surrender value of the policy\n\nThe MVA factor, which is used in the calculation of the MVA at the time of the transaction, is updated regularly and is the same for all policies regardless of when the investments were made.\n\nPlease contact your advisor to find out the current MVA factor for the SRDA.",
+          "SautDeLigne": "Apres",
+          "Regles": [
+            [ "PresenceCompteSRDLisse", "NouvelleVente" ]
+          ]
+        },
+        {
+          "Texte": "Précisions pour les clients qui investissent dans le Compte diversifié à rendement lissé (CDRL) :\nLe CDRL est conçu pour un client ayant un horizon d’investissement à long terme et prévoyant conserver son assurance de façon permanente avec la possibilité d’utiliser les sommes du compte pour payer ses coûts d’assurance. À cet égard, le paiement des coûts d’assurance n’est sujet à aucun frais (c’est-à-dire l’ajustement de valeur marchande (AVM), contrairement aux autres transactions suivantes, pour lesquelles un AVM peut-être applicable :\n\n- un transfert du CDRL à un autre compte d’investissement,\n- un retrait partiel,\n- un paiement de la valeur de rachat de la police.\n\nLe facteur AVM, qui est utilisé dans le calcul de l’AVM lors de la transaction, est mis à jour régulièrement et est identique pour toutes les polices indépendamment de la date à laquelle les investissements ont été effectués.\n\nLes valeurs de rachat présentées dans l’illustration ne prennent pas en compte tout ajustement de valeur marchande qui pourrait être applicable. Le facteur AVM détaillé dans le tableau ci-dessous est tout de même utilisé dans certaines colonnes de l’illustration. Ce facteur est à titre indicatif seulement et peut varier dans le temps. Le facteur AVM exact sera calculé lors de la transaction.",
+          "TexteEn": "Information for clients who invest in the Smoothed Return Diversified Account (SRDA):\nThe SRDA is designed for clients with a long-term investment horizon who plan to keep their insurance on a permanent basis with the option of using the money in the account to pay their costs of insurance. As such, the payment of the costs of insurance is not subject to any charges (i.e., a market value adjustment - MVA), unlike the following other transactions, for which an MVA may be applicable:\n\n- Transfers from the SRDA to another investment account\n- Partial withdrawal\n- Payment of the surrender value of the policy\n\nThe MVA factor, which is used in the calculation of the MVA at the time of the transaction, is updated regularly and is the same for all policies regardless of when the investments were made.\n\nThe Surrender Value presented in the illustration does not take into account any market value adjustment which may apply. Note, however, that the MVA Factor detailed in the table below is used in certain columns in this illustration. This factor is for information purposes only and may vary over time. The exact MVA Factor will be calculated at the time of the transaction.",
+          "SautDeLigne": "Apres",
+          "Regles": [
+            [ "PresenceCompteSRDLisse", "EnVigueur" ]
+          ]
+        }
+      ]
+    },
+    {
+      "SectionId": "Prets",
+      "Titres": [
+        {
+          "Titre": "Prêts",
+          "TitreEn": "Loans"
+        }
+      ]
+    }
+  ]
+}

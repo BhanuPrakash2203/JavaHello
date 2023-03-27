@@ -1,0 +1,119 @@
+{
+  "SectionId": "DescriptionsProtections",
+  "Descriptions": [
+    {
+      "Libelle": "Assurance vie traditionnelle",
+      "LibelleEn": "Traditional Life Insurance",
+      "Texte": "<html>Pour protéger ce qui vous tient à coeur, l'assurance vie traditionnelle vous propose des protections sur mesure qui évoluent au rythme de vos besoins. Que vous recherchiez une protection simple ou évolutive, vous trouverez des solutions, temporaires ou permanentes, adaptées pour vous et votre famille. De plus, vos primes et vos montants d'assurance sont entièrement garantis.  L'étendue des garanties complémentaires que vous pouvez ajouter à votre contrat vous permet d'obtenir une protection personnalisée qui répond à vos besoins.<P>L'assurance vie traditionnelle vous permet de :</P></html>",
+      "TexteEn": "<html>To protect what's important to you, Traditional Life Insurance offers personalized coverage that evolves with your needs. Whether you're looking for simple coverage or coverage that adapts over time, you'll find temporary and permanent solutions to meet you and your family's every need. In addition, your premiums and coverage amounts are fully guaranteed. The range of optional benefits that you can add to your policy allows you to personalize your protection even more.<P>Along with providing you peace of mind, Traditional Life Insurance lets you:</P></html>",
+      "Textes": [
+        {
+          "Texte": "Assurer le remboursement de vos engagements financiers",
+          "TexteEn": "Ensure your financial commitments are taken care of",
+          "SequenceId": 1
+        },
+        {
+          "Texte": "Assurer le maintien du niveau de vie de votre famille advenant un décès ou une maladie prématurée",
+          "TexteEn": "Protect your family’s lifestyle in the event of premature illness or death ",
+          "SequenceId": 2
+        },
+        {
+          "Texte": "Couvrir les divers frais liés à un décès",
+          "TexteEn": "Cover death-related expenses",
+          "SequenceId": 3
+        },
+        {
+          "Texte": "Léguer un héritage ou protéger votre patrimoine",
+          "TexteEn": "Leave an inheritance or protect your estate",
+          "SequenceId": 4
+        }
+      ],
+      "CodesRegle": [ [ "VieTraditionnelle1" ] ],
+      "SectionPrincipale": true,
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Accès Vie",
+      "LibelleEn": "Access Life",
+      "Texte": "<html>L’assurance vie à émission simplifiée Accès Vie vous propose une protection complète, sans devoir subir d’examen médical ou de test sanguin. Votre protection est établie en fonction de votre profil, de la prime et du type de produit qui sont le plus avantageux pour vous.<P><B>La protection Accès Vie vous propose une foule d’avantages</B></P></html>",
+      "TexteEn": "<html>Access Life is a simplified issue life insurance product offering you a comprehensive life insurance coverage without any need for a medical exam or blood tests. Your coverage is based on your profile, the premium and the type of product that is best for you.<P><B>Access Life has a wide range of benefits</B></P></html>",
+      "Textes": [
+        {
+          "Texte": "Une acceptation facile, rapide et garantie ",
+          "TexteEn": "Quick, easy and guaranteed acceptance",
+          "SequenceId": 1
+        },
+        {
+          "Texte": "Des primes fixes et garanties",
+          "TexteEn": "Fixed and guaranteed premiums",
+          "SequenceId": 2
+        },
+        {
+          "Texte": "La possibilité d’obtenir des protections permanente et temporaire combinées",
+          "TexteEn": "The ability to get combined permanent and term life insurance ",
+          "SequenceId": 3
+        },
+        {
+          "Texte": "Des valeurs de rachat garanties qui s’accumulent dès le début de la cinquième année (protection vie entière)",
+          "TexteEn": "Guaranteed surrender values which start accumulating at the beginning of the fifth year (whole life coverage)",
+          "SequenceId": 4
+        },
+        {
+          "Texte": "La possibilité de cesser de payer vos primes et de maintenir une partie de votre protection (protection vie entière)",
+          "TexteEn": "The option to stop paying premiums and keep part of your coverage (whole life coverage)",
+          "SequenceId": 5
+        },
+        {
+          "Texte": "La possibilité de renouveler votre protection temporaire ou de la transformer en protection permanente en cas de besoin, peu importe votre état de santé",
+          "TexteEn": "The option of renewing or converting your term coverage as needed, regardless of your health condition",
+          "SequenceId": 6
+        }
+      ],
+      "CodesRegle": [ [ "AccesVie1" ] ],
+      "SectionPrincipale": true,
+      "SequenceId": 22
+    },
+    {
+      "Texte": "<html><B>Pour toute la famille</B><P>Nous croyons que tous les membres d’une famille devraient avoir accès à une protection d’assurance vie, peu importe leur situation. Avec Accès Vie, vous êtes assuré que tous les membres de votre famille auront accès à une protection adaptée à leurs besoins, au même endroit.</P></html>",
+      "TexteEn": "<html><B>A comprehensive offer for the whole family</B><P>We believe that all family members should have access to life insurance coverage, regardless of their situation. With Access Life, you can be reassured that all your family members will have access to coverage adapted to their needs, all in the same place.</P></html>",
+      "CodesRegle": [ [ "AccesVie1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 23
+    },
+    {
+      "Libelle": "Protections temporaires T15, T20, T25",
+      "LibelleEn": "T15, T20, T25 Term coverage",
+      "Texte": "<html>L’assurance vie temporaire d’Accès Vie est intéressante pour couvrir vos besoins temporels tels que le remboursement d’un prêt personnel ou hypothécaire, le remplacement de revenu durant la période de dépendance des enfants ou tout autre besoin de protection durant une période déterminée.<P>La protection temporaire est renouvelable et transformable :</P></html>",
+      "TexteEn": "<html>Access Life term coverage can be used for temporary needs such as coverage for a mortgage or extra financial security while children are young, or to cover shortterm debt needs.<P>The term coverage is renewable and convertible:</P></html>",
+      "Textes": [
+        {
+          "Texte": "Le renouvellement ou la transformation s’effectuent sans preuve d’assurabilité;",
+          "TexteEn": "Renewal and conversion doesn’t require evidence of insurability;",
+          "SequenceId": 1
+        },
+        {
+          "Texte": "Les primes de renouvellement sont garanties à l'émission et calculées selon l’âge de l’assuré au moment du renouvellement;",
+          "TexteEn": "Renewal premiums are guaranteed at issue and are calculated based on the insured’s age at the time of renewal;",
+          "SequenceId": 2
+        },
+        {
+          "Texte": "Les primes de transformation sont établies selon les taux de primes en vigueur au moment de la transformation et à l’âge atteint de l’assuré.",
+          "TexteEn": "Conversion premiums are established at the time of conversion according to the insured’s age and current premiums.",
+          "SequenceId": 3
+        }
+      ],
+      "CodesRegle": [ [ "AccesVieTemporaire1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 24
+    },
+    {
+      "Libelle": "Protection permanente V100",
+      "LibelleEn": "Permanent coverage",
+      "Texte": "<html>L'assurance vie permanente d'Accès Vie est une vie entière V100 qui accumule des valeurs de rachat garanties et qui offre une assurance libérée. Le capital assuré réduit est également garanti au contrat. C’est une solution idéale pour protéger votre famille et laisser un héritage à vos proches.</html>",
+      "TexteEn": "<html>Access Life permanent life insurance is an L100 whole life policy that offers guaranteed surrender values and paid-up insurance over time. The reduced face amounts are also guaranteed in the contract. It is an ideal solution to protect your family and leave an inheritance to your loved ones.</html>",
+      "CodesRegle": [ [ "AccesVieEntiere1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 25
+    }
+  ]
+}

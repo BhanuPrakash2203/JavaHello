@@ -1,0 +1,239 @@
+﻿{
+  "SectionId": "Protections",
+  "Titres": [
+    {
+      "Titre": "Sommaire des protections",
+      "TitreEn": "Summary of coverages"
+    }
+  ],
+  "Avis": [
+    {
+      "Texte": "Les informations contenues sur cette page correspondent aux données personnelles des contractants, des assurés ainsi qu’aux protections demandées. Puisque ces données sont utilisées pour des fins de tarification, il est très important d’en vérifier l’exactitude et de transmettre les correctifs à votre conseiller s’il y a lieu.",
+      "TexteEn": "The information found on this page corresponds to the personal data of the applicants, the insureds, as well as the requested coverages. Since this data is used for underwriting purposes, it is very important to check its accuracy and inform your advisor of any correction to be made.",
+      "SequenceId": 0
+    }
+  ],
+  "Notes": [
+    {
+      "TypeNote": "MessageMoteur",
+      "SequenceId": 0
+    }
+  ],
+  "ListSections": [
+    {
+      "SectionId": "Identifications",
+      "Titres": [
+        {
+          "Titre": "Identification",
+          "TitreEn": "Identification"
+        }
+      ]
+    },
+    {
+      "SectionId": "Protections",
+      "Titres": [
+        {
+          "Titre": "Protection(s)",
+          "TitreEn": "Coverage(s)"
+        }
+      ],
+      "Notes": [
+        {
+          "Texte": "Veuillez noter que la prime peut différer de la prime affichée dans votre contrat. La prime a été ajustée pour tenir compte des modifications apportées à la taxe sur prime de votre province de résidence.",
+          "TexteEn": "Please note that the premium could differ from the premium specified in your contract. This premium was adjusted to account for any change on your residence Provincial premium tax.",
+          "Regles": [
+            [
+              "ContratEnVigueur",
+              "AssuranceVieUniverselle"
+            ]
+          ],
+          "SequenceId": 0
+        },
+        {
+          "Texte": "Le remboursement des primes au décès est inclus avec cette protection.",
+          "TexteEn": "The Return of Premium upon Death is included in this coverage.",
+          "TypeNote": "Protection",
+          "Regles": [
+            [ "MaladieGraveAvecRemboursementPrime" ]
+          ],
+          "SequenceId": 1
+        },
+        {
+          "Texte": "Cette protection Revenu d'Appoint ne couvre pas la maladie. Cette protection couvre seulement la partie accident.",
+          "TexteEn": "This Supplementary Income's protection does not cover the illness. This protection covers the accident only.",
+          "TypeNote": "Protection",
+          "Regles": [
+            [ "RevenuAppointAccident" ]
+          ],
+          "SequenceId": 1
+        },
+        {
+          "Texte": "L'ajustement du montant de la rente et de la prime du Revenu d'Appoint suite à la diminution du montant d'assurance ne figure pas dans cette illustration.",
+          "TexteEn": "The reduction in the supplementary income premium and annuity amount caused by the decreasing insurance amount is not shown on this illustration.",
+          "TypeNote": "Protection",
+          "Regles": [
+            [
+              "RevenuAppointAccident",
+              "CapitalRevenuAppointSuperieurCapitaux"
+            ],
+            [
+              "RevenuAppointAccidentMaladie",
+              "CapitalRevenuAppointSuperieurCapitaux"
+            ]
+          ],
+          "SequenceId": 2
+        },
+        {
+          "Texte": "Il est de la responsabilité du contractant de faire une demande écrite à la compagnie afin que le changement soit apporté au contrat, le moment venu. Cette modification ne se fait pas de façon automatique.",
+          "TexteEn": "It is the applicant's responsibility to inform the company of any changes to be made on the contract. As modifications are not applied systematically, it is mandatory to provide us with a written inquiry clearly stating the requested changes.",
+          "TypeNote": "Protection",
+          "Regles": [
+            [ "DiminutionCapitalAssure" ]
+          ],
+          "SequenceId": 3
+        },
+        {
+          "Texte": "Avant le 5e anniversaire, le versement du fonds de capitalisation sera payable uniquement si l'assuré décédé était assurable à l'émission du contrat.",
+          "TexteEn": "The accumulation fund will be payable before the 5th coverage anniversary only if the insured was insurable at issue of the coverage.",
+          "TypeNote": "Protection",
+          "Regles": [
+            [ "PresenceConjointNonAssurable", "AssuranceVieUniverselle" ]
+          ],
+          "SequenceId": 4
+        }
+      ]
+    },
+    {
+      "SectionId": "Primes",
+      "Titres": [
+        {
+          "Titre": "Détail des primes",
+          "TitreEn": "Premiums Details"
+        },
+        {
+          "Titre": "Détails des primes et des contributions",
+          "TitreEn": "Premiums and Contributions Details",
+          "Produit": "AssuranceParticipant"
+        },
+        {
+          "Titre": "Détails des primes et des contributions",
+          "TitreEn": "Premiums and Contributions Details",
+          "Produit": "AssuranceParticipantValeur"
+        },
+        {
+          "Titre": "Détails des primes et des contributions",
+          "TitreEn": "Premiums and Contributions Details",
+          "Produit": "AssuranceParticipantPatrimoine"
+        }
+      ],
+      "Notes": [
+        {
+          "Texte": "(1) Correspond au(x) niveau(x) de prime que vous souhaitez déposer dans votre contrat. Vous pouvez consulter le détail annuel dans la section – Projection des valeurs du contrat.",
+          "TexteEn": "(1) Corresponds to the level of premiums you wish to pay into your contract. You can consult the annual amounts in the Policy Projected Values section of the report.",
+          "RegleProduits": {
+            "Produits": [ "AssuranceParticipant", "AssuranceParticipantValeur", "AssuranceParticipantPatrimoine" ],
+            "Exclusion": true
+          },
+          "SequenceId": 0
+        },
+        {
+          "Texte": "(1) Vous retrouverez les primes et les contributions annuelles assumées dans l’illustration dans le tableau « Projection des valeurs du contrat », dans la colonne « Primes et contributions annuelles versées ».",
+          "TexteEn": "(1) You will find the premiums and annual contributions assumed in the illustration in the Policy Projected Values section of the report, in the Annual Premiums and Contributions Paid column.",
+          "RegleProduits": { "Produits": [ "AssuranceParticipant", "AssuranceParticipantValeur", "AssuranceParticipantPatrimoine" ] },
+          "SequenceId": 0
+        }
+      ]
+    },
+    {
+      "SectionId": "ASL",
+      "Titres": [
+        {
+          "Titre": "Détails du Boni Valeur et de l’allocation d’assurance supplémentaire libérée (ASL)",
+          "TitreEn": "EquiBuild Bonus and Paid-up insurance (PUI) allocation Details"
+        }
+      ],
+      "Notes": [
+        {
+          "Texte": "Avant la fin de chaque année civile, nous établirons le Taux déclaré du fonds Capital Valeur pour la prochaine année civile. Ce taux est établi en utilisant une formule de lissage des taux de rendement annuels réalisés sur le fonds Capital Valeur afin de réduire la volatilité.",
+          "TexteEn": "Before the end of each calendar year, we will set the EquiBuild Fund Declared Rate for the forthcoming calendar year. This rate is set by applying a smoothing formula to the annual returns realized on the EquiBuild Fund in order to reduce yield volatility.",
+          "SequenceId": 0
+        },
+        {
+          "Texte": "L’allocation d’ASL est prélevée annuellement, en fin d’année de police.",
+          "TexteEn": "The PUA allocation is deducted annually, at the end of the policy year.",
+          "Regles": [
+            [ "AllocationASL" ]
+          ],
+          "SequenceId": 1
+        }
+      ]
+    },
+    {
+      "SectionId": "DetailParticipations",
+      "Titres": [
+        {
+          "Titre": "Détail des participations",
+          "TitreEn": "Dividend Details"
+        }
+      ]
+    },
+    {
+      "SectionId": "DetailScenarios",
+      "Titres": [
+        {
+          "Titre": "Scénarios illustrés",
+          "TitreEn": "Illustrated scenarios",
+          "Description": "<html>Vous retrouverez trois scénarios dans ce rapport :<ol><li>Valeurs garanties : ce scénario présume qu'aucune participation n'est versée sur toute la durée du contrat. Ainsi, vous pourrez voir les valeurs minimales dont vous avez droit si vous payez les primes annuelles totales garanties.</li><li>Scénario principal : ce scénario présume que les hypothèses actuellement considérées dans le barème de participations vont demeurer constantes, et ce, pour toute la durée du contrat.</li><li>Scénario alternatif : ce scénario présume une réduction immédiate du taux d'intérêt du barème de participations, taux qui demeure constant pour toute la durée du contrat.</li></ol></html>",
+          "DescriptionEn": "<html>The report outlines three scenarios:<ol><li>Guaranteed values: This scenario assumes that there is no dividend paid over the duration of the contract. This way, you can see the minimum values of your policy if you pay the total guaranteed annual premiums.</li><li>Main scenario: This scenario assumes that the assumptions currently reflected in the dividend scale will remain constant for the entire duration of the policy.</li><li>Alternative scenario: This scenario assumes an immediate reduction in the dividend interest rate, which remains thereafter constant for the entire duration of the policy.</li></ol></html>"
+        }
+      ]
+    },
+    {
+      "SectionId": "DetailEclipseDePrime",
+      "Titres": [
+        {
+          "Titre": "Éclipse de prime",
+          "TitreEn": "Premium Offset",
+          "Description": "<html>Le concept d’éclipse de prime vous permet de prévoir un moment à partir duquel vous pourrez cesser de payer votre prime. L’arrêt du paiement de votre prime ne se fera pas automatiquement et vous devez communiquer avec votre conseiller si vous désirez appliquer ce concept.<br/><br/>À partir du moment où vous cessez de payer votre prime, iA Groupe financier utilisera vos participations annuelles pour payer votre prime. Il est possible que les participations annuelles soient plus ou moins élevées que votre prime. Dans le cas où les participations sont moins élevées que votre prime, vous pouvez payer la prime résiduelle :<ul><li>En argent;</li><li>À votre demande, à l’aide d’un rachat partiel ou total, selon la quantité nécessaire, de votre protection d’assurance libérée;</li><li>À l’aide une avance automatique sur police.</li></ul>L’illustration présume que toute prime résiduelle sera payée à l’aide d’un rachat partiel ou total de votre protection d’assurance libérée. Si un rachat est nécessaire, vous pouvez voir les primes payées à l’aide d’un rachat dans le tableau « Sommaire des transactions du contrat », dans la colonne « primes payées au moyen des valeurs du contrat ».<br/><br/>Dans le cas où les participations sont plus élevées que le montant de votre prime, l’excédent sera utilisé pour acquérir de l’assurance libérée.</html>",
+          "DescriptionEn": "<html>The premium offset option allows you to plan a point after which you can stop paying your premiums. You must contact your advisor to apply this option, it will not happen automatically.<br/><br/>From the moment you stop paying your premiums, iA Financial Group will use your annual dividends to pay your premiums. Annual dividends may be higher or lower than your total premium. If the dividend on a given year is not sufficient to pay your total premium, you can either pay the residual premium:<ul><li>In cash</li><li>At your request, through a partial or total surrender, depending on the amount required, of your paid-up insurance coverage.</li><li>Through an automatic loan advance.</li></ul>The illustration assumes that the residual premium will be offset by a partial or total surrender of your paid-up insurance. If it is required, you will see the premiums paid using surrender values in the Policy Activity Summary section in the Premiums Paid by Policy Values column.<br/><br/>If the dividend on a given year is greater than your total premium, the excess will be used to purchase paid-up insurance.</html>"
+        }
+      ]
+    },
+    {
+      "SectionId": "FluxMonetaire",
+      "Titres": [
+        {
+          "Titre": "Dépôts forfaitaires et retraits | Dépôts forfaitaires | Retraits",
+          "TitreEn": "Lump-sum deposits and Withdrawals | Lump-sum deposits | Withdrawals"
+        }
+      ]
+    },
+    {
+      "SectionId": "AvancesSurPolice",
+      "Titres": [
+        {
+          "Titre": "Avances sur police",
+          "TitreEn": "Policy loans"
+        }
+      ]
+    },
+    {
+      "SectionId": "UsageDuConseiller",
+      "Titres": [
+        {
+          "Titre": "À l'usage du conseiller",
+          "TitreEn": "For advisor's use"
+        }
+      ]
+    },
+    {
+      "SectionId": "Surprimes",
+      "Titres": [
+        {
+          "Titre": "Détail des surprimes",
+          "TitreEn": "Ratings Details"
+        }
+      ]
+    }
+  ]
+}

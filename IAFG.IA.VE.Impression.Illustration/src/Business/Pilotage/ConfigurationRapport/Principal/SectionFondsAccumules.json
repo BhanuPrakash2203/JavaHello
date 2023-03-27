@@ -1,0 +1,248 @@
+{
+  "SectionId": "FondsAccumules",
+  "Titres": [
+    {
+      "Titre": "Fonds accumulés",
+      "TitreEn": "Accumulated Funds",
+      "Description": "Ce rapport fait état de la valeur totale de vos fonds vie universelle, incluant la valeur du fonds de capitalisation répartie selon les types d’options d'investissement et la valeur du fonds transitoire.",
+      "DescriptionEn": "This report shows the total value of your Universal Life funds, including the value of the Accumulation Fund by type of investment option and the value of the Shuttle Fund."
+    }
+  ],
+  "Tableau": {
+    "Titres": [
+      {
+        "Titre": "Détail des fonds",
+        "TitreEn": "Fund Details"
+      }
+    ],
+    "GroupeColonnes": [
+      {
+        "Produits": [],
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee"
+          },
+          {
+            "Colonne": 77,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          }
+        ]
+      },
+      {
+        "Produits": [ "CapitalValeur", "CapitalValeur3" ],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 135,
+            "Titres": {
+              "Titre": "Comptes à intérêt garanti",
+              "TitreEn": "Guaranteed Interest Account(s)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 124,
+            "Titres": {
+              "Titre": "Compte Capital Valeur",
+              "TitreEn": "EquiBuild Account"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 136,
+            "Titres": {
+              "Titre": "Comptes indiciels",
+              "TitreEn": "Index Account(s)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 128,
+            "Titres": {
+              "Titre": "Fonds de capitalisation",
+              "TitreEn": "Accumulation Fund"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 94,
+            "Titres": {
+              "Titre": "Fonds maximal (RAMI)",
+              "TitreEn": "Maximum Fund (MTAR)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 137,
+            "Titres": {
+              "Titre": "Transfert au fonds transitoire",
+              "TitreEn": "Transfer to Shuttle Fund"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 155,
+            "Titres": {
+              "Titre": "Fonds transitoire avant impôt",
+              "TitreEn": "Shuttle Fund (Before Taxes)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 121,
+            "Titres": {
+              "Titre": "Fonds totaux",
+              "TitreEn": "Total Funds"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 104,
+            "Titres": {
+              "Titre": "Rendement moyen pondéré net des frais de gestion (%)",
+              "TitreEn": "Weighted Average Yield net of MER (%)"
+            },
+            "TypeAffichageValeur": "PourcentageSansSymbol"
+          }
+        ]
+      },
+      {
+        "Produits": [],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 116,
+            "Titres": {
+              "Titre": "Primes annuelles versées",
+              "TitreEn": "Annual Premiums Paid"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 152,
+            "Titres": {
+              "Titre": "Retraits après impôts",
+              "TitreEn": "After-tax Withdrawals"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 135,
+            "Titres": {
+              "Titre": "Comptes à intérêt garanti",
+              "TitreEn": "Guaranteed Interest Account(s)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 133,
+            "Titres": {
+              "Titre": "Compte CIRS",
+              "TitreEn": "SRIA Account"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 213,
+            "Titres": {
+              "Titre": "Compte CDRL",
+              "TitreEn": "SRDA Account"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 136,
+            "Titres": {
+              "Titre": "Comptes indiciels",
+              "TitreEn": "Index Account(s)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 128,
+            "Titres": {
+              "Titre": "Fonds de capitalisation",
+              "TitreEn": "Accumulation Fund"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 94,
+            "Titres": {
+              "Titre": "Fonds maximal (RAMI)",
+              "TitreEn": "Maximum Fund (MTAR)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 137,
+            "Titres": {
+              "Titre": "Transfert au fonds transitoire",
+              "TitreEn": "Transfer to Shuttle Fund"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 155,
+            "Titres": {
+              "Titre": "Fonds transitoire avant impôt",
+              "TitreEn": "Shuttle Fund (Before Taxes)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 121,
+            "Titres": {
+              "Titre": "Fonds totaux",
+              "TitreEn": "Total Funds"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Contrat",
+    "Notes": [
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus âgé couvert par la protection de base. ",
+        "TexteEn": "The age shown is the age of the oldest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointPremierDeces" ]
+        ],
+        "SequenceId": 1
+      },
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus jeune couvert par la protection de base.",
+        "TexteEn": "The age shown is the age of the youngest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointDernierDeces" ]
+        ],
+        "SequenceId": 1
+      }
+    ]
+  }
+}

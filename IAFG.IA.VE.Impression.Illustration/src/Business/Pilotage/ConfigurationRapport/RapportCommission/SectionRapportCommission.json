@@ -1,0 +1,155 @@
+{
+  "SectionId": "RapportCommission",
+  "Titres": [
+    {
+      "Titre": "Rapport de commission",
+      "TitreEn": "Compensation report"
+    }
+  ],
+  "Tableau": {
+    "GroupeColonnes": [
+      {
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "Aucune" ]
+            ],
+            "TypeColonne": "Annee"
+          },
+          {
+            "Colonne": 45,
+            "Titres": {
+              "Titre": "Assurance vie",
+              "TitreEn": "Life Insurance"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "NoteReferences": [ "NoteGaranties" ],
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 46,
+            "Titres": {
+              "Titre": "Maladies graves",
+              "TitreEn": "Critical illness"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "NoteReferences": [ "NoteGarantiesTransition" ],
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 47,
+            "Titres": {
+              "Titre": "Avenants",
+              "TitreEn": "Riders"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 65,
+            "Titres": {
+              "Titre": "Option de dépôt supplémentaire",
+              "TitreEn": "Additional deposit option"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "RegleProduits": { "Produits": [ "AssuranceParticipant", "AssuranceParticipantValeur", "AssuranceParticipantPatrimoine" ] },
+            "Regles": [
+              [ "ValeurSuperieureOuEgaleZero" ]
+            ]
+          },
+          {
+            "Colonne": 42,
+            "Titres": {
+              "Titre": "Boni",
+              "TitreEn": "Bonus"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "NoteReferences": [ "NoteBonification" ]
+          },
+          {
+            "Colonne": 43,
+            "Titres": {
+              "Titre": "Total",
+              "TitreEn": "Total"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 44,
+            "Titres": {
+              "Titre": "Total cumulatif",
+              "TitreEn": "Cumulative total"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Base",
+    "Notes": [
+      {
+        "Id": "NoteGaranties",
+        "SequenceId": 0,
+        "EstReference": true,
+        "Texte": "Inclut les garanties complémentaires et les surprimes.",
+        "TexteEn": "Includes additional benefits and ratings.",
+        "Colonne": 45,
+        "RegleProduits": {
+          "Exclusion": true,
+          "Produits": [ "Transition" ]
+        },
+        "Regles": [
+          [ "ValeurPlusGrandeZero" ]
+        ]
+      },
+      {
+        "Id": "NoteGarantiesTransition",
+        "SequenceId": 0,
+        "EstReference": true,
+        "Texte": "Inclut les garanties complémentaires et les surprimes.",
+        "TexteEn": "Includes additional benefits and ratings.",
+        "Colonne": 46,
+        "RegleProduits": { "Produits": [ "Transition" ] },
+        "Regles": [
+          [ "ValeurPlusGrandeZero" ]
+        ]
+      },
+      {
+        "Id": "NoteBonification",
+        "SequenceId": 1,
+        "EstReference": true,
+        "Texte": "Le pourcentage de bonification utilisé est {0}, tel qu’indiqué dans le menu Configurer – Illustrations.",
+        "TexteEn": "The bonus percentage used is {0} as shown in the Configure - Illustrations menu.",
+        "Params": [
+          "BoniCommission"
+        ],
+        "Colonne": 42,
+        "Regles": [
+          [ "ValeurSuperieureOuEgaleZero" ]
+        ]
+      },
+      {
+        "SequenceId": 98,
+        "Texte": "Bien que tous les efforts soient faits pour assurer la qualité du logiciel, les données qui y figurent et particulièrement la rémunération, sont assujetties à approbation par la Compagnie.",
+        "TexteEn": "Even though all efforts are made to ensure the quality of the illustration or its use, the figures used in the illustration, particularly compensation, are subject to approval by the Company."
+      },
+      {
+        "SequenceId": 99,
+        "Texte": "L'information contenue dans ce rapport de commission est basée sur l'information qui a servi à produire l'illustration et selon les valeurs courantes de la projection. La rémunération pourrait être différente selon votre contrat de conseiller. En cas de divergence, votre contrat prévaudra sur la rémunération divulguée sur ce rapport.",
+        "TexteEn": "The information contained in this compensation report is based on current illustrated values and projection assumptions. Compensation could differ depending on your advisor's contract. In case of a discrepancy, the information contained in the advisor's contract will prevail."
+      }
+    ]
+  }
+}

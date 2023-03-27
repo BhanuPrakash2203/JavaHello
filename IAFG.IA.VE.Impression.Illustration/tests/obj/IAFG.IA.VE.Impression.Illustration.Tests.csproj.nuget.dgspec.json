@@ -1,0 +1,499 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\tests\\IAFG.IA.VE.Impression.Illustration.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.CoreForTests\\IAFG.IA.VE.Impression.CoreForTests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.CoreForTests\\IAFG.IA.VE.Impression.CoreForTests.csproj",
+        "projectName": "IAFG.IA.VE.Impression.CoreForTests",
+        "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.CoreForTests\\IAFG.IA.VE.Impression.CoreForTests.csproj",
+        "packagesPath": "C:\\Users\\hubfo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.CoreForTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hubfo\\Downloads\\VE_Impression\\NuGet.Config",
+          "C:\\Users\\hubfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\hubfo\\Downloads\\VE_Impression\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "allWarningsAsErrors": true,
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "AutoFixture.AutoMoq": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "IAFG.IA.VE.Impression.Core": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.DIContainer\\src\\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj": {
+      "version": "9.37.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.DIContainer\\src\\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj",
+        "projectName": "IAFG.IA.VE.Impression.Illustration.DIContainer",
+        "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.DIContainer\\src\\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj",
+        "packagesPath": "C:\\Users\\hubfo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.DIContainer\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hubfo\\Downloads\\VE_Impression\\NuGet.Config",
+          "C:\\Users\\hubfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\hubfo\\Downloads\\VE_Impression\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Resources\\src\\IAFG.IA.VE.Impression.Illustration.Resources.csproj": {
+                "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Resources\\src\\IAFG.IA.VE.Impression.Illustration.Resources.csproj"
+              },
+              "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports\\src\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.csproj": {
+                "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports\\src\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.csproj"
+              },
+              "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Types\\src\\IAFG.IA.VE.Impression.Illustration.Types.csproj": {
+                "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Types\\src\\IAFG.IA.VE.Impression.Illustration.Types.csproj"
+              },
+              "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\src\\IAFG.IA.VE.Impression.Illustration.csproj": {
+                "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\src\\IAFG.IA.VE.Impression.Illustration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "IAFG.IA.VE.Impression.Core": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "IAFG.IA.VI.IPDFVie": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "Unity.Abstractions": {
+              "target": "Package",
+              "version": "[5.11.6, )"
+            },
+            "Unity.Container": {
+              "target": "Package",
+              "version": "[5.11.10, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Resources\\src\\IAFG.IA.VE.Impression.Illustration.Resources.csproj": {
+      "version": "9.37.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Resources\\src\\IAFG.IA.VE.Impression.Illustration.Resources.csproj",
+        "projectName": "IAFG.IA.VE.Impression.Illustration.Resources",
+        "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Resources\\src\\IAFG.IA.VE.Impression.Illustration.Resources.csproj",
+        "packagesPath": "C:\\Users\\hubfo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Resources\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hubfo\\Downloads\\VE_Impression\\NuGet.Config",
+          "C:\\Users\\hubfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\hubfo\\Downloads\\VE_Impression\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "IAFG.IA.VE.Impression.Core": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Unity.Abstractions": {
+              "target": "Package",
+              "version": "[5.11.6, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports\\src\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.csproj": {
+      "version": "6.14.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports\\src\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.csproj",
+        "projectName": "IAFG.IA.VE.Impression.Illustration.Tiers.Reports",
+        "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports\\src\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.csproj",
+        "packagesPath": "C:\\Users\\hubfo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hubfo\\Downloads\\VE_Impression\\NuGet.Config",
+          "C:\\Users\\hubfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\hubfo\\Downloads\\VE_Impression\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Resources\\src\\IAFG.IA.VE.Impression.Illustration.Resources.csproj": {
+                "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Resources\\src\\IAFG.IA.VE.Impression.Illustration.Resources.csproj"
+              },
+              "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Types\\src\\IAFG.IA.VE.Impression.Illustration.Types.csproj": {
+                "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Types\\src\\IAFG.IA.VE.Impression.Illustration.Types.csproj"
+              },
+              "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\src\\IAFG.IA.VE.Impression.Illustration.csproj": {
+                "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\src\\IAFG.IA.VE.Impression.Illustration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "IAFG.IA.VE.Impression.ActiveReports": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "IAFG.IA.VE.Impression.Core": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.5.6, )"
+            },
+            "Unity.Abstractions": {
+              "target": "Package",
+              "version": "[5.11.6, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Types\\src\\IAFG.IA.VE.Impression.Illustration.Types.csproj": {
+      "version": "9.37.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Types\\src\\IAFG.IA.VE.Impression.Illustration.Types.csproj",
+        "projectName": "IAFG.IA.VE.Impression.Illustration.Types",
+        "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Types\\src\\IAFG.IA.VE.Impression.Illustration.Types.csproj",
+        "packagesPath": "C:\\Users\\hubfo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Types\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hubfo\\Downloads\\VE_Impression\\NuGet.Config",
+          "C:\\Users\\hubfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\hubfo\\Downloads\\VE_Impression\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "IAFG.IA.VE.Impression.Core": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "IAFG.IA.VI.Projection.Data": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\src\\IAFG.IA.VE.Impression.Illustration.csproj": {
+      "version": "9.37.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\src\\IAFG.IA.VE.Impression.Illustration.csproj",
+        "projectName": "IAFG.IA.VE.Impression.Illustration",
+        "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\src\\IAFG.IA.VE.Impression.Illustration.csproj",
+        "packagesPath": "C:\\Users\\hubfo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hubfo\\Downloads\\VE_Impression\\NuGet.Config",
+          "C:\\Users\\hubfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\hubfo\\Downloads\\VE_Impression\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Resources\\src\\IAFG.IA.VE.Impression.Illustration.Resources.csproj": {
+                "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Resources\\src\\IAFG.IA.VE.Impression.Illustration.Resources.csproj"
+              },
+              "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Types\\src\\IAFG.IA.VE.Impression.Illustration.Types.csproj": {
+                "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Types\\src\\IAFG.IA.VE.Impression.Illustration.Types.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
+            "IAFG.IA.VE.Impression.Core": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "IAFG.IA.VI.IPDFVie": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "IAFG.IA.VI.Projection.Data": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "IAFG.IA.VI.Projection.DataExtensions": {
+              "target": "Package",
+              "version": "[6.6.0, )"
+            },
+            "IAFG.IA.VI.Projection.Extensions.PDFVie": {
+              "target": "Package",
+              "version": "[4.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\tests\\IAFG.IA.VE.Impression.Illustration.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\tests\\IAFG.IA.VE.Impression.Illustration.Tests.csproj",
+        "projectName": "IAFG.IA.VE.Impression.Illustration.Tests",
+        "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\tests\\IAFG.IA.VE.Impression.Illustration.Tests.csproj",
+        "packagesPath": "C:\\Users\\hubfo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hubfo\\Downloads\\VE_Impression\\NuGet.Config",
+          "C:\\Users\\hubfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\hubfo\\Downloads\\VE_Impression\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {
+              "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.CoreForTests\\IAFG.IA.VE.Impression.CoreForTests.csproj": {
+                "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.CoreForTests\\IAFG.IA.VE.Impression.CoreForTests.csproj"
+              },
+              "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.DIContainer\\src\\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj": {
+                "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.DIContainer\\src\\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj"
+              },
+              "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Resources\\src\\IAFG.IA.VE.Impression.Illustration.Resources.csproj": {
+                "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Resources\\src\\IAFG.IA.VE.Impression.Illustration.Resources.csproj"
+              },
+              "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports\\src\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.csproj": {
+                "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports\\src\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.csproj"
+              },
+              "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Types\\src\\IAFG.IA.VE.Impression.Illustration.Types.csproj": {
+                "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Types\\src\\IAFG.IA.VE.Impression.Illustration.Types.csproj"
+              },
+              "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\src\\IAFG.IA.VE.Impression.Illustration.csproj": {
+                "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\src\\IAFG.IA.VE.Impression.Illustration.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "AutoFixture": {
+              "target": "Package",
+              "version": "[4.11.0, )"
+            },
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[6.2.2, )"
+            },
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[5.10.3, )"
+            },
+            "IAFG.IA.VI.IPDFVie": {
+              "target": "Package",
+              "version": "[5.1.0, )"
+            },
+            "IAFG.IA.VI.Services.PDF": {
+              "target": "Package",
+              "version": "[30.1.0, )"
+            },
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.6.1, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.5.6, )"
+            },
+            "NSubstitute": {
+              "target": "Package",
+              "version": "[4.2.2, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

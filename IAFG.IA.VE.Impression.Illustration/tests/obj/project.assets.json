@@ -1,0 +1,1983 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.8": {
+      "AutoFixture/4.11.0": {
+        "type": "package",
+        "dependencies": {
+          "Fare": "[2.1.1, 3.0.0)"
+        },
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net452/AutoFixture.dll": {}
+        },
+        "runtime": {
+          "lib/net452/AutoFixture.dll": {}
+        }
+      },
+      "AutoFixture.AutoMoq/4.11.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoFixture": "4.11.0",
+          "Moq": "[4.1.1308.2120, 5.0.0)"
+        },
+        "compile": {
+          "lib/net452/AutoFixture.AutoMoq.dll": {}
+        },
+        "runtime": {
+          "lib/net452/AutoFixture.AutoMoq.dll": {}
+        }
+      },
+      "AutoMapper/6.2.2": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Runtime.Serialization"
+        ],
+        "compile": {
+          "lib/net45/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/net45/AutoMapper.dll": {}
+        }
+      },
+      "Castle.Core/4.4.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration"
+        ],
+        "compile": {
+          "lib/net45/Castle.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Castle.Core.dll": {}
+        }
+      },
+      "Dapper/1.50.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Data",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net451/Dapper.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Dapper.dll": {}
+        }
+      },
+      "Dapper.Contrib/1.50.4": {
+        "type": "package",
+        "dependencies": {
+          "Dapper": "1.50.4"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Data",
+          "System.Data.Linq"
+        ],
+        "compile": {
+          "lib/net451/Dapper.Contrib.dll": {}
+        },
+        "runtime": {
+          "lib/net451/Dapper.Contrib.dll": {}
+        }
+      },
+      "Dapper.Extension/1.0.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Dapper": "1.42.0"
+        },
+        "compile": {
+          "lib/net45/Dapper.Extension.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Dapper.Extension.dll": {}
+        }
+      },
+      "Dapper.Extensions.Linq/1.1.17": {
+        "type": "package",
+        "dependencies": {
+          "Dapper": "1.42.0",
+          "Dapper.Extensions.Linq.Core": "1.0.8"
+        },
+        "compile": {
+          "lib/net45/Dapper.Extensions.Linq.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Dapper.Extensions.Linq.dll": {}
+        }
+      },
+      "Dapper.Extensions.Linq.Core/1.0.8": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Dapper.Extensions.Linq.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Dapper.Extensions.Linq.Core.dll": {}
+        }
+      },
+      "DapperExtensions/1.6.3": {
+        "type": "package",
+        "dependencies": {
+          "Dapper": "1.12.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp"
+        ],
+        "compile": {
+          "lib/net45/DapperExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/net45/DapperExtensions.dll": {}
+        }
+      },
+      "EntityFramework/6.0.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.ComponentModel.DataAnnotations"
+        ],
+        "compile": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/EntityFramework.SqlServer.dll": {},
+          "lib/net45/EntityFramework.dll": {}
+        }
+      },
+      "Fare/2.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/net35/Fare.dll": {}
+        },
+        "runtime": {
+          "lib/net35/Fare.dll": {}
+        }
+      },
+      "FluentAssertions/5.10.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Configuration",
+          "System.Xml",
+          "System.Xml.Linq"
+        ],
+        "compile": {
+          "lib/net47/FluentAssertions.dll": {}
+        },
+        "runtime": {
+          "lib/net47/FluentAssertions.dll": {}
+        }
+      },
+      "IAFG.IA.VE.FeatureToggles.OfflineClient/0.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/net45/IAFG.IA.VE.FeatureToggles.OfflineClient.dll": {},
+          "lib/net45/VEWMPN08.DomainObjects.dll": {},
+          "lib/net45/VEWMPN08.Repositories.Interfaces.dll": {},
+          "lib/net45/VEWMPN08.Services.dll": {}
+        },
+        "runtime": {
+          "lib/net45/IAFG.IA.VE.FeatureToggles.OfflineClient.dll": {},
+          "lib/net45/VEWMPN08.DomainObjects.dll": {},
+          "lib/net45/VEWMPN08.Repositories.Interfaces.dll": {},
+          "lib/net45/VEWMPN08.Services.dll": {}
+        }
+      },
+      "IAFG.IA.VE.Impression.ActiveReports/13.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "11.0.2"
+        },
+        "compile": {
+          "lib/net462/GrapeCity.ActiveReports.Chart.dll": {},
+          "lib/net462/GrapeCity.ActiveReports.Core.Drawing.Gdi.dll": {},
+          "lib/net462/GrapeCity.ActiveReports.Core.Rdl.dll": {},
+          "lib/net462/GrapeCity.ActiveReports.Core.Rendering.dll": {},
+          "lib/net462/GrapeCity.ActiveReports.Document.dll": {},
+          "lib/net462/GrapeCity.ActiveReports.Export.Pdf.dll": {},
+          "lib/net462/GrapeCity.ActiveReports.dll": {}
+        },
+        "runtime": {
+          "lib/net462/GrapeCity.ActiveReports.Chart.dll": {},
+          "lib/net462/GrapeCity.ActiveReports.Core.Drawing.Gdi.dll": {},
+          "lib/net462/GrapeCity.ActiveReports.Core.Rdl.dll": {},
+          "lib/net462/GrapeCity.ActiveReports.Core.Rendering.dll": {},
+          "lib/net462/GrapeCity.ActiveReports.Document.dll": {},
+          "lib/net462/GrapeCity.ActiveReports.Export.Pdf.dll": {},
+          "lib/net462/GrapeCity.ActiveReports.dll": {}
+        }
+      },
+      "IAFG.IA.VE.Impression.Core/3.2.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Resources.Extensions": "6.0.0"
+        },
+        "compile": {
+          "lib/net48/IAFG.IA.VE.Impression.Core.dll": {}
+        },
+        "runtime": {
+          "lib/net48/IAFG.IA.VE.Impression.Core.dll": {}
+        },
+        "resource": {
+          "lib/net48/en-CA/IAFG.IA.VE.Impression.Core.resources.dll": {
+            "locale": "en-CA"
+          }
+        }
+      },
+      "IAFG.IA.VI.ImplementationDynamique/1.2.0": {
+        "type": "package",
+        "compile": {
+          "lib/net48/IAFG.IA.VI.ImplementationDynamique.dll": {}
+        },
+        "runtime": {
+          "lib/net48/IAFG.IA.VI.ImplementationDynamique.dll": {}
+        }
+      },
+      "IAFG.IA.VI.IPDFVie/5.1.0": {
+        "type": "package",
+        "dependencies": {
+          "IAFG.IA.VI.ImplementationDynamique": "1.2.0"
+        },
+        "compile": {
+          "lib/net48/IAFG.IA.VI.AF.IPDFVie.dll": {}
+        },
+        "runtime": {
+          "lib/net48/IAFG.IA.VI.AF.IPDFVie.dll": {}
+        }
+      },
+      "IAFG.IA.VI.Projection.Data/8.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net48/IAFG.IA.VI.Projection.Data.Extensions.dll": {},
+          "lib/net48/IAFG.IA.VI.Projection.Data.dll": {},
+          "lib/net48/IAFG.IA.VI.Projection.Messages.dll": {}
+        },
+        "runtime": {
+          "lib/net48/IAFG.IA.VI.Projection.Data.Extensions.dll": {},
+          "lib/net48/IAFG.IA.VI.Projection.Data.dll": {},
+          "lib/net48/IAFG.IA.VI.Projection.Messages.dll": {}
+        }
+      },
+      "IAFG.IA.VI.Projection.DataExtensions/6.6.0": {
+        "type": "package",
+        "dependencies": {
+          "IAFG.IA.VI.Projection.Data": "7.0.0",
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/net48/IAFG.IA.VI.Projection.DataExtensions.Functions.dll": {},
+          "lib/net48/IAFG.IA.VI.Projection.DataExtensions.dll": {}
+        },
+        "runtime": {
+          "lib/net48/IAFG.IA.VI.Projection.DataExtensions.Functions.dll": {},
+          "lib/net48/IAFG.IA.VI.Projection.DataExtensions.dll": {}
+        }
+      },
+      "IAFG.IA.VI.Projection.Extensions.PDFVie/4.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IAFG.IA.VI.IPDFVie": "[4.6.2, 6.0.0)",
+          "IAFG.IA.VI.Projection.Data": "7.6.0"
+        },
+        "compile": {
+          "lib/net48/IAFG.IA.VI.Projection.PDFVie.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net48/IAFG.IA.VI.Projection.PDFVie.Extensions.dll": {}
+        }
+      },
+      "IAFG.IA.VI.Services.PDF/30.1.0": {
+        "type": "package",
+        "dependencies": {
+          "AutoMapper": "6.2.2",
+          "Dapper": "1.50.4",
+          "Dapper.Contrib": "1.50.4",
+          "Dapper.Extension": "1.0.0.1",
+          "Dapper.Extensions.Linq": "1.1.17",
+          "Dapper.Extensions.Linq.Core": "1.0.8",
+          "DapperExtensions": "1.6.3",
+          "IAFG.IA.VE.FeatureToggles.OfflineClient": "0.2.2",
+          "IAFG.IA.VI.IPDFVie": "4.0.1",
+          "IAFG.IA.ZA.AgeEquivalent": "3.1.1",
+          "IAFG.IA.ZA.AgeEquivalent.Interfaces": "2.1.0",
+          "NLog": "4.5.6",
+          "Newtonsoft.Json": "12.0.3",
+          "System.Data.SQLite": "1.0.107",
+          "Unity.Abstractions": "5.11.6",
+          "Unity.Container": "5.11.10"
+        },
+        "compile": {
+          "lib/net48/IAFG.IA.VI.PDF.Core.dll": {},
+          "lib/net48/IAFG.IA.VI.PDF.DIContainer.dll": {},
+          "lib/net48/IAFG.IA.VI.PDF.Exceptions.dll": {},
+          "lib/net48/IAFG.IA.VI.PDF.Services.Dto.dll": {},
+          "lib/net48/IAFG.IA.VI.PDF.Services.Interfaces.dll": {},
+          "lib/net48/IAFG.IA.VI.PDF.Services.dll": {}
+        },
+        "runtime": {
+          "lib/net48/IAFG.IA.VI.PDF.Core.dll": {},
+          "lib/net48/IAFG.IA.VI.PDF.DIContainer.dll": {},
+          "lib/net48/IAFG.IA.VI.PDF.Exceptions.dll": {},
+          "lib/net48/IAFG.IA.VI.PDF.Services.Dto.dll": {},
+          "lib/net48/IAFG.IA.VI.PDF.Services.Interfaces.dll": {},
+          "lib/net48/IAFG.IA.VI.PDF.Services.dll": {}
+        },
+        "build": {
+          "build/net48/IAFG.IA.VI.Services.PDF.targets": {}
+        }
+      },
+      "IAFG.IA.ZA.AgeEquivalent/3.1.1": {
+        "type": "package",
+        "dependencies": {
+          "IAFG.IA.ZA.AgeEquivalent.Interfaces": "[2.1.0, 3.0.0)",
+          "IAFG.IA.ZA.SasRates.Reader": "[1.0.0, 2.0.0)"
+        },
+        "compile": {
+          "lib/net45/IAFG.IA.ZA.AgeEquivalent.dll": {}
+        },
+        "runtime": {
+          "lib/net45/IAFG.IA.ZA.AgeEquivalent.dll": {}
+        },
+        "build": {
+          "build/net45/IAFG.IA.ZA.AgeEquivalent.targets": {}
+        }
+      },
+      "IAFG.IA.ZA.AgeEquivalent.Interfaces/2.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/net45/IAFG.IA.ZA.Interfaces.IAgeEquivalent.dll": {}
+        },
+        "runtime": {
+          "lib/net45/IAFG.IA.ZA.Interfaces.IAgeEquivalent.dll": {}
+        }
+      },
+      "IAFG.IA.ZA.SasRates.Reader/1.0.0": {
+        "type": "package",
+        "dependencies": {
+          "IAFG.IA.VI.ImplementationDynamique": "[1.0.0, 2.0.0)"
+        },
+        "compile": {
+          "lib/net45/IAFG.IA.ZA.SasRates.dll": {}
+        },
+        "runtime": {
+          "lib/net45/IAFG.IA.ZA.SasRates.dll": {}
+        }
+      },
+      "Microsoft.CodeCoverage/16.6.1": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll": {}
+        },
+        "build": {
+          "build/netstandard1.0/Microsoft.CodeCoverage.props": {},
+          "build/netstandard1.0/Microsoft.CodeCoverage.targets": {}
+        }
+      },
+      "Microsoft.NET.Test.Sdk/16.6.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.CodeCoverage": "16.6.1"
+        },
+        "build": {
+          "build/net40/Microsoft.NET.Test.Sdk.props": {},
+          "build/net40/Microsoft.NET.Test.Sdk.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.NET.Test.Sdk.props": {}
+        }
+      },
+      "Moq/4.1.1308.2120": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Moq.dll": {}
+        },
+        "runtime": {
+          "lib/net40/Moq.dll": {}
+        }
+      },
+      "MSTest.TestAdapter/2.1.2": {
+        "type": "package",
+        "build": {
+          "build/net45/MSTest.TestAdapter.props": {},
+          "build/net45/MSTest.TestAdapter.targets": {}
+        }
+      },
+      "MSTest.TestFramework/2.1.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll": {},
+          "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll": {}
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "NLog/4.5.6": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System",
+          "System.Configuration",
+          "System.Core",
+          "System.Data",
+          "System.IO.Compression",
+          "System.Runtime.Serialization",
+          "System.ServiceModel",
+          "System.Transactions",
+          "System.Xml"
+        ],
+        "compile": {
+          "lib/net45/NLog.dll": {}
+        },
+        "runtime": {
+          "lib/net45/NLog.dll": {}
+        }
+      },
+      "NSubstitute/4.2.2": {
+        "type": "package",
+        "dependencies": {
+          "Castle.Core": "4.4.0",
+          "System.Threading.Tasks.Extensions": "4.3.0"
+        },
+        "frameworkAssemblies": [
+          "Microsoft.CSharp",
+          "System"
+        ],
+        "compile": {
+          "lib/net46/NSubstitute.dll": {}
+        },
+        "runtime": {
+          "lib/net46/NSubstitute.dll": {}
+        }
+      },
+      "System.Buffers/4.5.1": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net45/System.Buffers.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Buffers.dll": {}
+        }
+      },
+      "System.Data.SQLite/1.0.107": {
+        "type": "package",
+        "dependencies": {
+          "System.Data.SQLite.Core": "1.0.107",
+          "System.Data.SQLite.EF6": "1.0.107",
+          "System.Data.SQLite.Linq": "1.0.107"
+        }
+      },
+      "System.Data.SQLite.Core/1.0.107": {
+        "type": "package",
+        "compile": {
+          "lib/net46/System.Data.SQLite.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Data.SQLite.dll": {}
+        },
+        "build": {
+          "build/net46/System.Data.SQLite.Core.targets": {}
+        }
+      },
+      "System.Data.SQLite.EF6/1.0.107": {
+        "type": "package",
+        "dependencies": {
+          "EntityFramework": "6.0.0"
+        },
+        "compile": {
+          "lib/net46/System.Data.SQLite.EF6.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Data.SQLite.EF6.dll": {}
+        }
+      },
+      "System.Data.SQLite.Linq/1.0.107": {
+        "type": "package",
+        "compile": {
+          "lib/net46/System.Data.SQLite.Linq.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Data.SQLite.Linq.dll": {}
+        }
+      },
+      "System.Memory/4.5.4": {
+        "type": "package",
+        "dependencies": {
+          "System.Buffers": "4.5.1",
+          "System.Numerics.Vectors": "4.5.0",
+          "System.Runtime.CompilerServices.Unsafe": "4.5.3"
+        },
+        "frameworkAssemblies": [
+          "System",
+          "mscorlib"
+        ],
+        "compile": {
+          "lib/net461/System.Memory.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Memory.dll": {}
+        }
+      },
+      "System.Numerics.Vectors/4.5.0": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Numerics",
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net46/System.Numerics.Vectors.dll": {}
+        },
+        "runtime": {
+          "lib/net46/System.Numerics.Vectors.dll": {}
+        }
+      },
+      "System.Resources.Extensions/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "System.Memory": "4.5.4"
+        },
+        "compile": {
+          "lib/net461/System.Resources.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Resources.Extensions.dll": {}
+        },
+        "build": {
+          "buildTransitive/net461/System.Resources.Extensions.targets": {}
+        }
+      },
+      "System.Runtime.CompilerServices.Unsafe/4.5.3": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "mscorlib"
+        ],
+        "compile": {
+          "ref/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        },
+        "runtime": {
+          "lib/net461/System.Runtime.CompilerServices.Unsafe.dll": {}
+        }
+      },
+      "System.Threading.Tasks.Extensions/4.5.2": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2"
+        },
+        "compile": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
+        }
+      },
+      "Unity.Abstractions/5.11.6": {
+        "type": "package",
+        "dependencies": {
+          "System.Threading.Tasks.Extensions": "4.5.2"
+        },
+        "compile": {
+          "lib/net48/Unity.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Unity.Abstractions.dll": {}
+        }
+      },
+      "Unity.Container/5.11.10": {
+        "type": "package",
+        "dependencies": {
+          "System.Runtime.CompilerServices.Unsafe": "4.5.2",
+          "Unity.Abstractions": "5.11.6"
+        },
+        "compile": {
+          "lib/net48/Unity.Container.dll": {}
+        },
+        "runtime": {
+          "lib/net48/Unity.Container.dll": {}
+        }
+      },
+      "IAFG.IA.VE.Impression.CoreForTests/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "AutoFixture": "4.11.0",
+          "AutoFixture.AutoMoq": "4.11.0",
+          "IAFG.IA.VE.Impression.Core": "3.2.0",
+          "MSTest.TestFramework": "2.1.2",
+          "NSubstitute": "4.2.2"
+        },
+        "compile": {
+          "bin/placeholder/IAFG.IA.VE.Impression.CoreForTests.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IAFG.IA.VE.Impression.CoreForTests.dll": {}
+        }
+      },
+      "IAFG.IA.VE.Impression.Illustration/9.37.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "AutoMapper": "6.2.2",
+          "IAFG.IA.VE.Impression.Core": "3.2.0",
+          "IAFG.IA.VE.Impression.Illustration.Resources": "9.37.0",
+          "IAFG.IA.VE.Impression.Illustration.Types": "9.37.0",
+          "IAFG.IA.VI.IPDFVie": "5.1.0",
+          "IAFG.IA.VI.Projection.Data": "8.0.0",
+          "IAFG.IA.VI.Projection.DataExtensions": "6.6.0",
+          "IAFG.IA.VI.Projection.Extensions.PDFVie": "4.0.0",
+          "Newtonsoft.Json": "12.0.3"
+        },
+        "compile": {
+          "bin/placeholder/IAFG.IA.VE.Impression.Illustration.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IAFG.IA.VE.Impression.Illustration.dll": {}
+        }
+      },
+      "IAFG.IA.VE.Impression.Illustration.DIContainer/9.37.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "IAFG.IA.VE.Impression.Core": "3.2.0",
+          "IAFG.IA.VE.Impression.Illustration": "9.37.0",
+          "IAFG.IA.VE.Impression.Illustration.Resources": "9.37.0",
+          "IAFG.IA.VE.Impression.Illustration.Tiers.Reports": "6.14.0",
+          "IAFG.IA.VE.Impression.Illustration.Types": "9.37.0",
+          "IAFG.IA.VI.IPDFVie": "5.1.0",
+          "Unity.Abstractions": "5.11.6",
+          "Unity.Container": "5.11.10"
+        },
+        "compile": {
+          "bin/placeholder/IAFG.IA.VE.Impression.Illustration.DIContainer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IAFG.IA.VE.Impression.Illustration.DIContainer.dll": {}
+        }
+      },
+      "IAFG.IA.VE.Impression.Illustration.Resources/9.37.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "IAFG.IA.VE.Impression.Core": "3.2.0",
+          "Unity.Abstractions": "5.11.6"
+        },
+        "compile": {
+          "bin/placeholder/IAFG.IA.VE.Impression.Illustration.Resources.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IAFG.IA.VE.Impression.Illustration.Resources.dll": {}
+        }
+      },
+      "IAFG.IA.VE.Impression.Illustration.Tiers.Reports/6.14.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "IAFG.IA.VE.Impression.ActiveReports": "13.0.1",
+          "IAFG.IA.VE.Impression.Core": "3.2.0",
+          "IAFG.IA.VE.Impression.Illustration": "9.37.0",
+          "IAFG.IA.VE.Impression.Illustration.Resources": "9.37.0",
+          "IAFG.IA.VE.Impression.Illustration.Types": "9.37.0",
+          "NLog": "4.5.6",
+          "Unity.Abstractions": "5.11.6"
+        },
+        "compile": {
+          "bin/placeholder/IAFG.IA.VE.Impression.Illustration.Tiers.Reports.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IAFG.IA.VE.Impression.Illustration.Tiers.Reports.dll": {}
+        }
+      },
+      "IAFG.IA.VE.Impression.Illustration.Types/9.37.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.8",
+        "dependencies": {
+          "IAFG.IA.VE.Impression.Core": "3.2.0",
+          "IAFG.IA.VI.Projection.Data": "8.0.0"
+        },
+        "compile": {
+          "bin/placeholder/IAFG.IA.VE.Impression.Illustration.Types.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IAFG.IA.VE.Impression.Illustration.Types.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "AutoFixture/4.11.0": {
+      "sha512": "2C8JcuQU70dJQ8v5YVwkLPyd0pzpcXT5SF6z+K+FwoRb0HWpmLEaNHw1nYx+wpjgf35AyivF+p/7hPhWsBj0YQ==",
+      "type": "package",
+      "path": "autofixture/4.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofixture.4.11.0.nupkg.sha512",
+        "autofixture.nuspec",
+        "lib/net452/AutoFixture.dll",
+        "lib/net452/AutoFixture.pdb",
+        "lib/net452/AutoFixture.xml",
+        "lib/netstandard1.5/AutoFixture.dll",
+        "lib/netstandard1.5/AutoFixture.pdb",
+        "lib/netstandard1.5/AutoFixture.xml",
+        "lib/netstandard2.0/AutoFixture.dll",
+        "lib/netstandard2.0/AutoFixture.pdb",
+        "lib/netstandard2.0/AutoFixture.xml"
+      ]
+    },
+    "AutoFixture.AutoMoq/4.11.0": {
+      "sha512": "hQmZTu+xeXVR99UItYbgsK4BH2LBOgsNFtrpRB2cXYOEHicRXcL+ewg4el6Rt8CfctxOouq6NLUZ3bzFiTiprA==",
+      "type": "package",
+      "path": "autofixture.automoq/4.11.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "autofixture.automoq.4.11.0.nupkg.sha512",
+        "autofixture.automoq.nuspec",
+        "lib/net452/AutoFixture.AutoMoq.dll",
+        "lib/net452/AutoFixture.AutoMoq.pdb",
+        "lib/net452/AutoFixture.AutoMoq.xml",
+        "lib/netstandard1.5/AutoFixture.AutoMoq.dll",
+        "lib/netstandard1.5/AutoFixture.AutoMoq.pdb",
+        "lib/netstandard1.5/AutoFixture.AutoMoq.xml",
+        "lib/netstandard2.0/AutoFixture.AutoMoq.dll",
+        "lib/netstandard2.0/AutoFixture.AutoMoq.pdb",
+        "lib/netstandard2.0/AutoFixture.AutoMoq.xml"
+      ]
+    },
+    "AutoMapper/6.2.2": {
+      "sha512": "eGKcnJdoF5rYMWPUaSPtlWdvua9xw4hnQN5kM/X4AXLGKghrtPIaMv+RYoA3sj0kyZ3X6wZ1Qj67F+u0pCCPaw==",
+      "type": "package",
+      "path": "automapper/6.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.6.2.2.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/net40/AutoMapper.dll",
+        "lib/net40/AutoMapper.xml",
+        "lib/net45/AutoMapper.dll",
+        "lib/net45/AutoMapper.xml",
+        "lib/netstandard1.1/AutoMapper.dll",
+        "lib/netstandard1.1/AutoMapper.xml",
+        "lib/netstandard1.3/AutoMapper.dll",
+        "lib/netstandard1.3/AutoMapper.xml"
+      ]
+    },
+    "Castle.Core/4.4.0": {
+      "sha512": "b5rRL5zeaau1y/5hIbI+6mGw3cwun16YjkHZnV9RRT5UyUIFsgLmNXJ0YnIN9p8Hw7K7AbG1q1UclQVU3DinAQ==",
+      "type": "package",
+      "path": "castle.core/4.4.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ASL - Apache Software Foundation License.txt",
+        "CHANGELOG.md",
+        "LICENSE",
+        "castle.core.4.4.0.nupkg.sha512",
+        "castle.core.nuspec",
+        "lib/net35/Castle.Core.dll",
+        "lib/net35/Castle.Core.xml",
+        "lib/net40/Castle.Core.dll",
+        "lib/net40/Castle.Core.xml",
+        "lib/net45/Castle.Core.dll",
+        "lib/net45/Castle.Core.xml",
+        "lib/netstandard1.3/Castle.Core.dll",
+        "lib/netstandard1.3/Castle.Core.xml",
+        "lib/netstandard1.5/Castle.Core.dll",
+        "lib/netstandard1.5/Castle.Core.xml",
+        "readme.txt"
+      ]
+    },
+    "Dapper/1.50.4": {
+      "sha512": "t5DMz+1aEkBcyCgkj+6hJHNsUq3k/d67lVMTNzICEhVjPUI3Gt2kgotSK8S4SpziIbFPphnOEn8M6Q75ED5hRQ==",
+      "type": "package",
+      "path": "dapper/1.50.4",
+      "files": [
+        ".nupkg.metadata",
+        "dapper.1.50.4.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net451/Dapper.dll",
+        "lib/net451/Dapper.xml",
+        "lib/netstandard1.3/Dapper.dll",
+        "lib/netstandard1.3/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml"
+      ]
+    },
+    "Dapper.Contrib/1.50.4": {
+      "sha512": "2RBJJgOMzyZuD4LdcfrqGGZ005IppwOwo0JFlntZ0S0J/d69I6ehiYwiL4SyLE6mTBrB17uUZPIM67KO3GFEpw==",
+      "type": "package",
+      "path": "dapper.contrib/1.50.4",
+      "files": [
+        ".nupkg.metadata",
+        "dapper.contrib.1.50.4.nupkg.sha512",
+        "dapper.contrib.nuspec",
+        "lib/net451/Dapper.Contrib.dll",
+        "lib/net451/Dapper.Contrib.xml",
+        "lib/netstandard1.3/Dapper.Contrib.dll",
+        "lib/netstandard1.3/Dapper.Contrib.xml",
+        "lib/netstandard2.0/Dapper.Contrib.dll",
+        "lib/netstandard2.0/Dapper.Contrib.xml"
+      ]
+    },
+    "Dapper.Extension/1.0.0.1": {
+      "sha512": "n6fojUprDCEMe1ffytdJkrTJXM89eh7KfJw0giG6N81Jn4OGc7o/imYxVyk6LJ24cWONKmHGqas41qeVGAe0nA==",
+      "type": "package",
+      "path": "dapper.extension/1.0.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "dapper.extension.1.0.0.1.nupkg.sha512",
+        "dapper.extension.nuspec",
+        "lib/net45/Dapper.Extension.dll"
+      ]
+    },
+    "Dapper.Extensions.Linq/1.1.17": {
+      "sha512": "99A5z0GrSERXx6nQEIT/RjHF5ZaCiUQD7qfZ56VS7jfoAop50rUqCpUnLNCXaULN2ox+TZdZIEsmBPtvWKxYDQ==",
+      "type": "package",
+      "path": "dapper.extensions.linq/1.1.17",
+      "files": [
+        ".nupkg.metadata",
+        "dapper.extensions.linq.1.1.17.nupkg.sha512",
+        "dapper.extensions.linq.nuspec",
+        "lib/net45/Dapper.Extensions.Linq.dll"
+      ]
+    },
+    "Dapper.Extensions.Linq.Core/1.0.8": {
+      "sha512": "ejKrmz5YCBMmSAoDW4EkkiKc+sdVjR2J3nZo0mMC9+oEgmDyxuJNe1Wpj93zM38xorvQzV6zPbTWfIYzdadkng==",
+      "type": "package",
+      "path": "dapper.extensions.linq.core/1.0.8",
+      "files": [
+        ".nupkg.metadata",
+        "dapper.extensions.linq.core.1.0.8.nupkg.sha512",
+        "dapper.extensions.linq.core.nuspec",
+        "lib/net45/Dapper.Extensions.Linq.Core.dll"
+      ]
+    },
+    "DapperExtensions/1.6.3": {
+      "sha512": "KrmiZVbSu8NcjcdteDfuLKEES8ZA/HOHyDO4n5Gvc2CuSxulaRaEPofr0zCH7LM/yevi2gSnA5GlOGYj8Ayd6w==",
+      "type": "package",
+      "path": "dapperextensions/1.6.3",
+      "files": [
+        ".nupkg.metadata",
+        "dapperextensions.1.6.3.nupkg.sha512",
+        "dapperextensions.nuspec",
+        "lib/net40/DapperExtensions.dll",
+        "lib/net40/DapperExtensions.pdb",
+        "lib/net45/DapperExtensions.dll",
+        "lib/net45/DapperExtensions.pdb"
+      ]
+    },
+    "EntityFramework/6.0.0": {
+      "sha512": "y6lX/VMghGBV6TvgQS4Q2WK6kAcOoyD+TQxObN9utd0JsMMdMxyqARxKbvgi7KEIbQ8osZ4ZvImaly7l3NDFDw==",
+      "type": "package",
+      "path": "entityframework/6.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        "Content/App.config.transform",
+        "Content/Web.config.transform",
+        "entityframework.6.0.0.nupkg.sha512",
+        "entityframework.nuspec",
+        "lib/net40/EntityFramework.SqlServer.dll",
+        "lib/net40/EntityFramework.SqlServer.xml",
+        "lib/net40/EntityFramework.dll",
+        "lib/net40/EntityFramework.xml",
+        "lib/net45/EntityFramework.SqlServer.dll",
+        "lib/net45/EntityFramework.SqlServer.xml",
+        "lib/net45/EntityFramework.dll",
+        "lib/net45/EntityFramework.xml",
+        "tools/EntityFramework.PowerShell.Utility.dll",
+        "tools/EntityFramework.PowerShell.dll",
+        "tools/EntityFramework.psd1",
+        "tools/EntityFramework.psm1",
+        "tools/about_EntityFramework.help.txt",
+        "tools/init.ps1",
+        "tools/install.ps1",
+        "tools/migrate.exe"
+      ]
+    },
+    "Fare/2.1.1": {
+      "sha512": "HaI8puqA66YU7/9cK4Sgbs1taUTP1Ssa4QT2PIzqJ7GvAbN1QgkjbRsjH+FSbMh1MJdvS0CIwQNLtFT+KF6KpA==",
+      "type": "package",
+      "path": "fare/2.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fare.2.1.1.nupkg.sha512",
+        "fare.nuspec",
+        "lib/net35/Fare.dll",
+        "lib/net35/Fare.xml",
+        "lib/netstandard1.1/Fare.dll",
+        "lib/netstandard1.1/Fare.xml"
+      ]
+    },
+    "FluentAssertions/5.10.3": {
+      "sha512": "gVPEVp1hLVqcv+7Q2wiDf7kqCNn7+bQcQ0jbJ2mcRT6CeRoZl1tNkqvzSIhvekyldDptk77j1b03MXTTRIqqpg==",
+      "type": "package",
+      "path": "fluentassertions/5.10.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "FluentAssertions.png",
+        "fluentassertions.5.10.3.nupkg.sha512",
+        "fluentassertions.nuspec",
+        "lib/net45/FluentAssertions.dll",
+        "lib/net45/FluentAssertions.pdb",
+        "lib/net45/FluentAssertions.xml",
+        "lib/net47/FluentAssertions.dll",
+        "lib/net47/FluentAssertions.pdb",
+        "lib/net47/FluentAssertions.xml",
+        "lib/netcoreapp2.0/FluentAssertions.dll",
+        "lib/netcoreapp2.0/FluentAssertions.pdb",
+        "lib/netcoreapp2.0/FluentAssertions.xml",
+        "lib/netcoreapp2.1/FluentAssertions.dll",
+        "lib/netcoreapp2.1/FluentAssertions.pdb",
+        "lib/netcoreapp2.1/FluentAssertions.xml",
+        "lib/netstandard1.3/FluentAssertions.dll",
+        "lib/netstandard1.3/FluentAssertions.pdb",
+        "lib/netstandard1.3/FluentAssertions.xml",
+        "lib/netstandard1.6/FluentAssertions.dll",
+        "lib/netstandard1.6/FluentAssertions.pdb",
+        "lib/netstandard1.6/FluentAssertions.xml",
+        "lib/netstandard2.0/FluentAssertions.dll",
+        "lib/netstandard2.0/FluentAssertions.pdb",
+        "lib/netstandard2.0/FluentAssertions.xml",
+        "lib/netstandard2.1/FluentAssertions.dll",
+        "lib/netstandard2.1/FluentAssertions.pdb",
+        "lib/netstandard2.1/FluentAssertions.xml"
+      ]
+    },
+    "IAFG.IA.VE.FeatureToggles.OfflineClient/0.2.2": {
+      "sha512": "MoLkyFV7yUb7tQI4Vhl5H+hSBzsYUsfP/+GnKoHIppdwXPaH101PDPt2zD7rt0LxE7uDnazEjeng453XIr1fJw==",
+      "type": "package",
+      "path": "iafg.ia.ve.featuretoggles.offlineclient/0.2.2",
+      "files": [
+        ".nupkg.metadata",
+        "iafg.ia.ve.featuretoggles.offlineclient.0.2.2.nupkg.sha512",
+        "iafg.ia.ve.featuretoggles.offlineclient.nuspec",
+        "lib/net45/IAFG.IA.VE.FeatureToggles.OfflineClient.dll",
+        "lib/net45/VEWMPN08.DomainObjects.dll",
+        "lib/net45/VEWMPN08.Repositories.Interfaces.dll",
+        "lib/net45/VEWMPN08.Services.dll"
+      ]
+    },
+    "IAFG.IA.VE.Impression.ActiveReports/13.0.1": {
+      "sha512": "8BvLLNVw1/jS9DFY4Loya+affOXM4AK+O9RZ+nyXOJkESvpKmols+91n+EVzqLGcC0u3XdR+/e3vgM2XWyF5yg==",
+      "type": "package",
+      "path": "iafg.ia.ve.impression.activereports/13.0.1",
+      "files": [
+        ".nupkg.metadata",
+        "iafg.ia.ve.impression.activereports.13.0.1.nupkg.sha512",
+        "iafg.ia.ve.impression.activereports.nuspec",
+        "lib/net462/GrapeCity.ActiveReports.Chart.dll",
+        "lib/net462/GrapeCity.ActiveReports.Core.Drawing.Gdi.dll",
+        "lib/net462/GrapeCity.ActiveReports.Core.Rdl.dll",
+        "lib/net462/GrapeCity.ActiveReports.Core.Rendering.dll",
+        "lib/net462/GrapeCity.ActiveReports.Document.dll",
+        "lib/net462/GrapeCity.ActiveReports.Export.Pdf.dll",
+        "lib/net462/GrapeCity.ActiveReports.dll"
+      ]
+    },
+    "IAFG.IA.VE.Impression.Core/3.2.0": {
+      "sha512": "X/dUNuL+kIJFXGTsETDFzCg5YXlPK6Buz1f89jgTC2yM6WruwKoKnrm6fYd5PqNAIa4HEGsYsLXXZ4IN4J3N3g==",
+      "type": "package",
+      "path": "iafg.ia.ve.impression.core/3.2.0",
+      "files": [
+        ".nupkg.metadata",
+        "iafg.ia.ve.impression.core.3.2.0.nupkg.sha512",
+        "iafg.ia.ve.impression.core.nuspec",
+        "lib/net48/IAFG.IA.VE.Impression.Core.dll",
+        "lib/net48/en-CA/IAFG.IA.VE.Impression.Core.resources.dll"
+      ]
+    },
+    "IAFG.IA.VI.ImplementationDynamique/1.2.0": {
+      "sha512": "1Mrkpe7vVdbm0li5SfbrR3PpjUJBIyPwxp2ei1glPIxaneU0Eedm6Fufbm0LuEUZ6mz9w21KZfOxV2pfquuUnw==",
+      "type": "package",
+      "path": "iafg.ia.vi.implementationdynamique/1.2.0",
+      "files": [
+        ".nupkg.metadata",
+        "iafg.ia.vi.implementationdynamique.1.2.0.nupkg.sha512",
+        "iafg.ia.vi.implementationdynamique.nuspec",
+        "lib/net48/IAFG.IA.VI.ImplementationDynamique.dll"
+      ]
+    },
+    "IAFG.IA.VI.IPDFVie/5.1.0": {
+      "sha512": "qVdqMyw0G8+uIEhWXOd+gigyeoCPe60y/+ZAa/liKpbFeJCFIxsW5OjBtSMO2vCsq5KwfkUeMQYXc/tZ6OAwFg==",
+      "type": "package",
+      "path": "iafg.ia.vi.ipdfvie/5.1.0",
+      "files": [
+        ".nupkg.metadata",
+        "iafg.ia.vi.ipdfvie.5.1.0.nupkg.sha512",
+        "iafg.ia.vi.ipdfvie.nuspec",
+        "lib/net48/IAFG.IA.VI.AF.IPDFVie.dll"
+      ]
+    },
+    "IAFG.IA.VI.Projection.Data/8.0.0": {
+      "sha512": "Y2Z7djXA9ZS58bd3UZ1PY17+YzhO4h5JGLKyUiJtEGM4t5HEAGCbGflVduhMCCyr0AYozIuU2+/nt9kxlUJIiQ==",
+      "type": "package",
+      "path": "iafg.ia.vi.projection.data/8.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "iafg.ia.vi.projection.data.8.0.0.nupkg.sha512",
+        "iafg.ia.vi.projection.data.nuspec",
+        "lib/net48/IAFG.IA.VI.Projection.Data.Extensions.dll",
+        "lib/net48/IAFG.IA.VI.Projection.Data.dll",
+        "lib/net48/IAFG.IA.VI.Projection.Messages.dll"
+      ]
+    },
+    "IAFG.IA.VI.Projection.DataExtensions/6.6.0": {
+      "sha512": "SahuLyyLOlN4fijbV8LKoiJvWE27jie4njuJBlCUP1A1vNKWY/dj9OPluJ08RNVw+R3yszP61oK7kRE7pusLqA==",
+      "type": "package",
+      "path": "iafg.ia.vi.projection.dataextensions/6.6.0",
+      "files": [
+        ".nupkg.metadata",
+        "iafg.ia.vi.projection.dataextensions.6.6.0.nupkg.sha512",
+        "iafg.ia.vi.projection.dataextensions.nuspec",
+        "lib/net48/IAFG.IA.VI.Projection.DataExtensions.Functions.dll",
+        "lib/net48/IAFG.IA.VI.Projection.DataExtensions.dll"
+      ]
+    },
+    "IAFG.IA.VI.Projection.Extensions.PDFVie/4.0.0": {
+      "sha512": "MePFcu/L+mrXu8+l/lwVsQnu7GNCIZY0njy5AygfPaNhAP1EN8gdGkGAe9hNXIL9mYGFtJ4JjFBTwvJWBQ5ImA==",
+      "type": "package",
+      "path": "iafg.ia.vi.projection.extensions.pdfvie/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "iafg.ia.vi.projection.extensions.pdfvie.4.0.0.nupkg.sha512",
+        "iafg.ia.vi.projection.extensions.pdfvie.nuspec",
+        "lib/net48/IAFG.IA.VI.Projection.PDFVie.Extensions.dll"
+      ]
+    },
+    "IAFG.IA.VI.Services.PDF/30.1.0": {
+      "sha512": "S2edTwr5Eu+PxlmHcTMWk2QrBTo8prFm7G0vtnTlhFLF9t3FFaONixvyiznqItgIqUgMRhZf0ZzyOyL3M8ILCQ==",
+      "type": "package",
+      "path": "iafg.ia.vi.services.pdf/30.1.0",
+      "files": [
+        ".nupkg.metadata",
+        "build/net48/IAFG.IA.VI.Services.PDF.targets",
+        "build/net48/copy/FodyWeavers.xml",
+        "build/net48/copy/IAFG.IA.VI.PDF.Business.Interfaces.dll",
+        "build/net48/copy/IAFG.IA.VI.PDF.Business.Types.Interfaces.dll",
+        "build/net48/copy/IAFG.IA.VI.PDF.Business.Types.dll",
+        "build/net48/copy/IAFG.IA.VI.PDF.Business.dll",
+        "build/net48/copy/IAFG.IA.VI.PDF.Data.ClientContext.dll",
+        "build/net48/copy/IAFG.IA.VI.PDF.Data.Entities.dll",
+        "build/net48/copy/IAFG.IA.VI.PDF.Data.Interfaces.dll",
+        "build/net48/copy/IAFG.IA.VI.PDF.Data.Repositories.dll",
+        "build/net48/copy/IAFG.IA.VI.PDF.Data.SQLServerContext.dll",
+        "build/net48/copy/MethodDecorator.dll",
+        "iafg.ia.vi.services.pdf.30.1.0.nupkg.sha512",
+        "iafg.ia.vi.services.pdf.nuspec",
+        "lib/net48/IAFG.IA.VI.PDF.Core.dll",
+        "lib/net48/IAFG.IA.VI.PDF.DIContainer.dll",
+        "lib/net48/IAFG.IA.VI.PDF.Exceptions.dll",
+        "lib/net48/IAFG.IA.VI.PDF.Services.Dto.dll",
+        "lib/net48/IAFG.IA.VI.PDF.Services.Interfaces.dll",
+        "lib/net48/IAFG.IA.VI.PDF.Services.dll"
+      ]
+    },
+    "IAFG.IA.ZA.AgeEquivalent/3.1.1": {
+      "sha512": "oKX8qZcaCMc68t/6itoTnRIq2bbmVpLrUvFblqFIo0Ty5cS33xfrcYuZUNYa31qBW6WWr32jJUaAADRvWI1PmA==",
+      "type": "package",
+      "path": "iafg.ia.za.ageequivalent/3.1.1",
+      "files": [
+        ".nupkg.metadata",
+        "build/net45/IAFG.IA.ZA.AgeEquivalent.targets",
+        "build/net45/copy/AgeEquivdeffile.bin",
+        "build/net45/copy/AgeEquivratefile.bin",
+        "build/net45/copy/DefinitionsMethodes.xml",
+        "iafg.ia.za.ageequivalent.3.1.1.nupkg.sha512",
+        "iafg.ia.za.ageequivalent.nuspec",
+        "lib/net45/IAFG.IA.ZA.AgeEquivalent.dll"
+      ]
+    },
+    "IAFG.IA.ZA.AgeEquivalent.Interfaces/2.1.0": {
+      "sha512": "Kxn4iGN5r7pefpDUpHTwHNmZsc232dqV9MW38l69LoJ5PlNepaA+uiofrff7L3vaOaT5q6wJhfANqPONDv2pwg==",
+      "type": "package",
+      "path": "iafg.ia.za.ageequivalent.interfaces/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        "iafg.ia.za.ageequivalent.interfaces.2.1.0.nupkg.sha512",
+        "iafg.ia.za.ageequivalent.interfaces.nuspec",
+        "lib/net45/IAFG.IA.ZA.Interfaces.IAgeEquivalent.dll"
+      ]
+    },
+    "IAFG.IA.ZA.SasRates.Reader/1.0.0": {
+      "sha512": "VZgkUIxU5FwXEsmx7NkV8i4UE5+6DXz2C+8tej9uo9abQgp+K2N9HmUDyevRWAIMCjFHa7LpQ2BywS+0wrVIYw==",
+      "type": "package",
+      "path": "iafg.ia.za.sasrates.reader/1.0.0",
+      "files": [
+        ".nupkg.metadata",
+        "iafg.ia.za.sasrates.reader.1.0.0.nupkg.sha512",
+        "iafg.ia.za.sasrates.reader.nuspec",
+        "lib/net45/IAFG.IA.ZA.SasRates.dll"
+      ]
+    },
+    "Microsoft.CodeCoverage/16.6.1": {
+      "sha512": "nBYXDgAZCfjsOVzlhMB5olGvX4dTDWB/gWaYS/MhgXBcCz8XJuVGqkfK8LmwlBR/eeUPE9Q/NFZNwlJyMZf0vg==",
+      "type": "package",
+      "path": "microsoft.codecoverage/16.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/netstandard1.0/CodeCoverage/CodeCoverage.config",
+        "build/netstandard1.0/CodeCoverage/CodeCoverage.exe",
+        "build/netstandard1.0/CodeCoverage/amd64/covrun64.dll",
+        "build/netstandard1.0/CodeCoverage/amd64/msdia140.dll",
+        "build/netstandard1.0/CodeCoverage/codecoveragemessages.dll",
+        "build/netstandard1.0/CodeCoverage/covrun32.dll",
+        "build/netstandard1.0/CodeCoverage/msdia140.dll",
+        "build/netstandard1.0/Microsoft.CodeCoverage.props",
+        "build/netstandard1.0/Microsoft.CodeCoverage.targets",
+        "build/netstandard1.0/Microsoft.VisualStudio.TraceDataCollector.dll",
+        "build/netstandard1.0/cs/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/de/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/es/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/fr/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/it/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ja/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ko/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/pl/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/pt-BR/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/ru/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/tr/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "build/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TraceDataCollector.resources.dll",
+        "lib/net45/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+        "lib/netcoreapp1.0/Microsoft.VisualStudio.CodeCoverage.Shim.dll",
+        "microsoft.codecoverage.16.6.1.nupkg.sha512",
+        "microsoft.codecoverage.nuspec"
+      ]
+    },
+    "Microsoft.NET.Test.Sdk/16.6.1": {
+      "sha512": "zYAjfWzpxKb64P9ntReT1Xr8HdONZnpLVs12HIjXWo+UOCDpevP1UWRoaAgNysaD1/l3teBKvgbSeG9bRssfOQ==",
+      "type": "package",
+      "path": "microsoft.net.test.sdk/16.6.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/net40/Microsoft.NET.Test.Sdk.props",
+        "build/net40/Microsoft.NET.Test.Sdk.targets",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.cs",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.fs",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.Program.vb",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.props",
+        "build/netcoreapp2.1/Microsoft.NET.Test.Sdk.targets",
+        "build/uap10.0/Microsoft.NET.Test.Sdk.props",
+        "buildMultiTargeting/Microsoft.NET.Test.Sdk.props",
+        "microsoft.net.test.sdk.16.6.1.nupkg.sha512",
+        "microsoft.net.test.sdk.nuspec"
+      ]
+    },
+    "Moq/4.1.1308.2120": {
+      "sha512": "HyvoHvSWedidancoSBeyNcASfq7y8Bm5o0/tFsSfCxSWp162zJ/ld1q0PpP2HeAGuJAJyU1TgA/yJhrjXO8Cyg==",
+      "type": "package",
+      "path": "moq/4.1.1308.2120",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net35/Moq.dll",
+        "lib/net35/Moq.xml",
+        "lib/net40/Moq.dll",
+        "lib/net40/Moq.xml",
+        "lib/sl4/Moq.Silverlight.dll",
+        "lib/sl4/Moq.Silverlight.xml",
+        "moq.4.1.1308.2120.nupkg.sha512",
+        "moq.nuspec"
+      ]
+    },
+    "MSTest.TestAdapter/2.1.2": {
+      "sha512": "SjDlWk9t9cZKqyMReioqzRkZ1n4kPIqdAAYLd1vY2rEnx16aCShhSt4uXgTN0T1lNZgWE4Ge2+KVxHgxmtQ6QQ==",
+      "type": "package",
+      "path": "mstest.testadapter/2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "build/_common/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll",
+        "build/_common/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll",
+        "build/_common/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll",
+        "build/_common/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "build/_common/cs/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/cs/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/de/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/de/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/de/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/es/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/es/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/es/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/fr/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/fr/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/it/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/it/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/it/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/ja/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/ja/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/ko/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/ko/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/pl/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/pl/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/pt/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/pt/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/ru/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/ru/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/tr/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/tr/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/zh-Hans/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/zh-Hans/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/_common/zh-Hant/Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.resources.dll",
+        "build/_common/zh-Hant/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.resources.dll",
+        "build/_common/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.resources.dll",
+        "build/net45/MSTest.TestAdapter.props",
+        "build/net45/MSTest.TestAdapter.targets",
+        "build/netcoreapp1.0/MSTest.TestAdapter.props",
+        "build/netcoreapp1.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll",
+        "build/uap10.0/MSTest.TestAdapter.props",
+        "build/uap10.0/MSTest.TestAdapter.targets",
+        "build/uap10.0/Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll",
+        "mstest.testadapter.2.1.2.nupkg.sha512",
+        "mstest.testadapter.nuspec"
+      ]
+    },
+    "MSTest.TestFramework/2.1.2": {
+      "sha512": "DXTDuBumPC4oo9KKZMt5zgOuLdfUjqcsLRLyqeubaIxfl7ZBfk8wfsKRWYd1m5aCL3ekifW5pwT3rwuB2mDdLw==",
+      "type": "package",
+      "path": "mstest.testframework/2.1.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.txt",
+        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/net45/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/net45/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/de/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/es/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/it/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/net45/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/net45/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/netstandard1.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/netstandard1.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/netstandard1.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.XML",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.XML",
+        "lib/uap10.0/Microsoft.VisualStudio.TestPlatform.TestFramework.dll",
+        "lib/uap10.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/cs/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/de/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/es/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/fr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/it/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/ja/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/ko/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/pl/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/pt/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/ru/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/tr/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/zh-Hans/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml",
+        "lib/uap10.0/zh-Hant/Microsoft.VisualStudio.TestPlatform.TestFramework.xml",
+        "mstest.testframework.2.1.2.nupkg.sha512",
+        "mstest.testframework.nuspec"
+      ]
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "sha512": "6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "NLog/4.5.6": {
+      "sha512": "FZIdeH92NTu6ePm+QbLT9pyd5vY9B+GYX8S2bh6ZxJC+XSTZDhZ6EHWxDzyBIEjtIb+nSBJfIgdMuQNQEYMqbQ==",
+      "type": "package",
+      "path": "nlog/4.5.6",
+      "files": [
+        ".nupkg.metadata",
+        "lib/monoandroid44/NLog.dll",
+        "lib/monoandroid44/NLog.xml",
+        "lib/net35/NLog.dll",
+        "lib/net35/NLog.xml",
+        "lib/net40-client/NLog.dll",
+        "lib/net40-client/NLog.xml",
+        "lib/net45/NLog.dll",
+        "lib/net45/NLog.xml",
+        "lib/netstandard1.3/NLog.dll",
+        "lib/netstandard1.3/NLog.xml",
+        "lib/netstandard1.5/NLog.dll",
+        "lib/netstandard1.5/NLog.xml",
+        "lib/netstandard2.0/NLog.dll",
+        "lib/netstandard2.0/NLog.xml",
+        "lib/sl4/NLog.dll",
+        "lib/sl4/NLog.xml",
+        "lib/sl5/NLog.dll",
+        "lib/sl5/NLog.xml",
+        "lib/wp8/NLog.dll",
+        "lib/wp8/NLog.xml",
+        "lib/xamarinios10/NLog.dll",
+        "lib/xamarinios10/NLog.xml",
+        "nlog.4.5.6.nupkg.sha512",
+        "nlog.nuspec"
+      ]
+    },
+    "NSubstitute/4.2.2": {
+      "sha512": "s+H1fUo+WSymYxNdZlwhekdNDLv4w0ZvmwYheMEe4tWACcMDNoqfcDpeL66RyWfurNvvIYQJNP3VUwX2aAC1gw==",
+      "type": "package",
+      "path": "nsubstitute/4.2.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/NSubstitute.dll",
+        "lib/net45/NSubstitute.xml",
+        "lib/net46/NSubstitute.dll",
+        "lib/net46/NSubstitute.xml",
+        "lib/netstandard1.3/NSubstitute.dll",
+        "lib/netstandard1.3/NSubstitute.xml",
+        "lib/netstandard2.0/NSubstitute.dll",
+        "lib/netstandard2.0/NSubstitute.xml",
+        "nsubstitute.4.2.2.nupkg.sha512",
+        "nsubstitute.nuspec"
+      ]
+    },
+    "System.Buffers/4.5.1": {
+      "sha512": "Rw7ijyl1qqRS0YQD/WycNst8hUUMgrMH4FCn1nNm27M4VxchZ1js3fVjQaANHO5f3sN4isvP4a+Met9Y4YomAg==",
+      "type": "package",
+      "path": "system.buffers/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Buffers.dll",
+        "lib/net461/System.Buffers.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.1/System.Buffers.dll",
+        "lib/netstandard1.1/System.Buffers.xml",
+        "lib/netstandard2.0/System.Buffers.dll",
+        "lib/netstandard2.0/System.Buffers.xml",
+        "lib/uap10.0.16299/_._",
+        "ref/net45/System.Buffers.dll",
+        "ref/net45/System.Buffers.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.1/System.Buffers.dll",
+        "ref/netstandard1.1/System.Buffers.xml",
+        "ref/netstandard2.0/System.Buffers.dll",
+        "ref/netstandard2.0/System.Buffers.xml",
+        "ref/uap10.0.16299/_._",
+        "system.buffers.4.5.1.nupkg.sha512",
+        "system.buffers.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Data.SQLite/1.0.107": {
+      "sha512": "SCH0B1z8dP3ab9g0YTa7dJPun9VhWP8g5XR8rbUbRDSIKUDeqkEUMFhNXD3Sv6X/1hwA1kHW+R9xegAgcwclVA==",
+      "type": "package",
+      "path": "system.data.sqlite/1.0.107",
+      "files": [
+        ".nupkg.metadata",
+        "system.data.sqlite.1.0.107.nupkg.sha512",
+        "system.data.sqlite.nuspec"
+      ]
+    },
+    "System.Data.SQLite.Core/1.0.107": {
+      "sha512": "WE8yGTRbptejPCiBSrltXybw7aSIUvf5t9Q6XcBgV87TZVAHHHXNyIl6G7R7pS7Ufr+mUvh60yCsXdpRZF+sOg==",
+      "type": "package",
+      "path": "system.data.sqlite.core/1.0.107",
+      "files": [
+        ".nupkg.metadata",
+        "build/net20/System.Data.SQLite.Core.targets",
+        "build/net20/x64/SQLite.Interop.dll",
+        "build/net20/x86/SQLite.Interop.dll",
+        "build/net40/System.Data.SQLite.Core.targets",
+        "build/net40/x64/SQLite.Interop.dll",
+        "build/net40/x86/SQLite.Interop.dll",
+        "build/net45/System.Data.SQLite.Core.targets",
+        "build/net45/x64/SQLite.Interop.dll",
+        "build/net45/x86/SQLite.Interop.dll",
+        "build/net451/System.Data.SQLite.Core.targets",
+        "build/net451/x64/SQLite.Interop.dll",
+        "build/net451/x86/SQLite.Interop.dll",
+        "build/net46/System.Data.SQLite.Core.targets",
+        "build/net46/x64/SQLite.Interop.dll",
+        "build/net46/x86/SQLite.Interop.dll",
+        "lib/net20/System.Data.SQLite.dll",
+        "lib/net20/System.Data.SQLite.dll.config",
+        "lib/net20/System.Data.SQLite.xml",
+        "lib/net40/System.Data.SQLite.dll",
+        "lib/net40/System.Data.SQLite.dll.config",
+        "lib/net40/System.Data.SQLite.xml",
+        "lib/net45/System.Data.SQLite.dll",
+        "lib/net45/System.Data.SQLite.dll.config",
+        "lib/net45/System.Data.SQLite.xml",
+        "lib/net451/System.Data.SQLite.dll",
+        "lib/net451/System.Data.SQLite.dll.config",
+        "lib/net451/System.Data.SQLite.xml",
+        "lib/net46/System.Data.SQLite.dll",
+        "lib/net46/System.Data.SQLite.dll.config",
+        "lib/net46/System.Data.SQLite.xml",
+        "system.data.sqlite.core.1.0.107.nupkg.sha512",
+        "system.data.sqlite.core.nuspec"
+      ]
+    },
+    "System.Data.SQLite.EF6/1.0.107": {
+      "sha512": "p/A3gWvkV1byPZlBSMGfE5i5FzhaqQh+OQUFw6mmFt8NS1nY8q9DkB7ahUkDLw93ZYkEDzQtJXxZuLJNGJrZPQ==",
+      "type": "package",
+      "path": "system.data.sqlite.ef6/1.0.107",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        "content/net40/app.config.install.xdt",
+        "content/net40/app.config.transform",
+        "content/net40/web.config.install.xdt",
+        "content/net40/web.config.transform",
+        "content/net45/app.config.install.xdt",
+        "content/net45/app.config.transform",
+        "content/net45/web.config.install.xdt",
+        "content/net45/web.config.transform",
+        "content/net451/app.config.install.xdt",
+        "content/net451/app.config.transform",
+        "content/net451/web.config.install.xdt",
+        "content/net451/web.config.transform",
+        "content/net46/app.config.install.xdt",
+        "content/net46/app.config.transform",
+        "content/net46/web.config.install.xdt",
+        "content/net46/web.config.transform",
+        "lib/net40/System.Data.SQLite.EF6.dll",
+        "lib/net45/System.Data.SQLite.EF6.dll",
+        "lib/net451/System.Data.SQLite.EF6.dll",
+        "lib/net46/System.Data.SQLite.EF6.dll",
+        "system.data.sqlite.ef6.1.0.107.nupkg.sha512",
+        "system.data.sqlite.ef6.nuspec",
+        "tools/net40/install.ps1",
+        "tools/net45/install.ps1",
+        "tools/net451/install.ps1",
+        "tools/net46/install.ps1"
+      ]
+    },
+    "System.Data.SQLite.Linq/1.0.107": {
+      "sha512": "h1fTJDuCShCCH8n08Y+EcCDRfPsqUnPju3OaJ3Ng5HLjrnaULzRyzqwqeerlU/7tsPymAUHSu7+A/e3Iz/THmQ==",
+      "type": "package",
+      "path": "system.data.sqlite.linq/1.0.107",
+      "files": [
+        ".nupkg.metadata",
+        "content/net20/app.config.transform",
+        "content/net20/web.config.transform",
+        "content/net40/app.config.transform",
+        "content/net40/web.config.transform",
+        "content/net45/app.config.transform",
+        "content/net45/web.config.transform",
+        "content/net451/app.config.transform",
+        "content/net451/web.config.transform",
+        "content/net46/app.config.transform",
+        "content/net46/web.config.transform",
+        "lib/net20/System.Data.SQLite.Linq.dll",
+        "lib/net40/System.Data.SQLite.Linq.dll",
+        "lib/net45/System.Data.SQLite.Linq.dll",
+        "lib/net451/System.Data.SQLite.Linq.dll",
+        "lib/net46/System.Data.SQLite.Linq.dll",
+        "system.data.sqlite.linq.1.0.107.nupkg.sha512",
+        "system.data.sqlite.linq.nuspec"
+      ]
+    },
+    "System.Memory/4.5.4": {
+      "sha512": "1MbJTHS1lZ4bS4FmsJjnuGJOu88ZzTT2rLvrhW7Ygic+pC0NWA+3hgAen0HRdsocuQXCkUTdFn9yHJJhsijDXw==",
+      "type": "package",
+      "path": "system.memory/4.5.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Memory.dll",
+        "lib/net461/System.Memory.xml",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.1/System.Memory.dll",
+        "lib/netstandard1.1/System.Memory.xml",
+        "lib/netstandard2.0/System.Memory.dll",
+        "lib/netstandard2.0/System.Memory.xml",
+        "ref/netcoreapp2.1/_._",
+        "system.memory.4.5.4.nupkg.sha512",
+        "system.memory.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Numerics.Vectors/4.5.0": {
+      "sha512": "QQTlPTl06J/iiDbJCiepZ4H//BVraReU4O4EoRw1U02H5TLUIT7xn3GnDp9AXPSlJUDyFs4uWjWafNX6WrAojQ==",
+      "type": "package",
+      "path": "system.numerics.vectors/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net46/System.Numerics.Vectors.dll",
+        "lib/net46/System.Numerics.Vectors.xml",
+        "lib/netcoreapp2.0/_._",
+        "lib/netstandard1.0/System.Numerics.Vectors.dll",
+        "lib/netstandard1.0/System.Numerics.Vectors.xml",
+        "lib/netstandard2.0/System.Numerics.Vectors.dll",
+        "lib/netstandard2.0/System.Numerics.Vectors.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Numerics.Vectors.xml",
+        "lib/uap10.0.16299/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net45/System.Numerics.Vectors.dll",
+        "ref/net45/System.Numerics.Vectors.xml",
+        "ref/net46/System.Numerics.Vectors.dll",
+        "ref/net46/System.Numerics.Vectors.xml",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard1.0/System.Numerics.Vectors.dll",
+        "ref/netstandard1.0/System.Numerics.Vectors.xml",
+        "ref/netstandard2.0/System.Numerics.Vectors.dll",
+        "ref/netstandard2.0/System.Numerics.Vectors.xml",
+        "ref/uap10.0.16299/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.numerics.vectors.4.5.0.nupkg.sha512",
+        "system.numerics.vectors.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Resources.Extensions/6.0.0": {
+      "sha512": "pBnVzNQYd0OHqh0VLu/hi0zFOTtyF8QwtziQBmzX/ZtVOea4+JEVOGu29DHeSOA0a9SFrYjQorBrOLuKLhcMNQ==",
+      "type": "package",
+      "path": "system.resources.extensions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Resources.Extensions.targets",
+        "buildTransitive/netcoreapp2.0/System.Resources.Extensions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/System.Resources.Extensions.dll",
+        "lib/net461/System.Resources.Extensions.xml",
+        "lib/net6.0/System.Resources.Extensions.dll",
+        "lib/net6.0/System.Resources.Extensions.xml",
+        "lib/netstandard2.0/System.Resources.Extensions.dll",
+        "lib/netstandard2.0/System.Resources.Extensions.xml",
+        "system.resources.extensions.6.0.0.nupkg.sha512",
+        "system.resources.extensions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "System.Runtime.CompilerServices.Unsafe/4.5.3": {
+      "sha512": "3TIsJhD1EiiT0w2CcDMN/iSSwnNnsrnbzeVHSKkaEgV85txMprmuO+Yq2AdSbeVGcg28pdNDTPK87tJhX7VFHw==",
+      "type": "package",
+      "path": "system.runtime.compilerservices.unsafe/4.5.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netcoreapp2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/net461/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard1.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll",
+        "ref/netstandard2.0/System.Runtime.CompilerServices.Unsafe.xml",
+        "system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512",
+        "system.runtime.compilerservices.unsafe.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Threading.Tasks.Extensions/4.5.2": {
+      "sha512": "BG/TNxDFv0svAzx8OiMXDlsHfGw623BZ8tCXw4YLhDFDvDhNUEV58jKYMGRnkbJNm7c3JNNJDiN7JBMzxRBR2w==",
+      "type": "package",
+      "path": "system.threading.tasks.extensions/4.5.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/netcoreapp2.1/_._",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard1.0/System.Threading.Tasks.Extensions.xml",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll",
+        "lib/netstandard2.0/System.Threading.Tasks.Extensions.xml",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.dll",
+        "lib/portable-net45+win8+wp8+wpa81/System.Threading.Tasks.Extensions.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/netcoreapp2.1/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+        "system.threading.tasks.extensions.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "Unity.Abstractions/5.11.6": {
+      "sha512": "G2nhnzlvizcNYrEDnGsC6aCTT+8FmVbd0PLoItJlJBHHqeX5cYi9neIE2odbkVWGFXZJwbNfwkVHPqHVEIULIg==",
+      "type": "package",
+      "path": "unity.abstractions/5.11.6",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Unity.Abstractions.dll",
+        "lib/net40/Unity.Abstractions.pdb",
+        "lib/net45/Unity.Abstractions.dll",
+        "lib/net45/Unity.Abstractions.pdb",
+        "lib/net46/Unity.Abstractions.dll",
+        "lib/net46/Unity.Abstractions.pdb",
+        "lib/net47/Unity.Abstractions.dll",
+        "lib/net47/Unity.Abstractions.pdb",
+        "lib/net48/Unity.Abstractions.dll",
+        "lib/net48/Unity.Abstractions.pdb",
+        "lib/netcoreapp1.0/Unity.Abstractions.dll",
+        "lib/netcoreapp1.0/Unity.Abstractions.pdb",
+        "lib/netcoreapp2.0/Unity.Abstractions.dll",
+        "lib/netcoreapp2.0/Unity.Abstractions.pdb",
+        "lib/netcoreapp3.0/Unity.Abstractions.dll",
+        "lib/netcoreapp3.0/Unity.Abstractions.pdb",
+        "lib/netstandard1.0/Unity.Abstractions.dll",
+        "lib/netstandard1.0/Unity.Abstractions.pdb",
+        "lib/netstandard2.0/Unity.Abstractions.dll",
+        "lib/netstandard2.0/Unity.Abstractions.pdb",
+        "unity.abstractions.5.11.6.nupkg.sha512",
+        "unity.abstractions.nuspec"
+      ]
+    },
+    "Unity.Container/5.11.10": {
+      "sha512": "RVisk6T0gTfEk/pwfWTnoeoKgj8odlN3wLl0SMcKwrWWNR1pqpqYX0dWshZAEFNutNd3TOz2MbW3R1p+eE9DTA==",
+      "type": "package",
+      "path": "unity.container/5.11.10",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net40/Unity.Container.dll",
+        "lib/net40/Unity.Container.pdb",
+        "lib/net45/Unity.Container.dll",
+        "lib/net45/Unity.Container.pdb",
+        "lib/net46/Unity.Container.dll",
+        "lib/net46/Unity.Container.pdb",
+        "lib/net47/Unity.Container.dll",
+        "lib/net47/Unity.Container.pdb",
+        "lib/net48/Unity.Container.dll",
+        "lib/net48/Unity.Container.pdb",
+        "lib/netcoreapp1.0/Unity.Container.dll",
+        "lib/netcoreapp1.0/Unity.Container.pdb",
+        "lib/netcoreapp2.0/Unity.Container.dll",
+        "lib/netcoreapp2.0/Unity.Container.pdb",
+        "lib/netcoreapp3.0/Unity.Container.dll",
+        "lib/netcoreapp3.0/Unity.Container.pdb",
+        "lib/netstandard1.0/Unity.Container.dll",
+        "lib/netstandard1.0/Unity.Container.pdb",
+        "lib/netstandard2.0/Unity.Container.dll",
+        "lib/netstandard2.0/Unity.Container.pdb",
+        "unity.container.5.11.10.nupkg.sha512",
+        "unity.container.nuspec"
+      ]
+    },
+    "IAFG.IA.VE.Impression.CoreForTests/1.0.0": {
+      "type": "project",
+      "path": "../../IAFG.IA.VE.Impression.CoreForTests/IAFG.IA.VE.Impression.CoreForTests.csproj",
+      "msbuildProject": "../../IAFG.IA.VE.Impression.CoreForTests/IAFG.IA.VE.Impression.CoreForTests.csproj"
+    },
+    "IAFG.IA.VE.Impression.Illustration/9.37.0": {
+      "type": "project",
+      "path": "../src/IAFG.IA.VE.Impression.Illustration.csproj",
+      "msbuildProject": "../src/IAFG.IA.VE.Impression.Illustration.csproj"
+    },
+    "IAFG.IA.VE.Impression.Illustration.DIContainer/9.37.0": {
+      "type": "project",
+      "path": "../../IAFG.IA.VE.Impression.Illustration.DIContainer/src/IAFG.IA.VE.Impression.Illustration.DIContainer.csproj",
+      "msbuildProject": "../../IAFG.IA.VE.Impression.Illustration.DIContainer/src/IAFG.IA.VE.Impression.Illustration.DIContainer.csproj"
+    },
+    "IAFG.IA.VE.Impression.Illustration.Resources/9.37.0": {
+      "type": "project",
+      "path": "../../IAFG.IA.VE.Impression.Illustration.Resources/src/IAFG.IA.VE.Impression.Illustration.Resources.csproj",
+      "msbuildProject": "../../IAFG.IA.VE.Impression.Illustration.Resources/src/IAFG.IA.VE.Impression.Illustration.Resources.csproj"
+    },
+    "IAFG.IA.VE.Impression.Illustration.Tiers.Reports/6.14.0": {
+      "type": "project",
+      "path": "../../IAFG.IA.VE.Impression.Illustration.Tiers.Reports/src/IAFG.IA.VE.Impression.Illustration.Tiers.Reports.csproj",
+      "msbuildProject": "../../IAFG.IA.VE.Impression.Illustration.Tiers.Reports/src/IAFG.IA.VE.Impression.Illustration.Tiers.Reports.csproj"
+    },
+    "IAFG.IA.VE.Impression.Illustration.Types/9.37.0": {
+      "type": "project",
+      "path": "../../IAFG.IA.VE.Impression.Illustration.Types/src/IAFG.IA.VE.Impression.Illustration.Types.csproj",
+      "msbuildProject": "../../IAFG.IA.VE.Impression.Illustration.Types/src/IAFG.IA.VE.Impression.Illustration.Types.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.8": [
+      "AutoFixture >= 4.11.0",
+      "AutoMapper >= 6.2.2",
+      "FluentAssertions >= 5.10.3",
+      "IAFG.IA.VE.Impression.CoreForTests >= 1.0.0",
+      "IAFG.IA.VE.Impression.Illustration >= 9.37.0",
+      "IAFG.IA.VE.Impression.Illustration.DIContainer >= 9.37.0",
+      "IAFG.IA.VE.Impression.Illustration.Resources >= 9.37.0",
+      "IAFG.IA.VE.Impression.Illustration.Tiers.Reports >= 6.14.0",
+      "IAFG.IA.VE.Impression.Illustration.Types >= 9.37.0",
+      "IAFG.IA.VI.IPDFVie >= 5.1.0",
+      "IAFG.IA.VI.Services.PDF >= 30.1.0",
+      "MSTest.TestAdapter >= 2.1.2",
+      "MSTest.TestFramework >= 2.1.2",
+      "Microsoft.NET.Test.Sdk >= 16.6.1",
+      "NLog >= 4.5.6",
+      "NSubstitute >= 4.2.2",
+      "Newtonsoft.Json >= 12.0.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\hubfo\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\tests\\IAFG.IA.VE.Impression.Illustration.Tests.csproj",
+      "projectName": "IAFG.IA.VE.Impression.Illustration.Tests",
+      "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\tests\\IAFG.IA.VE.Impression.Illustration.Tests.csproj",
+      "packagesPath": "C:\\Users\\hubfo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\tests\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\hubfo\\Downloads\\VE_Impression\\NuGet.Config",
+        "C:\\Users\\hubfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net48"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\hubfo\\Downloads\\VE_Impression\\Packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "projectReferences": {
+            "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.CoreForTests\\IAFG.IA.VE.Impression.CoreForTests.csproj": {
+              "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.CoreForTests\\IAFG.IA.VE.Impression.CoreForTests.csproj"
+            },
+            "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.DIContainer\\src\\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj": {
+              "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.DIContainer\\src\\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj"
+            },
+            "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Resources\\src\\IAFG.IA.VE.Impression.Illustration.Resources.csproj": {
+              "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Resources\\src\\IAFG.IA.VE.Impression.Illustration.Resources.csproj"
+            },
+            "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports\\src\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.csproj": {
+              "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports\\src\\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.csproj"
+            },
+            "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Types\\src\\IAFG.IA.VE.Impression.Illustration.Types.csproj": {
+              "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration.Types\\src\\IAFG.IA.VE.Impression.Illustration.Types.csproj"
+            },
+            "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\src\\IAFG.IA.VE.Impression.Illustration.csproj": {
+              "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Illustration\\src\\IAFG.IA.VE.Impression.Illustration.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net48": {
+        "targetAlias": "net48",
+        "dependencies": {
+          "AutoFixture": {
+            "target": "Package",
+            "version": "[4.11.0, )"
+          },
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[6.2.2, )"
+          },
+          "FluentAssertions": {
+            "target": "Package",
+            "version": "[5.10.3, )"
+          },
+          "IAFG.IA.VI.IPDFVie": {
+            "target": "Package",
+            "version": "[5.1.0, )"
+          },
+          "IAFG.IA.VI.Services.PDF": {
+            "target": "Package",
+            "version": "[30.1.0, )"
+          },
+          "MSTest.TestAdapter": {
+            "target": "Package",
+            "version": "[2.1.2, )"
+          },
+          "MSTest.TestFramework": {
+            "target": "Package",
+            "version": "[2.1.2, )"
+          },
+          "Microsoft.NET.Test.Sdk": {
+            "target": "Package",
+            "version": "[16.6.1, )"
+          },
+          "NLog": {
+            "target": "Package",
+            "version": "[4.5.6, )"
+          },
+          "NSubstitute": {
+            "target": "Package",
+            "version": "[4.2.2, )"
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.3, )"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

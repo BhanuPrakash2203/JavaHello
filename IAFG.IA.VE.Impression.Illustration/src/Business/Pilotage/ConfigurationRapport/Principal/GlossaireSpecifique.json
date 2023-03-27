@@ -1,0 +1,117 @@
+{
+  "SectionId": "GlossaireSpecifique",
+  "Titres": [
+    {
+      "Titre": "Glossaire spécifique au produit",
+      "TitreEn": "Glossary of terms specific to product"
+    }
+  ],
+  "Codes": [
+    {
+      "Code": "CAPITALVALEUR",
+      "Titres": {
+        "Titre": "Capital Valeur",
+        "TitreEn": "Equibuild"
+      },
+      "SequenceId": 1
+    }
+  ],
+  "GlossaireTextes": [
+    {
+      "Libelle": "Allocation d’ASL :",
+      "LibelleEn": "PUA Allocation:",
+      "Texte": "<html>Le montant annuel que le contractant souhaite utiliser à partir du fonds de capitalisation pour l’achat d’assurance supplémentaire libérée.</html>",
+      "TexteEn": "<html>The annual amount the applicant wants deducted from the Accumulation Fund to purchase paid-up additional life insurance.</html>",
+      "Codes": [ "CAPITALVALEUR" ],
+      "SequenceId": 9
+    },
+    {
+      "Libelle": "ASL :",
+      "LibelleEn": "PUA:",
+      "Texte": "<html>Assurance supplémentaire libérée</html>",
+      "TexteEn": "<html>Paid-up additional life insurance</html>",
+      "Codes": [ "CAPITALVALEUR" ],
+      "SequenceId": 8
+    },
+    {
+      "Libelle": "Boni Valeur :",
+      "LibelleEn": "EquiBuild Bonus:",
+      "Texte": "<html>Le montant de boni qui peut servir à l’achat d’ASL ou qui peut être déposé dans le fonds d’accumulation.</html>",
+      "TexteEn": "<html>The bonus amount used either to purchase PUA coverage or deposited in the Accumulation Fund.</html>",
+      "Codes": [ "CAPITALVALEUR" ],
+      "SequenceId": 3
+    },
+    {
+      "Libelle": "Capital assuré maximal d’ASL :",
+      "LibelleEn": "Maximum PUA Face Amount:",
+      "Texte": "<html>Le montant de capital assuré maximal d’ASL, comme indiqué à la page des spécifications du contrat.</html>",
+      "TexteEn": "<html>The maximum PUA face amount on the policy specification pages.</html>",
+      "Codes": [ "CAPITALVALEUR" ],
+      "SequenceId": 7
+    },
+    {
+      "Libelle": "Fonds Capital Valeur :",
+      "LibelleEn": "EquiBuild Fund:",
+      "Texte": "<html>Un portefeuille d’actif diversifié, géré par les gestionnaires chevronnés de iA Groupe financier, qui vise la stabilité des rendements à long terme. Ce fonds est la référence pour la détermination du taux déclaré du fonds Capital Valeur.</html>",
+      "TexteEn": "<html>A diversified portfolio of assets managed by experienced Industrial Alliance investment professionals that aims at stable long-term returns. This Fund is used as the reference for the determination of the EquiBuld Fund Declared Rate.</html>",
+      "Codes": [ "CAPITALVALEUR" ],
+      "SequenceId": 5
+    },
+    {
+      "Libelle": "Protection Capital Valeur :",
+      "LibelleEn": "EquiBuild Coverage:",
+      "Texte": "<html>La protection de base et la protection d’ASL</html>",
+      "TexteEn": "<html>Base coverage and PUA coverage</html>",
+      "Codes": [ "CAPITALVALEUR" ],
+      "SequenceId": 4
+    },
+    {
+      "Libelle": "Protection d’ASL :",
+      "LibelleEn": "PUA Coverage:",
+      "Texte": "<html>Assurance supplémentaire libérée achetée à partir du Boni Valeur ou de l’Allocation d’ASL</html>",
+      "TexteEn": "<html>Paid-up additional life insurance coverage purchased with the EquiBuild Bonus or the PUA Allocation</html>",
+      "Codes": [ "CAPITALVALEUR" ],
+      "SequenceId": 10
+    },
+    {
+      "Libelle": "Protection de base :",
+      "LibelleEn": "Base Coverage:",
+      "Texte": "<html>La protection vie universelle de base</html>",
+      "TexteEn": "<html>The universal life insurance Base Coverage</html>",
+      "Codes": [ "CAPITALVALEUR" ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Taux déclaré du fonds Capital Valeur :",
+      "LibelleEn": "EquiBuild Fund Declared Rate:",
+      "Texte": "<html>Le taux déclaré du fonds Capital Valeur est établi en fonction du rendement nivelé du fonds Capital Valeur et est déclaré annuellement. Le taux déclaré du fonds Capital Valeur sert à établir le montant du Boni Valeur et est utilisé dans la détermination du taux crédité sur le solde du compte Capital Valeur.</html>",
+      "TexteEn": "<html>The EquiBuild Fund Declared Rate is set by the end of each calendar year, based on the smoothed return of the EquiBuild Fund for the forthcoming calendar year. The EquiBuild Fund Declared Rate is used to calculate the EquiBuild Bonus and is used in determining the interest credited on the EquiBuild Account balance.</html>",
+      "Codes": [ "CAPITALVALEUR" ],
+      "SequenceId": 6
+    },
+    {
+      "Libelle": "VRG de base :",
+      "LibelleEn": "Base GSCV:",
+      "Texte": "<html>La valeur de rachat garantie de la protection de base</html>",
+      "TexteEn": "<html>The Guaranteed Cash Surrender Value of the Base Coverage</html>",
+      "Codes": [ "CAPITALVALEUR" ],
+      "SequenceId": 2
+    },
+    {
+      "Libelle": "VRG de l’ASL :",
+      "LibelleEn": "PUA GCSV:",
+      "Texte": "<html>La valeur de rachat garantie de la protection d’ASL</html>",
+      "TexteEn": "<html>The Guaranteed Cash Surrender Value of the PUA Coverage</html>",
+      "Codes": [ "CAPITALVALEUR" ],
+      "SequenceId": 11
+    },
+    {
+      "Libelle": "VRG totale :",
+      "LibelleEn": "Total GCSV:",
+      "Texte": "<html>La valeur de rachat garantie totale égale à la somme de la VRG de base et de la VRG de l’ASL</html>",
+      "TexteEn": "<html>The Total Guaranteed Cash Surrender Value equals the sum of the Base GCSV and the PUA GCSV</html>",
+      "Codes": [ "CAPITALVALEUR" ],
+      "SequenceId": 12
+    }
+  ]
+}

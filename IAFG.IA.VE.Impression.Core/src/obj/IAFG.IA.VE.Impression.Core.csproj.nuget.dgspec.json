@@ -1,0 +1,55 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Core\\src\\IAFG.IA.VE.Impression.Core.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Core\\src\\IAFG.IA.VE.Impression.Core.csproj": {
+      "version": "3.2.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Core\\src\\IAFG.IA.VE.Impression.Core.csproj",
+        "projectName": "IAFG.IA.VE.Impression.Core",
+        "projectPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Core\\src\\IAFG.IA.VE.Impression.Core.csproj",
+        "packagesPath": "C:\\Users\\hubfo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hubfo\\Downloads\\VE_Impression\\IAFG.IA.VE.Impression.Core\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hubfo\\Downloads\\VE_Impression\\NuGet.Config",
+          "C:\\Users\\hubfo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\hubfo\\Downloads\\VE_Impression\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "dependencies": {
+            "System.Resources.Extensions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.411\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

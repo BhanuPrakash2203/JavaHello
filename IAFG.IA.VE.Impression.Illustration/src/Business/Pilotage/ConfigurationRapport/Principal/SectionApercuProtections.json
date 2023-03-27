@@ -1,0 +1,373 @@
+{
+  "SectionId": "ApercuProtections",
+  "Titres": [
+    {
+      "Titre": "Aperçu des protections",
+      "TitreEn": "Coverage summary"
+    }
+  ],
+  "SectionConjointe": {
+    "Tableau": {
+      "Titres": [
+        {
+          "Titre": "Protections conjointes de : {0}",
+          "TitreEn": "Joint coverages for: {0}"
+        }
+      ],
+      "GroupeColonnes": [
+        {
+          "Colonnes": [
+            {
+              "Colonne": 0,
+              "Titres": {
+                "Titre": "Année",
+                "TitreEn": "Year"
+              },
+              "TypeAffichageValeur": "SansDecimale",
+              "Regles": [
+                [ "Aucune" ]
+              ],
+              "TypeColonne": "Annee"
+            },
+            {
+              "Colonne": 58,
+              "Titres": {
+                "Titre": "Âge",
+                "TitreEn": "Age"
+              },
+              "TypeAffichageValeur": "SansDecimale",
+              "Regles": [
+                [ "Aucune" ]
+              ],
+              "TypeColonne": "Age"
+            },
+            {
+              "Colonne": 4,
+              "Titres": {
+                "Titre": "Primes annuelles totales",
+                "TitreEn": "Total Annual Premiums"
+              },
+              "TypeAffichageValeur": "Monetaire",
+              "Regles": [
+                [ "Aucune" ]
+              ]
+            },
+            {
+              "Colonne": 24,
+              "Titres": {
+                "Titre": "Montant d'assurance vie",
+                "TitreEn": "Life Insurance Amount"
+              },
+              "TypeAffichageValeur": "MonetaireSansDecimale",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 26,
+              "Titres": {
+                "Titre": "Montant d'assurance maladie grave (4 maladies)",
+                "TitreEn": "Critical Illness Insurance Amount (4 illnesses)"
+              },
+              "TypeAffichageValeur": "MonetaireSansDecimale",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 28,
+              "Titres": {
+                "Titre": "Montant d'assurance maladie grave (25 maladies)",
+                "TitreEn": "Critical Illness Insurance Amount (25 illnesses)"
+              },
+              "TypeAffichageValeur": "MonetaireSansDecimale",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 30,
+              "Titres": {
+                "Titre": "Montant d'assurance maladie grave Duo",
+                "TitreEn": "Critical Illness Duo Insurance Amount"
+              },
+              "TypeAffichageValeur": "MonetaireSansDecimale",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 34,
+              "Titres": {
+                "Titre": "Prestation mensuelle d'invalidité",
+                "TitreEn": "Monthly Disability Benefit"
+              },
+              "TypeAffichageValeur": "MonetaireSansDecimale",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 36,
+              "Titres": {
+                "Titre": "Valeur de rachat garantie",
+                "TitreEn": "Guaranteed Surrender Value"
+              },
+              "TypeAffichageValeur": "MonetaireSansDecimale",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 37,
+              "Titres": {
+                "Titre": "Valeur de rachat après impôt",
+                "TitreEn": "After-tax Surrender Value"
+              },
+              "TypeAffichageValeur": "MonetaireSansDecimale",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 38,
+              "Titres": {
+                "Titre": "Assurance libérée garantie",
+                "TitreEn": "Guaranteed Paid-up Insurance"
+              },
+              "TypeAffichageValeur": "MonetaireSansDecimale",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            }
+          ]
+        }
+      ],
+      "TypeTableau": "Assure"
+    },
+    "Notes": [
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus âgé couvert par la protection de base. ",
+        "TexteEn": "The age shown is the age of the oldest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointPremierDeces" ]
+        ],
+        "SequenceId": 1
+      },
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus jeune couvert par la protection de base.",
+        "TexteEn": "The age shown is the age of the youngest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointDernierDeces" ]
+        ],
+        "SequenceId": 1
+      }
+    ]
+  },
+  "SectionIndividuelle": {
+    "Tableau": {
+      "Titres": [
+        {
+          "Titre": "Protections de : {0}",
+          "TitreEn": "Coverages for: {0}"
+        }
+      ],
+      "GroupeColonnes": [
+        {
+          "Colonnes": [
+            {
+              "Colonne": 0,
+              "Titres": {
+                "Titre": "Année",
+                "TitreEn": "Year"
+              },
+              "TypeAffichageValeur": "SansDecimale",
+              "Regles": [
+                [ "Aucune" ]
+              ],
+              "TypeColonne": "Annee"
+            },
+            {
+              "Colonne": 58,
+              "Titres": {
+                "Titre": "Âge",
+                "TitreEn": "Age"
+              },
+              "TypeAffichageValeur": "SansDecimale",
+              "Regles": [
+                [ "Aucune" ]
+              ],
+              "TypeColonne": "Age"
+            },
+            {
+              "Colonne": 4,
+              "Titres": {
+                "Titre": "Primes annuelles totales",
+                "TitreEn": "Total Annual Premiums"
+              },
+              "TypeAffichageValeur": "Monetaire",
+              "Regles": [
+                [ "Aucune" ]
+              ]
+            },
+            {
+              "Colonne": 24,
+              "Titres": {
+                "Titre": "Montant d'assurance vie",
+                "TitreEn": "Life Insurance Amount"
+              },
+              "TypeAffichageValeur": "MonetaireSansDecimale",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 12,
+              "Titres": {
+                "Titre": "Primes annuelles (4 maladies)",
+                "TitreEn": "Annual premiums (4 illnesses)"
+              },
+              "TypeAffichageValeur": "Monetaire",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 16,
+              "Titres": {
+                "Titre": "Primes annuelles (25 maladies)",
+                "TitreEn": "Annual Premiums (25 illnesses)"
+              },
+              "TypeAffichageValeur": "Monetaire",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 26,
+              "Titres": {
+                "Titre": "Montant d'assurance maladie grave (4 maladies)",
+                "TitreEn": "Critical Illness Insurance Amount (4 illnesses)"
+              },
+              "TypeAffichageValeur": "MonetaireSansDecimale",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 28,
+              "Titres": {
+                "Titre": "Montant d'assurance maladie grave (25 maladies)",
+                "TitreEn": "Critical Illness Insurance Amount (25 illnesses)"
+              },
+              "TypeAffichageValeur": "MonetaireSansDecimale",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 33,
+              "Titres": {
+                "Titre": "Retour flexible des primes total",
+                "TitreEn": "Total Flexible Return of Premiums"
+              },
+              "TypeAffichageValeur": "Monetaire",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 48,
+              "Titres": {
+                "Titre": "Retour des primes au décès total",
+                "TitreEn": "Total return of premium at death"
+              },
+              "TypeAffichageValeur": "Monetaire",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 6,
+              "Titres": {
+                "Titre": "Primes versées cumulées totales",
+                "TitreEn": "Total Accumulated Premiums Paid"
+              },
+              "TypeAffichageValeur": "MonetaireSansDecimale",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 30,
+              "Titres": {
+                "Titre": "Montant d'assurance maladie grave Duo",
+                "TitreEn": "Critical Illness Duo Insurance Amount"
+              },
+              "TypeAffichageValeur": "MonetaireSansDecimale",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 34,
+              "Titres": {
+                "Titre": "Prestation mensuelle d'invalidité",
+                "TitreEn": "Monthly Disability Benefit"
+              },
+              "TypeAffichageValeur": "MonetaireSansDecimale",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 36,
+              "Titres": {
+                "Titre": "Valeur de rachat garantie",
+                "TitreEn": "Guaranteed Surrender Value"
+              },
+              "TypeAffichageValeur": "MonetaireSansDecimale",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 37,
+              "Titres": {
+                "Titre": "Valeur de rachat après impôt",
+                "TitreEn": "After-tax Surrender Value"
+              },
+              "TypeAffichageValeur": "MonetaireSansDecimale",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 38,
+              "Titres": {
+                "Titre": "Assurance libérée garantie",
+                "TitreEn": "Guaranteed Paid-up Insurance"
+              },
+              "TypeAffichageValeur": "MonetaireSansDecimale",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            },
+            {
+              "Colonne": 35,
+              "Titres": {
+                "Titre": "Rente sérénité 65",
+                "TitreEn": "Serenity 65 Benefit"
+              },
+              "TypeAffichageValeur": "MonetaireSansDecimale",
+              "Regles": [
+                [ "ValeurPlusGrandeZero" ]
+              ]
+            }
+          ]
+        }
+      ],
+      "TypeTableau": "Assure"
+    }
+  }
+}

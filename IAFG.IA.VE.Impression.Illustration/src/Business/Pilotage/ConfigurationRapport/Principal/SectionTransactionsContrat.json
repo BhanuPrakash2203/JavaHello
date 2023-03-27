@@ -1,0 +1,334 @@
+{
+  "SectionId": "TransactionsContrat",
+  "Titres": [
+    {
+      "Titre": "Sommaire des transactions du contrat",
+      "TitreEn": "Policy Activity Summary"
+    }
+  ],
+  "Tableau": {
+    "Titres": [
+      {
+        "Titre": "Activités de la police",
+        "TitreEn": "Policy Activity Summary"
+      }
+    ],
+    "GroupeColonnes": [
+      {
+        "Produits": [],
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee"
+          },
+          {
+            "Colonne": 77,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          }
+        ]
+      },
+      {
+        "Produits": [ "CapitalValeur", "CapitalValeur3" ],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 116,
+            "Titres": {
+              "Titre": "Primes annuelles versées",
+              "TitreEn": "Annual Premiums Paid"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 82,
+            "Titres": {
+              "Titre": "Boni Valeur versé",
+              "TitreEn": "EquiBuild Bonus paid"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 190,
+            "Titres": {
+              "Titre": "Coûts Nivelés",
+              "TitreEn": "Level Costs"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 85,
+            "Titres": {
+              "Titre": "Coûts de la Protection Intégrée",
+              "TitreEn": "Integrated Coverage Costs"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 191,
+            "Titres": {
+              "Titre": "Coûts avenants et garanties",
+              "TitreEn": "Riders and Additional Benefits Costs"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 157,
+            "Titres": {
+              "Titre": "Montant dédié achat ASL",
+              "TitreEn": "Amount Devoted to PUA Purchase"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 120,
+            "Titres": {
+              "Titre": "Taxes annuelles sur les primes",
+              "TitreEn": "Annual Taxes on Premiums"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 142,
+            "Titres": {
+              "Titre": "Coûts annuels totaux",
+              "TitreEn": "Total Annual Costs"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 118,
+            "Titres": {
+              "Titre": "AVM réalisé",
+              "TitreEn": "Realized MVA"
+            },
+            "NoteReferences": [ "NoteAVMRealise" ],
+            "TypeAffichageValeur": "Decimale",
+            "Regles": [
+              [ "CompteAVM" ]
+            ]
+          },
+          {
+            "Colonne": 151,
+            "Titres": {
+              "Titre": "Retraits avant impôts",
+              "TitreEn": "Pre-Tax Withdrawals"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          }
+        ]
+      },
+      {
+        "Produits": [],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 116,
+            "Titres": {
+              "Titre": "Primes annuelles versées",
+              "TitreEn": "Annual Premiums Paid"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 219,
+            "Titres": {
+              "Titre": "AVM réalisé CDRL",
+              "TitreEn": "Realized SRDA MVA"
+            },
+            "NoteReferences": [ "NoteAVMRealiseGenesis" ],
+            "TypeAffichageValeur": "Decimale",
+            "Regles": [
+              [ "EnVigueur", "CompteAVM", "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 220,
+            "Titres": {
+              "Titre": "AVM réalisé CIRS",
+              "TitreEn": "Realized SRIA MVA"
+            },
+            "NoteReferences": [ "NoteAVMRealiseGenesis" ],
+            "TypeAffichageValeur": "Decimale",
+            "Regles": [
+              [ "EnVigueur", "CompteAVM", "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 221,
+            "Titres": {
+              "Titre": "AVM réalisé (autre)",
+              "TitreEn": "Realized MVA (other)"
+            },
+            "NoteReferences": [ "NoteAVMRealiseGenesis" ],
+            "TypeAffichageValeur": "Decimale",
+            "Regles": [
+              [ "EnVigueur", "CompteAVM", "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 151,
+            "Titres": {
+              "Titre": "Retraits avant impôts",
+              "TitreEn": "Pre-Tax Withdrawals"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 152,
+            "Titres": {
+              "Titre": "Retraits après impôts",
+              "TitreEn": "After-Tax Withdrawals"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 122,
+            "Titres": {
+              "Titre": "Intérêts totaux",
+              "TitreEn": "Total Interest"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 82,
+            "Titres": {
+              "Titre": "Bonis annuels totaux",
+              "TitreEn": "Total Annual Bonus"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 120,
+            "Titres": {
+              "Titre": "Taxes annuelles sur les primes",
+              "TitreEn": "Annual Taxes on Premiums"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 190,
+            "Titres": {
+              "Titre": "Coûts Nivelés",
+              "TitreEn": "Level Costs"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 86,
+            "Titres": {
+              "Titre": "Coûts TRA",
+              "TitreEn": "YRT Costs"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 191,
+            "Titres": {
+              "Titre": "Coûts avenants et garanties",
+              "TitreEn": "Riders and Additional Benefits Costs"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 80,
+            "Titres": {
+              "Titre": "Frais de police",
+              "TitreEn": "Policy Fees"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 142,
+            "Titres": {
+              "Titre": "Coûts annuels totaux",
+              "TitreEn": "Total Annual Costs"
+            },
+            "TypeAffichageValeur": "Decimale"
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Contrat",
+    "Notes": [
+      {
+        "Id": "NoteAVMRealiseGenesis",
+        "Texte": "Ce montant est à titre indicatif et il peut varier dans le temps. Le montant d’AVM exact sera calculé lors de la transaction. Le montant d’AVM réalisé a été soustrait du fonds d’accumulation dans la projection.",
+        "TexteEn": "The amount is provided for information purposes only and may vary over time. The exact MVA amount will be calculated at the time of the transaction. The Realized MVA amount has been subtracted from the accumulation fund in this illustration.",
+        "EstReference": true,
+        "RegleProduits": { "Produits": [ "Genesis" ] },
+        "SequenceId": 0
+      },
+      {
+        "Id": "NoteAVMRealise",
+        "Texte": "Ce montant est à titre indicatif seulement et peut varier dans le temps. Le facteur d'AVM exact sera calculé lors de la transaction.",
+        "TexteEn": "This information is for information purposes only and may vary over time. The exact MVA factor will be calculated at the time of the transaction.",
+        "EstReference": true,
+        "Colonne": 118,
+        "SequenceId": 0
+      },
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus âgé couvert par la protection de base. ",
+        "TexteEn": "The age shown is the age of the oldest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointPremierDeces" ]
+        ],
+        "SequenceId": 1
+      },
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus jeune couvert par la protection de base.",
+        "TexteEn": "The age shown is the age of the youngest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointDernierDeces" ]
+        ],
+        "SequenceId": 1
+      }
+    ]
+  }
+}

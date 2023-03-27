@@ -1,0 +1,510 @@
+﻿[
+  {
+    "SectionId": "PageTitre",
+    "BuilderName": "Principal.PageTitre",
+    "FichierDefinition": "Principal\\PageTitre.json",
+    "Titre": {
+      "French": "Page titre",
+      "English": "Title Page"
+    }
+  },
+  {
+    "SectionId": "Introduction",
+    "BuilderName": "Principal.Introduction",
+    "Regles": [
+      [ "PasBannierePPIProduitCapitalValeur" ]
+    ],
+    "Titre": {
+      "French": "Introduction",
+      "English": "Introduction"
+    }
+  },
+  {
+    "SectionId": "Protections",
+    "BuilderName": "Principal.Protections",
+    "FichierDefinition": "Principal\\SommaireProtections.json",
+    "Titre": {
+      "French": "Sommaire des protections",
+      "English": "Summary of coverages"
+    }
+  },
+  {
+    "SectionId": "SommaireProtections",
+    "BuilderName": "Principal.SommaireProtections",
+    "FichierDefinition": "Principal\\SommaireProtectionsIllustration.json",
+    "Titre": {
+      "French": "Sommaire des protections",
+      "English": "Summary of coverages"
+    }
+  },
+  {
+    "SectionId": "HypothesesInvestissement",
+    "BuilderName": "Principal.HypothesesInvestissement",
+    "FichierDefinition": "Principal\\SectionHypothesesInvestissement.json",
+    "Titre": {
+      "French": "Sommaire des hypothèses d'investissement",
+      "English": "Summary of investment assumptions"
+    }
+  },
+  {
+    "SectionId": "TestDeSensibilite",
+    "BuilderName": "Principal.TestDeSensibilite",
+    "FichierDefinition": "Principal\\SectionTestSensibilite.json",
+    "ExigeCalculRendement": true,
+    "Titre": {
+      "French": "Test de sensibilité aux taux d'intérêt",
+      "English": "Interest Rate Sensitivity Test"
+    }
+  },
+  {
+    "SectionId": "ValeursDuContrat",
+    "BuilderName": "Generique.Projection",
+    "FichierDefinition": "Principal\\SectionValeursContrat.json",
+    "FichierDefinitions": {
+      "AssuranceParticipant": "Principal\\SectionValeursContrat_AssuranceParticipant.json",
+      "AssuranceParticipantValeur": "Principal\\SectionValeursContrat_AssuranceParticipant.json",
+      "AssuranceParticipantPatrimoine": "Principal\\SectionValeursContrat_AssuranceParticipant.json"
+    },
+    "Titre": {
+      "French": "Projection des valeurs du contrat",
+      "English": "Policy Projected Values"
+    }
+  },
+  {
+    "SectionId": "ValeursDuContratAlternatif",
+    "BuilderName": "Generique.Projection",
+    "FichierDefinitions": {
+      "AssuranceParticipant": "Principal\\SectionValeursContratAlternatif_AssuranceParticipant.json",
+      "AssuranceParticipantValeur": "Principal\\SectionValeursContratAlternatif_AssuranceParticipant.json",
+      "AssuranceParticipantPatrimoine": "Principal\\SectionValeursContratAlternatif_AssuranceParticipant.json"
+    },
+    "ExigeCalculRendement": true,
+    "Titre": {
+      "French": "Projection des valeurs du contrat (scénario alternatif)",
+      "English": "Policy Projected Values - Alternative Scenario"
+    }
+  },
+  {
+    "SectionId": "SommaireValeurRachat",
+    "BuilderName": "Generique.Projection",
+    "FichierDefinition": "Principal\\SectionSommaireValeurRachat.json",
+    "Titre": {
+      "French": "Sommaire des valeurs de rachat",
+      "English": "Surrender Value Summary"
+    }
+  },
+  {
+    "SectionId": "SommaireValeurRachatEnVigueur",
+    "BuilderName": "Generique.Projection",
+    "FichierDefinition": "Principal\\SectionSommaireValeurRachatEnVigueur.json",
+    "Titre": {
+      "French": "Sommaire des valeurs de rachat",
+      "English": "Surrender Value Summary"
+    }
+  },
+  {
+    "SectionId": "PrestationDeces",
+    "BuilderName": "Generique.ProjectionParGroupeAssure",
+    "FichierDefinition": "Principal\\SectionPrestationDeces.json",
+    "Titre": {
+      "French": "Sommaire des prestations de décès",
+      "English": "Death benefit Summary"
+    }
+  },
+  {
+    "SectionId": "PrestationDecesSuite",
+    "BuilderName": "Generique.ProjectionParGroupeAssure",
+    "FichierDefinition": "Principal\\SectionPrestationDecesSuite.json",
+    "Titre": {
+      "French": "Sommaire des prestations de décès (Suite)",
+      "English": "Death benefit Summary (Continued)"
+    }
+  },
+  {
+    "SectionId": "PrestationMaladieGrave",
+    "BuilderName": "Generique.ProjectionParGroupeAssure",
+    "FichierDefinition": "Principal\\SectionPrestationMaladieGrave.json",
+    "Regles": [
+      [ "ProtectionMaladieGravePresente" ]
+    ],
+    "Titre": {
+      "French": "Sommaire des prestations Maladie Grave",
+      "English": "Critical Illness benefit Summary "
+    }
+  },
+  {
+    "SectionId": "FondsAccumules",
+    "BuilderName": "Generique.Projection",
+    "FichierDefinition": "Principal\\SectionFondsAccumules.json",
+    "Titre": {
+      "French": "Fonds accumulés",
+      "English": "Accumulated Funds"
+    }
+  },
+  {
+    "SectionId": "TransactionsContrat",
+    "BuilderName": "Generique.Projection",
+    "FichierDefinition": "Principal\\SectionTransactionsContrat.json",
+    "FichierDefinitions": {
+      "AssuranceParticipant": "Principal\\SectionTransactionsContrat_AssuranceParticipant.json",
+      "AssuranceParticipantValeur": "Principal\\SectionTransactionsContrat_AssuranceParticipant.json",
+      "AssuranceParticipantPatrimoine": "Principal\\SectionTransactionsContrat_AssuranceParticipant.json"
+    },
+    "Titre": {
+      "French": "Sommaire des transactions du contrat",
+      "English": "Policy Activity Summary"
+    }
+  },
+  {
+    "SectionId": "TransactionsFondsTransitoire",
+    "BuilderName": "Generique.Projection",
+    "FichierDefinition": "Principal\\SectionTransactionsFondsTransitoire.json",
+    "Titre": {
+      "French": "Sommaire des transactions du fonds transitoire",
+      "English": "Shuttle Fund Activity Summary"
+    }
+  },
+  {
+    "SectionId": "ValeurSuccessoraleNette",
+    "BuilderName": "Generique.Projection",
+    "FichierDefinition": "Principal\\SectionValeurSuccessoraleNette.json",
+    "Regles": [
+      [ "ContractantEstCompagnie" ]
+    ],
+    "Titre": {
+      "French": "Valeur successorale nette",
+      "English": "Net Estate Value"
+    }
+  },
+  {
+    "SectionId": "GlossaireSpecifique",
+    "BuilderName": "Generique.Glossaire",
+    "FichierDefinition": "Principal\\GlossaireSpecifique.json",
+    "FichierDefinitions": {
+      "AssuranceParticipant": "Principal\\GlossaireAssuranceParticipant.json",
+      "AssuranceParticipantValeur": "Principal\\GlossaireAssuranceParticipantValeur.json",
+      "AssuranceParticipantPatrimoine": "Principal\\GlossaireAssuranceParticipantPatrimoine.json"
+    },
+    "Titre": {
+      "French": "Glossaire spécifique au produit",
+      "English": "Glossary of terms specific to product"
+    },
+    "Titres": {
+      "AssuranceParticipant": {
+        "French": "Glossaire spécifique : iA Assurance vie avec participation",
+        "English": "Specific Glossary: iA Participating Life Insurance"
+      },
+      "AssuranceParticipantValeur": {
+        "French": "Glossaire spécifique : iA Assurance vie avec participation",
+        "English": "Specific Glossary: iA Participating Life Insurance"
+      },
+      "AssuranceParticipantPatrimoine": {
+        "French": "Glossaire spécifique : iA Assurance vie avec participation",
+        "English": "Specific Glossary: iA Participating Life Insurance"
+      }
+    }
+  },
+  {
+    "SectionId": "GlossaireGeneral",
+    "BuilderName": "Generique.Glossaire",
+    "FichierDefinition": "Principal\\GlossaireGeneral.json",
+    "Titre": {
+      "French": "Glossaire général aux termes d'assurance",
+      "English": "Glossary of general insurance terminology"
+    }
+  },
+  {
+    "SectionId": "PrimesDeRenouvellement",
+    "BuilderName": "Principal.PrimesDeRenouvellement",
+    "FichierDefinition": "Principal\\SectionPrimesRenouvellement.json",
+    "Regles": [
+      [ "PrimesRenouvellementPresente" ]
+    ],
+    "Titre": {
+      "French": "Primes de renouvellement",
+      "English": "Renewal Premiums"
+    }
+  },
+  {
+    "SectionId": "GlossaireMaladieGrave",
+    "BuilderName": "Generique.Glossaire",
+    "FichierDefinition": "Principal\\GlossaireMaladieGrave.json",
+    "Titre": {
+      "French": "Glossaire spécifique : Maladie Grave",
+      "English": "Glossary of terms specific: Critical Illness"
+    }
+  },
+  {
+    "SectionId": "GlossaireRevenuAppoint",
+    "BuilderName": "Generique.Glossaire",
+    "FichierDefinition": "Principal\\GlossaireRevenuAppoint.json",
+    "Titre": {
+      "French": "Glossaire spécifique : Revenu d'appoint",
+      "English": "Glossary of terms specific: Supplementary Income"
+    }
+  },
+  {
+    "SectionId": "GlossaireHospitalisation",
+    "BuilderName": "Generique.Glossaire",
+    "FichierDefinition": "Principal\\GlossaireHospitalisation.json",
+    "Titre": {
+      "French": "Glossaire spécifique : Avenant Hospitalisation",
+      "English": "Glossary of terms specific: Hospitalization Rider"
+    }
+  },
+  {
+    "SectionId": "Signature",
+    "BuilderName": "Principal.Signature",
+    "FichierDefinition": "Principal\\SectionSignature.json",
+    "FichierDefinitions": {
+      "AssuranceParticipant": "Principal\\SectionSignature_AssuranceParticipant.json",
+      "AssuranceParticipantValeur": "Principal\\SectionSignature_AssuranceParticipant.json",
+      "AssuranceParticipantPatrimoine": "Principal\\SectionSignature_AssuranceParticipant.json",
+      "CapitalValeur": "Principal\\SectionSignature_CapitalValeur.json",
+      "CapitalValeur3": "Principal\\SectionSignature_CapitalValeur.json"
+    },
+    "Titre": {
+      "French": "Signature et déclaration",
+      "English": "Signature and declaration"
+    },
+    "Regles": [
+      [ "IsSignaturePapier" ]
+    ]
+  },
+  {
+    "SectionId": "DescriptionsProtections",
+    "BuilderName": "Principal.DescriptionsProtections",
+    "FichierDefinitionBase": "Principal\\SectionDescriptionsProtectionsBase.json",
+    "FichierDefinition": "Principal\\SectionDescriptionsProtections.json",
+    "FichierDefinitions": {
+      "AssuranceParticipant": "Principal\\SectionDescriptionsProtections_AssuranceParticipant.json",
+      "AssuranceParticipantValeur": "Principal\\SectionDescriptionsProtections_AssuranceParticipantValeur.json",
+      "AssuranceParticipantPatrimoine": "Principal\\SectionDescriptionsProtections_AssuranceParticipantPatrimoine.json",
+      "Genesis": "Principal\\SectionDescriptionsProtections_Genesis.json"
+    },
+    "Titre": {
+      "French": "Descriptions des protections",
+      "English": "Coverages Description"
+    }
+  },
+  {
+    "SectionId": "ApercuProtections",
+    "BuilderName": "Principal.ApercuProtections",
+    "FichierDefinition": "Principal\\SectionApercuProtections.json",
+    "Titre": {
+      "French": "Aperçu des protections",
+      "English": "Coverage summary"
+    }
+  },
+  {
+    "SectionId": "DonneesFiscalesUniverselle",
+    "BuilderName": "Generique.Projection",
+    "FichierDefinition": "Principal\\SectionDonneesFiscalesUniverselle.json",
+    "Titre": {
+      "French": "Données fiscales",
+      "English": "Tax Data"
+    }
+  },
+  {
+    "SectionId": "DonneesFiscales",
+    "BuilderName": "Generique.Projection",
+    "FichierDefinition": "Principal\\SectionDonneesFiscales.json",
+    "Regles": [
+      [ "ContractantEstCompagnie" ],
+      [ "ValeurRachatPresente" ]
+    ],
+    "Titre": {
+      "French": "Données fiscales",
+      "English": "Tax Data"
+    }
+  },
+  {
+    "SectionId": "NotesIllustration",
+    "BuilderName": "Principal.NotesIllustration",
+    "FichierDefinition": "Principal\\SectionNotesIllustration.json",
+    "Titre": {
+      "French": "Notes sur l'illustration",
+      "English": "Illustration Notes"
+    }
+  },
+  {
+    "SectionId": "ConditionsMedicales",
+    "BuilderName": "Principal.ConditionsMedicales",
+    "FichierDefinition": "Principal\\SectionConditionsMedicales.json",
+    "Regles": [
+      [ "ProtectionMaladieGravePresente" ]
+    ],
+    "Titre": {
+      "French": "Définition des conditions médicales",
+      "English": "Medical Conditions Definition"
+    }
+  },
+  {
+    "SectionId": "ConditionsMedicales_25",
+    "BuilderName": "Principal.ConditionsMedicales",
+    "FichierDefinition": "Principal\\SectionConditionsMedicales_25.json"
+  },
+  {
+    "SectionId": "ConditionsMedicales_4",
+    "BuilderName": "Principal.ConditionsMedicales",
+    "FichierDefinition": "Principal\\SectionConditionsMedicales_4.json"
+  },
+  {
+    "SectionId": "ConditionsMedicales_Juvenile",
+    "BuilderName": "Principal.ConditionsMedicales",
+    "FichierDefinition": "Principal\\SectionConditionsMedicales_Juvenile.json"
+  },
+  {
+    "SectionId": "ConditionsMedicales_PreventionPlus",
+    "BuilderName": "Principal.ConditionsMedicales",
+    "FichierDefinition": "Principal\\SectionConditionsMedicales_PreventionPlus.json"
+  },
+  {
+    "SectionId": "SommaireEntentePretCollateral",
+    "BuilderName": "Generique.Projection",
+    "FichierDefinition": "Principal\\SectionSommaireEntentePretCollateral.json",
+    "Regles": [
+      [ "ConceptPretEnCollateral" ]
+    ],
+    "Titre": {
+      "French": "Sommaire de l'entente de prêt en collatéral",
+      "English": "Collateral Loan Facility Summary"
+    }
+  },
+  {
+    "SectionId": "SommaireFluxMonetairesEPC",
+    "BuilderName": "Generique.Projection",
+    "FichierDefinition": "Principal\\SectionFluxMonetairesEPC.json",
+    "Regles": [
+      [ "ConceptPretEnCollateral", "ConceptPretEnCollateralEmprunteurAutreQueTiercePartie" ]
+    ],
+    "Titre": {
+      "French": "Sommaire des flux monétaires de l'EPC",
+      "English": "CLF Cash Flow Summary"
+    }
+  },
+  {
+    "SectionId": "SommaireFluxMonetairesEPCTiercePartie",
+    "BuilderName": "Generique.Projection",
+    "FichierDefinition": "Principal\\SectionFluxMonetairesEPCTiercePartie.json",
+    "Regles": [
+      [ "ConceptPretEnCollateral", "ConceptPretEnCollateralEmprunteurTiercePartie" ]
+    ],
+    "Titre": {
+      "French": "Sommaire des flux monétaires de l'EPC - Tierce partie emprunteur",
+      "English": "CLF Cash Flow Summary - Third party borrower"
+    }
+  },
+  {
+    "SectionId": "SommaireFluxMonetairesAvancePolice",
+    "BuilderName": "Generique.Projection",
+    "FichierDefinition": "Principal\\SectionFluxMonetairesAvancePolice.json",
+    "Regles": [
+      [ "ConceptAvancePret" ]
+    ],
+    "Titre": {
+      "French": "Flux monétaire de l'avance sur police",
+      "English": "Policy Loan Cash Flow Summary"
+    }
+  },
+  {
+    "SectionId": "ConceptVente",
+    "BuilderName": "Principal.ConceptVente",
+    "FichierDefinition": "Principal\\SectionConceptVente.json",
+    "Regles": [
+      [ "ConceptPretEnCollateral" ],
+      [ "ConceptAvancePret" ]
+    ],
+    "Titre": {
+      "French": "Annexes relatives au concept de vente",
+      "English": "Sales Concept Appendixes"
+    }
+  },
+  {
+    "SectionId": "GlossaireConceptPretPourInvestissement",
+    "BuilderName": "Generique.Glossaire",
+    "FichierDefinition": "Principal\\GlossaireConceptPretPourInvestissement.json",
+    "Regles": [
+      [ "ConceptPretEnCollateral" ]
+    ],
+    "Titre": {
+      "French": "Glossaire entente de prêt en collatéral",
+      "English": "Glossary of Collateral Loan Facility"
+    }
+  },
+  {
+    "SectionId": "GlossaireConceptAvanceSurPolice",
+    "BuilderName": "Generique.Glossaire",
+    "FichierDefinition": "Principal\\GlossaireConceptAvanceSurPolice.json",
+    "Regles": [
+      [ "ConceptAvancePret" ]
+    ],
+    "Titre": {
+      "French": "Glossaire de l'avance sur police",
+      "English": "Glossary of Policy Loan"
+    }
+  },
+  {
+    "SectionId": "ParticularitesAssuranceGenesis",
+    "BuilderName": "Principal.ParticularitesAssurance",
+    "FichierDefinition": "Principal\\SectionParticularitesAssuranceGenesis.json",
+    "Titre": {
+      "French": "Les particularités de l’assurance vie universelle Genesis",
+      "English": "Characteristics of Genesis universal life insurance"
+    }
+  },
+  {
+    "SectionId": "SommaireProprietePartagee",
+    "BuilderName": "Generique.Glossaire",
+    "FichierDefinition": "Principal\\SectionSommaireProprietePartagee.json",
+    "Regles": [
+      [ "ConceptProprietePartagee" ]
+    ],
+    "Titre": {
+      "French": "Sommaire Propriété partagée",
+      "English": "Shared Ownership Summary"
+    }
+  },
+  {
+    "SectionId": "ProjectionProprietePartagee",
+    "BuilderName": "Generique.ProjectionParGroupeAssure",
+    "FichierDefinition": "Principal\\SectionProjectionProprietePartagee.json",
+    "Regles": [
+      [ "ConceptProprietePartagee" ]
+    ],
+    "Titre": {
+      "French": "Propriété partagée",
+      "English": "Shared Ownership"
+    }
+  },
+  {
+    "SectionId": "ModificationsDemandees",
+    "BuilderName": "Principal.ModificationsDemandees",
+    "FichierDefinition": "Principal\\SectionModificationsDemandees.json",
+    "Regles": [
+      [ "PresenceModificationDemandee" ]
+    ],
+    "Titre": {
+      "French": "Modifications demandées",
+      "English": "Changes Requested"
+    }
+  },
+  {
+    "SectionId": "ExigencesMedicales",
+    "Titre": {
+      "French": "Exigences médicales",
+      "English": "Medical Requirements"
+    },
+    "SectionAffichage": "Conseiller"
+  },
+  {
+    "SectionId": "ProfilInvestisseur",
+    "Regles": [
+      [ "ProfilInvestisseurElectroniqueComplet" ]
+    ],
+    "Titre": {
+      "French": "Profil d'investisseur",
+      "English": "Investor profile"
+    }
+  }
+]

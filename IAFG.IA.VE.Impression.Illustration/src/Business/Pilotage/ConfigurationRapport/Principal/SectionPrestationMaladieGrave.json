@@ -1,0 +1,114 @@
+{
+  "SectionId": "PrestationMaladieGrave",
+  "Titres": [
+    {
+      "Titre": "Sommaire des prestations Maladie Grave",
+      "TitreEn": "Critical Illness benefit Summary",
+      "Description": "<html>Ce rapport fait état des prestations maladies graves incluses pour les personnes assurées en vertu de votre police Vie Universelle.<html>",
+      "DescriptionEn": "<html>This report shows the critical illness benefits of all insureds covered under your Universal Life policy.<html>"
+    },
+    {
+      "Produit": "AssuranceParticipant",
+      "Titre": "Sommaire des prestations Maladie Grave",
+      "TitreEn": "Critical Illness benefit Summary",
+      "Description": "<html>Ce rapport fait état des prestations maladies graves incluses pour les personnes assurées en vertu de votre police d'assurance vie avec participation.<html>",
+      "DescriptionEn": "<html>This report shows the critical illness benefits of all insureds covered under your participating life insurance policy.<html>"
+    },
+    {
+      "Produit": "AssuranceParticipantValeur",
+      "Titre": "Sommaire des prestations Maladie Grave",
+      "TitreEn": "Critical Illness benefit Summary",
+      "Description": "<html>Ce rapport fait état des prestations maladies graves incluses pour les personnes assurées en vertu de votre police d'assurance vie avec participation.<html>",
+      "DescriptionEn": "<html>This report shows the critical illness benefits of all insureds covered under your participating life insurance policy.<html>"
+    },
+    {
+      "Produit": "AssuranceParticipantPatrimoine",
+      "Titre": "Sommaire des prestations Maladie Grave",
+      "TitreEn": "Critical Illness benefit Summary",
+      "Description": "<html>Ce rapport fait état des prestations maladies graves incluses pour les personnes assurées en vertu de votre police d'assurance vie avec participation.<html>",
+      "DescriptionEn": "<html>This report shows the critical illness benefits of all insureds covered under your participating life insurance policy.<html>"
+    }
+  ],
+  "Tableau": {
+    "TitresConjoint": [
+      {
+        "Titre": "Prestations Maladie Grave de : {0}",
+        "TitreEn": "Joint Critial Illness Benefit for: {0}"
+      }
+    ],
+    "TitresIndividuel": [
+      {
+        "Titre": "Prestations Maladie Grave de : {0}",
+        "TitreEn": "Critial Illness Benefit for: {0}"
+      }
+    ],
+    "GroupeColonnes": [
+      {
+        "Produits": [],
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee"
+          },
+          {
+            "Colonne": 58,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          }
+        ]
+      },
+      {
+
+        "Produits": [],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 215,
+            "Titres": {
+              "Titre": "Primes annuelles maladie grave",
+              "TitreEn": "Annual Premiums Critical Illness"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 73,
+            "Titres": {
+              "Titre": "Capital Assuré",
+              "TitreEn": "Face amount"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 48,
+            "Titres": {
+              "Titre": "Retour des primes MG au décès",
+              "TitreEn": "Premium Refund upon Death"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Assure",
+    "Notes": []
+  }
+}

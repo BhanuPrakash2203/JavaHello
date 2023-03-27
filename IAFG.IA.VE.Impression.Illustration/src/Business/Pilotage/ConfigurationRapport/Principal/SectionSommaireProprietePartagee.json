@@ -1,0 +1,125 @@
+{
+  "SectionId": "SommaireProprietePartagee",
+  "Titres": [
+    {
+      "Titre": "Protection en cas de maladie grave en propriété partagée",
+      "TitreEn": "Shared Ownership Critical Illness Insurance",
+      "Description": "<html><b>UNE STRATÉGIE DESTINÉE AUX ENTREPRISES CONSTITUÉES EN SOCIÉTÉS PAR ACTIONS</b></html>",
+      "DescriptionEn": "<html><b>A STRATEGY FOR CORPORATIONS</b></html>"
+    }
+  ],
+  "GlossaireTextes": [
+    {
+      "Libelle": "LA SITUATION",
+      "LibelleEn": "THE SITUATION",
+      "Texte": "<html>Vous êtes actionnaire d’une société par actions et vous désirez que cette dernière soit protégée contre les pertes financières advenant qu’un diagnostic de maladie grave soit posé sur vous ou un employé clé. Vous désirez mettre en place une stratégie avantageuse autant pour votre société par actions que pour vous ou cet employé.</html>",
+      "TexteEn": "<html>You are the shareholder of a corporation and want to protect your corporation against financial loss in the event that you or another key person in your organization is diagnosed with a critical illness. You want to integrate a strategy in which both the corporation and the partner stand to benefit.</html>",
+      "SequenceId": 0
+    },
+    {
+      "Libelle": "LE PROBLÈME",
+      "LibelleEn": "THE PROBLEM",
+      "Texte": "<html>Il est bien difficile de remplacer une personne clé, une personne dont la contribution est essentielle au bon fonctionnement de l’entreprise. Les pertes de revenus engendrées par l’absence prolongée de cette personne en raison d’une maladie grave peuvent s’avérer importantes pour votre entreprise. Pendant combien de temps la société par actions pourra-t-elle assurer la continuité de ses activités commerciales sans cette personne?</html>",
+      "TexteEn": "<html>It is very difficult to replace a key person – someone whose contribution is vital to the corporation’s successful operations. Your corporation could sustain a significant loss of income if the key person was away for an extended period due to a critical illness. How long would you be able to ensure business continuity without that person’s involvement?</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "LA SOLUTION",
+      "LibelleEn": "THE SOLUTION",
+      "Texte": "<html>Grâce à la protection en cas de maladie grave combinée à la stratégie de propriété partagée, votre entreprise profitera des avantages suivants :<br><ul><li>D’une part, si la personne assurée est frappée par une maladie grave, votre société par actions touche une prestation versée en franchise d’impôt.</li><li>D’autre part, si la personne assurée n’est pas atteinte d’une maladie grave, la personne désignée bénéficiaire de la prestation de remboursement des primes touche personnellement la prestation en franchise d’impôt au moment où elle choisit d’exercer cette option, selon les conditions du contrat.</li></ul></html>",
+      "TexteEn": "<html>There are definite advantages to having critical illness insurance provided under a shared ownership arrangement:<br><ul><li>If the insured is diagnosed with a critical illness, your corporation will receive a tax-free benefit.</li><li>If the insured is not diagnosed with a critical illness, the designated beneficiary of the Flexible Return of Premiums (Flexible ROP) rider will personally receive the proceeds tax-free when that option is exercised, according to the terms and conditions of the contract.</li></ul></html>",
+      "SequenceId": 2
+    },
+    {
+      "Libelle": "",
+      "LibelleEn": "",
+      "Texte": "<html>_________________________________________________________________________________________________________</html>",
+      "TexteEn": "<html>_________________________________________________________________________________________________________</html>",
+      "SequenceId": 3
+    },
+    {
+      "Libelle": "LA STRATÉGIE",
+      "LibelleEn": "THE STRATEGY",
+      "Texte": "<html>Transition, protection en cas de maladie grave en propriété partagée<br><br>La stratégie consiste à partager les droits d’une police d’assurance maladie grave. Les parties impliquées dans la stratégie sont :</html>",
+      "TexteEn": "<html>Transition – Shared Ownership Critical Illness Protection<br><br>The strategy consists of sharing the costs of a critical illness insurance policy. As many as three parties may be involved in this strategy, as indicated below:</html>",
+      "SequenceId": 4
+    },
+    {
+      "Libelle": "     Partie 1 :",
+      "LibelleEn": "     First party:",
+      "Texte": "<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Le titulaire du contrat et propriétaire de la prestation en cas de maladie grave, soit la société par actions.</html>",
+      "TexteEn": "<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The policyholder and owner of the critical illness benefit (the corporation).</html>",
+      "SequenceId": 5
+    },
+    {
+      "Libelle": "     Partie 2 :",
+      "LibelleEn": "     Second party:",
+      "Texte": "<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La personne assurée en cas de maladie grave. Cette personne peut être :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a) Le propriétaire (actionnaire) de la société par actions<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Un employé clé<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c) Le conjoint d’un actionnaire ou d’un employé clé</html>",
+      "TexteEn": "<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The person who is insured in the event of critical illness. That person may be:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a)\tThe owner (shareholder) of the corporation<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) A key employee<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;c)\tThe key employee's spouse or shareholder's spouse</html>",
+      "SequenceId": 6
+    },
+    {
+      "Libelle": "     Partie 3 :",
+      "LibelleEn": "     Third party:",
+      "Texte": "<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La personne propriétaire de la prestation de remboursement flexible des primes, qui profitera de l’avantage financier de la <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;stratégie advenant qu’aucune maladie grave ne soit diagnostiquée durant la durée du contrat. Cette personne peut être :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a) La personne assurée<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b) Un actionnaire de la société par actions</html>",
+      "TexteEn": "<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The person who is the owner of the Flexible ROP rider. That person will receive the financial benefit of the strategy in the event <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;that no critical illness is diagnosed during the term of the contract. The Flexible ROP rider may be owned by:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;a)\tThe insured<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;b)\tThe owner of the corporation</html>",
+      "SequenceId": 7
+    },
+    {
+      "Libelle": "",
+      "LibelleEn": "",
+      "Texte": "<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La même personne peut être désignée comme partie 2 et partie 3.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La stratégie est mise en place en quatre étapes :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1. Détermination et quantification du besoin réel d’assurance de la société par actions<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2. Souscription d’une assurance Transition avec avenant de prestation de remboursement des primes pour laquelle la société <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;par actions est propriétaire du contrat<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3. Désignation des bénéficiaires pour chacune des éventuelles prestations<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4. Rédaction d’une convention de partage de propriété par un juriste qualifié</html>",
+      "TexteEn": "<html>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Please note that the second and third parties may be the same person.<br><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;The strategy is set up in four stages:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;1.\tIdentification and calculation of the corporation’s critical illness insurance needs<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.\tPurchase of a Transition critical illness contract with a Flexible ROP rider; The corporation owns the contract<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;3.\tDesignation of the beneficiaries for the proceeds that will eventually be paid<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4.\tDrafting of a shared ownership agreement by a qualified lawyer</html>",
+      "SequenceId": 8
+    },
+    {
+      "Libelle": "",
+      "LibelleEn": "",
+      "Texte": "<html><br>La convention de partage de propriété identifie clairement les parties concernées, soit le titulaire du contrat, le propriétaire de la prestation en cas de maladie grave et le propriétaire de la prestation de remboursement flexible des primes, ainsi que toutes les particularités de la stratégie. La personne couverte par l’assurance maladie grave Transition n’est pas obligatoirement la personne propriétaire de la prestation de remboursement flexible des primes.<br><br>La mise en place d’une convention de partage de propriété est essentielle à la réalisation de cette stratégie puisqu’elle décrit les droits et obligations de chacune des parties. Il est fortement recommandé que cette convention soit rédigée par un juriste qualifié.</html>",
+      "TexteEn": "<html><br>The shared ownership agreement clearly identifies all the parties concerned, the policyowner, the owner of the critical illness benefit, the owner of the Flexible ROP rider as well as all the particularities of the strategy. The person who is insured under the Transition critical illness contract is not necessarily the owner of the Flexible ROP rider.<br><br>A shared ownership agreement is essential to the realization of this strategy, because it sets out the rights and obligations of each party. We strongly recommend that you have your agreement drafted by your corporation’s legal counsel. </html>",
+      "SequenceId": 9
+    },
+    {
+      "Libelle": "RÉPARTITION DES BÉNÉFICES ENTRE LES PARTIES",
+      "LibelleEn": "BENEFITS SHARED AMONG THE PARTIES",
+      "Texte": "<html><br><b>Pour la société par actions :</b><br>Celle-ci paie la prime correspondant à la protection en cas de maladie grave et elle en est le bénéficiaire. La prestation lui est versée en franchise d’impôt en cas de diagnostic d’une des maladies et affections couvertes par le contrat. Par contre, le cas échéant, la prestation n’est pas comptabilisée aux fins du calcul du compte de dividendes en capital.<br><br><b>Pour le propriétaire de la prestation de remboursement flexible des primes :</b><br>Celui-ci paie la prime de l’avenant de remboursement flexible des primes. Cette prestation prévoit le remboursement de toutes les primes payées à l’exercice de la prestation de remboursement flexible des primes.<br><br>Cette prestation sera versée au bénéficiaire, en franchise d’impôt, et inclut toutes les primes payées par le propriétaire et la société par actions depuis l’émission du contrat.<br><br><b>En résumé :</b></html>",
+      "TexteEn": "<html><br><b>The corporation:</b><br>The corporation paying the critical illness insurance premium receives the proceeds of this coverage. The proceeds are paid tax-free if the insured is diagnosed with one of the illnesses covered under the contract. However, if applicable, the benefit is not included in the capital dividend account.<br><br><b>The owner of the Flexible ROP rider:</b><br>The owner, who pays the Flexible ROP rider premiums, receives the proceeds of this coverage. This rider provides a full premium refund when the Flexible ROP rider option is exercised.<br><br>The tax-free proceeds are paid to the Flexible ROP rider beneficiary personally. The payment includes all the premiums that the corporation and the Partner have paid since the date of issue of the contract.<br><br><b>In summary:</b></html>",
+      "SequenceId": 10
+    },
+    {
+      "Libelle": "          RÉPARTITION DES PRIMES",
+      "LibelleEn": "          PREMIUM ALLOCATION",
+      "Texte": "<html><ul><li><b>Société par actions : </b>Primes correspondant à la protection d’assurance maladie grave.</li><li><b>Actionnaire ou employé clé : </b>Primes correspondant à la garantie de remboursement flexible des primes.</li><li><b>Société par actions ou actionnaire ou employé clé : </b>Primes correspondant à la garantie de remboursement des primes au décès (facultatif).*</li></ul></html>",
+      "TexteEn": "<html><ul><li><b>Corporation: </b>Critical illness insurance premiums.</li><li><b>Shareholder or key employee: </b>Flexible ROP rider premiums.</li><li><b>Corporation or shareholder or key employee: </b>ROPD rider premiums (optional).*</li></ul></html>",
+      "SequenceId": 11
+    },
+    {
+      "Libelle": "          VERSEMENT DES PRESTATIONS",
+      "LibelleEn": "          PAYMENT OF BENEFITS",
+      "Texte": "<html><ul><li><b>Société par actions : </b>Prestation maladie grave libre d’impôt.</li><li><b>Actionnaire ou employé clé : </b>Prestation de remboursement flexible des primes libre d’impôt.</li><li><b>Société par actions ou actionnaire ou employé clé : </b>Prestation de remboursement des primes au décès libre d’impôt.*</li></ul><br>* La prestation de remboursement des primes au décès libre d’impôt sera versée à la partie responsable du paiement des primes. Aux fins de l’illustration, cette partie est la société par actions.</html>",
+      "TexteEn": "<html><ul><li><b>Corporation: </b>Tax-free critical illness insurance benefit.</li><li><b>Shareholder or key employee: </b>Tax-free Flexible ROP rider benefit.</li><li><b>Corporation or shareholder or key employee: </b>Tax-free ROPD rider benefit (optional).*</li></ul><br>*\tThe tax-free return of premiums at death benefit will be paid to the party responsible for paying the premiums for this benefit. For purposes of the illustration, this party is the corporation.</html>",
+      "SequenceId": 12
+    },
+    {
+      "Libelle": "INCIDENCES FISCALES",
+      "LibelleEn": "TAX IMPLICATIONS",
+      "Texte": "<html>Les contrats d’assurance maladie grave ne sont actuellement régis par aucune disposition fiscale spécifique à ce type de protection. Actuellement, selon la position de l’ARC, la prestation d’assurance maladie grave et celle de remboursement flexible des primes sont versées en franchise d’impôt.<br><br>Une assurance maladie grave n’est pas considérée par la Loi sur les assurances comme une assurance vie. Les prestations qui en découlent ne sont donc pas visées aux fins du calcul du compte de dividende en capital (CDC) établi par la Loi de l’impôt sur le revenu.<br><br>Au Québec, le Code civil mentionne clairement que l’ajout d’une garantie de remboursement des primes en cas de décès ne modifie en rien le fondement de ce type de protection. Toutefois, il s’agit du seul texte législatif provincial qui en fait mention actuellement.</html>",
+      "TexteEn": "<html>Critical illness insurance contracts are not currently governed by any specific tax provision for this type of coverage. Currently, according to the Canada Revenue Agency (CRA), critical illness insurance and Flexible ROP rider proceeds are paid tax-free.<br><br>The Insurance Act does not include critical illness insurance in its definition of life insurance, and the Income Tax Act does not include critical illness insurance proceeds in its definition of capital dividend account (CDA).<br><br>The Civil Code of Quebec clearly states that the addition of a Return of Premiums rider does not in any way change the basis of this type of coverage. However, at present, no other provincial legislation makes any mention of such coverage.</html>",
+      "SequenceId": 13
+    },
+    {
+      "Libelle": "MISE EN GARDE",
+      "LibelleEn": "DISCLAIMER",
+      "Texte": "<html>Bien que les conséquences fiscales et légales mentionnées précédemment soient réalistes, les conseillers fiscaux, juridiques et comptables des parties impliquées sont les personnes les mieux placées pour déterminer si cette stratégie est pertinente dans leur situation. De plus, les clients doivent être à l’aise avec les différentes implications liées à cette stratégie. iA Groupe financier n’est pas responsable des conséquences fiscales, légales ou comptables néfastes qui pourraient découler de l’implantation de la stratégie ou de tout changement de position de l’ARC.</html>",
+      "TexteEn": "<html>The tax and legal consequences mentioned above are realistic. Nevertheless, the parties must seek the advice of their tax specialists, legal counsel and accountants, as these professionals are best able to determine the relevance of this concept to their situation. It is important that all clients be comfortable with the various implications of this strategy. iA Financial Group is not liable for any adverse tax, legal or accounting consequences that may arise from the implementation of this strategy or from any changes in the CRA’s position.</html>",
+      "SequenceId": 14
+    },
+    {
+      "Libelle": "CONCLUSION",
+      "LibelleEn": "CONCLUSION",
+      "Texte": "<html>La stratégie d’assurance en cas de maladie grave en propriété partagée apporte des avantages profitables aux parties concernées. Elle peut constituer un atout attrayant et contribuer fortement à fidéliser votre employé clé à l’entreprise tout en apportant des avantages économiques.<br><br>La présente illustration vous permettra d’en constater les avantages et les bénéfices. Vous pourrez ainsi déterminer comment elle pourrait s’adapter à votre propre situation.</html>",
+      "TexteEn": "<html>The Shared Ownership Critical Illness Insurance strategy provides rewarding benefits to all parties concerned. It may represent an attractive option that contributes to key employee retention, while at the same time generating financial benefits.<br><br>The current illustration presents the advantages and benefits of this strategy so you can and know how it can be adapted to your situation. </html>",
+      "SequenceId": 15
+    }
+  ]
+}

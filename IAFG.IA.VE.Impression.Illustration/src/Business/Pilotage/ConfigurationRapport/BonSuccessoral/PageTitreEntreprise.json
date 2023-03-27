@@ -1,0 +1,20 @@
+﻿{
+  "SectionId": "BonSuccessoral.PageTitreEntreprise",
+  "Titres": [
+    {
+      "Titre": "BON SUCCESSORAL POUR LES ENTREPRISES",
+      "TitreEn": "ESTATE BOND FOR CORPORATIONS"
+    }
+  ],
+  "Libelles": {
+    "Concept.Titre": {
+      "Libelle": "Concept de Vente",
+      "LibelleEn": "Sales concept"
+    }
+  },
+  "Images": {
+    "imagePageTitre": [
+      { "Image": { "ImageId": "BonSuccessoralCouvertureCorpo" } }
+    ]
+  }
+}

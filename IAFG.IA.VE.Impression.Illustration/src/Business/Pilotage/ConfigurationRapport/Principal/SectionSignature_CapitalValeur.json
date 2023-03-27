@@ -1,0 +1,56 @@
+﻿{
+  "SectionId": "Signature",
+  "Titres": [
+    {
+      "Titre": "Signature et déclaration",
+      "TitreEn": "Signature and declaration",
+      "Description": "Bien que tous les efforts soient faits pour assurer la qualité du logiciel, les données qui y figurent, et particulièrement les coûts et les primes, sont assujetties à l’approbation d’iA Groupe financier.",
+      "DescriptionEn": "Even though all efforts are made to ensure the quality of the illustration or its use, the figures used in the illustration, particularly costs and/or premiums, are subject to approval by iA Financial Group."
+    }
+  ],
+  "SignatureContractant": {
+    "Texte": "Signature du contractant",
+    "TexteEn": "Applicant’s Signature"
+  },
+  "SignatureContractantCompagnie": {
+    "Texte": "Signature du contractant",
+    "TexteEn": "Applicant’s Signature"
+  },
+  "SignatureRepresentant": {
+    "Texte": "Signature du représentant",
+    "TexteEn": "Advisor’s Signature"
+  },
+  "Textes": [
+    {
+      "Texte": "<html>Je, soussigné(e), déclare avoir pris connaissance de cette illustration du produit Capital Valeur.</html>",
+      "TexteEn": "<html>I, the undersigned, declare that I have read this illustration of the EquiBuild product.</html>",
+      "SequenceId": 0
+    },
+    {
+      "Texte": "<html>Je comprends que les résultats obtenus peuvent être plus ou moins élevés que ceux illustrés et que les taux d'imposition peuvent différer.</html>",
+      "TexteEn": "<html>I understand that the results obtained could be higher or lower than those illustrated and that the tax rates may be different.</html>",
+      "SequenceId": 1
+    },
+    {
+      "Texte": "<html>Je reconnais que cette illustration ne fait pas partie du contrat.</html>",
+      "TexteEn": "<html>I acknowledge that this illustration is not part of the contract.</html>",
+      "SequenceId": 2
+    },
+    {
+      "Texte": "<html>Je comprends que cette illustration n'est pas définitive et pourrait varier selon les critères de la compagnie en terme de sélection médicale et financière.</html>",
+      "TexteEn": "<html>I understand that this illustration is not definitive and may vary according to the company's medical and financial criteria.</html>",
+      "Regles": [
+        [ "CapitalAssurePlusDe10M" ]
+      ],
+      "SequenceId": 3
+    },
+    {
+      "Texte": "<html>Je comprends que la tarification préférentielle qui apparaîtra au contrat peut différer de celle présentée dans cette illustration en fonction de l'état de santé de l'assuré.</html>",
+      "TexteEn": "<html>I understand that the preferred rates that appear in the contract may be different from the ones shown in this illustration based on the insured's health.</html>",
+      "Regles": [
+        [ "TauxPreferentielPresent" ]
+      ],
+      "SequenceId": 4
+    }
+  ]
+}

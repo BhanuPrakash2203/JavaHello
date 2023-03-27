@@ -1,0 +1,54 @@
+﻿{
+  "SectionId": "PrimesDeRenouvellement",
+  "Titres": [
+    {
+      "Titre": "Primes de renouvellement",
+      "TitreEn": "Renewal Premiums"
+    }
+  ],
+  "Notes": [
+    {
+      "Texte": "Votre protection d'assurance temporaire vous protège pour une durée déterminée. Pour vous permettre de conserver vos avantages d'assurabilité, votre contrat prévoit le renouvellement automatique de cette protection selon les spécifications suivantes :",
+      "TexteEn": "Your term coverage protects you for a defined period. To help you keep the advantages of your insurability, your policy provides for the automatic renewal of this coverage per the terms below:",
+      "SequenceId": 0
+    },
+    {
+      "Texte": "- Le renouvellement s'effectuera automatiquement à l'échéance de la protection;",
+      "TexteEn": "- The policy will renew automatically at the end of the coverage;",
+      "SequenceId": 1
+    },
+    {
+      "Texte": "- La prime de renouvellement est garantie pour la durée du contrat;",
+      "TexteEn": "- The premium at renewal is guaranteed for the duration of the policy;",
+      "SequenceId": 2
+    },
+    {
+      "Texte": "- La prime de renouvellement inclut les surprimes;",
+      "TexteEn": "- The renewal premium includes additional premiums;",
+      "Regles": [
+        [ "PresenceDeSurprimeRenouvellement" ]
+      ],
+      "SequenceId": 3
+    },
+    {
+      "Texte": "- Les ajustements de prime des protections d’exonérations de primes ne sont pas illustrés. Lors du renouvellement, ces primes seront ajustées pour tenir compte du renouvellement;",
+      "TexteEn": "- Premium adjustments of waiver of premiums coverages are not shown. Upon renewal, the premiums of these coverages will be adjusted to reflect the renewal;",
+      "Regles": [
+        [ "PresenceGarantieContractant", "MaladieGraveTransition" ],
+        [ "PresenceGarantieContractant", "AssuranceTraditionnelle" ]
+      ],
+      "SequenceId": 4
+    },
+    {
+      "Texte": "- La prime de renouvellement n'inclut pas les frais de police.",
+      "TexteEn": "- The renewal premium does not include policy fees.",
+      "SequenceId": 5
+    }
+  ],
+  "Avis": [
+    {
+      "Texte": "<html>&nbsp;&nbsp; Nous vous recommandons de communiquer avec votre conseiller en sécurité financière afin qu'il puisse réévaluer vos<br>&nbsp;&nbsp; besoins :<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp; À l'échéance de la durée projetée* au rapport d'illustration;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp; À l'échéance de la protection.<br/>&nbsp;&nbsp; *La durée projetée au rapport d'illustration peut être différente de la durée de la protection.</html>",
+      "TexteEn": "<html>&nbsp;&nbsp; We recommend that you contact your financial security advisor to reassess your needs:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp; At the end of the projected period* as per the illustration;<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; - &nbsp;&nbsp;&nbsp; When the coverage expires.<br/>&nbsp;&nbsp; *The projected period as per the illustration may be different from the coverage period.</html>"
+    }
+  ]
+}

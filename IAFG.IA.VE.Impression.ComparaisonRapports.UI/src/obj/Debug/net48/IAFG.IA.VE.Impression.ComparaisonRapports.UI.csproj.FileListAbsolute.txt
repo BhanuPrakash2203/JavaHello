@@ -1,0 +1,63 @@
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.exe.config
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.exe
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.pdb
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\Newtonsoft.Json.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\Syncfusion.Compression.Portable.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\Syncfusion.Licensing.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\Syncfusion.Pdf.Portable.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\System.Text.Encoding.CodePages.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.pdb
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.csproj.AssemblyReference.cache
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.csproj.SuggestedBindingRedirects.cache
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.exe.config
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\App.baml
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\Views\DocumentManagerView.g.cs
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\Views\MainWindow.g.cs
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\App.g.cs
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\GeneratedInternalTypeHelper.g.cs
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI_MarkupCompile.cache
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI_MarkupCompile.lref
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\Views\DocumentManagerView.baml
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\Views\MainWindow.baml
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.g.resources
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.Properties.Resources.resources
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.csproj.GenerateResource.cache
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.csproj.CoreCompileInputs.cache
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.csproj.CopyComplete
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.exe
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.pdb
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.exe.config
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.exe
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.pdb
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\Newtonsoft.Json.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\Syncfusion.Compression.Portable.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\Syncfusion.Licensing.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\Syncfusion.Pdf.Portable.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\System.Text.Encoding.CodePages.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\bin\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.pdb
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.csproj.AssemblyReference.cache
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.exe.config
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\App.baml
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\Views\DocumentManagerView.g.cs
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\Views\MainWindow.g.cs
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\App.g.cs
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\GeneratedInternalTypeHelper.g.cs
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI_MarkupCompile.cache
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI_MarkupCompile.lref
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\Views\DocumentManagerView.baml
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\Views\MainWindow.baml
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.g.resources
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.Properties.Resources.resources
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.csproj.GenerateResource.cache
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.csproj.CoreCompileInputs.cache
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.csproj.CopyComplete
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.exe
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports.UI\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.UI.pdb

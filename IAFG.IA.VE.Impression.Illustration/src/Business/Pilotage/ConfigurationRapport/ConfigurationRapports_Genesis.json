@@ -1,0 +1,374 @@
+[
+  {
+    "Produit": "Genesis",
+    "Etat": "NouvelleVente",
+    "AgeReferenceProjection": 100,
+    "Titre": {
+      "French": "Genesis",
+      "English": "Genesis"
+    },
+    "Pages": [
+      {
+        "SectionId": "PageTitre",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 1
+      },
+      {
+        "SectionId": "DescriptionsProtections",
+        "Alias": "DescriptionsProtectionsGenesis",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 2
+      },
+      {
+        "SectionId": "ParticularitesAssuranceGenesis",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 3
+      },
+      {
+        "SectionId": "SommaireProtections",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 4
+      },
+      {
+        "SectionId": "ModificationsDemandees",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 5
+      },
+      {
+        "SectionId": "HypothesesInvestissement",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 6
+      },
+      {
+        "SectionId": "TestDeSensibilite",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 7
+      },
+      {
+        "SectionId": "PrimesDeRenouvellement",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 8
+      },
+      {
+        "SectionId": "ValeursDuContrat",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 9
+      },
+      {
+        "SectionId": "PrestationDeces",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 10
+      },
+      {
+        "SectionId": "PrestationMaladieGrave",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 11
+      },
+      {
+        "SectionId": "FondsAccumules",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 12
+      },
+      {
+        "SectionId": "TransactionsContrat",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 13
+      },
+      {
+        "SectionId": "TransactionsFondsTransitoire",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 14
+      },
+      {
+        "SectionId": "ValeurSuccessoraleNette",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 15
+      },
+      {
+        "SectionId": "DonneesFiscalesUniverselle",
+        "Alias": "MontantImposable",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 16
+      },
+      {
+        "SectionId": "NotesIllustration",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 17
+      },
+      {
+        "SectionId": "GlossaireGeneral",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 18
+      },
+      {
+        "SectionId": "ConditionsMedicales",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 19
+      },
+      {
+        "SectionId": "Signature",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 20
+      },
+      {
+        "SectionId": "BonSuccessoral.PageTitre",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 21
+      },
+      {
+        "SectionId": "BonSuccessoral.PageTitreEntreprise",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 21
+      },
+      {
+        "SectionId": "BonSuccessoral.DescriptionBonSuccessoral",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 22
+      },
+      {
+        "SectionId": "BonSuccessoral.DescriptionBonSuccessoralEntreprise",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 23
+      },
+      {
+        "SectionId": "BonSuccessoral.Sommaire",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 24
+      },
+      {
+        "SectionId": "BonSuccessoral.PageGraphique",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 25
+      },
+      {
+        "SectionId": "BonSuccessoral.TableauComparaisonPlacement",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 26
+      },
+      {
+        "SectionId": "BonSuccessoral.TableauProjectionPlacement",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 27
+      },
+      {
+        "SectionId": "RapportCommission",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 28
+      },
+      {
+        "SectionId": "ProfilInvestisseur",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 30
+      },
+      {
+        "SectionId": "ExigencesMedicales",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 40
+      }
+    ]
+  },
+  {
+    "Produit": "Genesis",
+    "Etat": "EnVigueur",
+    "AgeReferenceProjection": 100,
+    "Titre": {
+      "French": "Genesis",
+      "English": "Genesis"
+    },
+    "Pages": [
+      {
+        "SectionId": "PageTitre",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 1
+      },
+      {
+        "SectionId": "Protections",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 2
+      },
+      {
+        "SectionId": "ModificationsDemandees",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 3
+      },
+      {
+        "SectionId": "HypothesesInvestissement",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 6
+      },
+      {
+        "SectionId": "TestDeSensibilite",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 7
+      },
+      {
+        "SectionId": "PrimesDeRenouvellement",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 8
+      },
+      {
+        "SectionId": "ValeursDuContrat",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 9
+      },
+      {
+        "SectionId": "PrestationDeces",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 10
+      },
+      {
+        "SectionId": "PrestationDecesSuite",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 11
+      },
+      {
+        "SectionId": "PrestationMaladieGrave",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 12
+      },
+      {
+        "SectionId": "FondsAccumules",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 13
+      },
+      {
+        "SectionId": "DonneesFiscalesUniverselle",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 14
+      },
+      {
+        "SectionId": "TransactionsContrat",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 15
+      },
+      {
+        "SectionId": "TransactionsFondsTransitoire",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 16
+      },
+      {
+        "SectionId": "ValeurSuccessoraleNette",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 17
+      },
+      {
+        "SectionId": "Signature",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 18
+      },
+      {
+        "SectionId": "GlossaireGeneral",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 19
+      },
+      {
+        "SectionId": "GlossaireMaladieGrave",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 20
+      },
+      {
+        "SectionId": "GlossaireRevenuAppoint",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 21
+      },
+      {
+        "SectionId": "GlossaireHospitalisation",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 22
+      },
+      {
+        "SectionId": "ConceptVente",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 23
+      },
+      {
+        "SectionId": "SommaireEntentePretCollateral",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 24
+      },
+      {
+        "SectionId": "SommaireFluxMonetairesEPC",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 25
+      },
+      {
+        "SectionId": "SommaireFluxMonetairesEPCTiercePartie",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 26
+      },
+      {
+        "SectionId": "SommaireFluxMonetairesAvancePolice",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 27
+      },
+      {
+        "SectionId": "GlossaireConceptPretPourInvestissement",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 28
+      },
+      {
+        "SectionId": "GlossaireConceptAvanceSurPolice",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 29
+      }
+    ]
+  }
+]

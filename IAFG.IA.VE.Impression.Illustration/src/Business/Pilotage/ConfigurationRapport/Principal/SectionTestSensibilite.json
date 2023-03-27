@@ -1,0 +1,192 @@
+{
+  "SectionId": "TestDeSensibilite",
+  "Titres": [
+    {
+      "Titre": "Test de sensibilité aux taux d'intérêt",
+      "TitreEn": "Interest Rate Sensitivity Test",
+      "Description": "<html>Les valeurs présentées sont sensibles aux taux d'intérêt utilisés. Pour pouvoir faire une comparaison avec votre scénario de base, nous suggérons deux scénarios additionnels, pour lesquels nous avons utilisé les hypothèses d’écart de rendement suivantes :<br><ul><li>Comptes indiciels : puisque leurs rendements fluctuent davantage, des écarts de +2 % (scénario favorable) et de -2 % (scénario défavorable) ont été utilisés;</li><br><li>Comptes à intérêt garanti et compte portefeuille : puisqu’ils offrent des rendements plus stables, des écarts de +1 % (scénario favorable) et de -1 % (scénario défavorable) ont été utilisés;</li></ul>Veuillez prendre note que pour ce qui est des comptes à intérêt garanti, nous n'illustrons pas de rendement moins élevé que le taux minimum garanti.<br></html>",
+      "DescriptionEn": "<html>The values shown are sensitive to the interest rates used. In order to make a comparison with your basic scenario, we suggest two additional scenarios using the following variations in yield assumption:<br><ul><li>Index Accounts: since their returns tend to be more volatile, a +2% (favourable scenario) and a -2% (unfavourable scenario) is used;</li><br><li>Guaranteed Interest Accounts and portfolio account: since they offer more stable returns than Index Accounts, a +1% (favourable scenario) and a -1% (unfavourable scenario) is used;</li></ul>Please note that for Guaranteed Interest Accounts, we do not illustrate a lower return than the minimum guaranteed rate.<br></html>"
+    },
+    {
+      "Produit": "CapitalValeur",
+      "Titre": "Test de sensibilité aux rendements du Boni Valeur et des investissements",
+      "TitreEn": "Sensitivity Test for EquiBuild Bonus and Investments",
+      "Description": "<html>Les valeurs présentées sont sensibles aux taux d'intérêt utilisés. Pour pouvoir faire une comparaison avec votre scénario de base, nous suggérons deux scénarios additionnels, pour lesquels nous avons utilisé les hypothèses d’écart de rendement suivantes :<br><ul><li>Comptes indiciels : puisque leurs rendements fluctuent davantage, des écarts de +2 % (scénario favorable) et de -2 % (scénario défavorable) ont été utilisés;</li><br><li>Comptes à intérêt garanti et compte portefeuille : puisqu’ils offrent des rendements plus stables, des écarts de +1 % (scénario favorable) et de -1 % (scénario défavorable) ont été utilisés;</li><br><li>Boni Valeur et compte Capital Valeur : puisque le fonds de référence (fonds Capital Valeur) vise à procurer un rendement stable et peu volatil, des écarts de +1 % (scénario favorable) et de -1 % (scénario défavorable) ont été utilisés;</li></ul>Veuillez prendre note que pour ce qui est des comptes à intérêt garanti, nous n'illustrons pas de rendement moins élevé que le taux minimum garanti puisque ce dernier est actuellement de 0 %.<br></html>",
+      "DescriptionEn": "<html>The values shown are sensitive to the interest rates used. In order to make a comparison with your basic scenario, we suggest two additional scenarios using the following variations in yield assumption:<br><ul><li>Index Accounts: since their returns tend to be more volatile, a +2% (favourable scenario) and a -2% (unfavourable scenario) is used;</li><br><li>Guaranteed Interest Accounts and portfolio account: since they offer more stable returns than Index Accounts, a +1% (favourable scenario) and a -1% (unfavourable scenario) is used;</li><br><li>EquiBuild Bonus and EquiBuild Account: since the reference fund (EquiBuild Fund) aims at a stable return, a +1% (favourable scenario) and a -1% (unfavourable scenario) is used;</li></ul>Please note that for Guaranteed Interest Accounts, we do not illustrate a lower return than the minimum guaranteed rate considering that the current minimum guaranteed rate is 0%.<br></html>"
+    },
+    {
+      "Produit": "CapitalValeur3",
+      "Titre": "Test de sensibilité aux rendements du Boni Valeur et des investissements",
+      "TitreEn": "Sensitivity Test for EquiBuild Bonus and Investments",
+      "Description": "<html>Les valeurs présentées sont sensibles aux taux d'intérêt utilisés. Pour pouvoir faire une comparaison avec votre scénario de base, nous suggérons deux scénarios additionnels, pour lesquels nous avons utilisé les hypothèses d’écart de rendement suivantes :<br><ul><li>Comptes indiciels : puisque leurs rendements fluctuent davantage, des écarts de +2 % (scénario favorable) et de -2 % (scénario défavorable) ont été utilisés;</li><br><li>Comptes à intérêt garanti et compte portefeuille : puisqu’ils offrent des rendements plus stables, des écarts de +1 % (scénario favorable) et de -1 % (scénario défavorable) ont été utilisés;</li><br><li>Boni Valeur et compte Capital Valeur : puisque le fonds de référence (fonds Capital Valeur) vise à procurer un rendement stable et peu volatil, des écarts de +1 % (scénario favorable) et de -1 % (scénario défavorable) ont été utilisés;</li></ul>Veuillez prendre note que pour ce qui est des comptes à intérêt garanti, nous n'illustrons pas de rendement moins élevé que le taux minimum garanti puisque ce dernier est actuellement de 0 %.<br></html>",
+      "DescriptionEn": "<html>The values shown are sensitive to the interest rates used. In order to make a comparison with your basic scenario, we suggest two additional scenarios using the following variations in yield assumption:<br><ul><li>Index Accounts: since their returns tend to be more volatile, a +2% (favourable scenario) and a -2% (unfavourable scenario) is used;</li><br><li>Guaranteed Interest Accounts and portfolio account: since they offer more stable returns than Index Accounts, a +1% (favourable scenario) and a -1% (unfavourable scenario) is used;</li><br><li>EquiBuild Bonus and EquiBuild Account: since the reference fund (EquiBuild Fund) aims at a stable return, a +1% (favourable scenario) and a -1% (unfavourable scenario) is used;</li></ul>Please note that for Guaranteed Interest Accounts, we do not illustrate a lower return than the minimum guaranteed rate considering that the current minimum guaranteed rate is 0%.<br></html>"
+    }
+  ],
+  "Tableau": {
+    "Titres": [
+      {
+        "Titre": "Hypothèses de rendement¹",
+        "TitreEn": "Investments performance assumptions¹"
+      }
+    ],
+    "GroupeColonnes": [
+      {
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee"
+          }
+        ]
+      },
+      {
+        "SequenceId": 2,
+        "Colonnes": [
+          {
+            "Colonne": 77,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          }
+        ]
+      },
+      {
+        "SequenceId": 3,
+        "Titres": {
+          "Titre": "Scénario de base",
+          "TitreEn": "Basic Scenario"
+        },
+        "Colonnes": [
+          {
+            "Colonne": 116,
+            "Titres": {
+              "Titre": "Primes annuelles versées ($)",
+              "TitreEn": "Annual paid premium ($)"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 97,
+            "Titres": {
+              "Titre": "Valeur de rachat totale ($)",
+              "TitreEn": "Total Surrender Value ($)"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 108,
+            "Titres": {
+              "Titre": "Capital décès ($)",
+              "TitreEn": "Death Benefit ($)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          }
+        ]
+      },
+      {
+        "SequenceId": 4,
+        "Titres": {
+          "Titre": "Scénario favorable",
+          "TitreEn": "Favourable Scenario"
+        },
+        "Colonnes": [
+          {
+            "Colonne": 116,
+            "Titres": {
+              "Titre": "Primes annuelles versées ($)",
+              "TitreEn": "Annual paid premium ($)"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "TypeRendementProjection": "RendementFavorable"
+          },
+          {
+            "Colonne": 97,
+            "Titres": {
+              "Titre": "Valeur de rachat totale ($)",
+              "TitreEn": "Total Surrender Value ($)"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "TypeRendementProjection": "RendementFavorable"
+          },
+          {
+            "Colonne": 108,
+            "Titres": {
+              "Titre": "Capital décès ($)",
+              "TitreEn": "Death Benefit ($)"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeRendementProjection": "RendementFavorable"
+          }
+        ]
+      },
+      {
+        "SequenceId": 5,
+        "Titres": {
+          "Titre": "Scénario défavorable",
+          "TitreEn": "Unfavourable Scenario"
+        },
+        "Colonnes": [
+          {
+            "Colonne": 116,
+            "Titres": {
+              "Titre": "Primes annuelles versées ($)",
+              "TitreEn": "Annual paid premium ($)"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "TypeRendementProjection": "RendementDefavorable"
+          },
+          {
+            "Colonne": 97,
+            "Titres": {
+              "Titre": "Valeur de rachat totale ($)",
+              "TitreEn": "Total Surrender Value ($)"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "TypeRendementProjection": "RendementDefavorable"
+          },
+          {
+            "Colonne": 108,
+            "Titres": {
+              "Titre": "Capital décès ($)",
+              "TitreEn": "Death Benefit ($)"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeRendementProjection": "RendementDefavorable"
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "TestSensibilite",
+    "Notes": [
+      {
+        "Texte": "(1) Les hypothèses de rendement des investissements sont présentées en détail dans la section Sommaire des hypothèses d’investissement.",
+        "TexteEn": "(1) Investments performance assumptions are presented in further detail in the Summary of Investment Assumptions section.",
+        "SequenceId": 1
+      },
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus âgé couvert par la protection de base. ",
+        "TexteEn": "The age shown is the age of the oldest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointPremierDeces" ]
+        ],
+        "SequenceId": 1
+      },
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus jeune couvert par la protection de base.",
+        "TexteEn": "The age shown is the age of the youngest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointDernierDeces" ]
+        ],
+        "SequenceId": 1
+      }
+    ]
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "SectionId": "ConditionsMedicales_PreventionPlus",
+  "Titres": [
+    {
+    }
+  ],
+  "EstTitreSousSection": true,
+  "ConditionMedicaleTextes": [
+    {
+      "Libelle": "Prestation Prévention +",
+      "LibelleEn": "Prevention + benefit",
+      "CodesRegle": [ "MaladiesGraves4Temporaire", "MaladiesGraves25Temporaire", "MaladiesGraves4Permanente", "MaladiesGraves25Permanente", "DuoVieSante" ],
+      "Tableau": [
+        {
+          "Categorie": "Angioplastie coronarienne",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Intervention chirurgicale visant à remédier au rétrécissement ou à l'obstruction d'une artère coronaire qui fournit le sang au coeur afin de permettre une circulation sanguine ininterrompue. L’intervention chirurgicale doit être jugée médicalement nécessaire par un Spécialiste. Une période de survie de 30 jours s'applique.</td></tr></table><html>",
+          "CategorieEn": "Coronary angioplasty",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>The undergoing of an interventional procedure to unblock or widen a coronary artery that supplies blood to the heart to allow an uninterrupted flow of blood. The procedure must be determined to be medically necessary by a Specialist. A 30-day Survival Period applies.</td></tr></table><html>"
+        },
+        {
+          "Categorie": "Carcinome canalaire in situ du sein",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Diagnostic formel de carcinome canalaire in situ (Tis) du sein. Le Diagnostic doit être posé par un Spécialiste et confirmé par biopsie.</td></tr></table><html>",
+          "CategorieEn": "Ductal carcinoma in situ of the breast ",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>A definite Diagnosis of ductal carcinoma in situ of the breast, confirmed by biopsy. The Diagnosis must be made by a Specialist.</td></tr></table><html>"
+        },
+        {
+          "Categorie": "Cancer de la prostate au stade A (T1a ou T1b)",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Diagnostic formel du cancer de la prostate au stade A (T1a ou T1b). Le Diagnostic doit être posé par un Spécialiste et confirmé par biopsie.</td></tr></table><html>",
+          "CategorieEn": "Stage A (T1a or T1b) prostate cancer",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>A definite Diagnosis of stage A (T1a or T1b) prostate cancer, confirmed by biopsy. The Diagnosis must be made by a Specialist.</td></tr></table><html>"
+        },
+        {
+          "Categorie": "Cancer de la thyroïde papillaire ou cancer de la thyroïde folliculaire au stade T1",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Diagnostic formel d’un cancer de la thyroïde papillaire ou cancer de la thyroïde folliculaire, ou les deux, dont le plus grand diamètre tumoral est inférieur ou égal à 2 cm et qui est au stade T1, sans noeuds lymphoïdes ni métastases. Le Diagnostic doit être posé par un Spécialiste et confirmé par biopsie.</td></tr></table><html>",
+          "CategorieEn": "Papillary or follicular thyroid cancer stage T1",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>A definite Diagnosis of papillary or follicular thyroid cancer or both, that is less than or equal to two centimetres in greatest diameter and classified as T1, without lymph node or distant metastasis, confirmed by a biopsy. The Diagnosis must be made by a Specialist.</td></tr></table><html>"
+        },
+        {
+          "Categorie": "Leucémie lymphoïde chronique (LLC) au stade 0 selon la classification de Rai",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Diagnostic formel, confirmé par des analyses sanguines pertinentes, de leucémie lymphoïde chronique au stade 0 selon la classification de Rai. Le Diagnostic doit être posé par un Spécialiste et confirmé par biopsie.</td></tr></table><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Aux fins de la présente Police, le terme « classification de Rai » s'applique comme l'indique la publication Clinical staging of chronic lymphocytic leukemia (KR Rai, A Sawitsky, EP Cronkite, AD Chanana, RN Levy et BS Pasternack, Blood 46:219, 1975).</td></tr></table><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Exclusions de la présente définition : aucune Prestation maladie grave n’est versée pour le cas d’une lymphocytose monoclonale de signification indéterminée.</td></tr></table><html>",
+          "CategorieEn": "Rai stage 0 chronic lymphocytic leukemia (CLL)",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>A definite Diagnosis of Rai stage 0 chronic lymphocytic leukemia (CLL) confirmed by appropriate blood tests. The Diagnosis must be made by a Specialist.</td></tr></table><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>For the purposes of the Policy, the term Rai staging is to be applied as set out in Rai, K.R., Sawitsky, A., Cronkite, E.P., Chanana, A.D., Levy, R.N. & Pasternack, B.S (1975). Clinical staging of chronic lymphocytic leukemia. Blood, Volume 46, p.219.</td></tr></table><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Exclusion from this definition: No Prevention + Benefit will be payable under this Critical Illness for any monoclonal lymphocytosis of undetermined significance (MLUS).</td></tr></table><html>"
+        },
+        {
+          "Categorie": "Mélanome malin au stade 1",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Diagnostic formel d’un mélanome malin au stade 1A ou 1B non ulcéré dont l'épaisseur est inférieure ou égale à 1 mm. Le Diagnostic doit être posé par un Spécialiste et confirmé par biopsie.</td></tr></table><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Exclusions de la présente définition : aucune prestation maladie grave n’est versée dans le cas d’un mélanome malin in situ.</td></tr></table><html>",
+          "CategorieEn": "Stage 1 malignant melanoma",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>A definite Diagnosis of stage 1A or 1B malignant melanoma not ulcerated into the dermis equal to or lower than a depth of one millimetere confirmed by biopsy. The Diagnosis must be made by a Specialist.</td></tr></table><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Exclusion from this definition: No Prevention + Benefit will be payable under this Critical Illness for any malignant melanoma in situ.</td></tr></table><html>"
+        },
+        {
+          "Categorie": "Tumeurs stromales gastro-intestinales et tumeurs neuroendocrines à un stade inférieur au stade 2 selon la classification de l’AJCC",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Diagnostic formel de tumeurs stromales gastro-intestinales malignes et de tumeurs neuroendocrines malignes à un stade inférieur au stade 2 selon la classification de l’AJCC. Le Diagnostic doit être posé par un Spécialiste et confirmé par biopsie.</td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr></table><html>",
+          "CategorieEn": "Gastrointestinal stromal tumours (GIST) and neuroendocrine tumours, classified less than AJCC Stage 2",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>A definite Diagnosis of malignant gastrointestinal stromal tumours (GIST) and malignant neuroendocrine tumours, classified less than AJCC Stage 2. The Diagnosis must be made by a Specialist and confirmed by biopsy.</td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr></table><html>"
+        }
+      ],
+      "SequenceId": 1
+    }
+  ]
+}

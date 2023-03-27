@@ -1,0 +1,366 @@
+{
+  "SectionId": "DescriptionsProtections",
+  "Descriptions": [
+    {
+      "Libelle": "Assurance vie temporaire",
+      "LibelleEn": "Term Life Insurance",
+      "Texte": "<html>L'assurance vie temporaire est une solution abordable qui prévoit le versement d'un montant d'assurance, en cas de décès. Ce type de protection est particulièrement intéressant si vous avez un prêt hypothécaire ou si vous êtes parents de jeunes enfants, et désirez leur fournir une source de revenus de remplacement jusqu'à ce qu'ils soient autonomes. L'assurance vie temporaire est une protection avantageuse conçue spécifiquement pour assurer la sécurité financière de votre famille durant une période déterminée.<P>L'assurance vie temporaire comprend les avantages suivants :</P></html>",
+      "TexteEn": "<html>Term Life Insurance is an affordable solution that pays an insurance amount in the event of death. This type of coverage is particularly interesting of you have a mortgage, or if you have younger children and want to provide a source of income replacement while they're still at home. Term Life Insurance offers beneficial coverage that is specially designed to ensure your family's financial security for a specific period of time.<P>Term Life Insurance offers the following advantages:</P></html>",
+      "Tableau": [
+        {
+          "Categorie": "Abordable",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Coût avantageux :</b> Si vous avez besoin d'une assurance pour une durée déterminée, l'assurance vie temporaire est la protection la plus abordable pour y répondre.</td></tr></table></html>",
+          "CategorieEn": "Affordable",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Lower cost: </b>If you need insurance for a specific period of time, Term Life Insurance is the most affordable solution.</td></tr></table></html>"
+        },
+        {
+          "Categorie": "Flexible",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Renouvelable & transformable : </b>Vous pouvez renouveler la protection initiale ou la transformer en assurance vie permanente selon vos besoins, sans avoir à soumettre de preuve médicale.<br><br><b>Durée de protection : </b>Vous pouvez choisir une durée de protection comprise entre 10 et 40 ans.</td></tr></table></html>",
+          "CategorieEn": "Flexible",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Renewable & Convertible: </b>You can renew your initial coverage or convert it to permanent life insurance, based on your needs, without having to provide medical information.<br><br><b>Coverage period: </b>You can choose a coverage period from 10 to 40 years.</td></tr></table></html>"
+        },
+        {
+          "Categorie": "Adaptée à vos besoins",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Pour établir votre montant d'assurance, deux options s'offrent à vous :<br><br><b>Uniforme : </b>Votre montant d’assurance reste uniforme pour toute la durée de votre protection.<br><br><b>Décroissant jusqu'à 50 % : </b>Votre montant d'assurance diminue progressivement, mais vous conservez une protection minimale équivalente à 50 % du montant initial. La diminution s'apparente à celle d'un prêt hypothécaire.</td></tr></table></html>",
+          "CategorieEn": "Adapted to your needs",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>You have two options for your coverage amount:<br><br><b>Level: </b>Your coverage amount remains leveled for the entire coverage period.<br><br><b>Decreasing to 50%: </b>Your coverage amount decreases progressively, but you maintain a minimum that equals 50% of your initial coverage. The decrease is similar to that of a mortgage balance.</td></tr></table></html>"
+        }
+      ],
+      "CodesRegle": [ [ "VieTemporaire1" ] ],
+      "RegleProduits": {
+        "Produits": [ "AssuranceParticipant", "AssuranceParticipantValeur", "AssuranceParticipantPatrimoine", "CapitalValeur", "CapitalValeur3", "Genesis" ],
+        "Exclusion": true
+      },
+      "SectionPrincipale": false,
+      "SequenceId": 100
+    },
+    {
+      "Libelle": "Assurance vie temporaire",
+      "LibelleEn": "Term Life Insurance",
+      "Texte": "<html>L'assurance vie temporaire est une solution abordable qui prévoit le versement d'un montant d'assurance, en cas de décès. Ce type de protection est particulièrement intéressant si vous avez un prêt hypothécaire ou si vous êtes parents de jeunes enfants, et désirez leur fournir une source de revenus de remplacement jusqu'à ce qu'ils soient autonomes. L'assurance vie temporaire est une protection avantageuse conçue spécifiquement pour assurer la sécurité financière de votre famille durant une période déterminée.<P>L'assurance vie temporaire comprend les avantages suivants :</P></html>",
+      "TexteEn": "<html>Term Life Insurance is an affordable solution that pays an insurance amount in the event of death. This type of coverage is particularly interesting of you have a mortgage, or if you have younger children and want to provide a source of income replacement while they're still at home. Term Life Insurance offers beneficial coverage that is specially designed to ensure your family's financial security for a specific period of time.<P>Term Life Insurance offers the following advantages:</P></html>",
+      "Tableau": [
+        {
+          "Categorie": "Abordable",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Coût avantageux :</b> Si vous avez besoin d'une assurance pour une durée déterminée, l'assurance vie temporaire est la protection la plus abordable pour y répondre.</td></tr></table></html>",
+          "CategorieEn": "Affordable",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Lower cost: </b>If you need insurance for a specific period of time, Term Life Insurance is the most affordable solution.</td></tr></table></html>"
+        },
+        {
+          "Categorie": "Flexible",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Renouvelable & transformable : </b>Vous pouvez renouveler la protection initiale ou la transformer en assurance vie permanente selon vos besoins, sans avoir à soumettre de preuve médicale.</td></tr></table></html>",
+          "CategorieEn": "Flexible",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Renewable & Convertible: </b>You can renew your initial coverage or convert it to permanent life insurance, based on your needs, without having to provide medical information.</td></tr></table></html>"
+        }
+      ],
+      "CodesRegle": [ [ "VieTemporaire1" ] ],
+      "RegleProduits": {
+        "Produits": [ "AssuranceParticipant", "AssuranceParticipantValeur", "AssuranceParticipantPatrimoine", "CapitalValeur", "CapitalValeur3", "Genesis" ]
+      },
+      "SectionPrincipale": false,
+      "SequenceId": 100
+    },
+    {
+      "Libelle": "Assurance vie entière",
+      "LibelleEn": "Whole Life Insurance",
+      "Texte": "<html>L'assurance vie entière est une solution idéale si vous êtes à la recherche d'une assurance permanente, souple et garantie. Grâce à celle-ci, vous aurez la possibilité de protéger votre famille ainsi que votre patrimoine tout au long de votre vie. Que vous y adhériez pour avoir une tranquillité d'esprit ou pour préserver la sécurité financière de votre famille, l'assurance vie entière saura répondre à vos besoins.<P>L'assurance vie entière comprend les avantages suivants :</P></html>",
+      "TexteEn": "<html>Whole Life Insurance is an ideal solution if you're looking for permanent insurance that's flexible and guaranteed. It will allow you to protect your family and estate for your entire life. Whether you get it for peace of mind or to preserve your family's financial security, Whole Life Insurance will meet your needs.<P>Whole Life Insurance offers the following advantages:</P></html>",
+      "Tableau": [
+        {
+          "Categorie": "Flexible",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Valeur de rachat : </b>Si vos besoins changent et que vous désirez mettre fin à votre protection, un montant prédéterminé vous sera versé. Ce montant débute à compter de la 11<sup>e</sup> année et croît avec le temps. L'assurance vie temporaire, jusqu'à l'âge de 100 ans, ne comporte pas de valeur de rachat.</td></tr></table></html>",
+          "CategorieEn": "Flexible",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Surrender value: </b>If your needs change and you wish to cancel your coverage, a predetermined amount will be paid back to you. This begins the eleventh year of your policy and the amount increases over time. Term Life Insurance to age 100 does not include a surrender value.</td></tr></table></html>"
+        },
+        {
+          "Categorie": "Rassurante",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Sans-souci : </b>Vous serez protégé tout au long de votre vie avec un montant d'assurance garanti. Vos primes n'augmenteront jamais, ce qui facilite la gestion de votre budget.</td></tr></table></html>",
+          "CategorieEn": "Reassuring",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Worry-free: </b>You will have guaranteed insurance coverage throughout your life. Your premiums will never increase, making your budget easier to manage.</td></tr></table></html>"
+        },
+        {
+          "Categorie": "Sur mesure",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Paiement rapide : </b>Au moment de l'adhésion, vous avez la possibilité de payer votre police plus rapidement grâce à des paiements accélérés garantis sur une période de 10 ans, 20 ans ou jusqu’à 65 ans.</td></tr></table></html>",
+          "CategorieEn": "Tailor-made",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Quick payment: </b>When you purchase your policy, you can choose to pay it up early through accelerated payments guaranteed for 10 years, 20 years, or until age 65.</td></tr></table></html>"
+        }
+      ],
+      "CodesRegle": [ [ "VieEntiere1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 101
+    },
+    {
+      "Libelle": "Assurance vie et Sérénité 65",
+      "LibelleEn": "Life and Serenity 65",
+      "Texte": "<html>L’assurance Vie et Sérénité 65 est une assurance vie permanente qui inclut une protection couvrant les principales maladies et conditions médicales liées au vieillissement et à la perte d’autonomie. À partir de 65 ans, si vous êtes atteint d’une maladie ou d’une affection couverte et définie dans le contrat, vous aurez accès à votre montant d’assurance vie sous forme de rente mensuelle de 1 % du montant d’assurance par mois jusqu’à son épuisement. Vous pourrez ainsi utiliser ce montant comme bon vous semble.<br/><br/>La Rente Sérénité 65 est payable à la suite du diagnostic d’une des maladies ou affections suivantes :<br/>&nbsp;-&nbsp;&nbsp;&nbsp;Alzheimer<br/>&nbsp;-&nbsp;&nbsp;&nbsp;Parkinson<br/>&nbsp;-&nbsp;&nbsp;&nbsp;Perte d'autonomie permanente<br/>&nbsp;-&nbsp;&nbsp;&nbsp;Paralysie<br/><i>Une description détaillée de chacune de ces maladies ou affections, incluant des restrictions et des exclusions, est incluse au contrat.</i><P>L’assurance Vie et Sérénité 65 assure votre autonomie financière et la sécurité financière de votre famille.</P></html>",
+      "TexteEn": "<html>Life and Serenity 65 is permanent life insurance with additional protection for the main health problems that come with age. Starting at age 65, if you are affected by one of the covered illnesses or conditions, as defined in the contract, you can draw from your life insurance amount to receive a monthly benefit equal to 1% of the face amount per month until it is depleted, which you can use however you like.<br/><br/>The Serenity 65 monthly benefit is payable upon diagnosis of one of the following illnesses or conditions:<br/>&nbsp;-&nbsp;&nbsp;&nbsp;Alzheimer's disease<br/>&nbsp;-&nbsp;&nbsp;&nbsp;Parkinson's disease<br/>&nbsp;-&nbsp;&nbsp;&nbsp;Permanent loss of independence<br/>&nbsp;-&nbsp;&nbsp;&nbsp;Paralysis<br/><i>A detailed description of each of the covered illnesses or medical conditions, including restrictions and exclusions, is included in the contract.</i><P>Life and Serenity 65 ensures your family's financial security as well as your own financial independence.</P></html>",
+      "Tableau": [
+        {
+          "Categorie": "Complète",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Protection combinée : </b>En plus d'une protection d'assurance vie permanente, vous avez accès à une rente mensuelle qui assure votre autonomie financière, si vous êtes atteint d'une maladie ou d'une affection couverte, telle que définie dans le contrat.</td></tr></table></html>",
+          "CategorieEn": "Complete",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Combined coverage: </b>In addition to permanent life insurance coverage, you have access to a monthly benefit to ensure your financial independence if you are affected by a covered illness.</td></tr></table></html>"
+        },
+        {
+          "Categorie": "Flexible",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Valeur de rachat : </b>Si vos besoins changent et que vous désirez mettre fin à votre protection, un montant prédéterminé vous sera versé. Ce montant débute à compter de la 11<sup>e</sup> année et croît avec le temps.</td></tr></table></html>",
+          "CategorieEn": "Flexible",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Surrender value: </b>If your needs change and you wish to cancel your coverage, a predetermined amount will be paid back to you. This begins the eleventh year of your policy and the amount increases over time.</td></tr></table></html>"
+        },
+        {
+          "Categorie": "Rassurante",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Sans-souci : </b>Si vous recevez la totalité de votre montant d'assurance vie sous forme de rente mensuelle, vous conserverez tout de même un montant d'assurance vie équivalent à 25 % de votre montant initial.<br><br><b>Libéré de paiement : </b>À compter de l'âge de 65 ans, si vous recevez un diagnostic pour l'une des maladies couvertes, votre protection sera maintenue sans paiement de primes.</td></tr></table></html>",
+          "CategorieEn": "Reassuring",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Worry-free: </b>Even if you receive your entire life insurance amount in monthly benefits, you will still have life insurance equal to 25% of your initial amount.<br><br><b>Waiver of premiums: </b>Starting at age 65, if you are diagnosed with one of the illnesses or conditions covered, as defined in the contract, your coverage will be maintained with no further premiums to pay.</html>"
+        }
+      ],
+      "CodesRegle": [ [ "VieEtSerenite1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 102
+    },
+    {
+      "Libelle": "Duo Vie et Santé – Enfant",
+      "LibelleEn": "Child Life & Health Duo",
+      "Texte": "<html>Le Duo Vie et Santé – Enfant est une protection qui combine une assurance vie permanente et une assurance temporaire en cas de maladie grave. Advenant que votre enfant soit atteint d'une maladie ou d'une affection couverte, telle que définie dans le contrat, vous aurez accès à une partie du montant d'assurance vie. Par exemple, le montant pourrait combler la perte de revenus temporaire d'un congé sans solde vous permettant de rester aux côtés de votre enfant.<P>Le Duo Vie et Santé – Enfant comprend les avantages suivants :</P></html>",
+      "TexteEn": "<html>Child Life & Health Duo offers a combination of a permanent life insurance and term critical illness insurance. Should your child be affected by one of the illnesses or conditions covered, as defined in the contract, you will have access to a portion of the life insurance amount. For example, this amount could make up for the temporary loss of income of a leave without pay to allow you to care for your child.<P>Child Life & Health Duo offers the following advantages:</P></html>",
+      "Tableau": [
+        {
+          "Categorie": "Complet",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Protection combinée : </b>En plus d'offrir une protection d'assurance vie permanente à votre enfant, la protection vous donne accès à une partie du montant d'assurance vie, si votre enfant est atteint d'une maladie ou d'une affection couverte, telle que définie dans le contrat.</td></tr></table></html>",
+          "CategorieEn": "Complete",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Combined coverage: </b>In addition to permanent life insurance coverage for your child, you can get access to a portion of the life insurance amount should your child become affected by one of the illnesses or conditions covered, as defined in the contract.</td></tr></table></html>"
+        },
+        {
+          "Categorie": "Flexible",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Valeur de rachat : </b>Si les besoins changent et que vous désirez mettre fin à la protection, un montant prédéterminé vous sera versé. Ce montant débute à compter de la 11<sup>e</sup> année et croît avec le temps.<br><br><b>Transformable : </b>Entre le 18<sup>ème</sup> et le 30<sup>ème</sup> anniversaire de naissance de l'enfant, vous pouvez transformer la protection maladie grave temporaire en assurance maladie grave permanente selon ses besoins, sans avoir à soumettre de preuve médicale.</td></tr></table></html>",
+          "CategorieEn": "Flexible",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Surrender value: </b>If needs change and you wish to cancel the coverage, a predetermined amount will be paid back to you. This begins the eleventh year of the policy and the amount increases over time.<br><br><b>Convertible: </b>Between your child's 18th and 30th birthdays, you can convert the term critical illness coverage to permanent critical illness coverage based on your child’s needs without having to provide medical information.</td></tr></table></html>"
+        },
+        {
+          "Categorie": "Rassurant",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Libérer de paiement : </b>Vos paiements cesseront à compter du 30ème anniversaire de naissance de l'enfant et l'assurance vie sera maintenue.</td></tr></table></html>",
+          "CategorieEn": "Reassuring",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Paid-up coverage: </b>Your payments will end as of your child's 30th birthday and the life insurance will remain in force.</td></tr></table></html>"
+        }
+      ],
+      "CodesRegle": [ [ "DuoVieSante1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 103
+    },
+    {
+      "Libelle": "Assurance maladie grave",
+      "LibelleEn": "Critical Illness Insurance",
+      "Texte": "<html>L'assurance maladie grave vous propose une protection complète dotée d'une grande souplesse pour répondre à vos besoins spécifiques. Une maladie grave peut avoir de grandes répercussions financières sur votre niveau de vie ou celui de votre famille. C'est pourquoi notre produit vous offre une protection flexible conçue spécifiquement pour préserver votre sécurité financière. Cette protection vous garantit le paiement d'un montant qui peut être utilisé comme vous le désirez, si vous êtes atteint d'une maladie ou d'une affection couverte, telle que définie dans le contrat. La protection vous donne également accès à un service de deuxième opinion médicale ainsi que plusieurs garanties complémentaires.<P>L'assurance maladie grave vous permet de :</P></html>",
+      "TexteEn": "<html>Critical Illness Insurance provides flexible, complete coverage to meet your specific needs. A critical illness can have major financial repercussions on you and your family's lifestyle. That is why our product offers you flexible coverage specially designed to help protect your financial security. This coverage guarantees you payment of an amount you can use as you wish, should you become affected by one of the illnesses or conditions covered, as defined in the contract. It also gives you access to a Medical Second Opinion service as well as a series of optional benefits.<P>Along with providing you peace of mind, Critical Illness Insurance lets you:</P></html>",
+      "Textes": [
+        {
+          "Texte": "Recevoir un montant forfaitaire, afin de pouvoir vous consacrer entièrement à votre rétablissement",
+          "TexteEn": "Receive a lump sum of money so you can fully focus on your recovery",
+          "SequenceId": 1
+        },
+        {
+          "Texte": "Remplacer votre revenu, celui de votre conjoint ou d'un proche, pour permettre à ce dernier de s'absenter du travail et de vous accompagner",
+          "TexteEn": "Replace your income, or that of your spouse or loved one so they can take time off to help take care of you",
+          "SequenceId": 2
+        },
+        {
+          "Texte": "Assurer le remboursement de vos engagements financiers",
+          "TexteEn": "Ensure your financial commitments are taken care of",
+          "SequenceId": 3
+        },
+        {
+          "Texte": "Assurer le maintien du niveau de vie de votre famille advenant une maladie grave durant la période de dépendance",
+          "TexteEn": "Protect your family's lifestyle should you suffer from a critical illness while you still have dependents living at home",
+          "SequenceId": 4
+        },
+        {
+          "Texte": "Obtenir une aide financière pour défrayer le coût des traitements médicaux non couverts par les régimes d'assurance publics et des services d'aide",
+          "TexteEn": "Get financial assistance to offset the cost of help services and medical treatments not covered by public insurance plans",
+          "SequenceId": 5
+        }
+      ],
+      "CodesRegle": [ [ "MaladiesGrave1" ] ],
+      "SectionPrincipale": true,
+      "SequenceId": 104
+    },
+    {
+      "Libelle": "L'assurance maladie grave temporaire",
+      "LibelleEn": "Term Critical Illness Insurance",
+      "Texte": "<html>L'assurance maladie grave temporaire comprend les avantages suivants :<br></html>",
+      "TexteEn": "<html>Term Critical Illness Insurance offers the following advantages:<br></html>",
+      "Tableau": [
+        {
+          "Categorie": "Abordable",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Coût avantageux : </b>Si vous avez besoin d'une assurance pour une durée déterminée, l'assurance maladie grave temporaire est la protection la plus abordable pour vous.</td></tr></table></html>",
+          "CategorieEn": "Affordable",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Lower cost: </b>If you need insurance for a specific period of time, Term Critical Illness Insurance is the most affordable solution.</td></tr></table></html>"
+        },
+        {
+          "Categorie": "Flexible",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Renouvelable & transformable : </b>Vous pouvez renouveler la protection initiale ou la transformer en assurance maladie grave permanente selon vos besoins, sans avoir à soumettre de preuve médicale, à l'exception de l'assurance maladie grave temporaire jusqu'à l'âge de 75 ans.<br><br><b>Durée de protection : </b>Vous pouvez choisir une durée de protection entre 10 ans, 20 ans, 25 ans ou jusqu'à l'âge de 75 ans.</td></tr></table></html>",
+          "CategorieEn": "Flexible",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Renewable & Convertible: </b>You can renew your initial coverage or convert it to permanent critical illness insurance, based on your needs, without having to provide medical information, except in the case of Term Critical Illness Insurance to age 75.<br><br><b>Coverage period: </b>You can choose a coverage term of 10, 20 or 25 years, or up to age 75.</td></tr></table></html>"
+        },
+        {
+          "Categorie": "Adaptée à vos besoins",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Pour établir votre montant d’assurance, deux options s’offrent à vous :<br><br><b>Uniforme : </b>Un montant d'assurance uniforme pour toute la durée de votre protection.<br><br><b>Décroissant jusqu'à 50 % : </b>Votre montant d'assurance diminue progressivement, mais vous conservez une protection minimale équivalente à 50 % du montant initial. La diminution s'apparente à celle d’un prêt hypothécaire. Cette option est disponible pour les durées de protection 10 ans, 20 ans et 25 ans.<br><br><b>Nombre de maladies couvertes : </b>Au moment de l'adhésion, vous avez le choix entre une protection complète qui couvre 25 maladies graves et une protection plus abordable qui couvre les 4 maladies graves les plus fréquentes.</td></tr></table></html>",
+          "CategorieEn": "Adapted to your needs",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>You have two options for your coverage amount:<br><br><b>Level: </b>Your coverage amount remains leveled for the entire coverage period.<br><br><b>Decreasing to 50%: </b>Your coverage amount decreases progressively, but you maintain a minimum that equals 50% of your initial coverage. The decrease is similar to that of a mortgage balance. This option is available for 10-year, 20-year and 25-year terms.<br><br><b>Number of illnesses covered: </b>When you purchase your policy, you have the choice between complete protection covering 25 critical illnesses or more affordable protection covering the four most common critical illnesses.</td></tr></table></html>"
+        }
+      ],
+      "CodesRegle": [ [ "MaladiesGravesTemporaire1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 105
+    },
+    {
+      "Libelle": "L'assurance maladie grave permanente",
+      "LibelleEn": "Permanent Critical Illness Insurance",
+      "Texte": "<html>L'assurance maladie grave permanente comprend les avantages suivants :<br></html>",
+      "TexteEn": "<html>Permanent Critical Illness Insurance offers the following advantages:<br></html>",
+      "Tableau": [
+        {
+          "Categorie": "Rassurante",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Sans-souci : </b>Vous serez protégé tout au long de votre vie avec un montant d'assurance garanti. Vos primes n'augmenteront pas, ce qui facilite la gestion de votre budget.</td></tr></table></html>",
+          "CategorieEn": "Reassuring",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Worry-free: </b>You will have guaranteed coverage throughout your life. Your premiums won't increase, making your budget easier to manage.</td></tr></table></html>"
+        },
+        {
+          "Categorie": "Adaptée à vos besoins",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Nombre de maladies couvertes : </b>Au moment de l'adhésion, vous avez le choix entre une protection complète qui couvre 25 maladies graves et une protection plus abordable qui couvre les 4 maladies graves les plus fréquentes.</td></tr></table></html>",
+          "CategorieEn": "Adapted to your needs",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td><b>Number of illnesses covered: </b>When you purchase your policy, you have the choice between complete protection covering 25 critical illnesses or more affordable protection covering the four most common critical illnesses.</td></tr></table></html>"
+        }
+      ],
+      "CodesRegle": [ [ "MaladiesGravesPermanente1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 106
+    },
+    {
+      "Libelle": "Protection additionnelle",
+      "LibelleEn": "Additional Coverage",
+      "Texte": "",
+      "TexteEn": "",
+      "CodesRegle": [ [ "ProtectionAdditionnelle1" ],[ "MaladiesGravesPermanente1" ],[ "MaladiesGrave1" ],[ "MaladiesGravesTemporaire1" ],[ "ModuleEnfantMaladieGrave1" ],[ "DuoVieSante1" ] ],
+        "SectionPrincipale":true,
+        "SautPage":true,
+        "SequenceId":107
+    },
+    {
+      "Libelle": "Crédit invalidité",
+      "LibelleEn": "Disability credit",
+      "Texte": "<html>La protection Crédit invalidité prévoit le versement d'un montant mensuel en cas d'invalidité, si vous avez des obligations financières en cours de remboursement. La période de versements est déterminée au moment de l'adhésion, et peut être d'une durée 2 ans, 5 ans ou jusqu'à l'âge de 65 ans.</html>",
+      "TexteEn": "<html>Disability Credit provides a monthly benefit for the payment of regular financial obligations in repayment, in the event of disability. The benefit period is determined at purchase, with the following options available: 2 years, 5 years, up to age 65.</html>",
+      "CodesRegle": [ [ "CreditInvalidite1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 108
+    },
+    {
+      "Libelle": "Revenu d'appoint",
+      "LibelleEn": "Supplementary Income",
+      "Texte": "<html>La protection Revenu d'appoint prévoit le versement d'un montant mensuel en cas d'invalidité à la suite d'un accident ou d'une maladie. La période de versement est de 2 ans ou 65 ans. Le Revenu d'appoint vous procure une source de revenus additionnelle, par exemple, si vous ne bénéficiez pas d'un régime d'assurance collective ou si votre assurance invalidité ne couvre que partiellement votre revenu.</html>",
+      "TexteEn": "<html>Supplementary Income coverage provides payment of a monthly income in the event of disability following an accident or illness. The benefit period is 2 years or up to age 65. Supplementary Income gives you an additional source of income if, for example, you aren't covered by a group insurance plan, or if your disability insurance only covers part of your income.</html>",
+      "CodesRegle": [ [ "RevenuAppoint1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 109
+    },
+    {
+      "Libelle": "Soins (hospitalisation, hospitalisation & soins à domicile et soins paramédicaux en cas d'accident)",
+      "LibelleEn": "Additional Care (Hospitalization, Hospitalization and Home care, and Paramedical care in the event of an accident)",
+      "Texte": "<html>Les protections d'hospitalisation prévoient le versement d'un montant forfaitaire pour chaque journée d'hospitalisation ou de soins à domicile suite à un accident ou à une maladie. La protection pour soins paramédicaux permet de recevoir plusieurs types d'indemnités afin de couvrir les frais découlant d'un accident.</html>",
+      "TexteEn": "<html>Hospitalization coverages provide a lump sum amount for each day the insured is hospitalized or receives home care following an accident or illness. Paramedical Care coverage provides several types of benefits to cover costs resulting from an accident.</html>",
+      "CodesRegle": [ [ "Soins1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 110
+    },
+    {
+      "Libelle": "Module enfant et Module enfant Plus",
+      "LibelleEn": "Child Module and Child Module Plus",
+      "Texte": "<html>Les protections Module enfant prévoient, pour chaque enfant et ceux à naître, un montant d'assurance vie en cas de décès. Le Module enfant Plus prévoit également le versement d'un montant additionnel en cas de fracture accidentelle.</html>",
+      "TexteEn": "<html>Child Module coverages provide a life insurance benefit for all present and future children of the insured. Child Module Plus also provides an accidental fracture benefit.</html>",
+      "CodesRegle": [ [ "ModuleEnfant1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 111
+    },
+    {
+      "Libelle": "Maladie grave enfant et Transition enfant",
+      "LibelleEn": "Critical Illness - Child and Transition - Child",
+      "Texte": "<html>La protection maladie grave enfant et Transition enfant prévoient, pour chaque enfant et ceux à naître, le versement d'un montant forfaitaire à la suite d'un diagnostic d'une maladie couverte.</html>",
+      "TexteEn": "<html>Critical Illness and Transition Child coverages provide, for all present and future children of the insured, a lump sum benefit following a diagnosis of one of the covered illnesses.</html>",
+      "CodesRegle": [ [ "ModuleEnfantMaladieGrave1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 112
+    },
+    {
+      "Libelle": "Remboursement des primes en cas de décès",
+      "LibelleEn": "Return of Premiums on Death",
+      "Texte": "<html>Le remboursement des primes en cas de décès prévoit le versement d'un montant qui représente la somme des primes payées pour la protection rattachée.</html>",
+      "TexteEn": "<html>Return of Premiums on Death provides the payment of an amount equal to the total of premiums paid on the attached coverage. </html>",
+      "CodesRegle": [ [ "ROPD1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 113
+    },
+    {
+      "Libelle": "Remboursement flexible des primes",
+      "LibelleEn": "Flexible Return of Premiums",
+      "Texte": "<html>Le remboursement flexible des primes vous permet de recevoir un montant forfaitaire qui met fin à votre protection d'assurance. Ce montant est établi en fonction d'un pourcentage prédéterminé des primes que vous avez payées, selon la durée pendant laquelle vous avez conservé votre protection.</html>",
+      "TexteEn": "<html>Flexible Return of Premiums allows you to receive a lump sum amount which terminates your insurance coverage. This amount is established based on a pre-determined percentage of the premiums paid, according to the length of time you held your coverage.</html>",
+      "CodesRegle": [ [ "ROPF1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 114
+    },
+    {
+      "Libelle": "Prestation majorée",
+      "LibelleEn": "Increased Benefit",
+      "Texte": "<html>La prestation majorée vous offre la possibilité d'augmenter le montant de votre protection, jusqu'à 50 % du montant d'assurance initial, sans avoir à soumettre de preuves médicales. Elle vous permet d'adapter votre protection à vos besoins évolutifs, à des moments précis de votre vie.</html>",
+      "TexteEn": "<html>Increased Benefit allows you to increase your coverage by up to 50% of the initial amount without having to provide medical information. This lets you adapt your coverage to your changing needs at specific moments in your life.</html>",
+      "CodesRegle": [ [ "APM1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 115
+    },
+    {
+      "Libelle": "Accident (DA, DMA, FA)",
+      "LibelleEn": "Accident (AD, AD&D, AF)",
+      "Texte": "<html>Les garanties Décès accidentel (DA) et Décès et mutilation accidentels (DMA) prévoient un montant supplémentaire si le décès est entièrement imputable à des causes accidentelles. La fracture accidentelle (FA) prévoit le paiement d'une indemnité si vous subissez une fracture imputable à des causes accidentelles.</html>",
+      "TexteEn": "<html>Accidental Death (AD) and Accidental Death & Dismemberment (AD&D) coverages provide payment of an additional amount chosen at purchase if death occurs due to entirely accidental causes. Accidental Fracture (AF) provides payment of a benefit if you suffer fractures resulting from accidental causes.</html>",
+      "CodesRegle": [ [ "Accident1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 116
+    },
+    {
+      "Libelle": "Exonération des primes en cas d'invalidité (EPIC, EPIA)",
+      "LibelleEn": "Waiver of Premiums in the Event of Disability (WPDis, WPIDis)",
+      "Texte": "<html>Les protections d'Exonération de prime en cas d'invalidité prévoient le maintien de votre protection sans paiement de primes si l'invalidité survient avant l'âge de 60 ans.</html>",
+      "TexteEn": "<html>Waiver of Premiums in the Event of Disability coverages allow you to maintain your insurance coverage without paying premiums if disability occurs before age 60.</html>",
+      "CodesRegle": [ [ "EPI1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 117
+    },
+    {
+      "Libelle": "Exonération des primes en cas de décès (EPDC)",
+      "LibelleEn": "Waiver of Premiums in the Event of Death (WPD)",
+      "Texte": "<html>La protection d'Exonération de prime en cas de décès prévoit le maintien de la protection d'assurance, sans paiement de primes, si votre décès survient avant l'âge de 65 ans.</html>",
+      "TexteEn": "<html>Waiver of Premiums in the Event of Death coverage allows insurance to be maintained without the payment of premiums if the insurance applicant dies before age 65.</html>",
+      "CodesRegle": [ [ "EPDC1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 118
+    },
+    {
+      "Libelle": "Garantie d'assurabilité (GA)",
+      "LibelleEn": "Guaranteed Insurability (GI)",
+      "Texte": "<html>Protection qui offre la possibilité au contractant de souscrire un montant d'assurance supplémentaire sans preuve médicale. Elle vous permet d'adapter votre protection à vos besoins évolutifs, à des moments précis de votre vie.</html>",
+      "TexteEn": "<html>Guaranteed Insurability allows you to take out additional insurance without having to provide medical information. This lets you adapt your coverage to your changing needs at specific moments in your life.</html>",
+      "CodesRegle": [ [ "Assurabilite1" ] ],
+      "SectionPrincipale": false,
+      "SequenceId": 119
+    },
+    {
+      "Libelle": "Prestation Prévention +",
+      "LibelleEn": "Prevention + Benefit",
+      "Texte": "<html>La protection Maladie grave prévoit également une prestation Prévention +, équivalente à 15 % du montant de votre protection (jusqu’à un maximum de 50 000 $ par réclamation), et couvre les affections ne mettant pas la vie du patient en danger :<br><ul><li>Angioplastie coronarienne</li></ul>Cancers détectés précocement :<ul><li>Mélanome malin au stade 1</li><li>Cancer de la prostate au stade A (T1a ou T1b)</li><li>Cancer de la thyroïde papillaire ou cancer de la thyroïde folliculaire au stade T1</li><li>Carcinome canalaire in situ du sein</li><li>Leucémie lymphoïde chronique (LLC) au stade 0 selon la classification de Rai</li><li>Tumeurs stromales gastro-intestinales et tumeurs neuroendocrines à un stade inférieur au stade 2 selon la classification de l'AJCC</li></ul><br/>La prestation Prévention + peut être versée jusqu’à quatre fois (une fois par maladie) pour l’ensemble des maladies et affections mentionnées ci-dessus et ce, pour toute la durée du contrat. Suite au versement d’une prestation partielle, le contrat se poursuit selon les mêmes termes et conditions.</html>",
+      "TexteEn": "<html>Critical illness protection also provides a Prevention + benefit, equal to 15% of the amount of your coverage (up to a maximum of $50,000 per claim), which covers non life-threatening medical conditions:<br><ul><li> Coronary Angioplasty</li></ul>Cancers detected in early stages :<ul><li> Breast Cancer (ductal carcinoma in situ of the breast)</li><li> Chronic Lymphocytic Leukemia (CLL) Rai stage 0</li><li> Gastrointestinal stromal tumours (GIST) and neuroendocrine tumours classified less than AJCC Stage 2</li><li> Papillary or Follicular Thyroid Cancer stage T1</li><li> Skin Cancer (malignant melanoma in the dermis equal to or lower than a depth of 1.0 mm)</li><li> Stage A Prostate Cancer</li></ul><br/>The Prevention + benefit may be paid up to four times (once per illness) for all the illnesses and conditions listed above, throughout the life of the policy. Once a benefit is paid, the contract continues according to the same terms and conditions.</html>",
+      "CodesRegle": [ [ "MaladiesGravesPermanente1" ],[ "MaladiesGrave1" ],[ "MaladiesGravesTemporaire1" ],[ "ModuleEnfantMaladieGrave1" ],[ "DuoVieSante1" ] ],
+        "SectionPrincipale":false,
+        "SequenceId":120
+    }
+  ]
+}

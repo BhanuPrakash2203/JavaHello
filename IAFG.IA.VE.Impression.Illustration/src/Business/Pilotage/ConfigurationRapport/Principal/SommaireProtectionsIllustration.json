@@ -1,0 +1,297 @@
+﻿{
+  "SectionId": "SommaireProtections",
+  "Titres": [
+    {
+      "Titre": "Sommaire des protections",
+      "TitreEn": "Summary of coverages"
+    }
+  ],
+  "Notes": [
+    {
+      "Texte": "Les produits d’assurance vie à émission simplifiée de iA Groupe financier, y compris ceux de iA Excellence, peuvent être combinés à un autre produit d’assurance vie simplifié déjà en vigueur, tel que Accès Vie, Alternative, Perspective et Excel Vie.Pour chaque personne à assurer, le capital assuré de l’ensemble des protections ne peut dépasser\n{0} $.",
+      "TexteEn": "IA financial Group's simplified life insurance products, including those of iA Excellence, can be combined with another simplified life insurance product already in place, such as Access Life, Alternative, Outlook and Excel Life. each person to be insured, the sum insured of all the protections can not exceed {0} $.",
+      "TypeNote": "Generique",
+      "Regles": [
+        [ "AccesViePresent" ]
+      ],
+      "Params": [
+        "MontantAssureMaxCombine"
+      ],
+      "SequenceId": 1
+    }
+  ],
+  "ListSections": [
+    {
+      "SectionId": "Contractants",
+      "Titres": [
+        {
+          "Titre": "Contractants",
+          "TitreEn": "Applicants"
+        }
+      ],
+      "Avis": [
+        {
+          "Texte": "Les informations contenues sur cette page correspondent aux données personnelles des contractants, des assurés ainsi qu’aux protections demandées. Puisque ces données sont utilisées pour des fins de tarification, il est très important d’en vérifier l’exactitude et de transmettre les correctifs à votre conseiller.",
+          "TexteEn": "The information found on this page corresponds to the personal data of the applicants, the insureds, as well as the requested coverages. Since this data is used for underwriting purposes, it is very important to check its accuracy and inform your advisor of any correction to be made.",
+          "SequenceId": 0
+        }
+      ]
+    },
+    {
+      "SectionId": "CaracteristiquesIllustration",
+      "Titres": [
+        {
+          "Titre": "Caractéristiques de l'illustration",
+          "TitreEn": "Illustration caracteristics"
+        }
+      ],
+      "Libelles": {
+        "PrestationDeces": {
+          "Libelle": "Prestation de décès",
+          "LibelleEn": "Death Benefit"
+        },
+        "OptimisationAutomatiqueCapitalAssure": {
+          "Libelle": "Optimisation automatique du capital assuré (OACA)",
+          "LibelleEn": "Automatic optimization of the face amount (AOFA)"
+        },
+        "PortionFondsCapitalisationPayable": {
+          "Libelle": "Portion du fonds de capitalisation payable d’office au décès de chacun des assurés",
+          "LibelleEn": "Portion of the accumulation fund payable automatically upon each insured’s death"
+        },
+        "CapitalAssurePlancher": {
+          "Libelle": "Capital assuré plancher",
+          "LibelleEn": "Floor face amount"
+        },
+        "CapitalAssurePlafond": {
+          "Libelle": "Capital assuré maximal",
+          "LibelleEn": "Maximum face amount"
+        },
+        "DureeDebutMinimisation": {
+          "Libelle": "Durée avant le début de l'ajustement",
+          "LibelleEn": "Duration before adjustment"
+        }
+      }
+    },
+    {
+      "SectionId": "Assures",
+      "Titres": [
+        {
+          "Titre": "Assurés",
+          "TitreEn": "Insureds"
+        }
+      ],
+      "Notes": [
+        {
+          "Texte": "Le taux préférentiel a été utilisé pour calculer la prime de cette protection. Toute tarification préférentielle doit être confirmée suite à l’étude du dossier.",
+          "TexteEn": "The preferential price was used to calculate the premium for this coverage. All preferential pricing must be confirmed following a review of the file.",
+          "TypeNote": "Protection",
+          "Regles": [
+            [ "TauxPreferentielPresent" ]
+          ],
+          "SequenceId": 0
+        },
+        {
+          "Texte": "Les primes sont garanties pour les 5 années qui suivent la date d'effet du contrat. À la fin de cette période, la Compagnie se réserve le droit de réviser les primes en tout temps. Suite à une révision, celles-ci seront de nouveau garanties pour une période de 5 années.",
+          "TexteEn": "The premiums are guaranteed for the five years that follow the effective date of the contract. At the end of this period, the Company reserves the right to revise the premiums at any time. Following a revision, they will once again be guaranteed for a period of five years.",
+          "TypeNote": "Protection",
+          "Regles": [
+            [ "ProtectionHospitalisationPresent" ]
+          ],
+          "SequenceId": 1
+        },
+        {
+          "Texte": "Si un décès naturel (non accidentel) ou un suicide survient pendant les deux premières années du contrat, la prestation de décès versée correspond à un montant équivalent à l’ensemble des primes payées sans intérêt. Après le délai de deux ans, le capital-décès est payable en entier sans égard à la cause du décès. Si le décès est accidentel, le plein capital assuré sera versé au décès.",
+          "TexteEn": "If a death, other than accidental, including suicide occurs within the first two years of the policy, the death benefit will equal the total amount of premiums paid without interest. After the two-year waiting period, the death benefit is paid out in full regardless of the cause of death. If death is accidental, the face amount is paid out in full.",
+          "TypeNote": "Protection",
+          "Regles": [
+            [ "AccesVieGarantiePresent", "AccesViePresent" ]
+          ],
+          "SequenceId": 2
+        },
+        {
+          "Texte": "Si un décès naturel (non accidentel) survient pendant les deux premières années du contrat, la prestation de décès versée correspond à un montant équivalent à l’ensemble des primes payées, accumulées à un taux d'intérêt annuel simple de 3 %. Après le délai de deux ans, le capital-décès est payable en entier sans égard à la cause du décès. Si le décès est accidentel, le plein capital assuré sera versé au décès. Si le décès fait suite à un suicide dans les deux premières années du contrat, la compagnie rembourse les primes payées sans intérêt.",
+          "TexteEn": "If a death, other than accidental, occurs within the first two years of the policy, the death benefit will equal the total amount of premiums paid, plus simple annual interest of 3%. After the two-year waiting period, the death benefit is paid out in full regardless of the cause of death. If death is accidental, the face amount is paid out in full. If death caused by suicide occurs within the first two years of the policy, the company reimburses premiums paid without interest.",
+          "TypeNote": "Protection",
+          "Regles": [
+            [ "AccesVieDifferePresent", "AccesViePresent" ]
+          ],
+          "SequenceId": 3
+        },
+        {
+          "Texte": "Si un décès naturel (non accidentel) survient pendant les deux premières années du contrat, la prestation de décès versée correspond à un montant équivalent à l’ensemble des primes payées, accumulées à un taux d'intérêt annuel simple de 3 %. Après le délai de deux ans, le capital-décès est payable en entier sans égard à la cause du décès. Si le décès est accidentel, le plein capital assuré sera versé au décès. Si le décès fait suite à un suicide dans les deux premières années du contrat, la compagnie rembourse les primes payées sans intérêt.",
+          "TexteEn": "If a death, other than accidental, occurs within the first two years of the policy, the death benefit will equal the total amount of premiums paid, plus simple annual interest of 3%. After the two-year waiting period, the death benefit is paid out in full regardless of the cause of death. If death is accidental, the face amount is paid out in full. If death caused by suicide occurs within the first two years of the policy, the company reimburses premiums paid without interest.",
+          "TypeNote": "Protection",
+          "Regles": [
+            [ "AccesVieDifferePlusPresent", "AccesViePresent" ]
+          ],
+          "SequenceId": 4
+        },
+        {
+          "Texte": "Sans égard à la cause du décès (naturelle ou accidentelle), le capital assuré est versé au décès. Si le décès résulte d'un suicide dans les deux premières années du contrat, la compagnie rembourse les primes payées, sans intérêt.",
+          "TexteEn": "Death benefit is paid out in full regardless of the cause of death (natural or accidental). If death caused by suicide occurs within the first two years of the policy, the company reimburses premiums paid without interest.",
+          "TypeNote": "Protection",
+          "Regles": [
+            [ "AccesVieImmediatPlusPresent", "AccesViePresent" ]
+          ],
+          "SequenceId": 5
+        },
+        {
+          "Texte": "Avant le 5e anniversaire, le versement du fonds de capitalisation sera payable uniquement si l'assuré décédé était assurable à l'émission du contrat.",
+          "TexteEn": "The accumulation fund will be payable before the 5th coverage anniversary only if the insured was insurable at issue of the coverage.",
+          "Regles": [
+            [ "PresenceClientNonAssurable", "AssuranceVieUniverselle" ]
+          ],
+          "SequenceId": 6
+        }
+      ]
+    },
+    {
+      "SectionId": "Surprimes",
+      "Titres": [
+        {
+          "Titre": "Détail des surprimes",
+          "TitreEn": "Ratings Details"
+        }
+      ]
+    },
+    {
+      "SectionId": "Conseillers",
+      "Titres": [
+        {
+          "Titre": "Préparé par",
+          "TitreEn": "Prepared By"
+        }
+      ]
+    },
+    {
+      "SectionId": "Primes",
+      "Titres": [
+        {
+          "Titre": "Détail des primes",
+          "TitreEn": "Premiums Details"
+        },
+        {
+          "Titre": "Détails des primes et des contributions",
+          "TitreEn": "Premiums and Contributions Details",
+          "Produit": "AssuranceParticipant"
+        },
+        {
+          "Titre": "Détails des primes et des contributions",
+          "TitreEn": "Premiums and Contributions Details",
+          "Produit": "AssuranceParticipantValeur"
+        },
+        {
+          "Titre": "Détails des primes et des contributions",
+          "TitreEn": "Premiums and Contributions Details",
+          "Produit": "AssuranceParticipantPatrimoine"
+        }
+      ]
+    },
+    {
+      "SectionId": "PrimesVersees",
+      "Notes": [
+        {
+          "Texte": "(1) Correspond au(x) niveau(x) de prime que vous souhaitez déposer dans votre contrat. Vous pouvez consulter le détail annuel dans la section – Projection des valeurs du contrat.",
+          "TexteEn": "(1) Corresponds to the level of premiums you wish to pay into your contract. You can consult the annual amounts in the Policy Projected Values section of the report.",
+          "TypeNote": "Generique",
+          "RegleProduits": {
+            "Produits": [ "AssuranceParticipant", "AssuranceParticipantValeur", "AssuranceParticipantPatrimoine" ],
+            "Exclusion": true
+          },
+          "SequenceId": 0
+        },
+        {
+          "Texte": "(1) Vous retrouverez les primes et les contributions annuelles assumées dans l’illustration dans le tableau « Projection des valeurs du contrat », dans la colonne « Primes et contributions annuelles versées ».",
+          "TexteEn": "(1) You will find the premiums and annual contributions assumed in the illustration in the Policy Projected Values section of the report, in the Annual Premiums and Contributions Paid column.",
+          "TypeNote": "Generique",
+          "RegleProduits": { "Produits": [ "AssuranceParticipant", "AssuranceParticipantValeur", "AssuranceParticipantPatrimoine" ] },
+          "SequenceId": 0
+        }
+      ]
+    },
+    {
+      "SectionId": "ASL",
+      "Titres": [
+        {
+          "Titre": "Détails du Boni Valeur et de l’allocation d’assurance supplémentaire libérée (ASL)",
+          "TitreEn": "EquiBuild Bonus and Paid-up insurance (PUI) allocation Details"
+        }
+      ],
+      "Notes": [
+        {
+          "Texte": "Avant la fin de chaque année civile, nous établirons le Taux déclaré du fonds Capital Valeur pour la prochaine année civile. Ce taux est établi en utilisant une formule de lissage des taux de rendement annuels réalisés sur le fonds Capital Valeur afin de réduire la volatilité.",
+          "TexteEn": "Before the end of each calendar year, we will set the EquiBuild Fund Declared Rate for the forthcoming calendar year. This rate is set by applying a smoothing formula to the annual returns realized on the EquiBuild Fund in order to reduce yield volatility.",
+          "SequenceId": 0
+        },
+        {
+          "Texte": "L’allocation d’ASL est prélevée annuellement, en fin d’année de police.",
+          "TexteEn": "The PUA allocation is deducted annually, at the end of the policy year.",
+          "Regles": [
+            [ "AllocationASL" ]
+          ],
+          "SequenceId": 1
+        }
+      ]
+    },
+    {
+      "SectionId": "DetailParticipations",
+      "Titres": [
+        {
+          "Titre": "Détail des participations",
+          "TitreEn": "Dividend Details"
+        }
+      ]
+    },
+    {
+      "SectionId": "DetailScenarios",
+      "Titres": [
+        {
+          "Titre": "Scénarios illustrés",
+          "TitreEn": "Illustrated scenarios",
+          "Description": "<html>Vous retrouverez trois scénarios dans ce rapport :<br/><ol><li>Valeurs garanties : ce scénario présume qu'aucune participation n'est versée sur toute la durée du contrat. Ainsi, vous pourrez voir les valeurs minimales dont vous avez droit si vous payez les primes annuelles totales garanties.</li><li>Scénario principal : ce scénario présume que les hypothèses actuellement considérées dans le barème de participations vont demeurer constantes, et ce, pour toute la durée du contrat.</li><li>Scénario alternatif : ce scénario présume une réduction immédiate du taux d'intérêt du barème de participations, taux qui demeure constant pour toute la durée du contrat.</li></ol></html>",
+          "DescriptionEn": "<html>The report outlines three scenarios:<br/><ol><li>Guaranteed values: This scenario assumes that there is no dividend paid over the duration of the contract. This way, you can see the minimum values of your policy if you pay the total guaranteed annual premiums.</li><li>Main scenario: This scenario assumes that the assumptions currently reflected in the dividend scale will remain constant for the entire duration of the policy.</li><li>Alternative scenario: This scenario assumes an immediate reduction in the dividend interest rate, which remains thereafter constant for the entire duration of the policy.</li></ol></html>"
+        }
+      ]
+    },
+    {
+      "SectionId": "DetailEclipseDePrime",
+      "Titres": [
+        {
+          "Titre": "Éclipse de prime",
+          "TitreEn": "Premium Offset",
+          "Description": "<html>Le concept d’éclipse de prime permet de prévoir un moment à partir duquel vous pourrez cesser de payer votre prime. Ce moment peut avoir lieu une fois que le montant des participations annuelles estimées est égal ou supérieur au montant de la prime. Ce sont alors vos participations qui seront utilisées pour payer votre prime.<br/><br/>Si les participations sont plus élevées que le montant de votre prime, l’excédent sera utilisé pour acquérir une protection d’assurance libérée.<br/><br/>Si les participations sont insuffisantes, trois options vous seront offertes pour acquitter le solde, soit :<br/><ul><li>À l’aide d’un rachat partiel ou total de votre protection d’assurance libérée;</li><li>En argent;</li><li>À l’aide d’une avance automatique sur police.</li></ul><br/>L’illustration présume que la prime résiduelle sera acquittée au moyen d’un rachat partiel ou total de votre protection d’assurance libérée. Vous pourrez voir la prévision des primes payées à l’aide d’un rachat dans le tableau « Sommaire des transactions du contrat », dans la colonne « Primes payées au moyen des valeurs du contrat ».<br/><br/>Pour bénéficier de ce concept, vous devrez communiquer avec votre conseiller au moment opportun afin d’effectuer un changement d’option d’affectation des participations pour Réduction de la prime annuelle et choisir le mode de paiement annuel, si applicable. L’arrêt du paiement de votre prime ne se fera pas automatiquement.</html>",
+          "DescriptionEn": "<html>The premium offset option allows you to anticipate when you may stop paying your premium. This time may occur once the estimated annual dividend amount is equal to or higher than the amount of the premium. Your dividends will be used to pay your premium.<br/><br/>If the dividends are higher than your premium, the excess will be used to acquire paid-up insurance coverage.<br/><br/>If the dividends are insufficient, three options will be offered to you to pay the balance:<br/><ul><li>Using a partial or total surrender of your paid-up insurance coverage</li><li>In cash</li><li>Using an automatic policy loan advance</li></ul><br/>The illustration assumes that the residual premium will be paid using a partial or total surrender of your paid-up insurance coverage. You can see the projection of premiums paid through surrender in the “Policy Activity Summary” section, in the “Premiums Paid with Policy Values” column.<br/><br/>To benefit from this concept, you must contact your advisor at the appropriate time in order to change the dividend option for annual premium reduction and choose the annual method of payment, if applicable. The payment of your premium will not be interrupted automatically.</html>"
+        }
+      ]
+    },
+    {
+      "SectionId": "ChangementAffectationParticipations",
+      "Titres": [
+        {
+          "Titre": "Changement d’option d’affectation des participations",
+          "TitreEn": "Changing your dividend option",
+          "Description": "<html>Afin de bénéficier d’une source de liquidité additionnelle, vous pouvez prévoir un moment à partir duquel vous modifiez votre choix d’option d’affectation des participations pour Payable au comptant.<br/><br/>L’illustration présente ce changement d’option d’affectation des participations à l’année {0}. Celui-ci ne s’effectuera pas automatiquement. Vous devrez communiquer avec votre conseiller au moment opportun afin d’effectuer ce changement.<br/><br/></html>",
+          "DescriptionEn": "<html>To enjoy an additional source of liquidity, you can forecast a moment when you will change your dividend option for Payable in cash.<br/><br/>The illustration shows this change to the dividend option at year {0}. No change will be made automatically. You must contact your advisor at the appropriate time in order to change the dividend option.<br/><br/></html>"
+        }
+      ]
+    },
+    {
+      "SectionId": "FluxMonetaire",
+      "Titres": [
+        {
+          "Titre": "Dépôts forfaitaires et retraits | Dépôts forfaitaires | Retraits",
+          "TitreEn": "Lump-sum deposits and Withdrawals | Lump-sum deposits | Withdrawals"
+        }
+      ]
+    },
+    {
+      "SectionId": "UsageDuConseiller",
+      "Titres": [
+        {
+          "Titre": "À l'usage du conseiller",
+          "TitreEn": "For advisor's use"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "SectionId": "PageTitre",
+  "InformationsParProduit": [
+    {
+      "Produit": "",
+      "NomRessourceImage": "LogoAssuranceVie"
+    },
+    {
+      "Produit": "Transition",
+      "NomRessourceImage": "LogoAssuranceMaladieGrave"
+    }
+  ]
+}

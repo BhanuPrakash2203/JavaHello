@@ -1,0 +1,127 @@
+[
+  {
+    "Produit": "RegimeVieMD",
+    "Etat": "EnVigueur",
+    "AgeReferenceProjection": 100,
+    "Titre": {
+      "French": "Régime Vie MD",
+      "English": "MD Life Plan"
+    },
+    "Pages": [
+      {
+        "SectionId": "PageTitre",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 1
+      },
+      {
+        "SectionId": "Protections",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 3
+      },
+      {
+        "SectionId": "HypothesesInvestissement",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 4
+      },
+      {
+        "SectionId": "TestDeSensibilite",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 5
+      },
+      {
+        "SectionId": "PrimesDeRenouvellement",
+        "EstAccap": true,
+        "EstDefaut": false,
+        "OrdreAffichage": 6
+      },
+      {
+        "SectionId": "ValeursDuContrat",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 7
+      },
+      {
+        "SectionId": "PrestationDeces",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 8
+      },
+      {
+        "SectionId": "PrestationDecesSuite",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 9
+      },
+      {
+        "SectionId": "PrestationMaladieGrave",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 10
+      },
+      {
+        "SectionId": "FondsAccumules",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 11
+      },
+      {
+        "SectionId": "DonneesFiscalesUniverselle",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 12
+      },
+      {
+        "SectionId": "TransactionsContrat",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 13
+      },
+      {
+        "SectionId": "TransactionsFondsTransitoire",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 14
+      },
+      {
+        "SectionId": "ValeurSuccessoraleNette",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 15
+      },
+      {
+        "SectionId": "Signature",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 16
+      },
+      {
+        "SectionId": "GlossaireGeneral",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 17
+      },
+      {
+        "SectionId": "GlossaireMaladieGrave",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 18
+      },
+      {
+        "SectionId": "GlossaireRevenuAppoint",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 19
+      },
+      {
+        "SectionId": "GlossaireHospitalisation",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 20
+      }
+    ]
+  }
+]

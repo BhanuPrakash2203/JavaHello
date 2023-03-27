@@ -1,0 +1,196 @@
+﻿{
+  "SectionId": "RapportCommission",
+  "Titres": [
+    {
+      "Titre": "Rapport de commission",
+      "TitreEn": "Compensation report"
+    }
+  ],
+  "Tableau": {
+    "GroupeColonnes": [
+      {
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "Aucune" ]
+            ],
+            "TypeColonne": "Annee"
+          },
+          {
+            "Colonne": 66,
+            "Titres": {
+              "Titre": "Vie Universelle",
+              "TitreEn": "Basic"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "NoteReferences": [ "NoteGaranties" ],
+            "Regles": [
+              [ "ValeurSuperieureOuEgaleZero" ]
+            ]
+          },
+          {
+            "Colonne": 64,
+            "Titres": {
+              "Titre": "Prime Option 10-15-20",
+              "TitreEn": "Option 10-15-20 Premium"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurSuperieureOuEgaleZero" ]
+            ]
+          },
+          {
+            "Colonne": 67,
+            "Titres": {
+              "Titre": "Avenants",
+              "TitreEn": "Riders"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurSuperieureOuEgaleZero" ]
+            ]
+          },
+          {
+            "Colonne": 65,
+            "Titres": {
+              "Titre": "Prime excédentaire",
+              "TitreEn": "Excess Premium"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurSuperieureOuEgaleZero" ]
+            ]
+          },
+          {
+            "Colonne": 69,
+            "Titres": {
+              "Titre": "Dépôt au fonds transitoire",
+              "TitreEn": "Deposit to Shuttle Fund"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurSuperieureOuEgaleZero" ]
+            ]
+          },
+          {
+            "Colonne": 68,
+            "Titres": {
+              "Titre": "Actifs",
+              "TitreEn": "Asset"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "NoteReferences": [ "NoteFondsCapitalisation" ],
+            "Regles": [
+              [ "ValeurSuperieureOuEgaleZero" ]
+            ]
+          },
+          {
+            "Colonne": 63,
+            "Titres": {
+              "Titre": "Boni",
+              "TitreEn": "Bonus"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "NoteReferences": [ "NoteBonification" ],
+            "Regles": [
+              [ "ValeurSuperieureOuEgaleZero" ]
+            ]
+          },
+          {
+            "Colonne": 71,
+            "Titres": {
+              "Titre": "Total",
+              "TitreEn": "Total"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurSuperieureOuEgaleZero" ]
+            ]
+          },
+          {
+            "Colonne": 72,
+            "Titres": {
+              "Titre": "Total cumulatif",
+              "TitreEn": "Cumulative Total"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurSuperieureOuEgaleZero" ]
+            ]
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Base",
+    "Notes": [
+      {
+        "Id": "NoteGaranties",
+        "SequenceId": 0,
+        "EstReference": true,
+        "Texte": "Inclut les garanties complémentaires et les surprimes.",
+        "TexteEn": "Includes additional benefits and ratings.",
+        "Colonne": 66,
+        "Regles": [
+          [ "ValeurSuperieureOuEgaleZero" ]
+        ]
+      },
+      {
+        "Id": "NoteFondsCapitalisation",
+        "SequenceId": 1,
+        "EstReference": true,
+        "Texte": "Montant correspondant à un pourcentage des actifs présents dans le Fonds de capitalisation à la fin de chaque année.",
+        "TexteEn": "Amount equal to a percentage of accumulated amounts in the Accumulation Fund at the end of each year.",
+        "Colonne": 68,
+        "Regles": [
+          [ "ValeurSuperieureOuEgaleZero" ]
+        ]
+      },
+      {
+        "Id": "NoteBonification",
+        "SequenceId": 2,
+        "EstReference": true,
+        "Texte": "Le pourcentage de bonification utilisé est {0}, tel qu’indiqué dans le menu Configurer – Illustrations.",
+        "TexteEn": "The bonus percentage used is {0} as shown in the Configure - Illustrations menu.",
+        "Params": [
+          "BoniCommission"
+        ],
+        "Colonne": 63,
+        "Regles": [
+          [ "ValeurSuperieureOuEgaleZero" ]
+        ]
+      },
+      {
+        "SequenceId": 3,
+        "Texte": "L’âge affiché est celui de l’assuré le plus âgé couvert par la protection de base. ",
+        "TexteEn": "The age shown is the age of the oldest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointPremierDeces" ]
+        ]
+      },
+      {
+        "SequenceId": 3,
+        "Texte": "L’âge affiché est celui de l’assuré le plus jeune couvert par la protection de base.",
+        "TexteEn": "The age shown is the age of the youngest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointDernierDeces" ]
+        ]
+      },
+      {
+        "SequenceId": 98,
+        "Texte": "Bien que tous les efforts soient faits pour assurer la qualité du logiciel, les données qui y figurent et particulièrement la rémunération, sont assujetties à approbation par la Compagnie.",
+        "TexteEn": "Even though all efforts are made to ensure the quality of the illustration or its use, the figures used in the illustration, particularly compensation, are subject to approval by the Company."
+      },
+      {
+        "SequenceId": 99,
+        "Texte": "L'information contenue dans ce rapport de commission est basée sur l'information qui a servi à produire l'illustration et selon les valeurs courantes de la projection. La rémunération pourrait être différente selon votre contrat de conseiller. En cas de divergence, votre contrat prévaudra sur la rémunération divulguée sur ce rapport.",
+        "TexteEn": "The information contained in this compensation report is based on current illustrated values and projection assumptions. Compensation could differ depending on your advisor's contract. In case of a discrepancy, the information contained in the advisor's contract will prevail."
+      }
+    ]
+  }
+}

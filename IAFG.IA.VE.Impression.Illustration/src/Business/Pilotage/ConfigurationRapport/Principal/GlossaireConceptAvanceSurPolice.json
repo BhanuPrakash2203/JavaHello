@@ -1,0 +1,32 @@
+﻿{
+  "SectionId": "GlossaireConceptAvanceSurPolice",
+  "Titres": [
+    {
+      "Titre": "Glossaire IRIS Avec avance pour investissement",
+      "TitreEn": "Glossary of IRIS With Policy Loan"
+    }
+  ],
+  "GlossaireTextes": [
+    {
+      "Libelle": "Déduction des intérêts :",
+      "LibelleEn": "Deduction of interest:",
+      "Texte": "<html>Les intérêts applicables au solde de l’avance sur police sont exigibles à chaque anniversaire de police. Ces intérêts sont déductibles à l'encontre de vos revenus pour l'année en cours*.<br><br>* La compagnie ne garantit pas que les conséquences fiscales seront telles qu'illustrées dans ce document et recommande fortement au client de consulter un expert-comptable fiscal ou un conseiller juridique afin d'obtenir des conseils professionnels indépendants.</html>",
+      "TexteEn": "<html>The accrued interest applicable to the policy loan will be charged at each policy anniversary. This interest may be deducted from your income for the current year *.<br><br>* The Company does not guarantee that the tax consequences will be as illustrated in this document and strongly recommends that the client consult an accountant, tax expert or legal advisor in order to obtain independent professional advice.</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Remboursement de l’avance :",
+      "LibelleEn": "Reimbursement of policy loan:",
+      "Texte": "<html>Au rachat, il faut tenir compte de l'imposition. Ainsi, la valeur de rachat après impôts peut être inférieure au solde de l’avance. En conséquence, il est préférable que celle-ci soit remboursée uniquement au décès de l'assuré. Au décès de l'assuré, le solde de l’avance est remboursé à même le produit de l'assurance qui est libre d'impôt. Quant à l'excédent, il appartient au(x) bénéficiaire(s).</html>",
+      "TexteEn": "<html>Taxation must be taken into account at redemption. Hence, the surrender value after taxes may be lower than the policy loan. Consequently, it is preferable that it only be reimbursed on the insured's death. On the death of the insured, the balance of the policy loan is reimbursed from the insurance proceeds, which are tax free. The surplus belongs to the beneficiary(ies).</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Dépôts et avances sur police :",
+      "LibelleEn": "Deposits and Policy loan:",
+      "Texte": "<html>Suivant un dépôt, une avance sur police peut être accordée. À ce moment, un montant suffisant pour garantir l’avance doit être investi dans les comptes admissibles. Le taux d’intérêt de l’avance est déterminé en fonction du taux du compte CIRS (compte en référence) majoré d’un incrément.</html>",
+      "TexteEn": "<html>A policy loan could be granted at the time a deposit is made. At that time a sufficient amount to secure the policy loan must be invested in eligible accounts. The interest rate on the loan will be established according to the SRIA (reference rate) plus a spread.</html>",
+      "SequenceId": 1
+    }
+  ]
+}

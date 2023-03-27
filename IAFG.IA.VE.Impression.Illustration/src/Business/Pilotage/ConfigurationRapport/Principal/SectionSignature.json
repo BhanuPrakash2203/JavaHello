@@ -1,0 +1,90 @@
+﻿{
+  "SectionId": "Signature",
+  "Titres": [
+    {
+      "Titre": "Signature et déclaration",
+      "TitreEn": "Signature and declaration",
+      "Description": "Bien que tous les efforts soient faits pour assurer la qualité du logiciel, les données qui y figurent, et particulièrement les coûts et les primes, sont assujetties à l’approbation d’iA Groupe financier.",
+      "DescriptionEn": "Even though all efforts are made to ensure the quality of the illustration or its use, the figures used in the illustration, particularly costs and/or premiums, are subject to approval by iA Financial Group."
+    }
+  ],
+  "SignatureContractant": {
+    "Texte": "Signature du contractant",
+    "TexteEn": "Applicant’s Signature"
+  },
+  "SignatureContractantCompagnie": {
+    "Texte": "Signature du contractant",
+    "TexteEn": "Applicant’s Signature"
+  },
+  "SignatureRepresentant": {
+    "Texte": "Signature du représentant",
+    "TexteEn": "Advisor’s Signature"
+  },
+  "Textes": [
+    {
+      "Texte": "<html>Je, soussigné(e), déclare avoir reçu une copie du rapport d’illustration et par ma signature ci-dessous, je confirme en avoir pris connaissance et comprendre ce qui suit :<br></html>",
+      "TexteEn": "<html>I, the undersigned, declare that I received a copy of the illustration report, that I have read it, and by signing below, I confirm that I understand the following:<br></html>",
+      "Bullets": [
+        {
+          "Texte": "<li>Cette illustration ne constitue pas un contrat d’assurance ni une offre d’assurance. En cas de divergence, le contrat d’assurance a préséance.</li>",
+          "TexteEn": "<li>This illustration is not an insurance contract or an offer of insurance. In case of discrepancy, the insurance contract prevails.</li>",
+          "SequenceId": 1
+        },
+        {
+          "Texte": "<li>Je peux varier le montant et la fréquence des primes que je verse, mais je dois maintenir dans le contrat des sommes suffisantes pour couvrir les coûts d’assurance nécessaires afin que le contrat demeure en vigueur. Les coûts d’assurance d’un contrat à coûts nivelés sont fixes pour toute la durée du contrat. Les coûts d’assurance d’un contrat à coûts TRA augmentent  généralement à chaque année.</li>",
+          "TexteEn": "<li>I can change the amount and the number of premiums payments; however, I must maintain an amount sufficient to cover the costs of insurance to keep the contract in force. The costs of insurance for a contract with levelled costs are fixed for the life of the contract. The costs of insurance for a contract with YRT costs generally increase each year.</li>",
+          "SequenceId": 2
+        },
+        {
+          "Texte": "<li>Les rendements présentés dans cette illustration le sont sur une base nette, donc déduction faite des frais de gestion.</li>",
+          "TexteEn": "<li>The returns presented in the illustration are on a net basis, meaning fees are deducted.</li>",
+          "SequenceId": 3
+        },
+        {
+          "Texte": "<li>Les rendements réels varieront à la hausse ou à la baisse par rapport aux rendements projetés et la fluctuation de ces rendements influera sur :</li>",
+          "TexteEn": "<li>Real returns will vary upward or downward compared to projected returns and the difference in these returns will affect:</li>",
+          "Bullets": [
+            {
+              "Texte": "<li>le capital assuré total, la valeur de rachat et la valeur du fonds de capitalisation;</li>",
+              "TexteEn": "<li>The total face amount, the surrender value and the value of the accumulation fund; </li>",
+              "SequenceId": 1
+            },
+            {
+              "Texte": "<li>le montant et le nombre de versements de primes nécessaires pour maintenir le contrat en vigueur.</li>",
+              "TexteEn": "<li>The amount and number of premium payments required to keep the contract in force.</li>",
+              "SequenceId": 2
+            }
+          ],
+          "SequenceId": 4
+        },
+        {
+          "Texte": "<li>Des frais de rachat peuvent s’appliquer si je demande le rachat ou un retrait partiel pour un contrat à coûts TRA.</li>",
+          "TexteEn": "<li>For a contract with YRT costs of insurance, surrender charges may apply if I surrender the contract or make a partial withdrawal.</li>",
+          "SequenceId": 5
+        },
+        {
+          "Texte": "<li>Les projections figurant dans l’illustration se basent sur la législation en vigueur. Par conséquent, les taux d’imposition et les taxes sont sujets à changer avec le temps.</li>",
+          "TexteEn": "<li>The projections are based on existing legislation. Consequently, tax rates and taxes may change over time.</li>",
+          "SequenceId": 6
+        }
+      ],
+      "SequenceId": 1
+    },
+    {
+      "Texte": "<html>Je comprends que cette illustration n'est pas définitive et pourrait varier selon les critères de la compagnie en terme de sélection médicale et financière.</html>",
+      "TexteEn": "<html>I understand that this illustration is not definitive and may vary according to the company's medical and financial criteria.</html>",
+      "Regles": [
+        [ "CapitalAssurePlusDe10M" ]
+      ],
+      "SequenceId": 2
+    },
+    {
+      "Texte": "<html>Je comprends que la tarification préférentielle qui apparaîtra au contrat peut différer de celle présentée dans cette illustration en fonction de l'état de santé de l'assuré.</html>",
+      "TexteEn": "<html>I understand that the preferred rates that appear in the contract may be different from the ones shown in this illustration based on the insured's health.</html>",
+      "Regles": [
+        [ "TauxPreferentielPresent" ]
+      ],
+      "SequenceId": 3
+    }
+  ]
+}

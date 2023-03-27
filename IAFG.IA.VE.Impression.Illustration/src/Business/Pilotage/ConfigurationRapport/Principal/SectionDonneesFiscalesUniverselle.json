@@ -1,0 +1,208 @@
+﻿{
+  "SectionId": "DonneesFiscalesUniverselle",
+  "Titres": [
+    {
+      "Titre": "Données fiscales",
+      "TitreEn": "Tax Data",
+      "Description": "Ce rapport fait état des conséquences fiscales des retraits, du rachat de votre police Vie Universelle ou du transfert au fonds transitoire tant que la police est en vigueur (selon la valeur du coût de base rajusté (CBR)).",
+      "DescriptionEn": "This report shows the tax consequences of withdrawals, surrendering your Universal Life policy or transfers to the shuttle fund while the policy is in force (depending on the value of the Adjusted Cost Basis (ACB))."
+    }
+  ],
+  "Tableau": {
+    "Titres": [
+      {
+        "Titre": "Contractant : {0}",
+        "TitreEn": "Applicant: {0}",
+        "TitreParams": [
+          "NomContractants"
+        ],
+        "TitreRegles": [
+          [ "ContractantUnique" ]
+        ]
+      },
+      {
+        "Titre": "Contractants : {0}",
+        "TitreEn": "Applicants: {0}",
+        "TitreParams": [
+          "NomContractants"
+        ],
+        "TitreRegles": [
+          [ "ContractantMultiple" ]
+        ]
+      }
+    ],
+    "GroupeColonnes": [
+      {
+        "Produits": [],
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee"
+          },
+          {
+            "Colonne": 77,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          }
+        ]
+      },
+      {
+        "Produits": [ "CapitalValeur", "CapitalValeur3" ],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 97,
+            "Titres": {
+              "Titre": "Valeur de rachat totale",
+              "TitreEn": "Total Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 40,
+            "Titres": {
+              "Titre": "Coût de base rajusté (CBR)",
+              "TitreEn": "Adjusted Cost Basis (ACB)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 62,
+            "Titres": {
+              "Titre": "Coût net d'assurance pure (CNAP)",
+              "TitreEn": "Net Cost of Pure Insurance (NCPI)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 98,
+            "Titres": {
+              "Titre": "Impôts sur la valeur de rachat totale",
+              "TitreEn": "Taxes on Total Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 99,
+            "Titres": {
+              "Titre": "Valeur de rachat totale nette",
+              "TitreEn": "Total Net Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "NoteReferences": [ "NoteFondsTransitoire" ]
+          },
+          {
+            "Colonne": 92,
+            "Titres": {
+              "Titre": "Fonds fiscal Max projeté",
+              "TitreEn": "Maximum projected fiscal room"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          }
+        ]
+      },
+      {
+        "Produits": [],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 128,
+            "Titres": {
+              "Titre": "Fonds de capitalisation",
+              "TitreEn": "Accumulation Fund"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 87,
+            "Titres": {
+              "Titre": "Charge au rachat",
+              "TitreEn": "Surrender charge"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 97,
+            "Titres": {
+              "Titre": "Valeur de rachat totale",
+              "TitreEn": "Total Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 40,
+            "Titres": {
+              "Titre": "Coût de base rajusté (CBR)",
+              "TitreEn": "Adjusted Cost Basis (ACB)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 62,
+            "Titres": {
+              "Titre": "Coût net d'assurance pure (CNAP)",
+              "TitreEn": "Net Cost of Pure Insurance (NCPI)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 98,
+            "Titres": {
+              "Titre": "Impôts sur la valeur de rachat totale",
+              "TitreEn": "Taxes on Total Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 99,
+            "Titres": {
+              "Titre": "Valeur de rachat totale nette",
+              "TitreEn": "Total Net Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "NoteReferences": [ "NoteFondsTransitoire" ]
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Contrat",
+    "Notes": [
+      {
+        "Id": "NoteFondsTransitoire",
+        "SequenceId": 1,
+        "EstReference": true,
+        "Texte": "Inclut le fonds transitoire, s’il y a lieu.",
+        "TexteEn": "Includes shuttle fund, if necessary."
+      },
+      {
+        "SequenceId": 2,
+        "Texte": "L’âge affiché est celui de l’assuré le plus âgé couvert par la protection de base. ",
+        "TexteEn": "The age shown is the age of the oldest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointPremierDeces" ]
+        ]
+      },
+      {
+        "SequenceId": 2,
+        "Texte": "L’âge affiché est celui de l’assuré le plus jeune couvert par la protection de base.",
+        "TexteEn": "The age shown is the age of the youngest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointDernierDeces" ]
+        ]
+      }
+    ]
+  }
+}

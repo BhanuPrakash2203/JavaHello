@@ -1,0 +1,45 @@
+{
+  "SectionId": "ParticularitesAssuranceGenesis",
+  "Descriptions": [
+    {
+      "Libelle": "Les particularités de l’assurance vie universelle Genesis",
+      "LibelleEn": "Characteristics of Genesis universal life insurance",
+      "Texte": "<html>L’assurance vie universelle Genesis est différente d’une assurance vie permanente standard puisqu’elle vous permet d’effectuer des choix parmi différentes composantes. Vous avez donc une protection financière personnalisée pour couvrir vos besoins particuliers.<br>Vous trouverez ci-dessous les différentes composantes de votre assurance vie universelle pour lesquelles vous devrez faire des choix.<b> Vos choix se reflèteront sur la page « Sommaire des protections » du présent document.</b></html>",
+      "TexteEn": "<html>Genesis universal life insurance differs from regular permanent life insurance in that it allows you to choose among different components. You therefore have personalized financial protection to cover your specific needs.<br>Please find below the various components of your universal life insurance from which you must make selections.<b> Your selections will appear on the “Summary of coverage” page in this document.</b></br><p></p></html>",
+      "Regles": [
+        [ "Aucune" ]
+      ],
+      "SectionPrincipale": true,
+      "SequenceId": 1,
+      "Tableau": [
+        {
+          "Categorie": "Coûts d’assurance",
+          "Texte": "<html><table style='padding: 10px; font-style:normal;width: 100%'><tr><td>Les coûts d’assurance sont entièrement garantis pour toute la durée de votre contrat.<br><b>Vous devrez choisir entre deux types de coûts d’assurance : </b><br><b> — Coûts d’assurance nivelés : </b>coûts qui demeurent fixes pour toute la durée de votre contrat.<br><b>   —\tCoûts d’assurance croissants (TRA)* : </b>coûts qui généralement augmentent chaque année en raison de votre âge.</td></tr></table></html>",
+          "CategorieEn": "Insurance costs",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Insurance costs are fully guaranteed for the life of your policy.<br><b>You must choose between two types of insurance costs:</b></br><br><b>    —\tLevel insurance costs: </b>costs that remain fixed for the life of your policy.<br><b>   — Increasing insurance costs (YRT)*: </b>costs that generally increase each year due to your age.</td></tr></table></html>"
+        },
+        {
+          "Categorie": "Prestation versée au décès",
+          "Texte": "<html><table style='padding: 10px; font-style:normal;width: 100%'><tr><td>La prestation de décès est le montant versé par la compagnie d’assurance au bénéficiaire désigné dans le contrat à la suite du décès de la personne assurée.<br><b>Vous devrez choisir entre les trois options suivantes :</b><br><b> — La protection d’assurance croissante (capital + fonds) : </b>Cette protection s’adresse aux personnes dont les besoins d’assurance sont stables ou augmentent avec les années. En effet, selon le niveau d’épargne investi, la prestation de décès est stable ou croissante puisque la valeur accumulée de votre police (vos placements) s’ajoute au montant d’assurance choisi au moment de la souscription.<br><b>     —\tLa protection d’assurance nivelée (capital seulement) : </b>Cette protection doit être jumelée au type de coûts d’assurance croissants (TRA)*. Cette protection permet de répondre aux besoins d’assurance qui ne changent pas au fil du temps. En effet, les montants investis dans votre police d’assurance (vos placements) contribuent à diminuer le montant d’assurance et, par conséquent, le coût de votre protection.<br><b> — La protection qui minimise le coût d’assurance (capital + fonds avec option valeur maximisée) : </b>Cette protection doit être jumelée au type de coûts d'assurance croissants (TRA)*, et est idéale pour des clients aisés ou des entreprises qui souhaitent maximiser leur épargne. Le montant d’assurance est ajusté au niveau minimum requis pour maintenir le statut d’exonération fiscale de la police et, par conséquent, les coûts de votre protection d’assurance sont maintenus au plus bas possible.</td></tr></table></html>",
+          "CategorieEn": "Death benefit",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>The death benefit is the amount paid by the insurance company to the beneficiary designated in the policy when the insured dies.<br><b>You must choose between the following three options: </b></br><br><b>    — Increasing insurance coverage (Face amount + funds): </b>This coverage is for people whose insurance needs are stable or increase over the years. Based on the level of savings invested, the death benefit is stable or increases, as the value accumulated in your policy (your investments) is added to the insurance coverage chosen when taking out the policy.<br><b>   — Level insurance coverage (Face amount only): </b>This coverage must be combined with increasing insurance costs (YRT)*. It makes it possible to meet insurance needs that do not change over time. The amount invested in your insurance policy (your investments) helps lower the insurance coverage and, as a result, the cost of your insurance.<br><b> — Minimizing the cost of insurance coverage (Face amount + funds with wealth maximizer option): </b>This coverage must be combined with increasing insurance costs (YRT)*, and is ideal for corporations and affluent clients who want to maximize their savings. The face amount is adjusted to the minimum level required to maintain the tax-exempt status of the policy and, by doing so, the costs of your insurance coverage are kept as low as possible.</td></tr></table></html>"
+        },
+        {
+          "Categorie": "Option de paiement",
+          "Texte": "<html><table style='padding: 10px; font-style:normal;width: 100%'><tr><td>Les primes que vous versez, après déduction des taxes, servent à payer les coûts d’assurance et d’administration. La portion excédentaire, s’il y a lieu, est investie dans les options de placement de votre choix.<br><b>Vous devrez choisir entre : </b><br>  — Payer une même prime toute votre vie;<br>     ou<br>   — Personnaliser le paiement de votre prime selon une fréquence préétablie avec votre conseiller. Il est important de savoir que plus la période de paiement des primes est courte, plus les primes seront élevées.<br>Des options de paiement sur 10, 15 ou 20 ans sont également offertes lorsque les coûts d’assurance nivelés sont choisis.</td></tr></table></html>",
+          "CategorieEn": "Payment option",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>The premiums you pay, after taxes are deducted, are used to pay the insurance and administration costs. The remainder, if applicable, is invested in the investment options you choose.<br><b>You must choose between:</b></br><br>  — Paying the same premium during your lifetime<br>     or<br> —\tCustomize your premium payments at a frequency predetermined with your advisor. It is important to remember that the shorter the payment period, the higher the premiums.<p>Payment options over 10, 15 or 20 years are also available when you choose level insurance costs.</td></tr></table></html>"
+        }
+      ]
+    },
+    {
+      "Texte": "<html>*Coûts d’assurance temporaire renouvelable annuellement (TRA)</html>",
+      "TexteEn": "<html>*Yearly renewable term (YRT) insurance costs</html>",
+      "Regles": [
+        [ "Aucune" ]
+      ],
+      "SectionPrincipale": false,
+      "SequenceId": 2
+    }
+  ]
+}

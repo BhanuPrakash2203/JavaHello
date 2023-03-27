@@ -1,0 +1,49 @@
+﻿[
+  {
+    "Produit": "AccesVie",
+    "Etat": "NouvelleVente",
+    "AgeReferenceProjection": 100,
+    "Titre": {
+      "French": "Accès Vie",
+      "English": "Access Life"
+    },
+    "Pages": [
+      {
+        "SectionId": "PageTitre",
+        "EstAccap": false,
+        "EstDefaut": true,
+        "OrdreAffichage": 1
+      },
+      {
+        "SectionId": "DescriptionsProtections",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 2
+      },
+      {
+        "SectionId": "SommaireProtections",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 3
+      },
+      {
+        "SectionId": "ApercuProtections",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 5
+      },
+      {
+        "SectionId": "DonneesFiscales",
+        "EstAccap": false,
+        "EstDefaut": false,
+        "OrdreAffichage": 6
+      },
+      {
+        "SectionId": "NotesIllustration",
+        "EstAccap": true,
+        "EstDefaut": true,
+        "OrdreAffichage": 7
+      }
+    ]
+  }
+]

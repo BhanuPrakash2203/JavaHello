@@ -1,0 +1,111 @@
+﻿[
+  {
+    "SectionId": "BonSuccessoral.PageTitre",
+    "BuilderName": "BonSuccessoral.PageTitre",
+    "FichierDefinition": "BonSuccessoral\\PageTitre.json",
+    "Titre": {
+      "French": "Page titre - Bon Successoral",
+      "English": "Estate Bond Title Page"
+    },
+    "GroupeRapport": "BonSuccessoral",
+    "Regles": [
+      [ "ConceptBonSuccessoral", "ContractantEstIndividu" ]
+    ]
+  },
+  {
+    "SectionId": "BonSuccessoral.PageTitreEntreprise",
+    "BuilderName": "BonSuccessoral.PageTitre",
+    "FichierDefinition": "BonSuccessoral\\PageTitreEntreprise.json",
+    "Titre": {
+      "French": "Page titre - Bon Successoral",
+      "English": "Estate Bond Title Page"
+    },
+    "GroupeRapport": "BonSuccessoral",
+    "Regles": [
+      [ "ConceptBonSuccessoral", "ContractantEstCompagnie" ]
+    ]
+  },
+  {
+    "SectionId": "BonSuccessoral.Sommaire",
+    "BuilderName": "BonSuccessoral.SommaireBonSuccessoral",
+    "FichierDefinition": "BonSuccessoral\\SommaireBonSuccessoral.json",
+    "Titre": {
+      "French": "Sommaire du bon successoral",
+      "English": "Estate Bond Summary"
+    },
+    "GroupeRapport": "BonSuccessoral",
+    "Regles": [
+      [ "ConceptBonSuccessoral" ]
+    ]
+  },
+  {
+    "SectionId": "BonSuccessoral.PageGraphique",
+    "BuilderName": "BonSuccessoral.PageGraphique",
+    "FichierDefinition": "BonSuccessoral\\PageGraphique.json",
+    "Titre": {
+      "French": "Valeur à la succession",
+      "English": "Value to the estate"
+    },
+    "GroupeRapport": "BonSuccessoral",
+    "Regles": [
+      [ "ConceptBonSuccessoral" ]
+    ]
+  },
+  {
+    "SectionId": "BonSuccessoral.TableauProjectionPlacement",
+    "BuilderName": "Generique.Projection",
+    "FichierDefinition": "BonSuccessoral\\TableauProjectionPlacement.json",
+    "Titre": {
+      "French": "Projection du placement comparatif",
+      "English": "Alternate Investment Projection"
+    },
+    "GroupeRapport": "BonSuccessoral",
+    "Regles": [
+      [ "ConceptBonSuccessoral" ]
+    ]
+  },
+  {
+    "SectionId": "BonSuccessoral.TableauComparaisonPlacement",
+    "BuilderName": "Generique.Projection",
+    "FichierDefinitions": {
+      "AssuranceParticipant": "BonSuccessoral\\TableauComparaisonPlacement_AssuranceParticipant.json",
+      "AssuranceParticipantValeur": "BonSuccessoral\\TableauComparaisonPlacement_AssuranceParticipant.json",
+      "AssuranceParticipantPatrimoine": "BonSuccessoral\\TableauComparaisonPlacement_AssuranceParticipant.json",
+      "Genesis": "BonSuccessoral\\TableauComparaisonPlacement_Genesis.json"
+    },
+    "Titre": {
+      "French": "Comparaison de la stratégie d’assurance avec un placement comparatif ",
+      "English": "Comparison of the insturance strategy with an alternate investment"
+    },
+    "GroupeRapport": "BonSuccessoral",
+    "Regles": [
+      [ "ConceptBonSuccessoral" ]
+    ]
+  },
+  {
+    "SectionId": "BonSuccessoral.DescriptionBonSuccessoral",
+    "BuilderName": "Generique.Section",
+    "FichierDefinition": "BonSuccessoral\\DescriptionBonSuccessoral.json",
+    "Titre": {
+      "French": "Description du bon successoral",
+      "English": "Estate Bond Description"
+    },
+    "GroupeRapport": "BonSuccessoral",
+    "Regles": [
+      [ "ConceptBonSuccessoral", "ContractantEstIndividu" ]
+    ]
+  },
+  {
+    "SectionId": "BonSuccessoral.DescriptionBonSuccessoralEntreprise",
+    "BuilderName": "Generique.Section",
+    "FichierDefinition": "BonSuccessoral\\DescriptionBonSuccessoralEntreprise.json",
+    "Titre": {
+      "French": "Description du bon successoral",
+      "English": "Estate Bond Description"
+    },
+    "GroupeRapport": "BonSuccessoral",
+    "Regles": [
+      [ "ConceptBonSuccessoral", "ContractantEstCompagnie" ]
+    ]
+  }
+]

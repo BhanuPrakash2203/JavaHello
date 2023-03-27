@@ -1,0 +1,127 @@
+﻿{
+  "SectionId": "SommaireValeurRachat",
+  "Titres": [
+    {
+      "Titre": "Sommaire des valeurs de rachat",
+      "TitreEn": " Surrender Value Summary",
+      "Description": "<html>Le tableau ci-dessous vous donne les détails de vos valeurs de rachat. Le scénario présenté présume que vous allez recevoir des participations à votre anniversaire de contrat.<html>",
+      "DescriptionEn": "<html>The table below gives you the details of your surrender values. The scenario assumes that you will receive the dividends on your policy anniversary.<html>"      
+    }
+  ],
+  "Tableau": {
+    "Titres": [
+      {
+        "Titre": "Scénario illustré : Barème de participations courant (scénario principal)",
+        "TitreEn": "Illustrated scenario: Current dividend scale (main scenario)"
+      }
+    ],
+    "GroupeColonnes": [
+      {       
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee"
+          },
+          {
+            "Colonne": 1,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          },
+          {
+            "Colonne": 114,
+            "Titres": {
+              "Titre": "Valeur de rachat garantie",
+              "TitreEn": "Guaranteed Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 113,
+            "Titres": {
+              "Titre": "Valeur de rachat de l'assurance libérée",
+              "TitreEn": "Paid-Up Insurance Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 2004,
+            "Titres": {
+              "Titre": "Solde du compte des participations en dépôt",
+              "TitreEn": "Balance of Dividends on Deposit Account"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurDifferenteZero" ]
+            ]
+          },
+          {
+            "Colonne": 166,
+            "Titres": {
+              "Titre": "Solde des avances sur police",
+              "TitreEn": "Balance of Policy Loan"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurDifferenteZero" ]
+            ]
+          },
+          {
+            "Colonne": 2009,
+            "Titres": {
+              "Titre": "Valeur de rachat totale",
+              "TitreEn": "Total Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 2016,
+            "Titres": {
+              "Titre": "Primes et contributions annuelles cumulatives",
+              "TitreEn": "Accumulated Annual Premiums and Contributions Paid"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "NouvelleVente" ]
+            ]
+          },
+          {
+            "Colonne": 214,
+            "Titres": {
+              "Titre": "Rachats/Retraits avant impôts",
+              "TitreEn": "Redemption/ Withdrawals of cash values before taxes"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "VecteurPresent" ]
+            ]
+          },
+          {
+            "Colonne": 2025,
+            "Titres": {
+              "Titre": "Rendement au rachat",
+              "TitreEn": "Rate of Return (Surrender)"
+            },
+            "TypeAffichageValeur": "Pourcentage",
+            "Regles": [
+              [ "NouvelleVente" ]
+            ]
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Contrat"
+  }
+}

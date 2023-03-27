@@ -1,0 +1,169 @@
+﻿{
+  "SectionId": "ValeursDuContratAlternatif",
+  "Titres": [
+    {
+      "Titre": "Projection des valeurs du contrat - Scénario alternatif",
+      "TitreEn": "Policy Projected Values - Alternative Scenario",
+      "Description": "Le tableau ci-dessous illustre l'impact sur les valeurs du contrat dans le cas où les participations versées sont inférieures à celles prévues. Dans la section de gauche, le scénario est identique à celui présenté dans le tableau précédent, soit qu'aucune participation ne vous sera versée pendant toute la durée du contrat. Dans la section de droite, le scénario présenté présume que vous allez recevoir des participations à votre anniversaire de contrat. Les participations de ce scénario sont projetées en utilisant les hypothèses actuelles du barème de participations, à laquelle nous appliquons une réduction immédiate du taux d'intérêt, et ce, pour toute la durée du contrat (scénario alternatif). Vous pouvez voir les valeurs que vous obtiendrez si vous payez les montants indiqués dans la colonne « primes et contributions annuelles versées ».",
+      "DescriptionEn": "<html>The table below illustrates the impact on the policy values if dividends paid are lower than expected. On the left side, the values are projected using the same scenario as the one presented in the previous table, which assumes no dividends paid for the entire duration of the policy. On the right side, the scenario assumes that you will receive dividends on your policy anniversary. The dividends in this scenario are projected using the current dividend scale assumptions, to which we apply an immediate reduction to the dividend interest rate for the entire duration of the policy (alternative scenario). You must pay the amounts indicated in the <i>Annual Premiums and Contributions Paid</i> column to obtain those values.</html>"
+    }
+  ],
+  "Tableau": {
+    "GroupeColonnes": [
+      {
+        "Produits": [],
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee",
+            "TypeRendementProjection": "RendementDefavorable"
+          },
+          {
+            "Colonne": 1,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age",
+            "TypeRendementProjection": "RendementDefavorable"
+          }
+        ]
+      },
+      {
+        "SequenceId": 1,
+        "Titres": {
+          "Titre": "Valeurs garanties",
+          "TitreEn": "Guaranteed values"
+        },
+        "Colonnes": [
+          {
+            "Colonne": 2022,
+            "Titres": {
+              "Titre": "Primes annuelles totales garanties",
+              "TitreEn": "Total Guaranteed Annual Premiums"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "TypeRendementProjection": "RendementDefavorable"
+          },
+          {
+            "Colonne": 114,
+            "Titres": {
+              "Titre": "Valeur de rachat garantie",
+              "TitreEn": "Guaranteed Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeRendementProjection": "RendementDefavorable",
+            "Regles": [
+              [
+                "ValeurPlusGrandeZero",
+                "NouvelleVente"
+              ]
+            ]
+          },
+          {
+            "Colonne": 2028,
+            "Titres": {
+              "Titre": "Valeur de rachat garantie",
+              "TitreEn": "Guaranteed Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeRendementProjection": "RendementDefavorable",
+            "Regles": [
+              [
+                "EnVigueur",
+                "VecteurPresent"
+              ]
+            ]
+          },
+          {
+            "Colonne": 2013,
+            "Titres": {
+              "Titre": "Montant d’assurance vie garanti",
+              "TitreEn": "Guaranteed life insurance amount"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeRendementProjection": "RendementDefavorable"
+          }
+        ]
+      },
+      {
+        "SequenceId": 2,
+        "Titres": {
+          "Titre": "Valeurs non garanties fondées\nsur le barème courant moins {0}",
+          "TitreEn": "Non guaranteed values based on\ncurrent dividend scale minus {0}",
+          "TitreParams": [
+            "ReductionBaremeParticipations"
+          ]
+        },
+        "Colonnes": [
+          {
+            "Colonne": 2012,
+            "Titres": {
+              "Titre": "Primes et contributions annuelles versées",
+              "TitreEn": "Annual Premiums and Contributions Paid"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "TypeRendementProjection": "RendementDefavorable"
+          },
+          {
+            "Colonne": 214,
+            "Titres": {
+              "Titre": "Rachats/Retraits avant impôts",
+              "TitreEn": "Redemption/ Withdrawals of cash values before taxes"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "TypeRendementProjection": "RendementDefavorable",
+            "Regles": [
+              [ "VecteurPresent" ]
+            ]
+          },
+          {
+            "Colonne": 2009,
+            "Titres": {
+              "Titre": "Valeur de rachat totale",
+              "TitreEn": "Total Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeRendementProjection": "RendementDefavorable"
+          },
+          {
+            "Colonne": 2008,
+            "Titres": {
+              "Titre": "Montant d’assurance vie total",
+              "TitreEn": "Total Life Insurance Amount"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeRendementProjection": "RendementDefavorable"
+          },
+          {
+            "Colonne": 2017,
+            "Titres": {
+              "Titre": "Participations annuelles payables au comptant",
+              "TitreEn": "Annual Dividends Payable in Cash"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeRendementProjection": "RendementDefavorable",
+            "Regles": [
+              [ "ValeurDifferenteZero" ]
+            ]
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Contrat",
+    "Notes": [
+      {
+        "TypeNote": "MessageMoteur",
+        "TypeRendementProjection": "RendementDefavorable",
+        "SequenceId": 1
+      }
+    ]
+  }
+}

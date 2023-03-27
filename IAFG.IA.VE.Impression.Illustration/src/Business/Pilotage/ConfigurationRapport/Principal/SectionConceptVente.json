@@ -1,0 +1,268 @@
+﻿{
+  "SectionId": "ConceptVente",
+  "Titres": [
+    {
+      "Titre": "Annexes relatives au concept de vente",
+      "TitreEn": "Sales Concept Appendixes"
+    }
+  ],
+  "ListSections": [
+    {
+      "SectionId": "PretCollateral",
+      "Titres": [
+        {
+          "Titre": "Hypothèses relatives à l'entente de prêt en collatéral (EPC)",
+          "TitreEn": "Collateral Loan Facility (CLF) Assumptions"
+        }
+      ],
+      "Libelles": {
+        "CompteEnCollateral": {
+          "Libelle": "Compte en Collatéral",
+          "LibelleEn": "Collateral account"
+        },
+        "TermeEntente": {
+          "Libelle": "Terme de l'entente de prêt en collatéral",
+          "LibelleEn": "Term of Collateral Loan Facility"
+        },
+        "CalculerPrimesAdditionnellesMaintienEnVigueur": {
+          "Libelle": "Calculer les primes additionnelles nécessaires au maintien en vigueur",
+          "LibelleEn": "Calculate the additional premiums required to maintain the policy in force"
+        },
+        "PourcentageInteretsDeductibles": {
+          "Libelle": "Pourcentage de intérêts déductibles",
+          "LibelleEn": "Interest Deductible Percentage"
+        },
+        "ProvenanceFondsMaintienEnVigueur": {
+          "Libelle": "Provenance des fonds nécessaires au maintien en vigueur",
+          "LibelleEn": "Source of funds required to maintain the policy in force"
+        },
+        "MaintainInforceType.LoanRepayment": {
+          "Libelle": "Remboursements partiels du prêt",
+          "LibelleEn": "Partial loan repayments"
+        },
+        "MaintainInforceType.AdditionalDeposit": {
+          "Libelle": "Primes additionnelles",
+          "LibelleEn": "Additional premiums"
+        },
+        "DeductionCoutNetAssurancePure": {
+          "Libelle": "Déduction du CNAP",
+          "LibelleEn": "NCPI Deduction"
+        },
+        "TitulaireEntente": {
+          "Libelle": "Titulaire de l'entente de prêt en collatéral",
+          "LibelleEn": "Collateral Loan Facility Borrower"
+        },
+        "FraisDeGarantie": {
+          "Libelle": "Frais de garantie",
+          "LibelleEn": "Guarantor fee"
+        },
+        "BorrowerType.Applicant": {
+          "Libelle": "La corporation contractante",
+          "LibelleEn": "The applicant corporation"
+        },
+        "BorrowerType.ThirdParty": {
+          "Libelle": "Une tierce partie",
+          "LibelleEn": "A Third party"
+        },
+        "Caution": {
+          "Libelle": "Caution",
+          "LibelleEn": "Guarantor"
+        }
+      },
+      "Notes": [
+        {
+          "Texte": "Le taux d'intérêt renouvellable chargé sur l'entente de prêt en collatéral est établi en fonction du taux de rendrement net gagné par le Compte indiciel à rendement stabilisé (CIRS) majoré d'un écart.",
+          "TexteEn": "The renewable rate charged on the Collateral Loan Facility is established as the net yield of the Stabilized Return Index Account (SRIA) plus a spread.",
+          "SequenceId": 1
+        },
+        {
+          "Texte": "Cet écart est garanti à l'entente de prêt en collatéral et se situe entre 1.50% et 2.00%.",
+          "TexteEn": "This spread is contractually guaranteed and varies between 1.50% and 2.00%.",
+          "SequenceId": 2
+        },
+        {
+          "Texte": "Veuillez vous référer à votre entente de prêt en collatéral pour les détails complets.",
+          "TexteEn": "Please refer to the Collateral Loan Facility contract for full details.",
+          "SequenceId": 3
+        }
+      ]
+    },
+    {
+      "SectionId": "PretCollateral-PaiementInterets",
+      "Titres": [
+        {
+          "Titre": "Hypothèses relatives à l'entente de prêt en collatéral (EPC) - Paiement des intérêts",
+          "TitreEn": "Collateral Loan Facility (CLF) Assumptions - Interest Payment",
+          "Description": "Selon les termes de l'entente de prêt en collatéral, les intérêts doivent être payés annuellement à chaque anniversaire à l'aide de dépôts additionnels.",
+          "DescriptionEn": "Under the terms of the Collateral Loan Facility, interest must be fully paid from additional deposits on a yearly basis on each anniversary."
+        }
+      ],
+      "Libelles": {
+        "PretsAdditionnels": {
+          "Libelle": "Prêts additionnels accordés suite au paiement des intérêts",
+          "LibelleEn": "Additional loans granted following interest payment"
+        },
+        "FigerPret": {
+          "Libelle": "Figer le prêt lorsqu'il atteint le solde",
+          "LibelleEn": "Fix the loan when it reaches the balance"
+        },
+        "MontantMaximal": {
+          "Libelle": "Montant maximal",
+          "LibelleEn": "Maximum amount"
+        },
+        "DuMontantMaximal": {
+          "Libelle": "{0} du montant maximal",
+          "LibelleEn": "{0} of the maximum amount"
+        },
+        "MontantPersonnalise": {
+          "Libelle": "Personnalisé",
+          "LibelleEn": "Customized"
+        }
+      },
+      "Notes": [
+        {
+          "Texte": "Pour connaître les montants accordés, veuillez vous référer aux annexes.",
+          "TexteEn": "For the actual amount granted, please refer to the Appendixes.",
+          "SequenceId": 0
+        }
+      ]
+    },
+    {
+      "SectionId": "PretCollateral-Remboursement",
+      "Titres": [
+        {
+          "Titre": "Hypothèses relatives à l'entente de prêt en collatéral (EPC) - Remboursement",
+          "TitreEn": "Collateral Loan Facility (CLF) Assumptions - Repayment"
+        }
+      ],
+      "Libelles": {
+        "RemboursementPret": {
+          "Libelle": "Remboursement du prêt",
+          "LibelleEn": "Loan principal repayment"
+        },
+        "ProvenanceFonds": {
+          "Libelle": "Provenance des fonds",
+          "LibelleEn": "Source of funds"
+        },
+        "Personnalise": {
+          "Libelle": "Personnalisé",
+          "LibelleEn": "Customized"
+        },
+        "MontantMaximal": {
+          "Libelle": "Totalité du prêt",
+          "LibelleEn": "Total loan balance"
+        },
+        "MontantPersonnalise": {
+          "Libelle": "Personnalisé",
+          "LibelleEn": "Customized"
+        },
+        "ProvenanceFonds.RetraitsPolice": {
+          "Libelle": "Retraits de la police",
+          "LibelleEn": "Policy withdrawal"
+        },
+        "ProvenanceFonds.DepotsAdditionnels": {
+          "Libelle": "Dépôts additionnels",
+          "LibelleEn": "Additional Deposits"
+        }
+      },
+      "Notes": [
+        {
+          "Texte": "Les remboursements de prêts furent personnalisées. Veuillez vous référer aux Annexes pour les détails.",
+          "TexteEn": "Loan repayments have been customized. Please refer to the Appendixes for details.",
+          "SequenceId": 0
+        }
+      ]
+    },
+    {
+      "SectionId": "AvancePret",
+      "Titres": [
+        {
+          "Titre": "Hypothèses relatives à l'avance sur police",
+          "TitreEn": "Policy Loan Assumptions"
+        }
+      ],
+      "Libelles": {
+        "CompteEnCollateral": {
+          "Libelle": "Compte en collatéral",
+          "LibelleEn": "Collateral account"
+        },
+        "TermeEntente": {
+          "Libelle": "Terme de l'avance sur police",
+          "LibelleEn": "Term of Policy Loan"
+        },
+        "CalculerPrimesAdditionnellesMaintienEnVigueur": {
+          "Libelle": "Calculer les primes additionnelles nécessaires au maintien en vigueur",
+          "LibelleEn": "Calculate the additional premiums required to maintain the policy in force"
+        },
+        "ProvenanceFondsMaintienEnVigueur": {
+          "Libelle": "Provenance des fonds nécessaires au maintien en vigueur",
+          "LibelleEn": "Source of funds required to maintain the policy in force"
+        },
+        "MaintainInforceType.LoanRepayment": {
+          "Libelle": "Remboursements partiels de l'avance",
+          "LibelleEn": "Partial loan repayments"
+        },
+        "MaintainInforceType.AdditionalDeposit": {
+          "Libelle": "Primes additionnelles",
+          "LibelleEn": "Additional premiums"
+        },
+        "PourcentageInteretsDeductibles": {
+          "Libelle": "Pourcentage des intérêts déductibles",
+          "LibelleEn": "Interest Deductible Percentage"
+        }
+      },
+      "Notes": [
+        {
+          "Texte": "Le taux d'intérêt chargé sur l'avance sur police est établi en fonction du taux de rendement net gagné par le Compte indiciel à rendement stabilisé (CIRS) majoré d'un écart.",
+          "TexteEn": "The rate charged on the Policy Loan is established as the yield credited on the Stabilized Return Index Account (SRIA) plus a spread.",
+          "SequenceId": 1
+        },
+        {
+          "Texte": "Cet écart est garanti au contrat et se situe entre 1.50% et 2.00% (pour des taux de rendement gagnés nets variant entre 4.50% et 5.50%).",
+          "TexteEn": "This spread is contractually guaranteed and varies between 1.50% and 2.00% (for net yield between 4.50% and 5.50%).",
+          "SequenceId": 2
+        },
+        {
+          "Texte": "Veuillez vous référer à votre contrat pour les détails complets.",
+          "TexteEn": "Please refer to the contract for full details.",
+          "SequenceId": 3
+        }
+      ]
+    },
+    {
+      "SectionId": "AvancePret-Remboursement",
+      "Titres": [
+        {
+          "Titre": "Hypothèses relatives à l'avance sur police - Remboursement",
+          "TitreEn": "Policy Loan Assumptions - Repayment"
+        }
+      ],
+      "Libelles": {
+        "RemboursementPret": {
+          "Libelle": "Remboursement de l'avance",
+          "LibelleEn": "Policy Loan principal repayment"
+        },
+        "MontantMaximal": {
+          "Libelle": "Totalité du prêt",
+          "LibelleEn": "Total loan balance"
+        },
+        "MontantPersonnalise": {
+          "Libelle": "Personnalisé",
+          "LibelleEn": "Customized"
+        },
+        "ProvenanceFonds": {
+          "Libelle": "Provenance des fonds",
+          "LibelleEn": "Source of funds"
+        },
+        "ProvenanceFonds.RetraitsPolice": {
+          "Libelle": "Retraits de la police",
+          "LibelleEn": "Policy withdrawal"
+        },
+        "ProvenanceFonds.DepotsAdditionnels": {
+          "Libelle": "Dépôts additionnels",
+          "LibelleEn": "Additional Deposits"
+        }
+      }
+    }
+  ]
+}

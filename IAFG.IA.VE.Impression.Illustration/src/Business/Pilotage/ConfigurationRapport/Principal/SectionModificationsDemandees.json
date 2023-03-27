@@ -1,0 +1,46 @@
+﻿{
+  "SectionId": "ModificationsDemandees",
+  "Titres": [
+    {
+      "Titre": "Modifications demandées",
+      "TitreEn": "Changes Requested"
+    }
+  ],
+  "Avis": [
+    {
+      "Texte": "Cette section peut comprendre un ou plusieurs changements.",
+      "TexteEn": "This section may include one or more changes.",
+      "SequenceId": 0
+    },
+    {
+      "Texte": "Il est de la responsabilité du contractant de faire une demande écrite à la compagnie afin que le changement soit apporté au contrat, le moment venu. Cette modification ne se fait pas de façon automatique.",
+      "TexteEn": "It is the policyholder’s responsibility to provide a written request to the company for the change to be made to the contract at the designated time. This change is not made automatically.",
+      "SequenceId": 1
+    },
+    {
+      "Texte": "De plus, s’il y a lieu, les ajustements aux primes ou aux coûts applicables au moment du changement seront effectués selon les règles administratives alors en-vigueur.",
+      "TexteEn": "In addition, any applicable adjustments to premiums or costs will be made in accordance with the administrative rules in effect at the time of the change.",
+      "SequenceId": 2
+    }
+  ],
+  "ListSections": [
+    {
+      "SectionId": "Contrat",
+      "Titres": [
+        {
+          "Titre": "Au contrat",
+          "TitreEn": "To the contract"
+        }
+      ]
+    },
+    {
+      "SectionId": "Protections",
+      "Titres": [
+        {
+          "Titre": "Aux protections de {0}",
+          "TitreEn": "To the coverages of {0}"
+        }
+      ]
+    }
+  ]
+}

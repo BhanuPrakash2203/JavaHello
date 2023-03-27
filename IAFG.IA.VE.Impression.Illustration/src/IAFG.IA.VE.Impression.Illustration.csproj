@@ -1,0 +1,180 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+    <Version>$(IllustrationVersion)</Version>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="IAFG.IA.VE.Impression.Core" Version="3.2.0" />
+    <PackageReference Include="IAFG.IA.VI.IPDFVie" Version="5.1.0" />
+    <PackageReference Include="IAFG.IA.VI.Projection.Data" Version="8.0.0" />
+    <PackageReference Include="IAFG.IA.VI.Projection.DataExtensions" Version="6.6.0" />
+    <PackageReference Include="IAFG.IA.VI.Projection.Extensions.PDFVie" Version="4.0.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\IAFG.IA.VE.Impression.Illustration.Resources\src\IAFG.IA.VE.Impression.Illustration.Resources.csproj" />
+    <ProjectReference Include="..\..\IAFG.IA.VE.Impression.Illustration.Types\src\IAFG.IA.VE.Impression.Illustration.Types.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\*.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Business\Pilotage\ConfigurationRapport\BonSuccessoral\ConfigurationSections.json" />
+    <None Remove="Business\Pilotage\ConfigurationRapport\BonSuccessoral\DescriptionBonSuccessoral.json" />
+    <None Remove="Business\Pilotage\ConfigurationRapport\BonSuccessoral\DescriptionBonSuccessoralEntreprise.json" />
+    <None Remove="Business\Pilotage\ConfigurationRapport\BonSuccessoral\PageGraphique.json" />
+    <None Remove="Business\Pilotage\ConfigurationRapport\BonSuccessoral\PageTitre.json" />
+    <None Remove="Business\Pilotage\ConfigurationRapport\BonSuccessoral\PageTitreEntreprise.json" />
+    <None Remove="Business\Pilotage\ConfigurationRapport\BonSuccessoral\SommaireBonSuccessoral.json" />
+    <None Remove="Business\Pilotage\ConfigurationRapport\BonSuccessoral\TableauComparaisonPlacement_AssuranceParticipant.json" />
+    <None Remove="Business\Pilotage\ConfigurationRapport\BonSuccessoral\TableauComparaisonPlacement_Genesis.json" />
+    <None Remove="Business\Pilotage\ConfigurationRapport\BonSuccessoral\TableauProjectionPlacement.json" />
+    <None Remove="Business\Pilotage\ConfigurationRapport\Principal\GlossaireAssuranceParticipantPatrimoine.json" />
+    <None Remove="Business\Pilotage\ConfigurationRapport\Principal\GlossaireAssuranceParticipantValeur.json" />
+    <None Remove="Business\Pilotage\ConfigurationRapport\Principal\SectionSommaireValeurRachatEnVigueur.json" />
+    <None Remove="Business\Pilotage\ConfigurationRapport\RapportCommission\ConfigurationSections.json" />
+    <None Remove="Business\Pilotage\ConfigurationRapport\RapportCommission\SectionRapportCommissionCapitalValeur.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\BonSuccessoral\ConfigurationSections.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\BonSuccessoral\DescriptionBonSuccessoralEntreprise.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\BonSuccessoral\DescriptionBonSuccessoral.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\BonSuccessoral\PageGraphique.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\BonSuccessoral\PageTitreEntreprise.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\BonSuccessoral\PageTitre.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\BonSuccessoral\SommaireBonSuccessoral.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\BonSuccessoral\TableauComparaisonPlacement_Genesis.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\BonSuccessoral\TableauComparaisonPlacement_AssuranceParticipant.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\BonSuccessoral\TableauProjectionPlacement.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\ConfigurationSections.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\GlossaireAssuranceParticipantValeur.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\GlossaireAssuranceParticipantPatrimoine.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\GlossaireAssuranceParticipant.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\GlossaireConceptAvanceSurPolice.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\GlossaireConceptPretPourInvestissement.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\GlossaireGeneral.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\GlossaireHospitalisation.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\GlossaireMaladieGrave.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\GlossaireRevenuAppoint.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\GlossaireSpecifique.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\PageTitre.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionApercuProtections.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionConceptVente.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionConditionsMedicales.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionConditionsMedicales_25.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionConditionsMedicales_4.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionConditionsMedicales_Juvenile.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionConditionsMedicales_PreventionPlus.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionDescriptionsProtections.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionDescriptionsProtectionsBase.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionDescriptionsProtections_AssuranceParticipant.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionDescriptionsProtections_AssuranceParticipantPatrimoine.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionDescriptionsProtections_AssuranceParticipantValeur.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionDescriptionsProtections_Genesis.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionDonneesFiscales.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionDonneesFiscalesUniverselle.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionFluxMonetairesAvancePolice.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionFluxMonetairesEPC.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionFluxMonetairesEPCTiercePartie.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionFondsAccumules.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionHypothesesInvestissement.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionModificationsDemandees.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionNotesIllustration.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionParticularitesAssuranceGenesis.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionPrestationDeces.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionPrestationDecesSuite.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionPrestationMaladieGrave.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionPrimesRenouvellement.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionProjectionProprietePartagee.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionSignature.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionSignature_AssuranceParticipant.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionSignature_CapitalValeur.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionSommaireEntentePretCollateral.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionSommaireProprietePartagee.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionSommaireValeurRachatEnVigueur.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionSommaireValeurRachat.json" />    
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionTestSensibilite.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionTransactionsContrat.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionTransactionsContrat_AssuranceParticipant.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionTransactionsFondsTransitoire.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionValeursContrat.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionValeursContratAlternatif_AssuranceParticipant.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionValeursContrat_AssuranceParticipant.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SectionValeurSuccessoraleNette.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SommaireProtections.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\Principal\SommaireProtectionsIllustration.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\RapportCommission\ConfigurationSections.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\RapportCommission\SectionRapportCommission.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\RapportCommission\SectionRapportCommissionCapitalValeur.json" />
+    <EmbeddedResource Include="Business\Pilotage\ConfigurationRapport\RapportCommission\SectionRapportCommissionGenesis.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Update="Business\Pilotage\ConfigurationRapport\ConfigurationRapports.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Business\Pilotage\ConfigurationRapport\ConfigurationRapports_AccesVie.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Business\Pilotage\ConfigurationRapport\ConfigurationRapports_AssuranceParticipant.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Business\Pilotage\ConfigurationRapport\ConfigurationRapports_AssuranceParticipantPatrimoine.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Business\Pilotage\ConfigurationRapport\ConfigurationRapports_AssuranceParticipantValeur.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Business\Pilotage\ConfigurationRapport\ConfigurationRapports_CapitalValeur.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Business\Pilotage\ConfigurationRapport\ConfigurationRapports_Genesis.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Business\Pilotage\ConfigurationRapport\ConfigurationRapports_Meridia.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Business\Pilotage\ConfigurationRapport\ConfigurationRapports_RegimeVieMD.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Business\Pilotage\ConfigurationRapport\ConfigurationRapports_Tendance.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Business\Pilotage\ConfigurationRapport\ConfigurationRapports_Topaz.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Business\Pilotage\ConfigurationRapport\ConfigurationRapports_Traditionnel.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Business\Pilotage\ConfigurationRapport\ConfigurationRapports_Transition.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Business\Pilotage\ConfigurationRapport\Ressources.json">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>

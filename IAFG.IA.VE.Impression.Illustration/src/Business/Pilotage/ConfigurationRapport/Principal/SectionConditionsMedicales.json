@@ -1,0 +1,33 @@
+{
+  "SectionId": "ConditionsMedicales",
+  "Titres": [
+    {
+      "Titre": "",
+      "TitreEn": ""
+    }
+  ],
+  "Sections": [
+    {
+      "SectionId": "ConditionsMedicales_25",
+      "Regles": [ "MaladieGrave25" ]
+    },
+    {
+      "SectionId": "ConditionsMedicales_4",
+      "Regles": [ "MaladieGrave4" ]
+    },
+    {
+      "SectionId": "ConditionsMedicales_Juvenile",
+      "Regles": [ "MaladieGraveJuvenile" ]
+    },
+    {
+      "SectionId": "ConditionsMedicales_PreventionPlus",
+      "Regles": [ "MaladieGravePreventionPlus" ]
+    }
+  ],
+  "Notes": [
+    {
+      "Texte": "<html><div style='font-style:normal;width: 100%'>Pour satisfaire aux conditions liées à la survie, vous devez être en vie au moment du diagnostic pour toutes les maladies couvertes. Pour certaines maladies, une période de survie de 30 jours s'applique.</div></html>",
+      "TexteEn":  "<html><div style='font-style:normal;width: 100%'>To satisfy the terms related to survival, you must be alive when the diagnosis is made for all covered illnesses. For some diseases, a 30-day survival period applies.</div></html>" 
+    }
+  ] 
+}

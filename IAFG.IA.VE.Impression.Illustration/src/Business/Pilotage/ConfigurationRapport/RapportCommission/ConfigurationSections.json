@@ -1,0 +1,18 @@
+﻿[
+  {
+    "SectionId": "RapportCommission",
+    "BuilderName": "Generique.Projection",
+    "FichierDefinition": "RapportCommission\\SectionRapportCommission.json",
+    "FichierDefinitions": {
+      "Genesis": "RapportCommission\\SectionRapportCommissionGenesis.json",
+      "CapitalValeur": "RapportCommission\\SectionRapportCommissionCapitalValeur.json",
+      "CapitalValeur3": "RapportCommission\\SectionRapportCommissionCapitalValeur.json"
+    },
+    "Titre": {
+      "French": "Rapport de commission",
+      "English": "Compensation report"
+    },
+    "SectionAffichage": "Conseiller",
+    "GroupeRapport": "RapportCommission"
+  }
+]

@@ -1,0 +1,244 @@
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Bold.ttf
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-BoldItalic.ttf
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-ExtraBold.ttf
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-ExtraBoldItalic.ttf
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Italic.ttf
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Light.ttf
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-LightItalic.ttf
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Regular.ttf
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Semibold.ttf
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-SemiboldItalic.ttf
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Properties\Resources.resx
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Properties\Resources.Designer.cs
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Business\Pilotage\ConfigurationRapport\ConfigurationRapports_CapitalValeur3.json
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.pdb
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\AutoMapper.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Chart.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Core.Drawing.Gdi.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Core.Rdl.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Core.Rendering.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Document.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Export.Pdf.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Core.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.ImplementationDynamique.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.AF.IPDFVie.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.Data.Extensions.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.Data.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.Messages.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.DataExtensions.Functions.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.DataExtensions.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.PDFVie.Extensions.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Newtonsoft.Json.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\NLog.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Buffers.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Memory.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Resources.Extensions.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Unity.Abstractions.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Unity.Container.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Core.resources.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Resources.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Types.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Resources.pdb
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.pdb
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Types.pdb
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.pdb
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll.config
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Illustration.Resources.resources.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj.AssemblyReference.cache
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.AssemblyInfoInputs.cache
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.AssemblyInfo.cs
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj.CoreCompileInputs.cache
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj.CopyComplete
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.dll
+C:\dev\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.pdb
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Bold.ttf
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-BoldItalic.ttf
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-ExtraBold.ttf
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-ExtraBoldItalic.ttf
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Italic.ttf
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Light.ttf
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-LightItalic.ttf
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Regular.ttf
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Semibold.ttf
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-SemiboldItalic.ttf
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Properties\Resources.resx
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Properties\Resources.Designer.cs
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Business\Pilotage\ConfigurationRapport\ConfigurationRapports_CapitalValeur3.json
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.pdb
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\AutoMapper.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Chart.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Core.Drawing.Gdi.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Core.Rdl.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Core.Rendering.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Document.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Export.Pdf.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Core.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.ImplementationDynamique.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.AF.IPDFVie.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.Data.Extensions.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.Data.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.Messages.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.DataExtensions.Functions.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.DataExtensions.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.PDFVie.Extensions.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Newtonsoft.Json.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\NLog.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Buffers.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Memory.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Resources.Extensions.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Unity.Abstractions.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Unity.Container.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Core.resources.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Resources.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Types.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Resources.pdb
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.pdb
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Types.pdb
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.pdb
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll.config
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Illustration.Resources.resources.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj.AssemblyReference.cache
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.AssemblyInfoInputs.cache
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.AssemblyInfo.cs
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj.CoreCompileInputs.cache
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj.CopyComplete
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.dll
+C:\dev\PackagePourEvoWeb\VE_Impression\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.pdb
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Bold.ttf
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-BoldItalic.ttf
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-ExtraBold.ttf
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-ExtraBoldItalic.ttf
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Italic.ttf
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Light.ttf
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-LightItalic.ttf
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Regular.ttf
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Semibold.ttf
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-SemiboldItalic.ttf
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Properties\Resources.resx
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Properties\Resources.Designer.cs
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Business\Pilotage\ConfigurationRapport\ConfigurationRapports_CapitalValeur3.json
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.pdb
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\AutoMapper.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Chart.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Core.Drawing.Gdi.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Core.Rdl.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Core.Rendering.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Document.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Export.Pdf.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Core.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.ImplementationDynamique.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.AF.IPDFVie.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.Data.Extensions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.Data.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.Messages.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.DataExtensions.Functions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.DataExtensions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.PDFVie.Extensions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Newtonsoft.Json.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\NLog.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Buffers.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Memory.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Resources.Extensions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Unity.Abstractions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Unity.Container.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Core.resources.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Resources.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Types.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Resources.pdb
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.pdb
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Types.pdb
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.pdb
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll.config
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Illustration.Resources.resources.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj.AssemblyReference.cache
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.AssemblyInfoInputs.cache
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.AssemblyInfo.cs
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj.CoreCompileInputs.cache
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj.CopyComplete
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.pdb
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Bold.ttf
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-BoldItalic.ttf
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-ExtraBold.ttf
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-ExtraBoldItalic.ttf
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Italic.ttf
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Light.ttf
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-LightItalic.ttf
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Regular.ttf
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-Semibold.ttf
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Fonts\OpenSans-SemiboldItalic.ttf
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Properties\Resources.resx
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Properties\Resources.Designer.cs
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Business\Pilotage\ConfigurationRapport\ConfigurationRapports_CapitalValeur3.json
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.pdb
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\AutoMapper.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Chart.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Core.Drawing.Gdi.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Core.Rdl.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Core.Rendering.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Document.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.Export.Pdf.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\GrapeCity.ActiveReports.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Core.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.ImplementationDynamique.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.AF.IPDFVie.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.Data.Extensions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.Data.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.Messages.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.DataExtensions.Functions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.DataExtensions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VI.Projection.PDFVie.Extensions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Newtonsoft.Json.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\NLog.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Buffers.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Memory.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Numerics.Vectors.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Resources.Extensions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Unity.Abstractions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\Unity.Container.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Core.resources.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Resources.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Types.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Resources.pdb
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.pdb
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.Types.pdb
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.pdb
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\IAFG.IA.VE.Impression.Illustration.dll.config
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\bin\Debug\net48\en-CA\IAFG.IA.VE.Impression.Illustration.Resources.resources.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.AssemblyInfoInputs.cache
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.AssemblyInfo.cs
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj.CoreCompileInputs.cache
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj.CopyComplete
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.pdb
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.Illustration.DIContainer\src\obj\Debug\net48\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj.AssemblyReference.cache

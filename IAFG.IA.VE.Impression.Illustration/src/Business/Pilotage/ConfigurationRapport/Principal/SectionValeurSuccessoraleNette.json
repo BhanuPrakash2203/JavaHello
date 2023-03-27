@@ -1,0 +1,136 @@
+{
+  "SectionId": "ValeurSuccessoraleNette",
+  "Titres": [
+    {
+      "Titre": "Valeur successorale nette",
+      "TitreEn": "Net Estate Value",
+      "Description": "<html>Ce rapport fait état du montant disponible après impôts à la succession du propriétaire au décès de ce dernier. Au décès de l’assuré, la prestation de décès de la police est versée en franchise d’impôt à l’entreprise.<br><ul><li>Un crédit équivalant au capital-décès de la police moins son coût de base rajusté (CBR) est porté au compte de dividende en capital (CDC). Ce crédit permet de verser à la succession du propriétaire un dividende en franchise d’impôt égal au CDC.</li><br><li>Un montant égal au CBR est versé à la succession sous la forme d'un dividende imposable.</li><br><li>Un deuxième montant d'impôts est calculé à la suite de la disposition présumée des actions du défunt, lequel résulte de l'ajout de la valeur de rachat de la police d'assurance vie universelle à la valeur des actions. Tout autre gain ou perte relatif aux actions de l'entreprise est exclu de ces calculs.</li></ul><html>",
+      "DescriptionEn": "<html>This report shows the amount available after taxes to the corporation owner's estate at death. Upon the death of the life insured, the death benefit is paid out tax free to the corporation.<br><ul><li>A credit is made to the Capital Dividend Account (CDA) equal to the death benefit less the Adjusted Cost Basis (ACB). This credit allows payment of a tax free dividend equal the the CDA to the owner's estate.</li><br><li>An amount equal to the ACB is paid to the estate as a personal taxable dividend.</li><br><li>A second layer of taxes is calculated for the deceased shareholder by the addition of the surrender value of the universal life policy to the deemed proceeds of disposition of his shares. Any other capital gain and capital loss on his shares of the corporation are excluded from these calculations.</li></ul><html>"
+    }
+  ],
+  "Tableau": {
+    "Titres": [
+      {
+        "Titre": "Valeur successorale nette",
+        "TitreEn": "Net Estate Value"
+      }
+    ],
+    "GroupeColonnes": [
+      {
+        "Produits": [ ],
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee"
+          },
+          {
+            "Colonne": 77,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          }
+        ]
+      },
+      {
+        "Produits": [ "CapitalValeur", "CapitalValeur3" ],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 108,
+            "Titres": {
+              "Titre": "Prestation de décès totale",
+              "TitreEn": "Total Death Benefit"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          }
+        ]
+      },
+      {
+        "Produits": [ ],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 108,
+            "Titres": {
+              "Titre": "Prestation de décès Assuré 1",
+              "TitreEn": "Death Benefit Insured 1"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          }
+        ]
+      },
+      {
+        "Produits": [ ],
+        "SequenceId": 5,
+        "Colonnes": [
+          {
+            "Colonne": 40,
+            "Titres": {
+              "Titre": "Coût de base rajusté (CBR)",
+              "TitreEn": "Adjusted Cost Basis (ACB)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 194,
+            "Titres": {
+              "Titre": "Dividende non taxable (CDC)",
+              "TitreEn": "Non-Taxable Dividend Paid (CDA)"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 197,
+            "Titres": {
+              "Titre": "Impôts sur les dividendes",
+              "TitreEn": "Taxes on Dividends"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          }
+        ]
+      },
+      {
+        "Produits": [ ],
+        "SequenceId": 6,
+        "Colonnes": [
+          {
+            "Colonne": 138,
+            "Titres": {
+              "Titre": "Valeur successorale nette",
+              "TitreEn": "Net Estate Value"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Contrat",
+    "Notes": [
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus âgé couvert par la protection de base. ",
+        "TexteEn": "The age shown is the age of the oldest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointPremierDeces" ]
+        ],
+        "SequenceId": 1
+      },
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus jeune couvert par la protection de base.",
+        "TexteEn": "The age shown is the age of the youngest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointDernierDeces" ]
+        ],
+        "SequenceId": 1
+      }
+    ]
+  }
+}

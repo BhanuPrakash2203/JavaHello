@@ -1,0 +1,155 @@
+﻿{
+  "SectionId": "ValeursDuContrat",
+  "Titres": [
+    {
+      "Titre": "Projection des valeurs du contrat",
+      "TitreEn": "Policy Projected Values",
+      "Description": "Le tableau ci-dessous illustre deux scénarios. Dans la section de gauche, le scénario présenté présume qu'aucune participation ne vous sera versée pendant toute la durée du contrat. Vous pouvez voir le montant d'assurance vie ainsi que la valeur de rachat que vous obtiendrez si vous payez les primes annuelles totales garanties. Dans la section de droite, le scénario présenté présume que vous allez recevoir des participations à votre anniversaire de contrat. Les participations annuelles de ce scénario sont projetées en utilisant les hypothèses actuelles du barème de participations, et ce, pour toute la durée du contrat (scénario principal). Vous pouvez voir les valeurs que vous obtiendrez si vous payez les montants indiqués dans la colonne « primes et contributions annuelles versées ».",
+      "DescriptionEn": "<html>The table below illustrates two scenarios. On the left side, you will see the projected values if there are no dividends paid for the duration of the policy. You must pay the guaranteed total annual premiums to obtain those values. On the right side, the scenario assumes that you will receive dividends on your policy anniversary. Annual dividends in this scenario are projected using current dividend scale assumptions for the entire duration of the policy (main scenario). You must pay the amounts indicated in the <i>Annual Premiums and Contributions Paid</i> column to obtain those values.</html>"
+    }
+  ],
+  "Tableau": {
+    "GroupeColonnes": [
+      {
+        "Produits": [],
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee"
+          },
+          {
+            "Colonne": 1,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          }
+        ]
+      },
+      {
+        "SequenceId": 1,
+        "Titres": {
+          "Titre": "Valeurs garanties",
+          "TitreEn": "Guaranteed values"
+        },
+        "Colonnes": [
+          {
+            "Colonne": 2022,
+            "Titres": {
+              "Titre": "Primes annuelles totales garanties",
+              "TitreEn": "Total Guaranteed Annual Premiums"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 114,
+            "Titres": {
+              "Titre": "Valeur de rachat garantie",
+              "TitreEn": "Guaranteed Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [
+                "ValeurPlusGrandeZero",
+                "NouvelleVente"
+              ]
+            ]
+          },
+          {
+            "Colonne": 2028,
+            "Titres": {
+              "Titre": "Valeur de rachat garantie",
+              "TitreEn": "Guaranteed Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [
+                "EnVigueur",
+                "VecteurPresent"
+              ]
+            ]
+          },
+          {
+            "Colonne": 2013,
+            "Titres": {
+              "Titre": "Montant d’assurance vie garanti",
+              "TitreEn": "Guaranteed Life Insurance Amount"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          }
+        ]
+      },
+      {
+        "SequenceId": 2,
+        "Titres": {
+          "Titre": "Valeurs non garanties fondées sur le barème courant",
+          "TitreEn": "Non guaranteed values based on current dividend scale"
+        },
+        "Colonnes": [
+          {
+            "Colonne": 2012,
+            "Titres": {
+              "Titre": "Primes et contributions annuelles versées",
+              "TitreEn": "Annual Premiums and Contributions Paid"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 214,
+            "Titres": {
+              "Titre": "Rachats/Retraits avant impôts",
+              "TitreEn": "Redemption/ Withdrawals of cash values before taxes"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "Regles": [
+              [ "VecteurPresent" ]
+            ]
+          },
+          {
+            "Colonne": 2009,
+            "Titres": {
+              "Titre": "Valeur de rachat totale",
+              "TitreEn": "Total Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 2008,
+            "Titres": {
+              "Titre": "Montant d’assurance vie total",
+              "TitreEn": "Total Life Insurance Amount"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 2017,
+            "Titres": {
+              "Titre": "Participations annuelles payables au comptant",
+              "TitreEn": "Annual Dividends Payable in Cash"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurDifferenteZero" ]
+            ]
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Contrat",
+    "Avis": null,
+    "Notes": [
+      {
+        "TypeNote": "MessageMoteur",
+        "SequenceId": 1
+      }
+    ]
+  }
+}

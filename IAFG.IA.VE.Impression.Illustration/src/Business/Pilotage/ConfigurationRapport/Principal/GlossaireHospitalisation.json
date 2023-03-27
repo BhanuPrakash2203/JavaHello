@@ -1,0 +1,75 @@
+{
+  "SectionId": "GlossaireHospitalisation",
+  "Titres": [
+    {
+      "Titre": "Glossaire spécifique : Avenant Hospitalisation",
+      "TitreEn": "Glossary of terms specific: Hospitalization Rider"
+    }
+  ],
+  "GlossaireTextes": [
+    {
+      "Libelle": "Qu’est-ce que l’avenant Hospitalisation :",
+      "LibelleEn": "What is the Hospitalization insurance rider:",
+      "Texte": "<html>L’avenant « Hospitalisation » permet à l’assuré de recevoir un montant d’argent pour chaque journée d’hospitalisation à la <b>suite d’un accident ou d’une maladie.</b><br><br>De plus, l’avenant « Hospitalisation » prévoit le versement de prestations supplémentaires lorsque la condition de l’assuré nécessite l’hospitalisation aux soins intensifs, le paiement d’une somme forfaitaire pour le remboursement des frais de transport en ambulance et, dans l’éventualité où l'assuré doit déménager dans un centre d’hébergement et de soins de longue durée à la suite d’une hospitalisation, un montant forfaitaire pour couvrir une partie des frais de déménagement.</html>",
+      "TexteEn": "<html>The Hospitalization insurance rider allows the insured to receive an amount of money for each day he/she is hospitalized <b>following an accident or illness</b>.<br><br>As well, the Hospitalization insurance rider provides for the payment of additional benefits when the client requires hospitalization in intensive care, a lump sum for ambulance transportation expenses and In the event that the principal insured must move to a residential and long-term care centre following hospitalization, the Insurer undertakes to pay to the principal insured a lump sum amount to partially cover moving expenses.</html>",
+      "Codes": [ "HOSPITALISATION" ],
+      "SequenceId": 0
+    },
+    {
+      "Libelle": "Qu’est-ce que l’avenant Hospitalisation & Soins à domicile:",
+      "LibelleEn": "What is the Hospitalization & Home Health care insured Rider:",
+      "Texte": "<html>L’avenant « Hospitalisation » permet à l’assuré de recevoir un montant d’argent pour chaque journée d’hospitalisation à la <b>suite d’un accident ou d’une maladie.</b><br><br>De plus, il prévoit le versement de prestations supplémentaires lorsque la condition de l'assuré nécessite l'hospitalisation aux soins intensifs, le paiement d'une somme forfaitaire pour le remboursement des frais de transport en ambulance et, dans l'éventualité où l'assuré doit déménager dans un centre d'hébergement et de soins de longue durée à la suite d'une hospitalisation, un montant forfaitaire pour couvrir une partie des frais de déménagement.<br><br>Le volet « Soins à domicile » paiera un montant forfaitaire à l'assuré pour couvrir en totalité ou en partie les frais admissibles engagés au Canada à la suite d'une hospitalisation dans un hôpital de soins, dans l'éventualité où l'assuré est incapable d'accomplir sans aide au moins deux (2) activités de la vie quotidienne. Les frais relatifs aux services d'un infirmier auxiliaire licencié, d'un préposé en soins à domicile ou d'un parent ou ami sont couverts.<br><br>De surcroît, les frais reliés au transport de l'assuré pour recevoir des soins médicaux ainsi que les frais pour l'obtention de fournitures médicales nécessaires au traitement de la condition médicale de l'assuré sont couverts par ce volet.</html>",
+      "TexteEn": "<html>The Hospitalization insurance rider allows the insured to receive an amount of money for each day he/she is hospitalized <b>following an accident or illness</b>.<br><br>As well, the Hospitalization insurance rider provides for the payment of additional benefits when the client requires hospitalization in intensive care, a lump sum for ambulance transportation expenses and In the event that the principal insured must move to a residential and long-term care centre following hospitalization, the Insurer undertakes to pay to the principal insured a lump sum amount to partially cover moving expenses.<br><br>The Home Health Care part of the rider will pay a lump-sum amount to the insured to pay the admissible expenses, incurred in Canada, in full or in part following a hospitalization in a treatment hospital, in the eventuality that the insured is unable to accomplish without assistance at least two activities of daily living. The fees pertaining to the services of a licensed nursing assistant, an employee of an agency specialized in home care or a parent/friend are covered.<br><br>Moreover, the fees to transport the person insured in order to receive medical care and the fees incurred to obtain medical supplies are covered by this part of the rider.</html>",
+      "Codes": [ "HOSPITALISATIONSOINSDOMICILE" ],
+      "SequenceId": 0
+    },
+    {
+      "Libelle": "Type de protection :",
+      "LibelleEn": "Type of coverage:",
+      "Texte": "Individuelle, Accident et Maladie ",
+      "TexteEn": "Individual, Accidental and Illness",
+      "Codes": [ "HOSPITALISATION", "HOSPITALISATIONSOINSDOMICILE" ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Versement quotidien :",
+      "LibelleEn": "Daily benefit:",
+      "Texte": "Le montant est établi en fonction du désir de l’assuré. La prestation minimale est de 50 $ et la prestation maximale est de 200 $ par tranche de 50 $. Si l’assuré est hospitalisé aux soins intensifs, le contractant a droit à une prestation additionnelle quotidienne égale à quatre fois l'indemnité journalière choisie pendant une durée n'excédant pas 30 jours consécutifs.",
+      "TexteEn": "The amount is established according to the principal insured’s wishes. The minimal benefit is $50 and the maximum benefit is $200 per $50 increment. The payment is multiplied by 5 in case of intensive care for a maximum period of 30 days.",
+      "Codes": [ "HOSPITALISATION" ],
+      "SequenceId": 2
+    },
+    {
+      "Libelle": "Versement quotidien :",
+      "LibelleEn": "Daily benefit:",
+      "Texte": "<html>Pour la prestation « Hospitalisation », le montant est établi en fonction du désir de l'assuré. La prestation minimale est de 50 $ et la prestation maximale est de 200 $ par tranche de 50 $. Si l'assuré est hospitalisé aux soins intensifs, le contractant a droit à une prestation additionnelle quotidienne égale à quatre fois l'indemnité journalière choisie pendant une durée n'excédant pas 30 jours consécutifs.<br><br>Pour la prestation « Soins à domicile », les montants versés dépendent du montant de la couverture « Hospitalisation » souscrit par l'assuré, ainsi que de la personne aidant l'assuré dans ses activités quotidiennes. Les montants varient entre 50$ et 80$ par jour pour un infirmier auxiliaire ou un préposé en soins à domicile et entre 25$ et 40$ pour un parent ou ami.</html>",
+      "TexteEn": "<html>The amount is established according to the principal insured’s wishes. The minimal benefit is $50 and the maximum benefit is $200 per $50 increment. The payment is multiplied by 5 in case of intensive care for a maximum period of 30 days.<br><br>For the Home Health Care benefit, the amount depends on the Hospitalization coverage subscribed by the insured and the person providing aid to the insured in his or her daily living. The amount for a nursing assistant or an employee of an agency specialized in home care is between 50$ and 80$ per day, while the amount is between 25$ and 40$ per day for a parent/friend.</html>",
+      "Codes": [ "HOSPITALISATIONSOINSDOMICILE" ],
+      "SequenceId": 2
+    },
+    {
+      "Libelle": "Durée des prestations :",
+      "LibelleEn": "Duration of benefit:",
+      "Texte": "La prestation débute dès la 1ère journée d’une hospitalisation de 24 heures consécutives. Dans le cas où la personne assurée subit une chirurgie d’un jour, la durée d’hospitalisation correspond à une période de 24 heures d’hospitalisation. La période maximale de prestation est de 36 mois consécutifs.",
+      "TexteEn": "Benefit payments start the first day after 24 consecutive hours of hospitalization. For day surgery, the hospitalization period counts as 24 hours. The maximum payment period is 36 consecutive months.",
+      "Codes": [ "HOSPITALISATION", "HOSPITALISATIONSOINSDOMICILE" ],
+      "SequenceId": 3
+    },
+    {
+      "Libelle": "Prime :",
+      "LibelleEn": "Premium:",
+      "Texte": "La prime est garantie pour les 5 premières années.  À la fin de la période garantie, soit 5 ans après l’émission du contrat, la Compagnie pourra procéder à une révision des primes et ce, en tout temps. Cela signifie que si les primes ne sont pas modifiées après la 5e année, elles pourraient l’être au cours de la 6e ou de la 7e année par exemple. Toutefois, lorsqu’il y a un ajustement, la Compagnie garantira à nouveau les primes pour une autre période de 5 ans.",
+      "TexteEn": "The premiums are guaranteed for a period of 5 years starting on the effective date of the contract. Thereafter, the Company reserves the right to adjust at any time the premiums if it deems appropriate.  That means if the premiums are not changed after the 5th year, they could be adjusted during the 6th or 7th year for example. After a premium adjustment by the Company, the new premiums are then guaranteed for a new period of 5 years. Any change in premiums is effected based on the insured's age at issue and applies to all Hospitalization insurance rider contracts that have the same risk profile.",
+      "Codes": [ "HOSPITALISATION", "HOSPITALISATIONSOINSDOMICILE" ],
+      "SequenceId": 4
+    },
+    {
+      "Libelle": "Définitions d’hôpital :",
+      "LibelleEn": "Hospital definition:",
+      "Texte": "<html>Par « hôpital », on entend un établissement reconnu et accrédité comme <b>hôpital ou centre hospitalier de courte durée</b>, par les autorités gouvernementales dont relève l'établissement. Sont exclus: une clinique, un établissement de soins infirmiers, un établissement de soins prolongés, une maison de repos ou de convalescence, une maison pour personnes âgées, une maison pour malades chroniques, une maison pour handicapés, un centre de réadaptation, un centre d'hébergement, un centre pour alcooliques ou toxicomanes ou toute section située dans un hôpital offrant ces soins et services.</html>",
+      "TexteEn": "<html>“Hospital” means a <b>short-term care institution</b> legally recognized as such by the government authorities that the establishment reports to.  This excludes: a clinic, a nursing home, an extended care facility, a rest or convalescent home, a senior citizen's home, a chronic care facility, a handicapped facility, a readaptation centre, an alcohol or drug rehabilitation centre or any section of a hospital that offers this care and services.</html>",
+      "Codes": [ "HOSPITALISATION", "HOSPITALISATIONSOINSDOMICILE" ],
+      "SequenceId": 5
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports\src\bin\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports\src\bin\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.pdb
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports\src\bin\Debug\net48\Newtonsoft.Json.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports\src\bin\Debug\net48\Syncfusion.Compression.Portable.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports\src\bin\Debug\net48\Syncfusion.Licensing.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports\src\bin\Debug\net48\Syncfusion.Pdf.Portable.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports\src\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports\src\bin\Debug\net48\System.Text.Encoding.CodePages.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports\src\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.csproj.AssemblyReference.cache
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.GeneratedMSBuildEditorConfig.editorconfig
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.csproj.CoreCompileInputs.cache
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.csproj.CopyComplete
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.dll
+C:\dev\zz\VE_Impression\IAFG.IA.VE.Impression.ComparaisonRapports\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.pdb
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports\src\bin\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports\src\bin\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.pdb
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports\src\bin\Debug\net48\Newtonsoft.Json.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports\src\bin\Debug\net48\Syncfusion.Compression.Portable.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports\src\bin\Debug\net48\Syncfusion.Licensing.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports\src\bin\Debug\net48\Syncfusion.Pdf.Portable.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports\src\bin\Debug\net48\System.Runtime.CompilerServices.Unsafe.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports\src\bin\Debug\net48\System.Text.Encoding.CodePages.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports\src\bin\Debug\net48\System.Threading.Tasks.Extensions.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.csproj.AssemblyReference.cache
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.GeneratedMSBuildEditorConfig.editorconfig
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.csproj.CoreCompileInputs.cache
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.csproj.CopyComplete
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.dll
+C:\temp\VE_Impression - Copie\IAFG.IA.VE.Impression.ComparaisonRapports\src\obj\Debug\net48\IAFG.IA.VE.Impression.ComparaisonRapports.pdb

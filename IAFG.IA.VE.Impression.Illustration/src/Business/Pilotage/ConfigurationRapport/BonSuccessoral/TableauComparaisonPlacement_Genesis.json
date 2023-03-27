@@ -1,0 +1,157 @@
+{
+  "SectionId": "BonSuccessoral.TableauComparaisonPlacement",
+  "Titres": [
+    {
+      "Titre": "Comparaison de la stratégie d’assurance avec un placement comparatif",
+      "TitreEn": "Comparison of the insurance strategy with an alternate investment",
+      "Description": "La stratégie d’assurance peut être un moyen efficace pour léguer des sommes à la succession. Le tableau ci-dessous vous permet de comparer les valeurs et le rendement au décès de la stratégie d’assurance avec ceux d'un placement comparatif.",
+      "DescriptionEn": "An insurance strategy can be an effective way to leave money to the estate. The chart below lets you compare the values and return at death for an insurance strategy and an alternate investment."
+    }
+  ],
+  "Tableau": {
+    "Titres": [
+      {
+        "Titre": "",
+        "TitreEn": ""
+      }
+    ],
+    "GroupeColonnes": [
+      {
+        "Produits": [],
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee"
+          },
+          {
+            "Colonne": 77,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          },
+          {
+            "Colonne": 211,
+            "Titres": {
+              "Titre": "Dépôt annuel",
+              "TitreEn": "Annual Deposit"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 212,
+            "Titres": {
+              "Titre": "Retrait annuel",
+              "TitreEn": "Annual Withdrawal"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          }
+        ]
+      },
+      {
+        "SequenceId": 1,
+        "Titres": {
+          "Titre": "Stratégie d’assurance",
+          "TitreEn": "Insurance Strategy"
+        },
+        "Colonnes": [
+          {
+            "Colonne": 97,
+            "Titres": {
+              "Titre": "Valeur de rachat totale",
+              "TitreEn": "Total Surrender Value"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 108,
+            "Titres": {
+              "Titre": "Prestation de décès Assuré 1",
+              "TitreEn": "Insured 1 Death Benefit"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ContratIndividuel" ]
+            ]
+          },
+          {
+            "Colonne": 108,
+            "Titres": {
+              "Titre": "Prestation de décès Assurés conjoints",
+              "TitreEn": "Joint Insured Death Benefit"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ContratConjoint" ]
+            ]
+          },
+          {
+            "Colonne": 138,
+            "Titres": {
+              "Titre": "Valeur successorale nette",
+              "TitreEn": "Net Estate Value"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 210,
+            "Titres": {
+              "Titre": "Rendement net au décès (%)",
+              "TitreEn": "Net Rate of Return (Death) (%)"
+            },
+            "TypeAffichageValeur": "PourcentageSansSymbol"
+          }
+        ]
+      },
+      {
+        "SequenceId": 2,
+        "CouleurAlternative": true,
+        "Titres": {
+          "Titre": "Placement comparatif",
+          "TitreEn": "Alternate Investment"
+        },
+        "Colonnes": [
+          {
+            "Colonne": 803,
+            "CouleurAlternative": true,
+            "Titres": {
+              "Titre": "Solde du placement",
+              "TitreEn": "Investment Balance"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeProjection": "BonSuccessoral"
+          },
+          {
+            "Colonne": 811,
+            "CouleurAlternative": true,
+            "Titres": {
+              "Titre": "Valeur successorale nette",
+              "TitreEn": "Net Estate Value"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeProjection": "BonSuccessoral"
+          },
+          {
+            "Colonne": 812,
+            "CouleurAlternative": true,
+            "Titres": {
+              "Titre": "Rendement net au décès (%)",
+              "TitreEn": "Net Rate of Return (Death) (%)"
+            },
+            "TypeAffichageValeur": "PourcentageSansSymbol",
+            "TypeProjection": "BonSuccessoral"
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Contrat"
+  }
+}

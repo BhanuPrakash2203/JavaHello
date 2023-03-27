@@ -1,0 +1,162 @@
+﻿{
+  "SectionId": "TransactionsContrat",
+  "Titres": [
+    {
+      "Titre": "Sommaire des transactions du contrat",
+      "TitreEn": "Policy Activity Summary",
+      "Description": "Le tableau ci-dessous vous donne les détails de vos primes et contributions, ainsi que les participations qui pourraient vous être versées si vous avez choisi l'option d'affectation « Payable au comptant ». Le scénario présenté présume que vous allez recevoir des participations à l’anniversaire de votre contrat.",
+      "DescriptionEn": "The table below gives you details of your premiums and contributions, as well as the dividends that could be paid to you if you have chosen the dividend option ''Payable in cash''. It gives the details of any illustrated partial surrender or loans. The scenario assumes that you will receive dividends on your policy anniversary."
+    }
+  ],
+  "Tableau": {
+    "Titres": [
+      {
+        "Titre": "Scénario illustré : Barème de participations courant (scénario principal)",
+        "TitreEn": "Illustrated scenario: Current dividend scale (main scenario)"
+      }
+    ],
+    "GroupeColonnes": [
+      {
+        "Produits": [],
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee"
+          },
+          {
+            "Colonne": 1,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          }
+        ]
+      },
+      {
+        "Produits": [],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 2010,
+            "Titres": {
+              "Titre": "Primes annuelles de la protection de base",
+              "TitreEn": "Basic Coverage Annual Premiums"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 2011,
+            "Titres": {
+              "Titre": "Primes annuelles des avenants et garanties complémentaires",
+              "TitreEn": "Riders and Additional Benefits Annual Premiums"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 2022,
+            "Titres": {
+              "Titre": "Primes annuelles totales garanties",
+              "TitreEn": "Total Guaranteed Annual Premiums"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 2001,
+            "Titres": {
+              "Titre": "Contribution à l’ODS",
+              "TitreEn": "ADO Contributions"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 168,
+            "Titres": {
+              "Titre": "Avances annuelles automatiques sur police",
+              "TitreEn": "Annual Automatic Premium loan"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 2002,
+            "Titres": {
+              "Titre": "Participations affectées à la réduction de la prime annuelle",
+              "TitreEn": "Dividends Allocated to the Annual Premium Reduction"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 2020,
+            "Titres": {
+              "Titre": "Primes payées au moyen des valeurs du contrat",
+              "TitreEn": "Premiums Paid with Policy Values"
+            },
+            "TypeAffichageValeur": "Decimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 2012,
+            "Titres": {
+              "Titre": "Primes et contributions annuelles versées",
+              "TitreEn": "Annual Premiums and Contributions Paid"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 2017,
+            "Titres": {
+              "Titre": "Participations annuelles payables au comptant",
+              "TitreEn": "Annual Dividends Payable in Cash"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Contrat",
+    "Notes": [
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus âgé couvert par la protection de base. ",
+        "TexteEn": "The age shown is the age of the oldest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointPremierDeces" ]
+        ],
+        "SequenceId": 1
+      },
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus jeune couvert par la protection de base.",
+        "TexteEn": "The age shown is the age of the youngest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointDernierDeces" ]
+        ],
+        "SequenceId": 1
+      },
+      {
+        "Texte": "Au moment choisi pour débuter l'éclipse de prime, la fréquence des primes passe de mensuelle à annuelle. Ceci engendre une baisse de la prime annuelle. Comme le concept d’éclipse de prime est non garanti, on assume dans le cas des primes annuelles totales garanties que la fréquence de prime demeure à mensuelle.",
+        "TexteEn": "<html>When the premium offset begins, the premium frequency changes from monthly to annual. This results in a decrease in the annual premium. Since this concept is non-guaranteed, it is assumed in the <i>Total Guaranteed Annual Premiums</i> column that the premium frequency remains monthly.</html>",
+        "Regles": [
+          [ "EclipseDePrimeActivee", "FrequenceFacturationMensuelle" ]
+        ],
+        "SequenceId": 1
+      }
+    ]
+  }
+}

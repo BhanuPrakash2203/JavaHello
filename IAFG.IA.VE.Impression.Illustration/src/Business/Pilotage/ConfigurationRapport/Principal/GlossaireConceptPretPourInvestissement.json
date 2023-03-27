@@ -1,0 +1,56 @@
+﻿{
+  "SectionId": "GlossaireConceptPretPourInvestissement",
+  "Titres": [
+    {
+      "Titre": "Glossaire IRIS Avec entente de prêt en collatéral",
+      "TitreEn": "Glossary of IRIS With Collateral Loan Facility"
+    }
+  ],
+  "GlossaireTextes": [
+    {
+      "Libelle": "Prêt en collatéral :",
+      "LibelleEn": "Collateral Loan:",
+      "Texte": "<html>Une entente de prêt en collatéral peut être établie en fonction des investissements aux comptes admissibles. Une tarification financière ainsi qu’une cession de la police sont nécessaires pour garantir l’entente.<br>Le taux du prêt est établi sur une base annuelle et fixé comme un écart ajouté au taux crédité du Compte Indiciel à Rendement Stabilisé (CIRS). Cet écart varie de 1.,50 % à 2.,00 % en fonction du rendement de base.</html>",
+      "TexteEn": "<html>A Collateral Loan Facility can be established according to the available assets within the eligible accounts. Financial underwriting and an assignment of the policy are required to guarantee the Facility.<br>The loan interest rate is declared on an annual basis as a spread on the Stabilized Return Index Account (SRIA) credited rate. This spread can be between 1.50% and 2.00% according to the base return rate.</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Déductibilité des intérêts :",
+      "LibelleEn": "Deductibility of Interest:",
+      "Texte": "<html>Les intérêts sur le prêt pour investissement peuvent être déductibles à l'encontre de vos revenus pour l'année en cours sous certaines conditions.</html>",
+      "TexteEn": "<html>Interest on the investment loan may be deductible from your income for the year in progress under certain conditions.</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Remboursement du prêt :",
+      "LibelleEn": "Loan Reimbursements:",
+      "Texte": "<html>Au rachat, il faut tenir compte de l'imposition. Ainsi, la valeur de rachat après impôt peut être inférieure au solde du prêt contracté. En conséquence, il est préférable que l'emprunt soit remboursé uniquement au décès de l'assuré.<br>Au décès de l'assuré, le solde du prêt contracté est remboursé à même le produit de l'assurance qui est libre d'impôt. Quant à l'excédent, il appartient au bénéficiaire.</html>",
+      "TexteEn": "<html>Taxation must be taken into account at redemption. Hence, the surrender value after taxes may be lower than the balance of the contracted loan. Consequently, it is preferable that the loan only be reimbursed on the insured’s death. On the death of the insured, the balance of contracted loan is reimbursed from the insurance proceeds, which are tax free. The surplus belongs to the beneficiary.</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Intérêts sur le prêt en collatéral :",
+      "LibelleEn": "Interest on Collateral Loan:",
+      "Texte": "<html>Les intérêts sur le prêt en collatéral, c’est-à-dire les intérêts à terme, sont exigibles en fin d’année de police. Veuillez vous référer au contrat de prêt pour investissement (contrat de prêt et d’hypothèque dans la province de Québec) pour tous les détails.</html>",
+      "TexteEn": "<html>Interests on the Collateral Loan, relates to the term interest, due at the end of the policy year and must be paid. Please refer to the investment loan contract (contract of loan and hypothec in the province of Quebec) for all the details.</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Déduction du CNAP :",
+      "LibelleEn": "NCPI deduction:",
+      "Texte": "<html>Si certaines conditions précises sont remplies, une partie des primes d'assurance vie payées peut être déductible. Le montant déductible est le moindre entre la prime payée dans l'année et le coût net de l'assurance pure (CNAP). La partie déductible de la prime d'assurance ou du CNAP est fondée sur la proportion du prêt réel par rapport au montant net assuré au risque. Pour obtenir des renseignements supplémentaires, veuillez consulter les lignes directrices administratives de l'ARC et votre représentant ou votre conseiller fiscal.</html>",
+      "TexteEn": "<html>A portion of the life insurance premiums payable may be deductible if certain specific conditions are met. The deductible amount is the lesser between the premium paid during the year and the net cost of pure insurance (NCPI). The deductible portion of the insurance premium or the NCPI is based on the proportion of the actual loan versus the net insured amount at risk. For more information, consult the CRA administrative guidelines and your agent or financial advisor.</html>",
+      "Regles": [
+        [ "EstDeductionCNAP" ]
+      ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Avis important :",
+      "LibelleEn": "Important notice:",
+      "Texte": "<html>La compagnie ne garantit pas que la déductibilité des intérêts et que les conséquences fiscales seront telles qu'illustrées dans ce document. De plus, elle recommande fortement au client de consulter un expert-comptable fiscal ou un conseiller juridique afin d'obtenir des conseils professionnels indépendants.</html>",
+      "TexteEn": "<html>The Company does not guarantee that the interest deductibility and the taxation consequences will be like those illustrated in this document. It also strongly recommends that the client consult an accountant, tax expert or legal advisor in order to obtain independent professional advice.</html>",
+      "SequenceId": 2
+    }
+  ]
+}

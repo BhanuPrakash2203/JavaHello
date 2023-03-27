@@ -1,0 +1,71 @@
+{
+  "SectionId": "DescriptionsProtections",
+  "Descriptions": [
+    {
+      "Libelle": "iA Assurance vie avec participation",
+      "LibelleEn": "iA Participating Life Insurance",
+      "Texte": "<html><strong><font color='#003DA5'>Pour assurer la croissance de votre patrimoine</font></strong></style><br/><br/>iA avec participation est un produit d’assurance vie permanente avec participation qui favorise la croissance de votre patrimoine.<br/><br/><strong>iA avec participation est une solution avantageuse pour répondre aux besoins suivants :</strong><br/><br/></html>",
+      "TexteEn": "<html><strong><font color='#003DA5'>Ensuring the growth of your estate</font></strong><br/><br/>iA Participating Life Insurance (iA PAR) is permanent life insurance that promotes tax-advantaged growth of your estate.<br/><br/><strong>iA PAR is an advantageous solution that will help you:</strong><br/><br/></html>",
+      "Textes": [
+        {
+          "Texte": "Maximiser votre patrimoine;",
+          "TexteEn": "Maximize your wealth",
+          "SequenceId": 1
+        },
+        {
+          "Texte": "Bénéficier d’une source de diversification de vos actifs qui est fiscalement avantageuse et qui inclut un accès privilégié à des classes d’actifs institutionnelles;",
+          "TexteEn": "Benefit from a source of tax-advantaged asset diversification with privileged access to institutional asset classes",
+          "SequenceId": 1
+        },
+        {
+          "Texte": "Générer une source de liquidité à long terme pour avoir plus de flexibilité, par exemple pour bonifier votre revenu de retraite ou pour réduire le paiement de vos primes au besoin;",
+          "TexteEn": "Generate a long-term source of cash for flexibility in the future to do things like increase your retirement income or reduce your premium payments, if needed",
+          "SequenceId": 1
+        },
+        {
+          "Texte": "Procurer une base financière solide à vos enfants ou petits-enfants tout en protégeant leur assurabilité future.",
+          "TexteEn": "Provide a strong financial foundation for your children or grandchildren and protect their future insurability.",
+          "SequenceId": 1
+        }
+      ],
+      "SectionPrincipale": true,
+      "SequenceId": 1
+    },
+    {
+      "Texte": "<html>Avec ce produit, vous avez accès à une protection de base ayant des primes garanties de même qu’un montant d’assurance vie et des valeurs de rachat garanties.<br/><br/>Vous pourriez également recevoir des participations à l’anniversaire de votre contrat. Ces participations peuvent être affectées, selon votre choix, à une des quatre options d’affectation des participations décrites ci-après. Le montant des participations est déterminé annuellement en fonction du barème de participations. Les participations ne sont donc pas garanties. Par conséquent, la variation de ces dernières aura une incidence sur les valeurs non garanties telles que les montants d’assurance vie et les valeurs de rachat de la protection d’assurance libérée.</html>",
+      "TexteEn": "<html>This product gives you access to basic coverage with guaranteed premiums, a guaranteed life insurance amount and guaranteed cash surrender values.<br/><br/>You may also receive dividends at the policy anniversary. These dividends can be allocated, based on your preference, to one of the four dividend options described below. The dividend amount is determined annually based on the dividend scale. Dividends are therefore not guaranteed. As a result, changes in dividends will affect non-guaranteed values such as the paid-up insurance amount and the paid-up insurance surrender value.</html>",
+      "SequenceId": 2
+    },
+    {
+      "Texte": "<html><strong><font color='#003DA5'>Options d’affectation des participations</font></strong></style><br/><ul><li><strong>Bonifications d'assurance libérée (BAL) :</strong><ul><li>Les participations versées sont utilisées afin d’acquérir de l’assurance libérée, ce qui contribuera à augmenter votre montant d’assurance vie et la valeur de rachat de votre contrat.</li></ul></li><li><strong>Réduction de la prime annuelle :</strong><ul><li>Les participations versées sont utilisées pour réduire le montant de la prochaine prime annuelle exigible.</li></ul></li><li><strong>Payable au comptant :</strong><ul><li>Les participations vous sont directement versées;</li><li>Cette option vous procure une source de liquidité tout en maintenant le montant de votre assurance vie;</li><li>Le versement des participations pourrait générer un revenu imposable.</li></ul></li><li><strong>En dépôt avec intérêts :</strong><ul><li>Les participations sont versées dans un compte d’épargne appelé compte des participations en dépôt. Ce compte d’épargne génère des intérêts à un taux déterminé par la Société;</li><li>Le versement des participations pourrait générer un revenu imposable. L’intérêt crédité sur le compte constitue un revenu imposable.</li></ul></li></ul><br/>L’option BAL vous donne la possibilité de faire des contributions à l’Option de dépôt supplémentaire (ODS). Ces contributions vous permettent d’acquérir de l’assurance libérée, augmentant ainsi la croissance du montant d’assurance vie et de la valeur de rachat. Le montant de la contribution doit être déterminé à l’émission du contrat.</html>",
+      "TexteEn": "<html><strong><font color='#003DA5'>Dividend Options</font></strong></style><br/><ul><li><strong>Paid-up additions (PUA):</strong><ul><li>Dividends paid are used to purchase paid-up insurance, which increases your total life insurance amount and your total cash surrender value.</li></ul></li><li><strong>Annual premium reduction:</strong><ul><li>Dividends paid are used to reduce the next annual premium due.</li></ul></li><li><strong>Payable in cash:</strong><ul><li>Dividends are paid directly to you</li><li>This option provides you with a source of liquidity while maintaining your life insurance amount</li><li>Dividends could generate taxable income.</li></ul></li><li><strong>Deposit with interest:</strong><ul><li>Dividends paid are deposited into a savings account. This savings account earns interest at a rate determined by iA Financial Group</li><li>Dividends paid could generate taxable income. Interest credited to the account constitutes taxable income.</li></ul></li></ul>The PUA dividend option gives you the opportunity to make contributions to the additional deposit option (ADO). These contributions allow you to acquire more paid-up insurance, thereby increasing the growth of your life insurance amount and your cash surrender value. The contribution amount must be set at issue.</html>",
+      "SequenceId": 3
+    },
+    {
+      "Texte": "<html><strong>iA Assurance vie avec participation comprend les avantages suivants :</strong></html>",
+      "TexteEn": "<html><strong>iA PAR offers the following advantages:</strong></html>",
+      "SectionPrincipale": false,
+      "Tableau": [
+        {
+          "Categorie": "Croissance",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>L’achat d’assurance libérée grâce aux participations annuelles ou la contribution à l’option de dépôt supplémentaire permet d’augmenter votre montant d’assurance vie et votre valeur de rachat.</td></tr></table></html>",
+          "CategorieEn": "Growth",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>The purchase of paid-up insurance with dividends or with contributions to ADO provides the opportunity for you to increase your face amount and your cash surrender value.</td></tr></table></html>"
+        },
+        {
+          "Categorie": "Flexibilité",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>En cas de besoin, vous pourrez accéder à une source de liquidité grâce à la valeur de rachat de votre contrat.</td></tr><tr><td><br/>Vous pouvez également modifier votre option d’affectation des participations afin de maximiser la croissance de votre patrimoine ou de bénéficier d’une source de liquidité annuelle.</td></tr></table></html>",
+          "CategorieEn": "Flexibility",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>If needed, you have access to a long-term source of cash thanks to the surrender value of your contract.</td></tr><tr><td><br/>You can also change your dividend option to promote the growth of your estate or provide a source of annual liquidity.</td></tr></table></html>"
+        },
+        {
+          "Categorie": "Stabilité",
+          "Texte": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Le barème de participations est déterminé en partie selon les rendements du Compte des contrats avec participation. Afin de favoriser la stabilité à long terme, ce compte comporte une diversification optimale des catégories d’actifs, en plus d’utiliser une technique de lissage qui permet d’amortir les variations de rendement.  </td></tr></table></html>",
+          "CategorieEn": "Stability",
+          "TexteEn": "<html><table style='margin-left: 8px; margin-right: 20px; font-style:normal;width: 100%'><tr><td>Your annual dividends are established in part based on the performance of the participating account. To favour long-term stability, the participating account benefits from an optimal diversification of asset classes as well as a smoothing technique that weakens variations.</td></tr></table></html>"
+        }
+      ],
+      "SequenceId": 4
+    }
+  ]
+}

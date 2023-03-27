@@ -1,0 +1,53 @@
+﻿using AutoFixture;
+using IAFG.IA.VE.Impression.Core.Builders;
+using IAFG.IA.VE.Impression.Core.Interface.ReportContext;
+using IAFG.IA.VE.Impression.Core.Types.Enums;
+using IAFG.IA.VE.Impression.Core.Types.Styles;
+using IAFG.IA.VE.Impression.CoreForTests;
+using IAFG.IA.VE.Impression.Illustration.Business.Builders.BonSuccessoral;
+using IAFG.IA.VE.Impression.Illustration.Interfaces.Business.Factories;
+using IAFG.IA.VE.Impression.Illustration.Interfaces.Business.Mappers.BonSuccessoral;
+using IAFG.IA.VE.Impression.Illustration.Types.Reports.MasterReports;
+using IAFG.IA.VE.Impression.Illustration.Types.Reports.SubReports.BonSuccessoral;
+using IAFG.IA.VE.Impression.Illustration.Types.SectionModels.BonSuccessoral;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using NSubstitute;
+
+namespace IAFG.IA.VE.Impression.Illustration.Test.Builder.BonSuccessoral
+{
+    [TestClass]
+    public class PageTitreBuilderTest
+    {
+        private static readonly IFixture _auto = AutoFixtureFactory.Create();
+        private readonly IReportFactory _reportFactory = Substitute.For<IReportFactory>();
+        private readonly IPageTitre _report = Substitute.For<IPageTitre>();
+        private readonly IIllustrationMasterReport _parentReport = Substitute.For<IIllustrationMasterReport>();
+        private readonly IPageTitreMapper _mapper = Substitute.For<IPageTitreMapper>();
+        private readonly IReportContext context = _auto.Create<IReportContext>();
+
+        [TestMethod]
+        public void PageBuilder_When_Build_Then_ShouldAddItselfToParentReport()
+        {
+            _reportFactory.Create<IPageTitre>().Returns(_report);
+
+            var builder = new PageTitreBuilder(_reportFactory, _mapper);
+            var buildParam = CreateBuildParameters(_parentReport);
+
+            builder.Build(buildParam);
+            _parentReport.Received(1).AddSubReport(_report);
+        }
+
+        private BuildParameters<TitreRapportModel> CreateBuildParameters(IIllustrationMasterReport illustrationMasterReport)
+        {
+            var sectionModel = _auto.Create<TitreRapportModel>();
+            var styleOverride = new StyleOverride { MarginLevel = MarginLevel.Level1, MoveAllLabels = false };
+
+            return new BuildParameters<TitreRapportModel>(sectionModel)
+            {
+                ParentReport = illustrationMasterReport,
+                ReportContext = context,
+                StyleOverride = styleOverride
+            };
+        }
+    }
+}

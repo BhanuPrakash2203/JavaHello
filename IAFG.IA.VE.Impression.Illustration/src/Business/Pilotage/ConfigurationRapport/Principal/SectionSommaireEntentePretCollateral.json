@@ -1,0 +1,126 @@
+{
+  "SectionId": "SommaireEntentePretCollateral",
+  "Titres": [
+    {
+      "Titre": "Sommaire de l'entente de prêt en collatéral",
+      "TitreEn": "Collateral Loan Facility Summary",
+      "Description": "Ce rapport présente les valeurs de l’Entente de Prêt en Collatéral (EPC). Les prêts sont réalisés en début d’année de police sauf un prêt en fin d’année qui peut être consenti suite au paiement des intérêts annuels.",
+      "DescriptionEn": "This report shows the values of the Collateral Loan Facility (CLF). Loans are made at the beginning of the policy year except for an additional loan granted following the annual interest payment."
+    }
+  ],
+  "Tableau": {
+    "Titres": [
+      {
+        "Titre": "Sommaire de l'entente de prêt en collatéral",
+        "TitreEn": "Collateral Loan Facility Summary"
+      }
+    ],
+    "GroupeColonnes": [
+      {
+        "Produits": [ ],
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee"
+          },
+          {
+            "Colonne": 77,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          }
+        ]
+      },
+      {
+        "Produits": [ ],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 163,
+            "Titres": {
+              "Titre": "Prêt en collatéral annuel",
+              "TitreEn": "Annual Collateral Loan"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+           "Colonne": 179,
+            "Titres": {
+              "Titre": "Remb. du prêt",
+              "TitreEn": "Loan Principal Repayment"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 149,
+            "Titres": {
+              "Titre": "Taux du prêt (%)",
+              "TitreEn": "Loan rate (%)"
+            },
+            "TypeAffichageValeur": "PourcentageSansSymbol"
+          },
+          {
+           "Colonne": 180,
+            "Titres": {
+              "Titre": "Intérêts totaux payés sur le prêt en collatéral",
+              "TitreEn": "Total Paid Interest on Collateral Loan"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 164,
+            "Titres": {
+              "Titre": "Emprunt en fin d'année",
+              "TitreEn": "EOY Additional Loan"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+             "Colonne": 181,
+            "Titres": {
+              "Titre": "Remb. de prêt en fin d'année",
+              "TitreEn": "EOY Loan Principal Repayment"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 161,
+            "Titres": {
+              "Titre": "Solde du prêt en collatéral",
+              "TitreEn": "Collateral Loan Balance"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Contrat",
+    "Notes": [
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus âgé couvert par la protection de base. ",
+        "TexteEn": "The age shown is the age of the oldest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointPremierDeces" ]
+        ],
+        "SequenceId": 1
+      },
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus jeune couvert par la protection de base.",
+        "TexteEn": "The age shown is the age of the youngest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointDernierDeces" ]
+        ],
+        "SequenceId": 1
+      }
+    ]
+  }
+}

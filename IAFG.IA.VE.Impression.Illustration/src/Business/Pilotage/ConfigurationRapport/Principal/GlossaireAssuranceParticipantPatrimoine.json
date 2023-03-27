@@ -1,0 +1,95 @@
+﻿{
+  "SectionId": "GlossaireSpecifique",
+  "Titres": [
+    {
+      "Titre": "Glossaire spécifique : iA Assurance vie avec participation",
+      "TitreEn": "Specific Glossary: iA Participating Life Insurance"
+    }
+  ],
+  "GlossaireTextes": [
+    {
+      "Libelle": "Protection d’assurance libérée :",
+      "LibelleEn": "Paid-up insurance coverage:",
+      "Texte": "Désigne la protection d’assurance vie permanente libérée du paiement des primes acquise avec le versement des participations ou les contributions à l’Option de dépôt supplémentaire.",
+      "TexteEn": "Refers to the permanent paid-up life insurance coverage acquired with the dividend payments or contributions to the additional deposit option.",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Coût de base rajusté (CBR) :",
+      "LibelleEn": "Adjusted Cost Basis (ACB):",
+      "Texte": "Le CBR est utilisé dans le calcul du gain imposable lors d'un rachat partiel, d’une avance sur police ou dans le calcul du montant à créditer au Compte de dividende en capital (CDC) pour une société.",
+      "TexteEn": "The ACB is used in calculating the taxable gain on a partial surrender, a policy loan or in calculating the amount to be credited in the Capital Dividend Account (CDA) for a corporation.",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Compte de dividende en capital (CDC) :",
+      "LibelleEn": "Capital Dividend Account (CDA):",
+      "Texte": "Le CDC représente la portion du montant d’assurance vie total qui peut être versée aux actionnaires sous forme de dividendes non imposables.",
+      "TexteEn": "The CDA is the portion of the death benefit that can be paid to shareholders as a tax-free dividend.",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Barème de participations :",
+      "LibelleEn": "Dividend scale:",
+      "Texte": "Le barème de participations est déterminé chaque année par le conseil d’administration de la Société en tenant compte des résultats financiers du Compte des contrats avec participation, lequel dépend de plusieurs variables, comme le rendement des placements, la mortalité, les déchéances et les dépenses. Le barème de participations n’est pas garanti et il peut varier à la hausse ou à la baisse. C’est en fonction de ce barème que la Société détermine si elle verse des participations et, s’il y a lieu, le montant de celles-ci.",
+      "TexteEn": "The dividend scale is approved each year by the iA Financial Group Board of Directors and depends on the financial results of the participating account, which varies mostly due to investment income, mortality, contract lapses, expenses and taxes. The dividend scale is not guaranteed and may go up or down. It is the dividend scale that determines if dividends are paid and, if so, the dividend amount.",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Montant d'assurance vie total :",
+      "LibelleEn": "Total life insurance amount:",
+      "Texte": "Désigne le montant payé au bénéficiaire si l’assuré décède pendant que le contrat est en vigueur. Il comprend le montant d’assurance vie de la protection de base et le montant d’assurance vie des avenants temporaires (le cas échéant). À cela peut s’ajouter le montant d’assurance vie de la protection d’assurance libérée, si des participations ou des contributions supplémentaires ont permis d’ajouter cette protection, ainsi que le solde du compte des participations en dépôt, si l’option d’affectation des participations choisie est « En dépôt avec intérêts ». Divers facteurs, comme les rachats partiels et les avances sur police, peuvent venir diminuer le montant d’assurance vie total.",
+      "TexteEn": "Refers to the amount paid to the beneficiary if the insured dies while the policy is in force. It includes the basic coverage guaranteed life insurance amount and, if applicable, the term rider life insurance amount.  It also includes the life insurance amount of the paid-up insurance coverage, if additional dividends or contributions have added this coverage, and the balance of the dividends on deposit account if the dividend option selected is \"Deposit with interest\". Various factors can reduce the total life insurance amount, such as partial surrender and policy loans.",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Prime annuelle totale garantie :",
+      "LibelleEn": "Total guaranteed annual premium:",
+      "Texte": "Désigne la prime annuelle de la protection de base additionnée de la prime annuelle des avenants et garanties complémentaires, le cas échéant.",
+      "TexteEn": "Refers to the basic coverage annual premium plus the riders and additional benefits annual premiums, if applicable.",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Valeur de rachat totale :",
+      "LibelleEn": "Total surrender value:",
+      "Texte": "Désigne la valeur remise au contractant si ce dernier nous soumet une demande de rachat total du contrat. Il comprend la valeur de rachat de la protection de base. À cela peut s’ajouter la valeur de rachat de la protection d’assurance libérée, si des participations ou des contributions supplémentaires ont permis d’ajouter cette protection, ainsi que le solde du compte des participations en dépôt, si l’option d’affectation des participations choisie est « En dépôt avec intérêts ». Divers facteurs, comme les rachats partiels et les avances sur police, peuvent venir diminuer le montant de la valeur de rachat totale.",
+      "TexteEn": "Refers to the value given to the policyholder if he or she submits a request to surrender the policy. It includes the basic coverage guaranteed surrender value. It also includes the paid-up insurance surrender value, if additional dividends or contributions have added this coverage, and the balance of the dividends on deposit account if the dividend option selected is \"Deposit with interest\". Various factors can reduce the total surrender value, such as partial surrender and policy loans.",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Valeur de rachat garantie :",
+      "LibelleEn": "Guaranteed surrender value:",
+      "Texte": "Désigne la valeur de rachat de la protection de base. Pour obtenir la totalité de la valeur de rachat garantie, toutes les primes requises doivent être payées. Divers facteurs peuvent venir diminuer le montant de la valeur de rachat garantie, comme les rachats partiels et les avances sur police.",
+      "TexteEn": "Refers to the surrender value of the basic coverage. To have access to the guaranteed surrender value, all required premiums must be paid. Various factors can reduce the guaranteed surrender value, such as partial surrender and policy loans.",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Montant d'assurance vie garanti :",
+      "LibelleEn": "Guaranteed life insurance amount:",
+      "Texte": "Le montant d’assurance vie garanti comprend le montant d'assurance vie garanti de la protection de base et le montant d'assurance vie des avenants temporaires, le cas échéant. Pour obtenir la totalité du montant d’assurance vie garanti, toutes les primes requises doivent être payées. Divers facteurs peuvent venir diminuer le montant d’assurance vie garanti, comme les rachats partiels et les avances sur police.",
+      "TexteEn": "The guaranteed life insurance amount includes the basic coverage guaranteed life insurance amount and, if applicable, the term rider life insurance amount. To obtain the guaranteed life insurance amount, all required premiums must be paid. Various factors can reduce the amount of guaranteed life insurance, such as partial surrender and policy loans.",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Âge d’assurance :",
+      "LibelleEn": "Insurance age:",
+      "Texte": "Désigne l’âge de l’assuré à son anniversaire de naissance le plus proche d’une date déterminée.",
+      "TexteEn": "Refers to the age of the insured at his or her nearest birthday in relation to a specified date.",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Protection de base :",
+      "LibelleEn": "Basic coverage:",
+      "Texte": "Désigne votre protection d’assurance vie permanente de base.",
+      "TexteEn": "Refers to your basic permanent life coverage.",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Rendement au décès :",
+      "LibelleEn": "Rate of return (Death):",
+      "Texte": "Le rendement au décès représente le taux de rendement réalisé sur les sommes transigées depuis l’émission du contrat pour reproduire la prestation de décès à une année donnée. Les sommes transigées incluent les primes, les dépôts et les contributions moins les montants versés au client.",
+      "TexteEn": "The rate of return on death represents the rate of return earned on the amounts traded since the issue date to replicate the death benefit in a given year. Amounts traded include premiums, deposits and contributions, less amounts paid to the client.",
+      "SequenceId": 1
+    }
+  ]
+}

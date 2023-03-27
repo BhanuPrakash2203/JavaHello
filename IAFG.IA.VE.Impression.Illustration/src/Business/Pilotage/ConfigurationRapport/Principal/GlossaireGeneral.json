@@ -1,0 +1,259 @@
+{
+  "SectionId": "GlossaireGeneral",
+  "Titres": [
+    {
+      "Titre": "Glossaire général aux termes d’assurance",
+      "TitreEn": "Glossary of general insurance terminology"
+    }
+  ],
+  "GlossaireTextes": [
+    {
+      "Libelle": "Capital + Fonds :",
+      "LibelleEn": "Face Amount + Fund:",
+      "Texte": "<html>Signifie que les sommes investies dans les différents comptes du contrat s'ajoutent au capital d'assurance lors du versement de la prestation de décès.</html>",
+      "TexteEn": "<html>Means that amounts invested in the contract’s various investment accounts are added to the face amount when the death benefit is paid.</html>",
+      "Regles": [
+        [ "EstCapitalPlusFonds" ]
+      ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Capital seulement :",
+      "LibelleEn": "Face Amount only:",
+      "Texte": "<html>Signifie que les sommes versées lors d’un décès correspondent au plus élevé des montants suivants, soit : le capital décès et le fonds transitoire ou les fonds totaux.</html>",
+      "TexteEn": "<html>Means that the death benefit is paid on the higher of these two amounts: face amount plus shuttle fund or total funds.</html>",
+      "Regles": [
+        [ "EstCapitalSeul" ]
+      ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Valeur maximisée :",
+      "LibelleEn": "Wealth Maximizer:",
+      "Texte": "<html>Signifie que les fonds totaux s’ajoutent au capital d’assurance lors du versement de la prestation de décès. De plus, le capital assuré s’ajustera automatiquement à chaque fin d’année afin de générer un minimum de coûts pour un maximum d’accumulation. Cette option peut comporter des charges au rachat.</html>",
+      "TexteEn": "<html>Means that the total funds are added to the face amount when the death benefit is paid. Also, the face amount will be adjusted automatically at each policy year end to generate minimum costs for maximum accumulation in the accumulation fund. This option may feature surrender charges.</html>",
+      "Regles": [
+        [ "EstValeurMaximisee" ]
+      ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Capital + Fonds avec option valeur maximisée :",
+      "LibelleEn": "Face amount + Fund with Wealth maximizer option:",
+      "Texte": "<html>Signifie que les fonds totaux s’ajoutent au capital d’assurance lors du versement de la prestation de décès. De plus, à partir de la 5e année, une option de valeur maximisée pourra être exercée. À partir de l’année d’exercice, le capital assuré s’ajustera automatiquement à chaque fin d’année afin de générer un minimum de coûts pour un maximum d’accumulation. Cette option peut comporter des charges au rachat.</html>",
+      "TexteEn": "<html>Means that the total funds are added to the face amount when death benefit is paid. Furthermore, from the 5th year a wealth maximizer option can be exercised. From this point where the option is exercised, the face amount will be adjusted automatically at each policy year end to generate minimum costs for maximum accumulation in the accumulation fund. This option may feature surrender charges.</html>",
+      "Regles": [
+        [ "EstCapitalPlusFondsOptionVMax" ]
+      ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Capital + remboursement des primes :",
+      "LibelleEn": "Face amount + Guaranteed Return of Premiums:",
+      "Texte": "<html>Signifie qu’en plus du capital assuré, le plus élevé des montants suivants s’ajoute au versement de la prestation de décès, soit : le fonds de capitalisation ou la somme des primes versées moins les retraits effectués.</html>",
+      "TexteEn": "<html>Means that in addition to the face amount, the higher of the following amounts will be paid at death: the accumulation fund or the total premiums paid less withdrawals.</html>",
+      "Regles": [
+        [ "EstCapitalPlusRetourPrimes" ]
+      ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Capital + Fonds + CBR :",
+      "LibelleEn": "Face amount + Fund + ACB:",
+      "Texte": "<html>Signifie qu’en plus du capital assuré, une valeur équivalente au fonds de capitalisation et une assurance temporaire équivalente au CBR s’ajoutent au versement du capital assuré.</html>",
+      "TexteEn": "<html>Means that the amounts invested in the contract’s various investment accounts as well as the current ACB is added to the face amount paid at death.</html>",
+      "Regles": [
+        [ "EstCapitalPlusFondsPlusCBR" ]
+      ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Coûts :",
+      "LibelleEn": "Costs:",
+      "Texte": "<html>À l’émission, les coûts d’assurance nivelées et TRA sont garantis à vie. Par la suite, tout ajout apporté aux protections nécessitera de nouvelles preuves d’assurabilité et sera calculé en fonction des coûts d’assurance en vigueur à ce moment.</html>",
+      "TexteEn": "<html>At issue, the level and YRT costs of insurance are guaranteed for life. Once issued, all additions made to the coverages will require new evidence of insurability and will be calculated based on the insurance costs in effect at that time.</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Durée de l'illustration :",
+      "LibelleEn": "Duration of the Illustration:",
+      "Texte": "<html>Le fait que l'illustration présente des valeurs jusqu'à l'âge de 100 ans ne signifie pas que la police prend fin à ce moment. Dans les faits, le contrat sera en vigueur jusqu'au décès du dernier assuré si les primes versées et les fonds sont suffisants.</html>",
+      "TexteEn": "<html>This illustration presents values until the principal insured reaches the age of 100, but this does not mean that the policy terminates at that time. In reality, the policy will remain in force until the death of the last insured as long as the premiums are paid and the funds are sufficient.</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Primes versées :",
+      "LibelleEn": "Premiums paid:",
+      "Texte": "<html>Les primes versées comprennent les primes reçues sur une base régulière et les dépôts additionnels. Elles peuvent être assujetties à une taxe sur prime, à des frais d’administration ou aux deux. La taxe pourrait varier selon les modifications apportées au taux de la taxe sur les primes de la province de résidence. Il n'y a aucune obligation de verser une prime à votre contrat, en autant que les fonds soient suffisants pour maintenir le contrat en vigueur.</html>",
+      "TexteEn": "<html>Premiums paid include the premiums received on a regular basis and additional deposits. They may be subject to a premium tax and/or an administration fee. The tax can vary based on changes made to the premium tax rate in the province of residence. It is not mandatory to pay a premium provided there are sufficient funds in the policy to keep the policy in force.</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Fonds totaux :",
+      "LibelleEn": "Total Funds:",
+      "Texte": "<html>Les fonds totaux représentent le total des sommes investies dans les différents comptes de la police et du fonds transitoire. Les fonds totaux doivent être suffisants pour maintenir votre contrat en vigueur. Durant les 5 premières années, les montants accumulés dans la colonne « Fonds totaux » seront versés lors du premier décès uniquement si l'assuré décédé était assurable à l'émission du contrat.</html>",
+      "TexteEn": "<html>The total funds represent the total amount invested in the policy's various accounts and the shuttle fund. The total funds must be sufficient to maintain your policy in force. The amount accumulated in the \"Total Funds\" column will be payable before the 5th coverage anniversary only if the insured was insurable at issue of the coverage.</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Fonds transitoire (voir Imposition) :",
+      "LibelleEn": "Shuttle fund (see Taxation):",
+      "Texte": "<html>Reçoit les sommes qui excèdent la prime maximale permise aux fins d’exonération fiscale. Dès que possible, les sommes contenues dans le fonds transitoire sont transférées dans le fonds de capitalisation. Le terme « avant impôts » signifie que l’impôt à acquitter sur les gains du fonds transitoire doit être payé séparément, avec de l’argent qui ne provient pas du compte.</html>",
+      "TexteEn": "<html>Receives the amounts that exceed the maximum premium allowed for tax exemption purposes. Amounts in the shuttle fund are transferred to the accumulation fund as soon as possible. The term “before tax” means that tax payable on gains in the shuttle account must be paid separately, with money that does not come from the account.</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Imposition :",
+      "LibelleEn": "Taxation:",
+      "Texte": "<html>Les sommes accumulées dans le fonds de capitalisation le sont jusqu'à concurrence du maximum prévu par la Loi de l'impôt sur le revenu à des fins d'exonération fiscale. Lorsque les sommes accumulées excèdent ce maximum, un transfert s'effectue dans le fonds transitoire. Les rendements générés dans ce fonds sont imposables annuellement. De même, une partie des retraits, des avances sur police et des valeurs de rachat pourrait être assujettie à la Loi de l'impôt sur le revenu.</html>",
+      "TexteEn": "<html>The amounts are accumulated in the accumulation fund up to the maximum amount allowed under the Income Tax Act to maintain the contract’s tax-exempt status. When accumulated amounts exceed this maximum, a transfer is made to the shuttle fund. The earnings generated in this account are taxable annually. In addition, a portion of the withdrawals, policy loans and surrender values could be subject to the Income Tax Act.</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Assurance prolongée :",
+      "LibelleEn": "Extended insurance:",
+      "Texte": "<html>L'assurance prolongée représente le nombre d'années pendant lesquelles votre police serait maintenue en vigueur si vous cessiez de verser vos primes à ce moment. Ce nombre d’années n'est pas garanti et peut varier en fonction de plusieurs facteurs, notamment les rendements réels de vos investissements.</html>",
+      "TexteEn": "<html>Extended insurance represents the number of years during which your policy will remain in effect if you stop paying premiums. This duration is not guaranteed and can vary based on several factors, particularly the real returns that your investments obtain.</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Coût de base rajusté (CBR) :",
+      "LibelleEn": "Adjusted cost basis (ACB):",
+      "Texte": "<html>Le CBR est utilisé dans le calcul du gain imposable lors d'un retrait, d'un transfert au fonds transitoire ou d'une avance sur police. Il correspond à la somme des primes versées au contrat, ajustée en fonction des retraits, moins la somme du coût net d'assurance pure (CNAP).</html>",
+      "TexteEn": "<html>The ACB is used to calculate the taxable gain following a withdrawal, a transfer to the shuttle fund or a policy loan. It is equal to the sum of premiums paid into the contract adjusted for withdrawals minus the accumulated net cost of pure insurance (NCPI).</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Taux moyen pondéré :",
+      "LibelleEn": "Weighted average yield:",
+      "Texte": "<html>Correspond au taux d'intérêt moyen réalisé sur les différents comptes d'investissement. Les taux d’intérêt présentés dans cette illustration le sont sur une base nette, donc après déduction des frais de gestion.</html>",
+      "TexteEn": "<html>Corresponds to the average interest rate realized on the different investment accounts. The interest rates presented in this illustration are on a net basis, meaning net of management fees.</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Comptes à intérêt garanti :",
+      "LibelleEn": "Guaranteed interest accounts:",
+      "Texte": "<html>Compte d'investissement pour lequel un taux d’intérêt minimum garanti s’applique. Référez-vous au contrat ou à votre conseiller pour tous les détails.</html>",
+      "TexteEn": "<html>The rates credited for guaranteed interest accounts are established by the company. A guaranteed minimum interest rate may apply based on the guaranteed interest account selected. Refer to the contract or your advisor for more details.</html>",
+      "Regles": [
+        [ "CompteTerme" ]
+      ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Prime maximale :",
+      "LibelleEn": "Maximum premium:",
+      "Texte": "<html>La prime maximale correspond au montant maximal de prime pouvant être versé dans votre police sans dépasser le montant maximal pour fins d'exonération. Il est fourni à titre indicatif et varie en fonction du rendement réel du fonds de capitalisation.</html>",
+      "TexteEn": "<html>Means the maximum premium amount that can be paid into your policy in a given year to ensure you do not exceed the maximum amount allowed for tax exemption purposes on subsequent policy anniversaries. This amount is indicative and varies depending on the actual performance of the accumulation fund.</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Compte portefeuille :",
+      "LibelleEn": "Portfolio account:",
+      "Texte": "<html>Est conçu pour recevoir les sommes versées dans le contrat. Les coûts d’assurance sont prélevés de ce compte chaque mois et les sommes excédentaires peuvent ensuite être transférées dans les différents comptes d’investissement selon les directives d’investissement automatique (DIA).</html>",
+      "TexteEn": "<html>Receives amounts paid into the contract. Insurance costs are withdrawn from this account each month. Excess amounts may then be transferred to the different investment accounts according to the automatic investment instructions (AII).</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Fonds de capitalisation :",
+      "LibelleEn": "Accumulation fund:",
+      "Texte": "<html>Le fonds de capitalisation est composé d'un compte portefeuille et des comptes d’investissement sélectionnés par le client.  Il reçoit les sommes jusqu'à concurrence du montant maximal permis aux fins d’exonération fiscale.</html>",
+      "TexteEn": "<html>The accumulation fund consists of a portfolio account and investment accounts selected by the client. It receives the premiums paid up to the maximum amount allowed for tax exemption purposes.</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Valeur de rachat totale :",
+      "LibelleEn": "Total surrender value:",
+      "Texte": "<html>La valeur de rachat totale illustrée inclut le fonds de capitalisation et le fonds  transitoire. Elle tient également compte de la valeur de rachat garantie et des frais de rachat lorsque applicables. Il est important de noter que, dans tous les cas, la valeur de rachat totale payable est réduite du solde de toute avance sur police.</html>",
+      "TexteEn": "<html>The total surrender value is the amount paid upon total surrender of the policy. Among other things, it includes the shuttle fund and also takes into account the policy loans and surrender fees, if applicable.</html>",
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Optimisation automatique du capital assuré :",
+      "LibelleEn": "Automatic optimization of the face amount:",
+      "Texte": "<html>Cette option augmentera ou diminuera au besoin le capital assuré. Ceci permettra de minimiser les transferts au fonds transitoire et, par le fait même, maximisera votre capitalisation à l'abri de l'impôt.</html>",
+      "TexteEn": "<html>This option automatically increases the face amount to create additional tax room and minimize transfers to the shuttle fund. Specific costs of insurance apply to these face amount increases.</html>",
+      "Regles": [
+        [ "OACAEstActif" ]
+      ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Boni de rendement :",
+      "LibelleEn": "Performance bonus:",
+      "Texte": "<html>Un boni de rendement de 2% applicable au fonds de capitalisation est versé à la fin de la 1ère année de contrat et à la fin de chaque année par la suite. Pour qu'il soit versé, le fonds de capitalisation doit réaliser un taux de rendement annuel moyen égal ou supérieur à 5%. Ce boni s’applique à la valeur moyenne annuelle du fonds de capitalisation.</html>",
+      "TexteEn": "<html>A 2% bonus is paid in the accumulation fund at the end of the policy year, starting in year 1, if the average annual interest rate realized for the total accumulation fund is equal to or greater than 5%. This bonus is credited on the average fund for the year.</html>",
+      "Regles": [
+        [ "BoniInteretRendement" ]
+      ],
+      "Codes": [ "GENESIS" ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Boni de rendement :",
+      "LibelleEn": "Performance bonus:",
+      "Texte": "<html>Un boni de rendement de 2.25% applicable au fonds de capitalisation et au fonds transitoire est versé à la fin de la 1ère année de contrat et à la fin de chaque année par la suite. Pour qu'il soit versé, le fonds de capitalisation et le fonds transitoire  doivent réaliser un taux de rendement annuel total égal ou supérieur à 5%. Ce boni s’applique à la valeur moyenne annuelle du fonds de capitalisation et du fonds transitoire.</html>",
+      "TexteEn": "<html>A 2.25% bonus is paid in the accumulation fund and the shuttle fund at the end of the policy year, starting in year 1, if the total annual interest rate realized for the total accumulation and shuttle funds is equal to or greater than 5%. This bonus is credited on the average accumulation and shuttle fund for the year.</html>",
+      "Regles": [
+        [ "BoniInteretRendement" ]
+      ],
+      "Codes": [ "REGIMEVIEMD10" ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Boni garanti : ",
+      "LibelleEn": "Guaranteed bonus:",
+      "Texte": "<html>Un boni garanti de 1.2% est versé à la fin de la 1ère année de contrat et à la fin de chaque année par la suite. Ce boni s’applique à la valeur moyenne annuelle du fonds de capitalisation.</html>",
+      "TexteEn": "<html>A 1.2% guaranteed bonus is paid into the accumulation fund at the end of the 1st policy year and at the end of each subsequent year. This bonus is based on the annual average value of the accumulation fund.</html>",
+      "Regles": [
+        [ "BoniInteretGaranti" ]
+      ],
+      "Codes": [ "GENESIS" ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Boni garanti : ",
+      "LibelleEn": "Guaranteed bonus:",
+      "Texte": "<html>Un boni garanti de 1.3% est versé à la fin de la 1ère année de contrat et à la fin de chaque année par la suite. Ce boni s’applique à la valeur moyenne annuelle du fonds de capitalisation et du fonds transitoire.</html>",
+      "TexteEn": "<html>A 1.3% guaranteed bonus is paid at the end of the 1st policy year and at the end of each subsequent year. This bonus is based on the annual average value of the accumulation fund and shuttle fund.</html>",
+      "Regles": [
+        [ "BoniInteretGaranti" ]
+      ],
+      "Codes": [ "REGIMEVIEMD10" ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Boni garanti : ",
+      "LibelleEn": "Guaranteed bonus:",
+      "Texte": "<html>Un boni garanti de 1.25% est versé à la fin de la 5e année de contrat et à la fin de chaque année par la suite. Ce boni s’applique à la valeur moyenne annuelle du fonds de capitalisation  et du fonds transitoire.</html>",
+      "TexteEn": "<html>A 1.25% guaranteed bonus is paid at the end of the 5th policy year and at the end of each subsequent year. This bonus is based on the annual average value of the accumulation fund and shuttle fund.</html>",
+      "Regles": [
+        [ "BoniInteretGaranti" ]
+      ],
+      "Codes": [ "MERIDIA2" ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Boni garanti : ",
+      "LibelleEn": "Guaranteed bonus:",
+      "Texte": "<html>Un boni garanti de 1.2% est versé à la fin de la 1ère année de contrat et à la fin de chaque année par la suite. Ce boni s’applique à la valeur moyenne annuelle du fonds de capitalisation et du fonds transitoire.</html>",
+      "TexteEn": "<html>A 1.2% guaranteed bonus is paid at the end of the 1st policy year and at the end of each subsequent year. This bonus is based on the annual average value of the accumulation fund and shuttle fund.</html>",
+      "Regles": [
+        [ "BoniInteretGaranti" ]
+      ],
+      "Codes": [ "MERIDIA3" ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Boni d’investissement :",
+      "LibelleEn": "Investment bonus:",
+      "Texte": "<html>À compter du {0} anniversaire de police, un boni d’investissement de {1} est crédité aux comptes indiciels actifs disponibles dans Genesis à l'exception du compte Marché monétaire.</html>",
+      "TexteEn": "<html>Beginning on the {0} policy anniversary, an investment bonus of {1} is credited on all index accounts available in Genesis, excluding the Money Market account.</html>",
+      "Regles": [
+        [ "BoniFideliteInvestissement" ]
+      ],
+      "Codes": [ "GENESIS" ],
+      "SequenceId": 1
+    }
+  ]
+}

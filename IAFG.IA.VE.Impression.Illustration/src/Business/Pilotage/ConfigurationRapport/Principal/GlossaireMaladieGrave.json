@@ -1,0 +1,184 @@
+{
+  "SectionId": "GlossaireMaladieGrave",
+  "Titres": [
+    {
+      "Titre": "Glossaire spécifique : Maladie Grave",
+      "TitreEn": "Glossary of terms specific: Critical Illness",
+      "Description": "La protection en cas de maladie grave joue un rôle important dans toute planification financière. Elle vous secondera pendant la transition à vos nouvelles habitudes de vie.",
+      "DescriptionEn": "Critical Illness coverage can play a key role in your overall financial plan. It assists you with your transition to recovery after a critical illness."
+    }
+  ],
+  "Codes": [
+    {
+      "Code": "MALADIEGRAVE1",
+      "Titres": {
+        "Titre": "Maladie grave 1 et 2",
+        "TitreEn": "Critical Illness 1 or 2"
+      },
+      "SequenceId": 0
+    },
+    {
+      "Code": "MALADIEGRAVE3",
+      "Titres": {
+        "Titre": "Maladie grave 3, 4 et 5",
+        "TitreEn": "Critical Illness 3,4 or 5"
+      },
+      "SequenceId": 1
+    },
+    {
+      "Code": "MALADIEGRAVE6-4",
+      "Titres": {
+        "Titre": "Maladie grave 6 (4 maladies)",
+        "TitreEn": "Critical Illness 6 (4 illnesses)"
+      },
+      "SequenceId": 2
+    },
+    {
+      "Code": "MALADIEGRAVE6-25",
+      "Titres": {
+        "Titre": "Maladie grave 6 (25 maladies)",
+        "TitreEn": "Critical Illness 6 (25 illnesses)"
+      },
+      "SequenceId": 3
+    },
+    {
+      "Code": "MALADIEGRAVEENFANT",
+      "Titres": {
+        "Titre": "Maladie grave enfant",
+        "TitreEn": "Critical Illness Child"
+      },
+      "SequenceId": 4
+    },
+    {
+      "Code": "MALADIEGRAVEENFANT6",
+      "Titres": {
+        "Titre": "Maladie grave enfant",
+        "TitreEn": "Critical Illness Child"
+      },
+      "SequenceId": 5
+    }
+  ],
+  "GlossaireTextes": [
+    {
+      "Libelle": "Et si vous étiez victime d'une maladie grave, votre santé financière serait-elle touchée? Ça peut vous arriver.",
+      "LibelleEn": "If you suffered a critical illness, would your finances be impacted? It could happen to you.",
+      "Texte": "<html>Des statistiques révèlent que de plus en plus de Canadiens, et de plus en plus jeunes, auront à faire face au cours de leur vie à une maladie grave. En plus d'avoir à faire face à la maladie, des coûts importants demeurent non couverts par le régime provincial d'assurance maladie.<br><b>La protection MALADIE GRAVE </b>vous permettra de vous consacrer à 100% à votre rétablissement sans vous préoccuper des soucis financiers.</br></html>",
+      "TexteEn": "<html>Statistics reveal that more and more Canadians, at a younger and younger age, will be afflicted by a critical illness. In addition to having to face a serious illness, several important costs related to medical treatments remain not covered by provincial health insurance plans.<br><b>The CRITICAL ILLNESS coverage</b> allows you to focus your energy on recovery and not worry about your finances.</br></html>",
+      "Codes": [ "MALADIEGRAVE1" ],
+      "SequenceId": 0
+    },
+    {
+      "Libelle": "La protection en cas de maladie grave vous offre :",
+      "LibelleEn": "The CRITICAL ILLNESS coverage offers:",
+      "Texte": "<html><table><tr><td style='width: 20px'></td><td>• &nbsp Protection jusqu’à 75 ans</td></tr><tr><td></td><td>• &nbsp Versement forfaitaire</td></tr><tr><td></td><td>• &nbsp Protection entre 10 000 $ et 2 000 000 $ émise entre l’âge 0 et  65 ans</td></tr><tr><td></td><td>• &nbsp Primes et protection garanties, renouvelables tous les 10 ans ou nivelées jusqu’à l'âge de 75 ans</td></tr><tr><td></td><td>• &nbsp Remboursement des primes en cas de décès (incluant les surprimes)</td></tr><tr><td></td><td>• &nbsp Jusqu’à 9 personnes peuvent être assurées en vertu d'un même contrat, incluant les membres de votre famille ou vos <br>associés en affaires.</td></tr></table><u>Autres garanties disponibles :</u><table><tr><td style='width: 20px'></td><td>• &nbsp Maladies graves pour enfants - MALADIE GRAVE Enfant</td></tr></table><br></html>",
+      "TexteEn": "<html><table><tr><td style='width: 20px'></td><td>• &nbsp Protection up to age 75</td></tr><tr><td></td><td>• &nbsp Lump sum payment</td></tr><tr><td></td><td>• &nbsp Coverage ranging from $10,000 to $2,000,000 issued to those between ages 0 and 65</td></tr><tr><td></td><td>• &nbsp Guaranteed premiums and coverage, renewable every 10 years or level to age 75.</td></tr><tr><td></td><td>• &nbsp Premium and rating reimbursement in case of death</td></tr><tr><td></td><td>• &nbsp Up to 9 people can be insured under the same contract, incuding family members or business partners</td></tr></table><u>Other additional benefits available:</u><table><tr><td style='width: 20px'></td><td>• &nbsp CRITICAL ILLNESS child rider</td></tr></table><br></html>",
+      "Codes": [ "MALADIEGRAVE1" ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Maladies ou conditions médicales :",
+      "LibelleEn": "Illnesses or Medical Conditions Covered:",
+      "Texte": "<html>La protection MALADIE GRAVE garantie le versement d'une somme forfaitaire, 30 jours après le diagnostic d'une des maladies graves ou conditions médicales suivantes :<br><table><tr><td style='width: 20px'></td><td>1. Cancer</td><td>11. Cécité</td></tr><tr><td></td><td>2. Accident cérébro-vasculaire (ACV) &nbsp &nbsp &nbsp &nbsp &nbsp</td><td>12. Surdité</td></tr><tr><td></td><td>3. Crise cardiaque</td><td>13. Mutité (perte de la parole)**</td></tr><tr><td></td><td>4. Pontage des artères coronaires</td><td>14. Brûlures graves</td></tr><tr><td></td><td>5. Insuffisance rénale</td><td>15. Tumeur bénigne au cerveau</td></tr><tr><td></td><td>6. Greffe d'un organe vital</td><td>16. Infection occupationnelle par le VIH**</td></tr><tr><td></td><td>7. Sclérose en plaques**</td><td>17. Affection du neurone moteur</td></tr><tr><td></td><td>8. Coma</td><td>18. Alzheimer</td></tr><tr><td></td><td>9. Paralysie*</td><td>19. Parkinson</td></tr><tr><td></td><td>10. Perte de membres</td><td>20. Fibrose kystique</td></tr></table><br>* Délai d’attente de 90 jours.<br>** Délai d’attente de 180 jours.</html>",
+      "TexteEn": "<html>The CRITICAL ILLNESS coverage guarantees the payment of a benefit, 30 days after diagnosis of one of the following illnesses or medical conditions:<br><table><tr><td style='width: 20px'><td>1. Cancer</td><td>11. Blindness</td></tr><tr><td></td><td>2. Stroke (Cerebral Vascular Accident, CVA) &nbsp &nbsp &nbsp &nbsp &nbsp</td><td>12. Deafness</td></tr><tr><td></td><td>3. Myocardial Infarction (Heart attack)</td><td>13. Muteness (loss of speech)**</td></tr><tr><td></td><td>4. Coronary Artery Bypass Surgery</td><td>14. Major burns</td></tr><tr><td></td><td>5. Kidney failure</td><td>15. Benign Brain Tumour</td></tr><tr><td></td><td>6. Major Organ Transplant</td><td>16. Occupational injury - HIV**</td></tr><tr><td></td><td>7. Multiple sclerosis**</td><td>17. Motor Neuron Disease</td></tr><tr><td></td><td>8. Coma</td><td>18. Alzheimer's disease</td></tr><tr><td></td><td>9. Paralysis*</td><td>19. Parkinson's disease</td></tr><tr><td></td><td>10. Dismemberment</td><td>20. Cystic fibrosis</td></tr></table><br>* 90-day waiting period.<br>** 180-day waiting period.</html>",
+      "Codes": [ "MALADIEGRAVE1" ],
+      "SequenceId": 2
+    },
+    {
+      "Libelle": "La protection en cas de maladie grave vous offre :",
+      "LibelleEn": "Critical Illness Coverage Offers:",
+      "Texte": "<html><table><tr><td style='width: 20px'></td><td>• &nbsp Protection jusqu’au décès de l’assuré</td></tr><tr><td></td><td>• &nbsp Versement forfaitaire</td></tr><tr><td></td><td>• &nbsp Protection entre 10 000 $ et 2 000 000 $ émise entre l’âge 0 et  55 ans pour une protection temporaire 20 ans et 65 ans <br>pour les autres protections maladie grave disponibles</td></tr><tr><td></td><td>• &nbsp Protection à primes garanties, renouvelables tous les 10 ou 20 ans, nivelées jusqu’à 75 ans ou nivelées jusqu’à 100 ans.</td></tr></table></html>",
+      "TexteEn": "<html><table><tr><td style='width: 20px'></td><td>• &nbsp Coverage until the insured’s death</td></tr><tr><td></td><td>• &nbsp Lump sum payment</td></tr><tr><td></td><td>• &nbsp Coverage ranging from $10,000 to $2,000,000 for insureds between age 0 and 55 for a term 20 years protection and 65 <br>for the other available protections.</td></tr><tr><td></td><td>• &nbsp Guaranteed premiums coverage, renewable every 10 years, level to age 75 or level to age 100.</td></tr></table></html>",
+      "Codes": [ "MALADIEGRAVE3" ],
+      "SequenceId": 0
+    },
+    {
+      "Libelle": "Maladies ou conditions médicales :",
+      "LibelleEn": "Illnesses or Medical Conditions Covered:",
+      "Texte": "<html>Votre protection Maladie grave garantit le versement d’une somme forfaitaire 30 jours après le diagnostic d’une des maladies graves ou conditions médicales suivantes :<table><tr><td style='width: 20px'></td><td>1. Accident vasculaire cérébral</td><td>14.Maladie du neurone moteur</td></tr><tr><td></td><td>2. Anémie aplasique</td><td>15. Méningite bactérienne</td></tr><tr><td></td><td>3. Brûlures sévères</td><td>16. Paralysie*</td></tr><tr><td></td><td>4. Cancer (avec risque de décès)</td><td>17. Perte d’autonomie</td></tr><tr><td></td><td>5. Cécité</td><td>18. Perte de la parole**</td></tr><tr><td></td><td>6. Chirurgie coronarienne</td><td>19. Perte de membres</td></tr><tr><td></td><td>7. Chirurgie de l’aorte</td><td>20. Remplacement des valves du cœur</td></tr><tr><td></td><td>8. Coma</td><td>21. Sclérose en plaques**</td></tr><tr><td></td><td>9. Crise cardiaque (Infarctus du myocarde)</td><td>22. Surdité</td></tr><tr><td></td><td>10. Infection au VIH dans le cadre de l’occupation** &nbsp &nbsp &nbsp &nbsp &nbsp</td><td>23. Transplantation d’un organe vital</td></tr><tr><td></td><td>11. Insuffisance rénale</td><td>24. Transplantation d’un organe vital sur liste d’attente</td></tr><tr><td></td><td>12. Maladie d’Alzheimer</td><td>25. Tumeur cérébrale bénigne</td></tr><tr><td></td><td>13. Maladie de Parkinson</td></tr></table></html>",
+      "TexteEn": "<html>Critical Illness coverage guarantees the payment of a benefit, 30 days after the diagnosis of one of the following illnesses or medical conditions:<table><tr><td style='width: 20px'></td><td>1. Alzheimer’s Disease</td><td>14. Loss of Independent Existence</td></tr><tr><td></td><td>2. Aortic Surgery</td><td>15.Loss of Limbs</td></tr><tr><td></td><td>3. Aplastic Anemia</td><td>16. Loss of Speech**</td></tr><tr><td></td><td>4. Bacterial Meningitis</td><td>17. Major Organ Failure on Waiting List</td></tr><tr><td></td><td>5. Benign Brain Tumour</td><td>18. Major Organ Transplant</td></tr><tr><td></td><td>6. Blindness</td><td>19. Motor Neuron Disease</td></tr><tr><td></td><td>7. Cancer (life -threatening)</td><td>20. Multiple Sclerosis**</td></tr><tr><td></td><td>8. Coma</td><td>21. Occupational HIV Infection**</td></tr><tr><td></td><td>9. Coronary Artery Bypass Surgery</td><td> 22. Paralysis*</td></tr><tr><td></td><td>10. Deafness</td><td>23. Parkinson’s Disease</td></tr><tr><td></td><td>11. Heart Attack</td><td>24. Severe Burns</td></tr><tr><td></td><td>12. Heart Valve Replacement Kidney Failure &nbsp &nbsp &nbsp &nbsp &nbsp</td><td>25. Stroke (cerebrovascular accident)</td></tr><tr><td></td><td>13. Kidney failure</td></tr></table></html>",
+      "Codes": [ "MALADIEGRAVE3" ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Maladies ou conditions médicales :",
+      "LibelleEn": "Illnesses or Medical Conditions Covered:",
+      "Texte": "<html>Votre protection Maladie grave inclut également les maladies graves et conditions médicales suivantes jusqu’à la date du 20ième anniversaire de naissance de la personne assurée :<br><table><tr><td style='width: 20px'></td><td>• &nbsp Diabète sucré de type 1</td></tr><tr><td></td><td>• &nbsp Dystrophie musculaire</td></tr><tr><td></td><td>• &nbsp Fibrose kystique</td></tr><tr><td></td><td>• &nbsp Maladie congénitale du cœur</td></tr><tr><td></td><td>• &nbsp Paralysie cérébrale</td></tr></table><br>Vous retrouverez une description détaillée de chacune de ces conditions et maladies, incluant des restrictions et exclusions, au contrat.<br><br>* Délai d’attente de 90 jours.<br>** Délai d’attente de 180 jours.</html>",
+      "TexteEn": "<html>Your Critical Illness protection also includes the following critical illnesses and medical conditions up to the date of the 20th anniversary of birth of the insured:<table><tr><td style='width: 20px'></td><td>• &nbsp Cerebral Palsy</td></tr><tr><td></td><td>• &nbsp Congenital Heart Disease</td></tr><tr><td></td><td>• &nbsp Cystic Fibrosis</td></tr><tr><td></td><td>• &nbsp Muscular Dystrophy</td></tr><tr><td></td><td>• &nbsp Type 1 Diabetes Mellitus</td></tr></table><br>A detailed description of each of these illnesses and conditions, along with their limitations and exclusions, can be found in the contract.<br><br>* 90-day waiting period<br>** 180-day waiting period</html>",
+      "Codes": [ "MALADIEGRAVE3" ],
+      "SequenceId": 2
+    },
+    {
+      "Libelle": "Prestation Prévention + :",
+      "LibelleEn": "Prevention + Benefit: ",
+      "Texte": "<html>La Prestation Prévention + prévoit le versement d’une prestation partielle* correspondant à 10% du capital assuré courant, jusqu’à concurrence de 50 000 $, lorsque l’assuré est atteint d’une des 4 conditions suivantes :<br><table><tr><td style='width: 20px'></td><td>• &nbsp Angioplastie coronarienne</td></tr></table>Cancers détectés précocement :<table><tr><td style='width: 20px'></td><td>• &nbsp Cancer de la peau (mélanome malin logé dans la partie peu profonde du derme, soit à 1,0 mm ou moins)</td></tr><tr><td></td><td>• &nbsp Cancer du sein (carcinome in situ du sein)</td></tr><tr><td></td><td>• &nbsp Cancer de la prostate (stade A)</td></tr></table><br>*Sous réserve de certaines exclusions et restrictions (voir contrat)<br><br>Une seule Prestation Prévention + sera versée pour l’ensemble des affections ou traitement mentionnés ci-dessus et pour toute la durée du contrat. À la suite du versement d’une prestation partielle, le contrat se poursuit selon les mêmes conditions.</html>",
+      "TexteEn": "<html>The Prevention + Benefit provides for the payment of a partial benefit* equal to 10% of the current face amount, up to a maximum of $50,000, when the insured is stricken with one of the following 4 medical conditions:<br><table><tr><td style='width: 20px'></td><td>• &nbsp Coronary Angioplasty</td></tr></table>Cancers detected in early stages:<table><tr><td style='width: 20px'></td><td>• &nbsp Breast Cancer (ductal carcinoma in situ of the breast)</td></tr><tr><td></td><td>• &nbsp Skin Cancer (malignant melanoma in the dermis equal to or lower than a depth of 1.0 mm)</td></tr><tr><td></td><td>• &nbsp Stage A Prostate Cancer</td></tr></table><br>* Subject to certain restrictions and exclusions (see contract)<br><br>A single Prevention + Benefit will be paid for all illnesses or treatments mentioned above, for the duration of the contract. The contract continues under the same conditions after a partial benefit is paid</html>",
+      "Codes": [ "MALADIEGRAVE3" ],
+      "SequenceId": 3
+    },
+    {
+      "Libelle": "Maladie grave enfant :",
+      "LibelleEn": "Critical Illness Child Rider:",
+      "Texte": "<html>Si choisi, MALADIE GRAVE Enfant garantit le versement de la prestation, 30 jours après le diagnostic d'une des maladies graves ou conditions médicales couvertes au contrat par la protection MALADIE GRAVE ou d'une des maladies spécifiées ci-après :<br><table><tr><td style='width: 20px'></td><td>• &nbsp Maladies congénitales du cœur</td></tr><tr><td></td><td>• &nbsp Dystrophie musculaire</td></tr><tr><td></td><td>• &nbsp Paralysie cérébrale</td></tr><tr><td></td><td>• &nbsp Syndrome de Down</td></tr></table><br>Ce simple ajout à votre protection personnelle vous donnera les moyens financiers de quitter temporairement votre emploi afin de vous consacrer entièrement au rétablissement de votre enfant advenant une maladie grave.</html>",
+      "TexteEn": "<html>If selected, the CRITICAL ILLNESS child rider guarantees payment of the benefit 30 days after the diagnosis of one of the critical illnesses or medical conditions covered in the CRITICAL ILLNESS contract, or one of the illnesses listed below:<br><table><tr><td style='width: 20px'></td><td>• &nbsp Congenital Heart Disease</td></tr><tr><td></td><td>• &nbsp Cerebral Palsy</td></tr><tr><td></td><td>• &nbsp Muscular Dystrophy</td></tr><tr><td></td><td>• &nbsp Down’s Syndrome</td></tr></table><br>This simple addition to your personal coverage will give you the financial means to temporarily leave your job so you can focus completely on your child's recovery in the event of a critical illness.</html>",
+      "Codes": [ "MALADIEGRAVEENFANT" ],
+      "SequenceId": 4
+    },
+    {
+      "Libelle": "Protection financière en cas de maladie grave",
+      "LibelleEn": "Financial protection in the event of critical illness",
+      "Texte": "<html>L’avenant Maladie grave vous propose une protection complète en cas de maladie grave, dotée d’une grande souplesse pour répondre à vos propres besoins. Une maladie grave peut avoir de grandes répercussions financières sur le niveau de vie des personnes atteintes et des membres de leur famille. C’est pourquoi l’avenant Maladie grave procure une aide financière, simple et facile à souscrire, qui vous permet de vous consacrer pleinement à votre rétablissement. Cette aide financière peut vous permettre de :<table><tr><td style='width: 20px'></td><td>• &nbsp remplacer une partie de votre revenu ou celui de votre conjoint, qui pourrait devoir s’absenter du travail afin de vous <br> accompagner et de prendre soin vous;</td></tr><tr><td></td><td>• &nbsp assumer le remboursement de certaines obligations financières, comme le prêt hypothécaire;</td></tr><tr><td></td><td>• &nbsp obtenir de l’aide à domicile ou avoir accès à des traitements médicaux non couverts par les régimes d’assurance publics.</td></tr></table></html>",
+      "TexteEn": "<html>Critical Illness Rider provides flexible comprehensive critical illness coverage to meet your specific needs. A critical illness can have significant financial impacts on the lives of the person with the illness and his or her family members. That is why Critical Illness Rider provides financial assistance that is easy to apply for, and that helps you focus on recovery. This financial assistance enables you to:<table><tr><td style='width: 20px'></td><td>• &nbsp Replace a portion of your income, or your spouse’s income if he or she takes time off from work to help take care of you</td></tr><tr><td></td><td>• &nbsp Repay certain financial obligations, e.g., your mortgage</td></tr><tr><td></td><td>• &nbsp Receive home care or have access to medical treatments that are not covered by public insurance plans</td></tr></table></html>",
+      "Codes": [ "MALADIEGRAVE6-4", "MALADIEGRAVE6-25" ],
+      "SequenceId": 0
+    },
+    {
+      "Libelle": "La protection en cas de Maladie grave vous offre :",
+      "LibelleEn": "Critical illness protection offers you:",
+      "Texte": "<html><table><tr><td style='width: 20px'></td><td>• &nbsp Protection jusqu’à 75 ans ou 100 ans</td></tr><tr><td></td><td>• &nbsp Versement forfaitaire, libre d’impôt</td></tr><tr><td></td><td>• &nbsp Protection entre 10 000 $ et 2 500 000 $ émise entre l’âge 0 et 49 ans pour une protection temporaire 25 ans, 54 ans pour <br>une protection temporaire 20 ans, 64 ans pour une protection temporaire 10 ans et 65 ans pour les autres protections <br>maladie grave disponibles</td></tr><tr><td></td><td>• &nbsp Une option de paiement 20 ans est disponible sur la protection T100 et est offerte jusqu’à l’âge de 50 ans de l’assuré</td></tr><tr><td></td><td>• &nbsp Protection à primes garanties, renouvelable tous les 10, 20 ou 25 ans, nivelée jusqu’à 75 ans ou nivelée jusqu’à 100 ans</td></tr><tr><td></td><td>• &nbsp Protection couvrant 4 ou 25 maladies</td></tr><tr><td></td><td>• &nbsp Protections temporaires offertes avec capital nivelé ou décroissant sur les protections temporaires couvrant 4 maladies</td></tr><tr><td></td><td>• &nbsp Jusqu’à 9 personnes peuvent être assurées en vertu d’un même contrat, incluant les membres de votre famille ou vos <br>associés en affaires</td></tr><tr><td></td><td>• &nbsp Couverture Prévention+ inclus d’office sur le contrat</td></tr></table></html>",
+      "TexteEn": "<html><table><tr><td style='width: 20px'></td><td>• &nbsp Protection to age 75 or 100</td></tr><tr><td></td><td>• &nbsp Lump-sum, tax-free benefit</td></tr><tr><td></td><td>• &nbsp Coverage ranging from $10,000 to $2,500,000 for insureds between age 0 and 49 for a 25-Year temporary protection, <br>54 for a 20-Year temporary protection, 64 for a 10-Year temporary protection and 65 for the other available protections</td></tr><tr><td></td><td>• &nbsp 20-Year Payment option on T100 coverage available up to age 50</td></tr><tr><td></td><td>• &nbsp Guaranteed premium protection, renewable every 10, 20 or 25 years, level to age 75 or level to age 100</td></tr><tr><td></td><td>• &nbsp Protection covering 4 or 25 illnesses</td></tr><tr><td></td><td>• &nbsp Temporary protections offered with capital leveled or decreasing on temporary protections covering 4 illnesses</td></tr><tr><td></td><td>• &nbsp Up to nine people can be insured under the same contract, including members of your family and your business partners</td></tr><tr><td></td><td>• &nbsp Prevention + coverage automatically included on the contract</td></tr></table></html>",
+      "Codes": [ "MALADIEGRAVE6-4", "MALADIEGRAVE6-25" ],
+      "SequenceId": 1
+    },
+    {
+      "Libelle": "Maladies et affections couvertes :",
+      "LibelleEn": "Illnesses or medical conditions covered:",
+      "Texte": "<html>Votre protection Maladie grave garantit le versement d’une somme forfaitaire si l’assuré survit 30 jours après le diagnostic d’une des maladies graves ou affections suivantes :<br><table><tr><td style='width: 20px'></td><td>1. Accident vasculaire cérébral</td></tr><tr><td></td><td>2. Cancer (mettant la vie en danger)</td></tr><tr><td></td><td>3. Crise cardiaque</td></tr><tr><td></td><td>4. Pontage aortocoronarien</td></tr></table></html>",
+      "TexteEn": "<html>Your critical illness coverage guarantees the payment of a lump-sum amount if the insured survives 30 days after the diagnosis of one of the following illnesses or medical conditions:<br><table><tr><td style='width: 20px'></td><td>1. Cancer (Life-Threatening)</td></tr><tr><td></td><td>2. Coronary Artery Bypass Surgery</td></tr><tr><td></td><td>3. Heart attack</td></tr><tr><td></td><td>4. Stroke</td></tr></table></html>",
+      "Codes": [ "MALADIEGRAVE6-4" ],
+      "SequenceId": 2
+    },
+    {
+      "Libelle": "Maladies et affections couvertes :",
+      "LibelleEn": "Illnesses or medical conditions covered:",
+      "Texte": "<html>Votre protection Maladie grave garantit le versement d’une somme forfaitaire si l’assuré survit 30 jours après le diagnostic d’une des maladies graves ou affections suivantes :<br><table><tr><td style='width: 20px'></td><td>1. Accident vasculaire cérébral</td><td>14. Maladie de Parkinson et syndromes parkinsoniens atypiques</td></tr><tr><td></td><td>2. Anémie aplastique</td><td>15. Maladie du motoneurone</td></tr><tr><td></td><td>3. Brûlures graves</td><td>16. Méningite purulente*</td></tr><tr><td></td><td>4. Cancer (mettant la vie en danger)</td><td>17. Paralysie*</td></tr><tr><td></td><td>5. Cécité</td><td>18. Perte d’autonomie*</td></tr><tr><td></td><td>6. Chirurgie de l’aorte</td><td>19. Perte de l'usage de la parole</td></tr><tr><td></td><td>7. Coma</td><td>20. Perte de membres</td></tr><tr><td></td><td>8. Crise cardiaque</td><td>21. Pontage aortocoronarien</td></tr><tr><td></td><td>9. Défaillance d'un organe vital avec inscription &nbsp &nbsp &nbsp &nbsp<br>sur une liste d'attente en vue d'une greffe</td><td>22. Remplacement ou réparation d'une valvule cardiaque</td></tr><tr><td></td><td>10. Démence, y compris maladie d'Alzheimer</td><td>23. Sclérose en plaques</td></tr><tr><td></td><td>11. Infection à VIH contractée au travail</td><td>24. Surdité</td></tr><tr><td></td><td>12. Greffe d'un organe vital</td><td>25. Tumeur cérébrale bénigne</td></tr><tr><td></td><td>13. Insuffisance rénale</td><td>* Délai d'attente de 90 jours</td></tr></table></html>",
+      "TexteEn": "<html>Your critical illness coverage guarantees the payment of a lump-sum amount if the insured survives 30 days after the diagnosis of one of the following illnesses or medical conditions:<br><table><tr><td style='width: 20px'></td><td>1. Aortic Surgery</td><td>14. Loss of Independent Existence*</td></tr><tr><td></td><td>2. Aplastic Anemia</td><td>15. Loss of Limbs</td></tr><tr><td></td><td>3. Bacterial Meningitis*</td><td>16. Loss of Speech</td></tr><tr><td></td><td>4. Benign Brain Tumour</td><td>17. Major Organ Failure on Waiting List</td></tr><tr><td></td><td>5. Blindness</td><td>18. Major Organ Transplant</td></tr><tr><td></td><td>6. Cancer (Life-Threatening)</td><td>19. Motor Neuron Disease</td></tr><tr><td></td><td>7. Coma</td><td>20. Multiple Sclerosis</td></tr><tr><td></td><td>8. Coronary Artery Bypass Surgery</td><td>21. Occupational HIV Infection</td></tr><tr><td></td><td>9. Deafness</td><td>22. Paralysis*</td></tr><tr><td></td><td>10. Dementia, including Alzheimer’s Disease &nbsp &nbsp &nbsp &nbsp</td><td>23. Parkinson’s Disease and Specified Atypical Parkinsonian Disorders</td></tr><tr><td></td><td>11. Heart attack</td><td>24. Severe Burns</td></tr><tr><td></td><td>12. Heart Valve Replacement or Repair</td><td>25. Stroke</td></tr><tr><td></td><td>13. Kidney failure</td><td>* 90-day waiting period</td></tr></table></html>",
+
+      "Codes": [ "MALADIEGRAVE6-25" ],
+      "SequenceId": 2
+    },
+    {
+      "Libelle": "Maladies graves juvéniles couvertes :",
+      "LibelleEn": "Juvenile critical illnesses covered:",
+      "Texte": "<html>La protection en cas de maladie grave inclut également les maladies graves et affections suivantes jusqu’à la date du 25e anniversaire de naissance de la personne assurée si elle survit 30 jours après le diagnostic :<br><table><tr><td style='width: 20px'></td><td>• &nbsp Diabète sucré de Type 1</td></tr><tr><td></td><td>• &nbsp Dystrophie musculaire</td></tr><tr><td></td><td>• &nbsp Fibrose kystique</td></tr><tr><td></td><td>• &nbsp Maladies congénitales du cœur</td></tr><tr><td></td><td>• &nbsp Paralysie cérébrale</td></tr></table></html>",
+      "TexteEn": "<html>Your critical illness protection also includes the following illnesses and medical conditions up to the insured person’s 25th birthday if the insured survives 30 days after the diagnosis:<br><table><tr><td style='width: 20px'></td><td>• &nbsp Cerebral Palsy</td></tr><tr><td></td><td>• &nbsp Congenital Heart Disease</td></tr><tr><td></td><td>• &nbsp Cystic Fibrosis</td></tr><tr><td></td><td>• &nbsp Muscular Dystrophy</td></tr><tr><td></td><td>• &nbsp Type 1 Diabetes Mellitus</td></tr></table></html>",
+      "Codes": [ "MALADIEGRAVE6-4", "MALADIEGRAVE6-25" ],
+      "SequenceId": 3
+    },
+    {
+      "Libelle": "Prestation Prévention + :",
+      "LibelleEn": "Prevention + Benefit:",
+      "Texte": "<html>La protection Maladie grave prévoit également une prestation Prévention +, équivalente à 15 % du montant de votre protection (jusqu’à un maximum de 50 000 $ par réclamation), et couvre les affections ne mettant pas la vie du patient en danger :<br><table><tr><td style='width: 20px'></td><td>• &nbsp Angioplastie coronarienne</td></tr></table>Cancers détectés précocement :<table><tr><td style='width: 20px'></td><td>• &nbsp Mélanome malin au stade 1</td></tr><tr><td></td><td>• &nbsp Cancer de la prostate au stade A (T1a ou T1b)</td></tr><tr><td></td><td>• &nbsp Cancer de la thyroïde papillaire ou cancer de la thyroïde folliculaire au stade T1</td></tr><tr><td></td><td>• &nbsp Carcinome canalaire in situ du sein</td></tr><tr><td></td><td>• &nbsp Leucémie lymphoïde chronique (LLC) au stade 0 selon la classification de Rai</td></tr><tr><td></td><td>• &nbsp Tumeurs stromales gastro-intestinales et tumeurs neuroendocrines à un stade inférieur au stade 2 selon la classification <br>de l’AJCC</td></tr></table><br>La prestation Prévention + peut être versée jusqu’à quatre fois (une fois par maladie) pour l’ensemble des maladies et affections mentionnées ci-dessus et ce, pour toute la durée du contrat. Suite au versement d’une prestation partielle, le contrat se poursuit selon les mêmes termes et conditions.</html>",
+      "TexteEn": "<html>Critical illness protection also provides a Prevention + benefit, equal to 15% of the amount of your coverage (up to a maximum of $50,000 per claim), which covers non life-threatening medical conditions:<br><table><tr><td style='width: 20px'></td><td>• &nbsp Coronary Angioplasty</td></tr></table>Cancers detected in early stages:<table><tr><td style='width: 20px'></td><td>• &nbsp Breast Cancer (ductal carcinoma in situ of the breast)</td></tr><tr><td></td><td>• &nbsp Chronic Lymphocytic Leukemia (CLL) Rai stage 0</td></tr><tr><td></td><td>• &nbsp Gastrointestinal stromal tumours (GIST) and neuroendocrine tumours classified less than AJCC Stage 2</td></tr><tr><td></td><td>• &nbsp Papillary or Follicular Thyroid Cancer stage T1</td></tr><tr><td></td><td>• &nbsp Skin Cancer (malignant melanoma in the dermis equal to or lower than a depth of 1.0 mm)</td></tr><tr><td></td><td>• &nbsp Stage A Prostate Cancer</td></tr></table><br>The Prevention + benefit may be paid up to four times (once per illness) for all the illnesses and conditions listed above, thoughout the life of the policy. Once a benefit is paid, the contract continues according to the same terms and conditions.</html>",
+      "Codes": [ "MALADIEGRAVE6-4", "MALADIEGRAVE6-25" ],
+      "SequenceId": 4
+    },
+    {
+      "Libelle": "Avenant Maladie grave Enfant :",
+      "LibelleEn": "Child Critical Illness Rider:",
+      "Texte": "<html>Lorsque choisi, l’avenant Maladie grave Enfant couvre les enfants existants et ceux à venir et garantit le versement de la prestation, si l’enfant survit 30 jours après le diagnostic d’une des maladies ou affections couvertes au contrat par la protection Maladie grave ou d’une des maladies spécifiées ci-après :<br><table><tr><td style='width: 20px'></td><td>• &nbsp Diabète sucré de type 1</td></tr><tr><td></td><td>• &nbsp Dystrophie musculaire</td></tr><tr><td></td><td>• &nbsp Fibrose kystique</td></tr><tr><td></td><td>• &nbsp Maladies congénitales du cœur</td></tr><tr><td></td><td>• &nbsp Paralysie cérébrale</td></tr><tr><td></td><td>• &nbsp Syndrome de Down</td></tr></table></html>",
+      "TexteEn": "<html>When selected, Child Critical Illness Rider covers existing and future children and guarantees the payment of the benefit if the child survives 30 days after the diagnosis of one of the critical illnesses or medical conditions covered in the Critical Illness contract or one of the following illnesses:<br><table><tr><td style='width: 20px'></td><td>• &nbsp Cerebral Palsy</td></tr><tr><td></td><td>• &nbsp Congenital Heart Disease</td></tr><tr><td></td><td>• &nbsp Cystic Fibrosis</td></tr><tr><td></td><td>• &nbsp Down Syndrome (Chromosome 21)</td></tr><tr><td></td><td>• &nbsp Muscular Dystrophy</td></tr><tr><td></td><td>• &nbsp Type 1 Diabetes Mellitus</td></tr></table></html>",
+      "Codes": [ "MALADIEGRAVEENFANT6" ],
+      "SequenceId": 5
+    }
+  ]
+}

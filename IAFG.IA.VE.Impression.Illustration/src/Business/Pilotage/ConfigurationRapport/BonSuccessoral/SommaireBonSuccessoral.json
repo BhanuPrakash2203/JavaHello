@@ -1,0 +1,154 @@
+﻿{
+  "SectionId": "BonSuccessoral.Sommaire",
+  "Titres": [
+    {
+      "Titre": "Sommaire du bon successoral",
+      "TitreEn": "Estate Bond Summary"
+    }
+  ],
+  "ListSections": [
+    {
+      "SectionId": "Contrat",
+      "Titres": [
+        {
+          "Titre": "Informations sur le contrat d'assurance",
+          "TitreEn": "Insurance policy information"
+        }
+      ],
+      "Libelles": {
+        "DescriptionProtection": {
+          "Libelle": "Protection",
+          "LibelleEn": "Coverage"
+        },
+        "MontantProtectionInitial": {
+          "Libelle": "Montant de protection initial",
+          "LibelleEn": "Initial coverage amount"
+        },
+        "TauxInvestissement": {
+          "Libelle": "Taux d'investissement",
+          "LibelleEn": "Investment rate"
+        },
+        "BaremeParticipation": {
+          "Libelle": "Barème de participation",
+          "LibelleEn": "Dividend scale"
+        }
+      }
+    },
+    {
+      "SectionId": "HypothesesInvestissement",
+      "Titres": [
+        {
+          "Titre": "Hypothèses du placement comparatif",
+          "TitreEn": "Alternate investment assumptions"
+        }
+      ],
+      "Libelles": {
+        "Repartition": {
+          "Libelle": "Répartition d'actifs",
+          "LibelleEn": "Asset allocation"
+        },
+        "TauxRendement": {
+          "Libelle": "Taux de rendement",
+          "LibelleEn": "Rate of return"
+        },
+        "Interets": {
+          "Libelle": "Intérêts",
+          "LibelleEn": "Interest"
+        },
+        "Dividendes": {
+          "Libelle": "Dividendes",
+          "LibelleEn": "Dividends"
+        },
+        "GainsCapital": {
+          "Libelle": "Gains en capital",
+          "LibelleEn": "Capital gains"
+        },
+        "TauxRealisationGainCapital": {
+          "Libelle": "Taux de réalisation du gain en capital",
+          "LibelleEn": "Capital gain realization rate"
+        }
+      }
+    },
+    {
+      "SectionId": "Imposition",
+      "Titres": [
+        {
+          "Titre": "Hypothèses relatives à l'impôt",
+          "TitreEn": "Tax assumptions"
+        }
+      ],
+      "Libelles": {
+        "TauxImposition.TauxMarginal": {
+          "Libelle": "Taux d'imposition marginal",
+          "LibelleEn": "Marginal tax rate"
+        },
+        "TauxImposition.TauxMarginalEntreprise": {
+          "Libelle": "Taux d’imposition de l’entreprise sur l’intérêt",
+          "LibelleEn": "Corporate interest tax rate"
+        },
+        "TauxImposition.TauxDividendes": {
+          "Libelle": "Taux d'imposition des dividendes",
+          "LibelleEn": "Dividend tax rate"
+        },
+        "TauxImposition.TauxDividendesEntreprise": {
+          "Libelle": "Taux d’imposition de l’entreprise sur les dividendes reçus ",
+          "LibelleEn": "Corporate dividend tax rate"
+        },
+        "TauxImposition.TauxDividendesActionnaires": {
+          "Libelle": "Taux d’imposition de l’actionnaire sur les dividendes reçus",
+          "LibelleEn": "Shareholder dividend tax rate"
+        },
+        "TauxImposition.TauxGainCapital": {
+          "Libelle": "Taux d'imposition gain en capital",
+          "LibelleEn": "Capital gain tax rate"
+        },
+        "TauxImposition.TauxGainCapitalEntreprise": {
+          "Libelle": "Taux d’imposition de l’entreprise sur le gain en capital",
+          "LibelleEn": "Corporate capital gain tax rate"
+        },
+        "TauxRealisation.TauxGainCapital": {
+          "Libelle": "Taux de réalisation du gain en capital",
+          "LibelleEn": "Capital gain realization rate"
+        }
+      }
+    }
+  ],
+  "Notes": [
+    {
+      "Texte": "L’illustration du bon successoral doit être lue avec le Rapport d’illustration du produit d’assurance vie proposé. Elle est incomplète sans celui-ci.",
+      "TexteEn": "The Estate Bond illustration must be reviewed in conjunction with the Illustration Report for the proposed life insurance product. It is incomplete without it.",
+      "SequenceId": 1
+    },
+    {
+      "Texte": "L’illustration du bon successoral repose sur les hypothèses mentionnées ci-dessus ainsi que sur celles qui se trouvent dans le Rapport d’illustration du produit d’assurance vie proposé.",
+      "TexteEn": "The illustration of the Estate Bond is based on the abovementioned assumptions as well as those contained in the Proposed Life Insurance Product Illustration Report.",
+      "SequenceId": 2
+    },
+    {
+      "Texte": "À moins d’indication contraire, les hypothèses utilisées dans les différentes projections ne sont pas garanties. Les valeurs utilisées sont variables et peuvent influer à la hausse ou à la baisse sur les résultats réels de votre contrat d’assurance vie dans le temps. Par exemple, les taux d’imposition et les hypothèses de rendement illustrés pourraient changer ou ne pas s’appliquer à votre situation. Cela pourrait alors avoir un impact sur les résultats et sur la valeur réels de votre contrat d’assurance, qui pourraient alors différer des montants illustrés.",
+      "TexteEn": "Unless otherwise indicated, the assumptions used in the various projections are not guaranteed. The assumptions used are variable and may increase or decrease the actual return of your life insurance policy over time. For example, the tax rates and return assumptions shown may or may not apply to your situation.  This could have an impact on the actual results and value of your insurance policy, which could differ from the amounts shown.",
+      "SequenceId": 3
+    },
+    {
+      "Texte": "Les projections de l’illustration sont basées sur une interprétation de la loi fiscale en vigueur.",
+      "TexteEn": "The projections in the illustration are based on an interpretation of current tax law.",
+      "SequenceId": 4
+    },
+    {
+      "Texte": "Cette illustration ne remplace pas une consultation juridique ou fiscale.",
+      "TexteEn": "This illustration is not a substitute for legal or tax advice.",
+      "SequenceId": 5
+    },
+    {
+      "Texte": "Les circonstances propres à une personne peuvent influer sur l’effet du traitement fiscal présenté.",
+      "TexteEn": "Individual circumstances may impact the effect of the tax treatment shown.",
+      "SequenceId": 6
+    },
+    {
+      "Texte": "Les projections de la stratégie d'assurance sont basées uniquement sur le taux courant du barème de participations de iA Assurance vie avec participation.",
+      "TexteEn": "Insurance strategy projections are based solely on the current iA Participating Life Insurance dividend scale rate.",
+      "RegleProduits": { "Produits": [ "AssuranceParticipant", "AssuranceParticipantValeur", "AssuranceParticipantPatrimoine" ] },
+      "SequenceId": 7
+    }
+  ]
+}

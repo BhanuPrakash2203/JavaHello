@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+  </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)system.resources.extensions\6.0.0\buildTransitive\net461\System.Resources.Extensions.targets" Condition="Exists('$(NuGetPackageRoot)system.resources.extensions\6.0.0\buildTransitive\net461\System.Resources.Extensions.targets')" />
+    <Import Project="$(NuGetPackageRoot)system.data.sqlite.core\1.0.107\build\net46\System.Data.SQLite.Core.targets" Condition="Exists('$(NuGetPackageRoot)system.data.sqlite.core\1.0.107\build\net46\System.Data.SQLite.Core.targets')" />
+    <Import Project="$(NuGetPackageRoot)mstest.testadapter\2.1.2\build\net45\MSTest.TestAdapter.targets" Condition="Exists('$(NuGetPackageRoot)mstest.testadapter\2.1.2\build\net45\MSTest.TestAdapter.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.codecoverage\16.6.1\build\netstandard1.0\Microsoft.CodeCoverage.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.codecoverage\16.6.1\build\netstandard1.0\Microsoft.CodeCoverage.targets')" />
+    <Import Project="$(NuGetPackageRoot)microsoft.net.test.sdk\16.6.1\build\net40\Microsoft.NET.Test.Sdk.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.net.test.sdk\16.6.1\build\net40\Microsoft.NET.Test.Sdk.targets')" />
+    <Import Project="$(NuGetPackageRoot)iafg.ia.za.ageequivalent\3.1.1\build\net45\IAFG.IA.ZA.AgeEquivalent.targets" Condition="Exists('$(NuGetPackageRoot)iafg.ia.za.ageequivalent\3.1.1\build\net45\IAFG.IA.ZA.AgeEquivalent.targets')" />
+    <Import Project="$(NuGetPackageRoot)iafg.ia.vi.services.pdf\30.1.0\build\net48\IAFG.IA.VI.Services.PDF.targets" Condition="Exists('$(NuGetPackageRoot)iafg.ia.vi.services.pdf\30.1.0\build\net48\IAFG.IA.VI.Services.PDF.targets')" />
+  </ImportGroup>
+</Project>

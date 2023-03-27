@@ -1,0 +1,170 @@
+{
+  "SectionId": "SommaireFluxMonetairesAvancePolice",
+  "Titres": [
+    {
+      "Titre": "Flux monétaires de l'avance sur police",
+      "TitreEn": "Policy Loan Cash Flow Summary",
+      "Description": "<html>Ce rapport présente les flux monétaires de l’avance sur police suite à la déduction des intérêts. Les flux monétaires sont la sommation des crédits et des débits.<ul><li>Les débits sont : les primes payées, les intérêts payés annuellement ainsi que les impôts à payer lors de retraits imposables (de la police ou lors d’un remboursement de l’IRP).</li><li> Les crédits sont : les avances consenties, le gain suite à la déduction des intérêts et les retraits et remboursement de l’IRP de la police (si éligible).</li></ul>Prendre note que pour assurer la déductibilité des intérêts, les avances sur polices doivent être investies dans des véhicules éligibles.<br><html>",
+      "DescriptionEn": "<html>This report shows the Policy Loan Cash Flow following the Interest deductions. The Cash Flows are the sums of Credits and Debits.<ul><li>Debits are: Paid Premiums, Paid Interests and all taxes on taxable withdrawals (from policy or following an IIT refund).</li><li>Credits are: Granted policy loans, any gain following the interest deduction and withdrawal including IIT refunds (if eligible).</li></ul>Please note that to insure interest deductibility, granted policy loans must be invested in qualified investments.<br><html>"
+    }
+  ],
+  "Tableau": {
+    "Titres": [
+      {
+     "Titre": "Flux monétaires de l'avance sur police",
+      "TitreEn": "Policy Loan Cash Flow Summary"
+      }
+    ],
+    "GroupeColonnes": [
+      {
+        "Produits": [ ],
+        "SequenceId": 0,
+        "Colonnes": [
+          {
+            "Colonne": 0,
+            "Titres": {
+              "Titre": "Année",
+              "TitreEn": "Year"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Annee"
+          },
+          {
+            "Colonne": 77,
+            "Titres": {
+              "Titre": "Âge",
+              "TitreEn": "Age"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "TypeColonne": "Age"
+          }
+        ]
+      },
+      {
+        "Produits": [ ],
+        "SequenceId": 1,
+        "Colonnes": [
+          {
+            "Colonne": 116,
+            "Titres": {
+              "Titre": "Primes annuelles versées",
+              "TitreEn": "Annual Premiums Paid"
+            },
+            "TypeAffichageValeur": "Decimale"
+          },
+          {
+            "Colonne": 153,
+            "Titres": {
+              "Titre": "Retraits et IRP avant impôts",
+              "TitreEn": "Withdrawal and IIT refund before tax"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 154,
+            "Titres": {
+              "Titre": "Retraits et IRP après impôts",
+              "TitreEn": "Withdrawal and IIT refund after tax"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 171,
+            "Titres": {
+              "Titre": "Avances annuelles sur police",
+              "TitreEn": "Annual Policy Loan"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 182,
+            "Titres": {
+              "Titre": "Remb. de l'avance",
+              "TitreEn": "Loan Principal Repayment"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+          {
+            "Colonne": 127,
+            "Titres": {
+              "Titre": "Fonds requis pour paiement",
+              "TitreEn": "Additional funds for repayment"
+            },
+            "TypeAffichageValeur": "SansDecimale",
+            "Regles": [
+              [ "ValeurPlusGrandeZero" ]
+            ]
+          },
+		  {
+            "Colonne": 150,
+            "Titres": {
+              "Titre": "Taux de l'avance (%)",
+              "TitreEn": "Policy loan rate (%)"
+            },
+            "TypeAffichageValeur": "PourcentageSansSymbol"
+          },
+          {
+           "Colonne": 183,
+            "Titres": {
+              "Titre": "Intérêts payés sur l'avance",
+              "TitreEn": "Paid Interest on Policy Loan"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 131,
+            "Titres": {
+              "Titre": "Solde des avances sur police",
+              "TitreEn": "Balance of Policy Loan"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+             "Colonne": 176,
+            "Titres": {
+              "Titre": "Épargne fiscale (intérêts)",
+              "TitreEn": "Tax Savings deductible Interest"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          },
+          {
+            "Colonne": 178,
+            "Titres": {
+              "Titre": "Flux monétaires annuels nets",
+              "TitreEn": "Annual Net Cash Flow"
+            },
+            "TypeAffichageValeur": "SansDecimale"
+          }
+        ]
+      }
+    ],
+    "TypeTableau": "Contrat",
+    "Notes": [
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus âgé couvert par la protection de base. ",
+        "TexteEn": "The age shown is the age of the oldest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointPremierDeces" ]
+        ],
+        "SequenceId": 1
+      },
+      {
+        "Texte": "L’âge affiché est celui de l’assuré le plus jeune couvert par la protection de base.",
+        "TexteEn": "The age shown is the age of the youngest insured covered by the base coverage.",
+        "Regles": [
+          [ "AssuranceConjointDernierDeces" ]
+        ],
+        "SequenceId": 1
+      }
+    ]
+  }
+}

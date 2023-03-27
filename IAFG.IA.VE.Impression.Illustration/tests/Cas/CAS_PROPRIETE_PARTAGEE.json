@@ -1,0 +1,4637 @@
+{
+	"NumeroContrat": null,
+	"DateVersionProduit": null,
+	"VersionProduit": null,
+	"DateMiseAJour": "2019-09-19T15:28:01.6224835-04:00",
+	"Agents": [
+
+	],
+	"ParametreRapport": {
+		"Language": 1,
+		"ChoixAnneesRapport": 1,
+		"IdPagesSelectionnees": [
+			"PageTitre",
+			"DescriptionsProtections",
+			"SommaireProtections",
+			"ApercuProtections",
+			"SommaireProprietePartagee",
+			"ProjectionProprietePartagee",
+			"NotesIllustration",
+			"ConditionsMedicales"
+		],
+		"ExigeCalculRendement": false,
+		"PathPdfVie": null,
+		"PathPdfMaladieGrave": null,
+		"PrimeRenouvellementDisponible": true,
+		"VersionEVO": "1.40",
+		"VersionProduitFormattee": "Produit Bidon 2"
+	},
+	"DonneesClients": [
+		{
+			"Nom": "1",
+			"Prenom": "CLIENT",
+			"Initiale": null,
+			"Id": "e84ebc4c-b764-4233-a193-b6a7859b2573",
+			"Sexe": 1,
+			"StatutFumeur": 3,
+			"AgeAssurance": 40
+		},
+		{
+			"Nom": "CORPORATION 1",
+			"Prenom": "",
+			"Initiale": null,
+			"Id": "2d3302d2-9d55-4fdc-94fe-8e64c4ef59d4",
+			"Sexe": 0,
+			"StatutFumeur": 0,
+			"AgeAssurance": null
+		}
+	],
+	"Projections": {
+		"List": [
+			{
+				"Contract": {
+					"Identifier": {
+						"Id": "6c06c3ae-4cb2-42a9-9021-f41b886ffc46"
+					},
+					"Banner": 0,
+					"ContractNumber": "6c06c3ae-4cb2-42a9-9021-f41b886ffc46",
+					"ContractType": 2,
+					"Product": "TraditionalInsurance",
+					"ProvinceState": 74780,
+					"Individuals": [
+						{
+							"Identifier": {
+								"Id": "e84ebc4c-b764-4233-a193-b6a7859b2573"
+							},
+							"Birthdate": "0001-01-01T00:00:00",
+							"Sex": 1,
+							"LastName": null,
+							"FirstName": null,
+							"Initial": null,
+							"IsCorporation": false,
+							"IsApplicant": false,
+							"SequenceNumber": 0
+						},
+						{
+							"Identifier": {
+								"Id": "2d3302d2-9d55-4fdc-94fe-8e64c4ef59d4"
+							},
+							"Birthdate": "0001-01-01T00:00:00",
+							"Sex": 3,
+							"LastName": null,
+							"FirstName": null,
+							"Initial": null,
+							"IsCorporation": true,
+							"IsApplicant": true,
+							"SequenceNumber": 1
+						}
+					],
+					"Applicants": {
+						"Identifier": {
+							"Id": "cb485217-83a5-4a16-9fe7-58267a1b2cd3"
+						},
+						"AdditionalBenefits": null
+					},
+					"Insured": [
+						{
+							"Identifier": {
+								"Id": "1"
+							},
+							"IsMain": true,
+							"Coverages": [
+								{
+									"Identifier": {
+										"Id": "1b864a95-dacc-446a-8caa-12d2b5624a8f"
+									},
+									"IsMain": true,
+									"Insured": {
+										"Age": {
+											"Issuance": 40,
+											"RiskClassChange": 40,
+											"Leveling": 40
+										},
+										"AverageLifeExpectancy": 83,
+										"ExtraPremiumAge": {
+											"Issuance": 0,
+											"RiskClassChange": 0,
+											"Leveling": 0
+										},
+										"SmokerType": 3,
+										"Sex": 1,
+										"ExtraPremiums": null,
+										"InsuredIndividual": {
+											"Individual": {
+												"Id": "e84ebc4c-b764-4233-a193-b6a7859b2573"
+											}
+										},
+										"Joints": null
+									},
+									"FaceAmount": {
+										"Current": 50000.0,
+										"Actual": 50000.0,
+										"Issuance": 50000.0,
+										"NetAmountAtRisk": 50000.0
+									},
+									"PlanCode": "575T60",
+									"CoverageCode": 1,
+									"Dates": {
+										"Issuance": "2019-09-19T15:28:24.3540895-04:00",
+										"PaidUp": "2054-09-19T15:28:24.3540895-04:00",
+										"Maturity": "2054-09-19T15:28:24.3540895-04:00",
+										"ProductVersion": "2017-12-01T00:00:00",
+										"Underwriting": "2019-09-19T15:28:24.3540895-04:00"
+									},
+									"Status": 1,
+									"InsuranceType": 1,
+									"ReturnPremiumAmountCriticalIllness": null,
+									"ReturnPremiumAmount": null,
+									"ReturnAmountACB": null,
+									"Premium": {
+										"PolicyFees": {
+											"DataType": 1,
+											"Value": 0.0
+										},
+										"TaxRate": 0.0,
+										"RevisableFactor": 0.0,
+										"AnnualMinimum": 0.0
+									},
+									"AdditionalBenefits": null,
+									"Coverages": [
+										{
+											"Identifier": {
+												"Id": "87f8b4de-42cd-4e30-9231-ac8f87a4de24"
+											},
+											"IsMain": false,
+											"Insured": {
+												"Age": {
+													"Issuance": 40,
+													"RiskClassChange": 40,
+													"Leveling": 40
+												},
+												"AverageLifeExpectancy": 83,
+												"ExtraPremiumAge": {
+													"Issuance": 0,
+													"RiskClassChange": 0,
+													"Leveling": 0
+												},
+												"SmokerType": 3,
+												"Sex": 1,
+												"ExtraPremiums": null,
+												"InsuredIndividual": {
+													"Individual": {
+														"Id": "e84ebc4c-b764-4233-a193-b6a7859b2573"
+													}
+												},
+												"Joints": null
+											},
+											"FaceAmount": {
+												"Current": 50000.0,
+												"Actual": 50000.0,
+												"Issuance": 50000.0,
+												"NetAmountAtRisk": 50000.0
+											},
+											"PlanCode": "0F7560",
+											"CoverageCode": 2,
+											"Dates": {
+												"Issuance": "2019-09-19T15:28:24.3540895-04:00",
+												"PaidUp": "2054-09-19T15:28:24.3540895-04:00",
+												"Maturity": "2054-09-19T15:28:24.3540895-04:00",
+												"ProductVersion": "2017-12-01T00:00:00",
+												"Underwriting": "2019-09-19T15:28:24.3540895-04:00"
+											},
+											"Status": 1,
+											"InsuranceType": 1,
+											"ReturnPremiumAmountCriticalIllness": null,
+											"ReturnPremiumAmount": null,
+											"ReturnAmountACB": null,
+											"Premium": {
+												"PolicyFees": {
+													"DataType": 1,
+													"Value": 0.0
+												},
+												"TaxRate": 0.0,
+												"RevisableFactor": 0.0,
+												"AnnualMinimum": 0.0
+											},
+											"AdditionalBenefits": null,
+											"Coverages": null,
+											"DeathBenefit": {
+												"DurationBeforeMinimization": 0,
+												"MinimalFaceAmount": 0.0,
+												"Current": 0,
+												"Issuance": 0,
+												"AutomaticFaceAmountOptimization": 0
+											},
+											"SurrenderCharges": {
+												"Reference": 0.0,
+												"Cumulated": null
+											},
+											"SubSerie": 0,
+											"MortalityType": 0,
+											"RenewalType": 0
+										},
+										{
+											"Identifier": {
+												"Id": "9e165779-1476-4c09-b363-497b10c75da6"
+											},
+											"IsMain": false,
+											"Insured": {
+												"Age": {
+													"Issuance": 40,
+													"RiskClassChange": 40,
+													"Leveling": 40
+												},
+												"AverageLifeExpectancy": 83,
+												"ExtraPremiumAge": {
+													"Issuance": 0,
+													"RiskClassChange": 0,
+													"Leveling": 0
+												},
+												"SmokerType": 3,
+												"Sex": 1,
+												"ExtraPremiums": null,
+												"InsuredIndividual": {
+													"Individual": {
+														"Id": "e84ebc4c-b764-4233-a193-b6a7859b2573"
+													}
+												},
+												"Joints": null
+											},
+											"FaceAmount": {
+												"Current": 50000.0,
+												"Actual": 50000.0,
+												"Issuance": 50000.0,
+												"NetAmountAtRisk": 50000.0
+											},
+											"PlanCode": "0D7560",
+											"CoverageCode": 2,
+											"Dates": {
+												"Issuance": "2019-09-19T15:28:24.3540895-04:00",
+												"PaidUp": "2054-09-19T15:28:24.3540895-04:00",
+												"Maturity": "2054-09-19T15:28:24.3540895-04:00",
+												"ProductVersion": "2017-12-01T00:00:00",
+												"Underwriting": "2019-09-19T15:28:24.3540895-04:00"
+											},
+											"Status": 1,
+											"InsuranceType": 1,
+											"ReturnPremiumAmountCriticalIllness": null,
+											"ReturnPremiumAmount": null,
+											"ReturnAmountACB": null,
+											"Premium": {
+												"PolicyFees": {
+													"DataType": 1,
+													"Value": 0.0
+												},
+												"TaxRate": 0.0,
+												"RevisableFactor": 0.0,
+												"AnnualMinimum": 0.0
+											},
+											"AdditionalBenefits": null,
+											"Coverages": null,
+											"DeathBenefit": {
+												"DurationBeforeMinimization": 0,
+												"MinimalFaceAmount": 0.0,
+												"Current": 0,
+												"Issuance": 0,
+												"AutomaticFaceAmountOptimization": 0
+											},
+											"SurrenderCharges": {
+												"Reference": 0.0,
+												"Cumulated": null
+											},
+											"SubSerie": 0,
+											"MortalityType": 0,
+											"RenewalType": 0
+										}
+									],
+									"DeathBenefit": {
+										"DurationBeforeMinimization": 0,
+										"MinimalFaceAmount": 0.0,
+										"Current": 0,
+										"Issuance": 0,
+										"AutomaticFaceAmountOptimization": 0
+									},
+									"SurrenderCharges": {
+										"Reference": 0.0,
+										"Cumulated": null
+									},
+									"SubSerie": 0,
+									"MortalityType": 0,
+									"RenewalType": 0
+								}
+							],
+							"Individuals": [
+								{
+									"Id": "e84ebc4c-b764-4233-a193-b6a7859b2573"
+								}
+							]
+						}
+					],
+					"Billing": {
+						"Frequency": 1,
+						"Premium": {
+							"Scenario": 4000,
+							"Amount": 0.0,
+							"MultiplyingFactor": 0.0,
+							"Year": 0,
+							"Duration": 0.0,
+							"PaymentDuration": 0,
+							"TargetedFund": 0.0,
+							"PremiumRatio": 0.0,
+							"PremiumAmount": 0.0
+						},
+						"PaymentDay": 0
+					},
+					"Legislation": {
+						"AdjustedCostBasis": 0.0,
+						"UnderwritingDate": "2019-09-19T15:28:24.3540895-04:00",
+						"AccumulatedTaxableFund": {
+							"Maximum": 0.0,
+							"MaximumWithoutAOFA": 0.0
+						},
+						"PastTaxableFund": {
+							"LessThanOneYear": 0.0,
+							"LessThanTwoYears": 0.0,
+							"LessThanThreeYears": 0.0
+						},
+						"TotalPteFaceAmountLastAnniversary": 0.0,
+						"TotalPteFundsLastAnniversary": 0.0,
+						"DisposablePteBaseFaceAmount": 0.0
+					},
+					"FinancialSection": {
+						"LastInterestRatesUpdate": "2019-09-19T15:28:24.3540895-04:00"
+					},
+					"PaidUpAdditionalOption": {
+						"PurchaseOption": 0,
+						"MaximalFaceAmount": 0.0,
+						"AllocationAmount": 0.0,
+						"LastAnniversaryAllocationAmount": 0.0
+					},
+					"Premium": null,
+					"LastUpdate": "2019-09-19T15:28:24.3540895-04:00"
+				},
+				"Identifier": "2e50225b-90e7-472c-a22c-b161e4fd675d",
+				"Messages": [
+
+				],
+				"MessageDescriptions": {
+					"Descriptions": [
+
+					]
+				},
+				"Values": [
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "1b864a95-dacc-446a-8caa-12d2b5624a8f"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 100
+						},
+						"Value": 63.0
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "1b864a95-dacc-446a-8caa-12d2b5624a8f"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 101
+						},
+						"Value": 0.0
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "1b864a95-dacc-446a-8caa-12d2b5624a8f"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 102
+						},
+						"Value": 57.6
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "1b864a95-dacc-446a-8caa-12d2b5624a8f"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 112
+						},
+						"Value": 57.6
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "1b864a95-dacc-446a-8caa-12d2b5624a8f"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 103
+						},
+						"Value": 5.4
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "1b864a95-dacc-446a-8caa-12d2b5624a8f"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 104
+						},
+						"Value": 35.0
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "1b864a95-dacc-446a-8caa-12d2b5624a8f"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 111
+						},
+						"Value": 0.0
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "1b864a95-dacc-446a-8caa-12d2b5624a8f"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 108
+						},
+						"Value": 63.0
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "1b864a95-dacc-446a-8caa-12d2b5624a8f"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 105
+						},
+						"Value": 0.0
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "1b864a95-dacc-446a-8caa-12d2b5624a8f"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 123
+						},
+						"Value": 2.0
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "87f8b4de-42cd-4e30-9231-ac8f87a4de24"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 100
+						},
+						"Value": 28.94
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "87f8b4de-42cd-4e30-9231-ac8f87a4de24"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 101
+						},
+						"Value": 0.0
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "87f8b4de-42cd-4e30-9231-ac8f87a4de24"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 102
+						},
+						"Value": 28.94
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "87f8b4de-42cd-4e30-9231-ac8f87a4de24"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 112
+						},
+						"Value": 28.94
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "87f8b4de-42cd-4e30-9231-ac8f87a4de24"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 103
+						},
+						"Value": 0.0
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "87f8b4de-42cd-4e30-9231-ac8f87a4de24"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 104
+						},
+						"Value": 35.0
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "87f8b4de-42cd-4e30-9231-ac8f87a4de24"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 111
+						},
+						"Value": 0.0
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "87f8b4de-42cd-4e30-9231-ac8f87a4de24"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 108
+						},
+						"Value": 28.94
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "87f8b4de-42cd-4e30-9231-ac8f87a4de24"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 105
+						},
+						"Value": 0.0
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "87f8b4de-42cd-4e30-9231-ac8f87a4de24"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 123
+						},
+						"Value": 2.0
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "9e165779-1476-4c09-b363-497b10c75da6"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 100
+						},
+						"Value": 3.65
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "9e165779-1476-4c09-b363-497b10c75da6"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 101
+						},
+						"Value": 0.0
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "9e165779-1476-4c09-b363-497b10c75da6"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 102
+						},
+						"Value": 3.65
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "9e165779-1476-4c09-b363-497b10c75da6"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 112
+						},
+						"Value": 3.65
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "9e165779-1476-4c09-b363-497b10c75da6"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 103
+						},
+						"Value": 0.0
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "9e165779-1476-4c09-b363-497b10c75da6"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 104
+						},
+						"Value": 35.0
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "9e165779-1476-4c09-b363-497b10c75da6"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 111
+						},
+						"Value": 0.0
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "9e165779-1476-4c09-b363-497b10c75da6"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 108
+						},
+						"Value": 3.65
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "9e165779-1476-4c09-b363-497b10c75da6"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 105
+						},
+						"Value": 0.0
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "9e165779-1476-4c09-b363-497b10c75da6"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 123
+						},
+						"Value": 2.0
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 1,
+							"Timing": 0,
+							"Id": 100
+						},
+						"Value": 95.59
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 1,
+							"Timing": 0,
+							"Id": 102
+						},
+						"Value": 90.19
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 1,
+							"Timing": 0,
+							"Id": 101
+						},
+						"Value": 0.0
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 1,
+							"Timing": 0,
+							"Id": 103
+						},
+						"Value": 5.4
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 1,
+							"Timing": 0,
+							"Id": 108
+						},
+						"Value": 95.59
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 1,
+							"Timing": 0,
+							"Id": 111
+						},
+						"Value": 0.0
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 1,
+							"Timing": 0,
+							"Id": 112
+						},
+						"Value": 90.19
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": {
+								"Identifier": {
+									"Id": "1"
+								}
+							},
+							"Loan": null,
+							"Flag": 8,
+							"Timing": 0,
+							"Id": 100
+						},
+						"Value": 95.59
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": {
+								"Identifier": {
+									"Id": "1"
+								}
+							},
+							"Loan": null,
+							"Flag": 8,
+							"Timing": 0,
+							"Id": 101
+						},
+						"Value": 0.0
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": {
+								"Identifier": {
+									"Id": "1"
+								}
+							},
+							"Loan": null,
+							"Flag": 8,
+							"Timing": 0,
+							"Id": 102
+						},
+						"Value": 90.190000000000012
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": {
+								"Identifier": {
+									"Id": "1"
+								}
+							},
+							"Loan": null,
+							"Flag": 8,
+							"Timing": 0,
+							"Id": 112
+						},
+						"Value": 90.190000000000012
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": {
+								"Identifier": {
+									"Id": "1"
+								}
+							},
+							"Loan": null,
+							"Flag": 8,
+							"Timing": 0,
+							"Id": 103
+						},
+						"Value": 5.4
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": {
+								"Identifier": {
+									"Id": "1"
+								}
+							},
+							"Loan": null,
+							"Flag": 8,
+							"Timing": 0,
+							"Id": 104
+						},
+						"Value": 105.0
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": {
+								"Identifier": {
+									"Id": "1"
+								}
+							},
+							"Loan": null,
+							"Flag": 8,
+							"Timing": 0,
+							"Id": 111
+						},
+						"Value": 0.0
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": {
+								"Identifier": {
+									"Id": "1"
+								}
+							},
+							"Loan": null,
+							"Flag": 8,
+							"Timing": 0,
+							"Id": 108
+						},
+						"Value": 95.59
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": {
+								"Identifier": {
+									"Id": "1"
+								}
+							},
+							"Loan": null,
+							"Flag": 8,
+							"Timing": 0,
+							"Id": 105
+						},
+						"Value": 0.0
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": {
+								"Identifier": {
+									"Id": "1"
+								}
+							},
+							"Loan": null,
+							"Flag": 8,
+							"Timing": 0,
+							"Id": 123
+						},
+						"Value": 6.0
+					}
+				],
+				"Vectors": [
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "1b864a95-dacc-446a-8caa-12d2b5624a8f"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 2
+						},
+						"Value": [
+							0.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0
+						]
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "1b864a95-dacc-446a-8caa-12d2b5624a8f"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 5
+						},
+						"Value": [
+							0.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0,
+							756.0
+						]
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "1b864a95-dacc-446a-8caa-12d2b5624a8f"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 15
+						},
+						"Value": [
+							0.0,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8,
+							64.8
+						]
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "1b864a95-dacc-446a-8caa-12d2b5624a8f"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 8
+						},
+						"Value": [
+							0.0,
+							350.0,
+							21.0,
+							21.0,
+							21.0,
+							21.0,
+							21.0,
+							21.0,
+							21.0,
+							21.0,
+							21.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "1b864a95-dacc-446a-8caa-12d2b5624a8f"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 20
+						},
+						"Value": [
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "87f8b4de-42cd-4e30-9231-ac8f87a4de24"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 1
+						},
+						"Value": [
+							0.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0
+						]
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "87f8b4de-42cd-4e30-9231-ac8f87a4de24"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 5
+						},
+						"Value": [
+							0.0,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28,
+							347.28
+						]
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "87f8b4de-42cd-4e30-9231-ac8f87a4de24"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 15
+						},
+						"Value": [
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "87f8b4de-42cd-4e30-9231-ac8f87a4de24"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 7
+						},
+						"Value": [
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							2580.9299999999994,
+							4037.7216,
+							5655.1044,
+							7433.0784,
+							9371.6436000000012,
+							11470.800000000003,
+							14453.208000000004,
+							17665.032000000007,
+							21106.272000000012,
+							24776.928000000011,
+							28677.000000000015,
+							29824.080000000016,
+							30971.160000000018,
+							32118.24000000002,
+							33265.320000000022,
+							34412.400000000023,
+							35559.480000000025,
+							36706.560000000027,
+							37853.640000000029,
+							39000.72000000003,
+							40147.800000000032
+						]
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "87f8b4de-42cd-4e30-9231-ac8f87a4de24"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 8
+						},
+						"Value": [
+							0.0,
+							96.45,
+							9.65,
+							9.65,
+							9.65,
+							9.65,
+							9.65,
+							9.65,
+							9.65,
+							9.65,
+							9.65,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "87f8b4de-42cd-4e30-9231-ac8f87a4de24"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 20
+						},
+						"Value": [
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "9e165779-1476-4c09-b363-497b10c75da6"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 1
+						},
+						"Value": [
+							0.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0,
+							50000.0
+						]
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "9e165779-1476-4c09-b363-497b10c75da6"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 5
+						},
+						"Value": [
+							0.0,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8,
+							43.8
+						]
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "9e165779-1476-4c09-b363-497b10c75da6"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 15
+						},
+						"Value": [
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "9e165779-1476-4c09-b363-497b10c75da6"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 6
+						},
+						"Value": [
+							0.0,
+							1147.08,
+							2294.16,
+							3441.24,
+							4588.32,
+							5735.4,
+							6882.48,
+							8029.5599999999995,
+							9176.64,
+							10323.72,
+							11470.8,
+							12617.88,
+							13764.96,
+							14912.039999999999,
+							16059.119999999999,
+							17206.199999999997,
+							18353.28,
+							19500.36,
+							20647.440000000002,
+							21794.520000000004,
+							22941.600000000006,
+							24088.680000000008,
+							25235.760000000009,
+							26382.840000000011,
+							27529.920000000013,
+							28677.000000000015,
+							29824.080000000016,
+							30971.160000000018,
+							32118.24000000002,
+							33265.320000000022,
+							34412.400000000023,
+							35559.480000000025,
+							36706.560000000027,
+							37853.640000000029,
+							39000.72000000003,
+							40147.800000000032
+						]
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "9e165779-1476-4c09-b363-497b10c75da6"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 8
+						},
+						"Value": [
+							0.0,
+							12.15,
+							1.21,
+							1.21,
+							1.21,
+							1.21,
+							1.21,
+							1.21,
+							1.21,
+							1.21,
+							1.21,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"Key": {
+							"Coverage": {
+								"YearType": 0,
+								"Identifier": {
+									"Id": "9e165779-1476-4c09-b363-497b10c75da6"
+								}
+							},
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 2,
+							"Timing": 0,
+							"Id": 20
+						},
+						"Value": [
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0,
+							0.0
+						]
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": null,
+							"Loan": null,
+							"Flag": 1,
+							"Timing": 0,
+							"Id": 18
+						},
+						"Value": [
+							0.0,
+							1.0,
+							2.0,
+							3.0,
+							4.0,
+							5.0,
+							6.0,
+							7.0,
+							8.0,
+							9.0,
+							10.0,
+							11.0,
+							12.0,
+							13.0,
+							14.0,
+							15.0,
+							16.0,
+							17.0,
+							18.0,
+							19.0,
+							20.0,
+							21.0,
+							22.0,
+							23.0,
+							24.0,
+							25.0,
+							26.0,
+							27.0,
+							28.0,
+							29.0,
+							30.0,
+							31.0,
+							32.0,
+							33.0,
+							34.0,
+							35.0
+						]
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": {
+								"Identifier": {
+									"Id": "e84ebc4c-b764-4233-a193-b6a7859b2573"
+								}
+							},
+							"Insured": null,
+							"Loan": null,
+							"Flag": 4,
+							"Timing": 0,
+							"Id": 19
+						},
+						"Value": [
+							0.0,
+							41.0,
+							42.0,
+							43.0,
+							44.0,
+							45.0,
+							46.0,
+							47.0,
+							48.0,
+							49.0,
+							50.0,
+							51.0,
+							52.0,
+							53.0,
+							54.0,
+							55.0,
+							56.0,
+							57.0,
+							58.0,
+							59.0,
+							60.0,
+							61.0,
+							62.0,
+							63.0,
+							64.0,
+							65.0,
+							66.0,
+							67.0,
+							68.0,
+							69.0,
+							70.0,
+							71.0,
+							72.0,
+							73.0,
+							74.0,
+							75.0
+						]
+					},
+					{
+						"Key": {
+							"Coverage": null,
+							"Fund": null,
+							"Income": null,
+							"Individual": null,
+							"Insured": {
+								"Identifier": {
+									"Id": "1"
+								}
+							},
+							"Loan": null,
+							"Flag": 8,
+							"Timing": 0,
+							"Id": 22
+						},
+						"Value": [
+							0.0,
+							41.0,
+							42.0,
+							43.0,
+							44.0,
+							45.0,
+							46.0,
+							47.0,
+							48.0,
+							49.0,
+							50.0,
+							51.0,
+							52.0,
+							53.0,
+							54.0,
+							55.0,
+							56.0,
+							57.0,
+							58.0,
+							59.0,
+							60.0,
+							61.0,
+							62.0,
+							63.0,
+							64.0,
+							65.0,
+							66.0,
+							67.0,
+							68.0,
+							69.0,
+							70.0,
+							71.0,
+							72.0,
+							73.0,
+							74.0,
+							75.0
+						]
+					}
+				],
+				"Illustration": {
+					"Columns": [
+						{
+							"Id": 0,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								1.0,
+								2.0,
+								3.0,
+								4.0,
+								5.0,
+								6.0,
+								7.0,
+								8.0,
+								9.0,
+								10.0,
+								11.0,
+								12.0,
+								13.0,
+								14.0,
+								15.0,
+								16.0,
+								17.0,
+								18.0,
+								19.0,
+								20.0,
+								21.0,
+								22.0,
+								23.0,
+								24.0,
+								25.0,
+								26.0,
+								27.0,
+								28.0,
+								29.0,
+								30.0,
+								31.0,
+								32.0,
+								33.0,
+								34.0,
+								35.0
+							]
+						},
+						{
+							"Id": 1,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								41.0,
+								42.0,
+								43.0,
+								44.0,
+								45.0,
+								46.0,
+								47.0,
+								48.0,
+								49.0,
+								50.0,
+								51.0,
+								52.0,
+								53.0,
+								54.0,
+								55.0,
+								56.0,
+								57.0,
+								58.0,
+								59.0,
+								60.0,
+								61.0,
+								62.0,
+								63.0,
+								64.0,
+								65.0,
+								66.0,
+								67.0,
+								68.0,
+								69.0,
+								70.0,
+								71.0,
+								72.0,
+								73.0,
+								74.0,
+								75.0
+							]
+						},
+						{
+							"Id": 2,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": {
+								"Id": "e84ebc4c-b764-4233-a193-b6a7859b2573"
+							},
+							"Value": [
+								0.0,
+								41.0,
+								42.0,
+								43.0,
+								44.0,
+								45.0,
+								46.0,
+								47.0,
+								48.0,
+								49.0,
+								50.0,
+								51.0,
+								52.0,
+								53.0,
+								54.0,
+								55.0,
+								56.0,
+								57.0,
+								58.0,
+								59.0,
+								60.0,
+								61.0,
+								62.0,
+								63.0,
+								64.0,
+								65.0,
+								66.0,
+								67.0,
+								68.0,
+								69.0,
+								70.0,
+								71.0,
+								72.0,
+								73.0,
+								74.0,
+								75.0
+							]
+						},
+						{
+							"Id": 3,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08
+							]
+						},
+						{
+							"Id": 4,
+							"Coverage": null,
+							"Insured": {
+								"Id": "1"
+							},
+							"Individual": null,
+							"Value": [
+								0.0,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08,
+								1147.08
+							]
+						},
+						{
+							"Id": 5,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								1147.08,
+								2294.16,
+								3441.24,
+								4588.32,
+								5735.4,
+								6882.48,
+								8029.56,
+								9176.64,
+								10323.72,
+								11470.8,
+								12617.88,
+								13764.96,
+								14912.04,
+								16059.12,
+								17206.2,
+								18353.28,
+								19500.36,
+								20647.44,
+								21794.52,
+								22941.6,
+								24088.68,
+								25235.76,
+								26382.84,
+								27529.92,
+								28677.0,
+								29824.08,
+								30971.16,
+								32118.24,
+								33265.32,
+								34412.4,
+								35559.48,
+								36706.56,
+								37853.64,
+								39000.72,
+								40147.8
+							]
+						},
+						{
+							"Id": 6,
+							"Coverage": null,
+							"Insured": {
+								"Id": "1"
+							},
+							"Individual": null,
+							"Value": [
+								0.0,
+								1147.08,
+								2294.16,
+								3441.24,
+								4588.32,
+								5735.4,
+								6882.48,
+								8029.56,
+								9176.64,
+								10323.72,
+								11470.8,
+								12617.88,
+								13764.96,
+								14912.04,
+								16059.12,
+								17206.2,
+								18353.28,
+								19500.36,
+								20647.44,
+								21794.52,
+								22941.6,
+								24088.68,
+								25235.76,
+								26382.84,
+								27529.92,
+								28677.0,
+								29824.08,
+								30971.16,
+								32118.24,
+								33265.32,
+								34412.4,
+								35559.48,
+								36706.56,
+								37853.64,
+								39000.72,
+								40147.8
+							]
+						},
+						{
+							"Id": 15,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0
+							]
+						},
+						{
+							"Id": 16,
+							"Coverage": null,
+							"Insured": {
+								"Id": "1"
+							},
+							"Individual": null,
+							"Value": [
+								0.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0
+							]
+						},
+						{
+							"Id": 17,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								756.0,
+								1512.0,
+								2268.0,
+								3024.0,
+								3780.0,
+								4536.0,
+								5292.0,
+								6048.0,
+								6804.0,
+								7560.0,
+								8316.0,
+								9072.0,
+								9828.0,
+								10584.0,
+								11340.0,
+								12096.0,
+								12852.0,
+								13608.0,
+								14364.0,
+								15120.0,
+								15876.0,
+								16632.0,
+								17388.0,
+								18144.0,
+								18900.0,
+								19656.0,
+								20412.0,
+								21168.0,
+								21924.0,
+								22680.0,
+								23436.0,
+								24192.0,
+								24948.0,
+								25704.0,
+								26460.0
+							]
+						},
+						{
+							"Id": 18,
+							"Coverage": null,
+							"Insured": {
+								"Id": "1"
+							},
+							"Individual": null,
+							"Value": [
+								0.0,
+								756.0,
+								1512.0,
+								2268.0,
+								3024.0,
+								3780.0,
+								4536.0,
+								5292.0,
+								6048.0,
+								6804.0,
+								7560.0,
+								8316.0,
+								9072.0,
+								9828.0,
+								10584.0,
+								11340.0,
+								12096.0,
+								12852.0,
+								13608.0,
+								14364.0,
+								15120.0,
+								15876.0,
+								16632.0,
+								17388.0,
+								18144.0,
+								18900.0,
+								19656.0,
+								20412.0,
+								21168.0,
+								21924.0,
+								22680.0,
+								23436.0,
+								24192.0,
+								24948.0,
+								25704.0,
+								26460.0
+							]
+						},
+						{
+							"Id": 19,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08
+							]
+						},
+						{
+							"Id": 20,
+							"Coverage": null,
+							"Insured": {
+								"Id": "1"
+							},
+							"Individual": null,
+							"Value": [
+								0.0,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08
+							]
+						},
+						{
+							"Id": 21,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								391.08,
+								782.16,
+								1173.24,
+								1564.32,
+								1955.4,
+								2346.48,
+								2737.56,
+								3128.64,
+								3519.72,
+								3910.8,
+								4301.88,
+								4692.96,
+								5084.04,
+								5475.12,
+								5866.2,
+								6257.28,
+								6648.36,
+								7039.44,
+								7430.52,
+								7821.6,
+								8212.68,
+								8603.76,
+								8994.84,
+								9385.92,
+								9777.0,
+								10168.08,
+								10559.16,
+								10950.24,
+								11341.32,
+								11732.4,
+								12123.48,
+								12514.56,
+								12905.64,
+								13296.72,
+								13687.8
+							]
+						},
+						{
+							"Id": 22,
+							"Coverage": null,
+							"Insured": {
+								"Id": "1"
+							},
+							"Individual": null,
+							"Value": [
+								0.0,
+								391.08,
+								782.16,
+								1173.24,
+								1564.32,
+								1955.4,
+								2346.48,
+								2737.56,
+								3128.64,
+								3519.72,
+								3910.8,
+								4301.88,
+								4692.96,
+								5084.04,
+								5475.12,
+								5866.2,
+								6257.28,
+								6648.36,
+								7039.44,
+								7430.52,
+								7821.6,
+								8212.68,
+								8603.76,
+								8994.84,
+								9385.92,
+								9777.0,
+								10168.08,
+								10559.16,
+								10950.24,
+								11341.32,
+								11732.4,
+								12123.48,
+								12514.56,
+								12905.64,
+								13296.72,
+								13687.8
+							]
+						},
+						{
+							"Id": 27,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0
+							]
+						},
+						{
+							"Id": 28,
+							"Coverage": null,
+							"Insured": {
+								"Id": "1"
+							},
+							"Individual": null,
+							"Value": [
+								0.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0
+							]
+						},
+						{
+							"Id": 31,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								1147.08,
+								2294.16,
+								3441.24,
+								4588.32,
+								5735.4,
+								6882.48,
+								8029.56,
+								9176.64,
+								10323.72,
+								11470.8,
+								12617.88,
+								13764.96,
+								14912.04,
+								16059.12,
+								17206.2,
+								18353.28,
+								19500.36,
+								20647.44,
+								21794.52,
+								22941.6,
+								24088.68,
+								25235.76,
+								26382.84,
+								27529.92,
+								28677.0,
+								29824.08,
+								30971.16,
+								32118.24,
+								33265.32,
+								34412.4,
+								35559.48,
+								36706.56,
+								37853.64,
+								39000.72,
+								40147.8
+							]
+						},
+						{
+							"Id": 32,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								2580.93,
+								4037.73,
+								5655.11,
+								7433.08,
+								9371.65,
+								11470.8,
+								14453.21,
+								17665.04,
+								21106.28,
+								24776.93,
+								28677.0,
+								29824.08,
+								30971.16,
+								32118.24,
+								33265.32,
+								34412.4,
+								35559.48,
+								36706.56,
+								37853.64,
+								39000.72,
+								40147.8
+							]
+						},
+						{
+							"Id": 33,
+							"Coverage": null,
+							"Insured": {
+								"Id": "1"
+							},
+							"Individual": null,
+							"Value": [
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								2580.93,
+								4037.73,
+								5655.11,
+								7433.08,
+								9371.65,
+								11470.8,
+								14453.21,
+								17665.04,
+								21106.28,
+								24776.93,
+								28677.0,
+								29824.08,
+								30971.16,
+								32118.24,
+								33265.32,
+								34412.4,
+								35559.48,
+								36706.56,
+								37853.64,
+								39000.72,
+								40147.8
+							]
+						},
+						{
+							"Id": 42,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
+						{
+							"Id": 43,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								458.6,
+								31.86,
+								31.86,
+								31.86,
+								31.86,
+								31.86,
+								31.86,
+								31.86,
+								31.86,
+								31.86,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
+						{
+							"Id": 46,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								350.0,
+								21.0,
+								21.0,
+								21.0,
+								21.0,
+								21.0,
+								21.0,
+								21.0,
+								21.0,
+								21.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
+						{
+							"Id": 47,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								108.6,
+								10.86,
+								10.86,
+								10.86,
+								10.86,
+								10.86,
+								10.86,
+								10.86,
+								10.86,
+								10.86,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0,
+								0.0
+							]
+						},
+						{
+							"Id": 48,
+							"Coverage": null,
+							"Insured": {
+								"Id": "1"
+							},
+							"Individual": null,
+							"Value": [
+								0.0,
+								1147.08,
+								2294.16,
+								3441.24,
+								4588.32,
+								5735.4,
+								6882.48,
+								8029.56,
+								9176.64,
+								10323.72,
+								11470.8,
+								12617.88,
+								13764.96,
+								14912.04,
+								16059.12,
+								17206.2,
+								18353.28,
+								19500.36,
+								20647.44,
+								21794.52,
+								22941.6,
+								24088.68,
+								25235.76,
+								26382.84,
+								27529.92,
+								28677.0,
+								29824.08,
+								30971.16,
+								32118.24,
+								33265.32,
+								34412.4,
+								35559.48,
+								36706.56,
+								37853.64,
+								39000.72,
+								40147.8
+							]
+						},
+						{
+							"Id": 53,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								756.0,
+								1512.0,
+								2268.0,
+								3024.0,
+								3780.0,
+								4536.0,
+								5292.0,
+								6048.0,
+								6804.0,
+								7560.0,
+								8316.0,
+								9072.0,
+								9828.0,
+								10584.0,
+								11340.0,
+								12096.0,
+								12852.0,
+								13608.0,
+								14364.0,
+								15120.0,
+								15876.0,
+								16632.0,
+								17388.0,
+								18144.0,
+								18900.0,
+								19656.0,
+								20412.0,
+								21168.0,
+								21924.0,
+								22680.0,
+								23436.0,
+								24192.0,
+								24948.0,
+								25704.0,
+								26460.0
+							]
+						},
+						{
+							"Id": 56,
+							"Coverage": null,
+							"Insured": {
+								"Id": "1"
+							},
+							"Individual": null,
+							"Value": [
+								0.0,
+								756.0,
+								1512.0,
+								2268.0,
+								3024.0,
+								3780.0,
+								4536.0,
+								5292.0,
+								6048.0,
+								6804.0,
+								7560.0,
+								8316.0,
+								9072.0,
+								9828.0,
+								10584.0,
+								11340.0,
+								12096.0,
+								12852.0,
+								13608.0,
+								14364.0,
+								15120.0,
+								15876.0,
+								16632.0,
+								17388.0,
+								18144.0,
+								18900.0,
+								19656.0,
+								20412.0,
+								21168.0,
+								21924.0,
+								22680.0,
+								23436.0,
+								24192.0,
+								24948.0,
+								25704.0,
+								26460.0
+							]
+						},
+						{
+							"Id": 58,
+							"Coverage": null,
+							"Insured": {
+								"Id": "1"
+							},
+							"Individual": null,
+							"Value": [
+								0.0,
+								41.0,
+								42.0,
+								43.0,
+								44.0,
+								45.0,
+								46.0,
+								47.0,
+								48.0,
+								49.0,
+								50.0,
+								51.0,
+								52.0,
+								53.0,
+								54.0,
+								55.0,
+								56.0,
+								57.0,
+								58.0,
+								59.0,
+								60.0,
+								61.0,
+								62.0,
+								63.0,
+								64.0,
+								65.0,
+								66.0,
+								67.0,
+								68.0,
+								69.0,
+								70.0,
+								71.0,
+								72.0,
+								73.0,
+								74.0,
+								75.0
+							]
+						},
+						{
+							"Id": 60,
+							"Coverage": {
+								"Id": "87f8b4de-42cd-4e30-9231-ac8f87a4de24"
+							},
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0
+							]
+						},
+						{
+							"Id": 60,
+							"Coverage": {
+								"Id": "9e165779-1476-4c09-b363-497b10c75da6"
+							},
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0
+							]
+						},
+						{
+							"Id": 61,
+							"Coverage": {
+								"Id": "1b864a95-dacc-446a-8caa-12d2b5624a8f"
+							},
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0,
+								50000.0
+							]
+						},
+						{
+							"Id": 204,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08,
+								391.08
+							]
+						},
+						{
+							"Id": 44,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								458.6,
+								490.46,
+								522.32,
+								554.18,
+								586.04,
+								617.9,
+								649.76,
+								681.62,
+								713.48,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34,
+								745.34
+							]
+						},
+						{
+							"Id": 205,
+							"Coverage": null,
+							"Insured": null,
+							"Individual": null,
+							"Value": [
+								0.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0,
+								756.0
+							]
+						}
+					],
+					"ColumnDescriptions": [
+						{
+							"Id": 0,
+							"TitleEn": "Year",
+							"TitleFr": "Année",
+							"Attributes": [
+								"Type:Year"
+							]
+						},
+						{
+							"Id": 1,
+							"TitleEn": "Age",
+							"TitleFr": "Âge",
+							"Attributes": [
+								"Type:Age"
+							]
+						},
+						{
+							"Id": 2,
+							"TitleEn": "Individual {0} Age",
+							"TitleFr": "Âge Individu {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 3,
+							"TitleEn": "Total Annual Premiums",
+							"TitleFr": "Primes annuelles totales",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 4,
+							"TitleEn": "Insured {0} Total Annual Premiums",
+							"TitleFr": "Primes annuelles totales Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 5,
+							"TitleEn": "Cumulative Annual Premiums",
+							"TitleFr": "Primes annuelles cumulées",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 6,
+							"TitleEn": "Insured {0} Cumulative Annual Premiums",
+							"TitleFr": "Primes annuelles cumulées Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 7,
+							"TitleEn": "Annual Life Premiums",
+							"TitleFr": "Primes annuelles Vie",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 8,
+							"TitleEn": "Insured {0} Life Annual Premiums",
+							"TitleFr": "Primes annuelles Vie Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 9,
+							"TitleEn": "Cumulative Annual Life Premiums",
+							"TitleFr": "Primes annuelles Vie cumulées",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 10,
+							"TitleEn": "Insured {0} Cumulative Annual Life Premiums",
+							"TitleFr": "Primes annuelles Vie cumulées Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 11,
+							"TitleEn": "Annual Premiums (4 illnesses)",
+							"TitleFr": "Primes annuelles (4 maladies)",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 12,
+							"TitleEn": "Insured {0} Annual Premiums (4 illnesses)",
+							"TitleFr": "Primes annuelles (4 maladies) Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 13,
+							"TitleEn": "Cumulative Annual Premiums (4 illnesses)",
+							"TitleFr": "Primes annuelles cumulées (4 maladies)",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 14,
+							"TitleEn": "Insured {0} Cumulative Annual Premiums (4 illnesses)",
+							"TitleFr": "Primes annuelles cumulées (4 maladies) Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 15,
+							"TitleEn": "Annual Premiums (25 illnesses)",
+							"TitleFr": "Primes annuelles (25 maladies)",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 16,
+							"TitleEn": "Insured {0} Annual Premiums (25 illnesses)",
+							"TitleFr": "Primes annuelles (25 maladies) Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 17,
+							"TitleEn": "Cumulative Annual Premiums (25 illnesses)",
+							"TitleFr": "Primes annuelles cumulées (25 maladies)",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 18,
+							"TitleEn": "Insured {0} Cumulative Annual Premiums (25 illnesses)",
+							"TitleFr": "Primes annuelles cumulées (25 maladies) Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 19,
+							"TitleEn": "Total Premiums Additional Coverages",
+							"TitleFr": "Primes totales des protections complémentaires",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 20,
+							"TitleEn": "Insured {0} Total Premiums Additional Coverages",
+							"TitleFr": "Primes totales des protections complémentaires Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 21,
+							"TitleEn": "Cumulative Premiums Additional Coverages",
+							"TitleFr": "Primes cumulées des protections complémentaires",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 22,
+							"TitleEn": "Insured {0} Cumulative Premiums Additional Coverages",
+							"TitleFr": "Primes cumulées des protections complémentaires Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 23,
+							"TitleEn": "Total Life Face Amount",
+							"TitleFr": "Capital assuré Vie total",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 24,
+							"TitleEn": "Insured {0} Life Face Amount",
+							"TitleFr": "Capital assuré Vie Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 25,
+							"TitleEn": "Face Amount (4 illnesses)",
+							"TitleFr": "Capital assuré (4 maladies)",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 26,
+							"TitleEn": "Insured {0} Face Amount (4 illnesses)",
+							"TitleFr": "Capital assuré (4 maladies) Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 27,
+							"TitleEn": "Face Amount (25 illnesses)",
+							"TitleFr": "Capital assuré (25 maladies)",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 28,
+							"TitleEn": "Insured {0} Face Amount (25 illnesses)",
+							"TitleFr": "Capital assuré (25 maladies) Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 29,
+							"TitleEn": "Insured {0} Face Amount AD/ADD",
+							"TitleFr": "Capital assuré DA/DMA Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 30,
+							"TitleEn": "Insured {0} Face Amount Critical Illness - Duo",
+							"TitleFr": "Capital assuré Maladie Grave - Duo Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 31,
+							"TitleEn": "Return of Premiums on Death",
+							"TitleFr": "Retour des primes au décès",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 32,
+							"TitleEn": "Flexible Return of Premiums",
+							"TitleFr": "Retour flexible des primes",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 33,
+							"TitleEn": "Insured {0} Flexible Return of Premiums",
+							"TitleFr": "Retour flexible des primes Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 34,
+							"TitleEn": "Insured {0} Monthly Disability Benefit",
+							"TitleFr": "Prestation mensuelle invalidité Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 35,
+							"TitleEn": "Insured {0} Serenity 65 Benefit",
+							"TitleFr": "Rente sérénité 65 Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 36,
+							"TitleEn": "Insured {0} Guaranteed Surrender Value",
+							"TitleFr": "Valeur de rachat garantie Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 37,
+							"TitleEn": "Insured {0} Surrender Value after tax",
+							"TitleFr": "Valeur de rachat après impôt Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 38,
+							"TitleEn": "Insured {0} Guaranteed Life Paid-up Insurance",
+							"TitleFr": "Assurance libérée Vie Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 39,
+							"TitleEn": "Insured {0} Guaranteed Critical Illness Paid-up Insurance",
+							"TitleFr": "Assurance libérée Maladie Grave Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 40,
+							"TitleEn": "Ajusted Cost Basis (ACB)",
+							"TitleFr": "Coût de base rajusté (CBR)",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 41,
+							"TitleEn": "Net Cost Of Pure Insurance",
+							"TitleFr": "Coût net assurance pure",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 42,
+							"TitleEn": "Bonus Compensation",
+							"TitleFr": "Rémunération boni",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 43,
+							"TitleEn": "Total Compensation",
+							"TitleFr": "Rémunération total",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 44,
+							"TitleEn": "Cumulative Compensation",
+							"TitleFr": "Rémunération cumulées",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 45,
+							"TitleEn": "Life Compensation",
+							"TitleFr": "Rémunération Vie",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 46,
+							"TitleEn": "Critical Illness Compensation",
+							"TitleFr": "Rémunération Maladie Grave",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 47,
+							"TitleEn": "Rider Compensation",
+							"TitleFr": "Rémunération Avenant",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 48,
+							"TitleEn": "Insured {0} Premium Refund upon Death",
+							"TitleFr": "Retour des primes MG au décès Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 49,
+							"TitleEn": "WPDth Credited Amount",
+							"TitleFr": "Montant crédité au CDC",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 50,
+							"TitleEn": "Guaranteed Surrender Value",
+							"TitleFr": "Valeur de rachat garantie",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 51,
+							"TitleEn": "Total Surrender Value after tax",
+							"TitleFr": "Valeur de rachat totale après impôt",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 52,
+							"TitleEn": "Applicant Guaranteed Annual Premium",
+							"TitleFr": "Prime annuelles garanties des contractants",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 53,
+							"TitleEn": "Cumulative Annual Premiums Critical Illness",
+							"TitleFr": "Primes cumulées Maladie grave",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 54,
+							"TitleEn": "Taxable amount on Surrender Value",
+							"TitleFr": "Montant imposable sur valeur de rachat",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 55,
+							"TitleEn": "Tax on Surrender Value",
+							"TitleFr": "Impôt sur valeur de rachat",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 56,
+							"TitleEn": "Insured {0} Cumulative Annual Premiums Critical Illness",
+							"TitleFr": "Primes cumulées Maladie grave Assuré {0}",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 58,
+							"TitleEn": "Insured {0} Age",
+							"TitleFr": "Âge Assuré {0}",
+							"Attributes": [
+								"Type:AgeInsured"
+							]
+						},
+						{
+							"Id": 59,
+							"TitleEn": "Guaranteed Renewal",
+							"TitleFr": "Prime renouvellement garantie",
+							"Attributes": [
+								"Type:GuaranteedRenewal"
+							]
+						},
+						{
+							"Id": 60,
+							"TitleEn": "Coverage / LifeAmount",
+							"TitleFr": "Capital assuré Vie / Protection",
+							"Attributes": [
+								"Type:LifeAmount"
+							]
+						},
+						{
+							"Id": 61,
+							"TitleEn": "Coverage / CriticaI Illness Face Amount",
+							"TitleFr": "Capital assuré MG / Protection",
+							"Attributes": [
+								"Type:CriticalIllnessAmount"
+							]
+						},
+						{
+							"Id": 78,
+							"TitleEn": "Calendar Year",
+							"TitleFr": "Année de calendrier",
+							"Attributes": [
+								"Type:CalendarYear"
+							]
+						},
+						{
+							"Id": 202,
+							"TitleEn": "Coverage / LifeAmount After Renewal",
+							"TitleFr": "Capital assuré Vie après renouvellement",
+							"Attributes": [
+								"Type:CoveragePremium"
+							]
+						},
+						{
+							"Id": 203,
+							"TitleEn": "Coverage / CriticaI Illness Face Amount After Renewal",
+							"TitleFr": "Capital assuré MG après renouvellement",
+							"Attributes": [
+								"Type:CoveragePremium"
+							]
+						},
+						{
+							"Id": 204,
+							"TitleEn": "Total Annual Premiums ROP",
+							"TitleFr": "Primes annuelles retour de primes",
+							"Attributes": [
+
+							]
+						},
+						{
+							"Id": 205,
+							"TitleEn": "Total Annual Premiums without ROP",
+							"TitleFr": "Primes annuelles excluant retour de primes",
+							"Attributes": [
+
+							]
+						}
+					]
+				},
+				"Parameters": {
+					"Assumptions": {
+						"AccumulationFunds": null,
+						"CollateralLoanFacility": null,
+						"PolicyLoans": null,
+						"ReferenceIndex": null,
+						"ShuttleFunds": null
+					},
+					"Compensation": {
+						"BonusRate": 0.0,
+						"AgentType": 1
+					},
+					"DeductTaxOnShuttleFund": 2,
+					"ExtendedInsuranceCoverage": 0,
+					"LastUpdate": "2019-09-19T15:28:24.3540895-04:00",
+					"Taxation": {
+						"Personal": {
+							"MarginalRates": [
+								{
+									"StartDate": {
+										"DateType": 1,
+										"YearContractType": null,
+										"CalenderDate": "2019-09-19T15:28:24.3540895-04:00",
+										"Year": null,
+										"Month": null
+									},
+									"Value": 0.50369999999999993
+								}
+							],
+							"DividendRates": null,
+							"CapitalGainsRates": null
+						},
+						"Corporate": {
+							"MarginalRates": null,
+							"DividendRates": null,
+							"CapitalGainsRates": null
+						}
+					}
+				}
+			}
+		]
+	},
+	"DonneesPdf": {
+		"ProtectionsPdf": [
+			{
+				"IdProtection": "1b864a95-dacc-446a-8caa-12d2b5624a8f",
+				"CodePlan": "575T60",
+				"DateVersionProduit": "2017-12-01T00:00:00",
+				"Specification": {
+					"IsAcceleratedPaymentRider": false,
+					"IsAdditionalBenefit": false,
+					"IsChildModule": false,
+					"IsChildModulePlus": false,
+					"IsComplementaryIncome": false,
+					"IsCoverage": true,
+					"IsCriticalIllness": true,
+					"IsCriticalIllnessChildModule": false,
+					"IsGuaranteedPremiumRider": false,
+					"IsHospitalization": false,
+					"IsIncreasedBenefit": false,
+					"IsIntegratedCoverageDecreasing": false,
+					"IsInvalidityCoverage": false,
+					"IsLifeCoverage": false,
+					"IsPickaTerm": false,
+					"IsRembFlexPrime": false,
+					"IsRembPrimeDeces": false,
+					"IsResiliable": true,
+					"IsSubCoverage": false,
+					"IsTermCoverage": true,
+					"IsWithoutInsuranceVolume": false,
+					"IsCashValueAvailable": false,
+					"IsRenewable": false
+				},
+				"Boundaries": {
+					"AmountBoundaries": [
+						{
+							"MinimumIssueAge": 0,
+							"MaximumIssueAge": 17,
+							"MinimumIssueAmount": 10000,
+							"MaximumIssueAmount": 500000
+						},
+						{
+							"MinimumIssueAge": 18,
+							"MaximumIssueAge": 65,
+							"MinimumIssueAmount": 10000,
+							"MaximumIssueAmount": 2500000
+						}
+					]
+				},
+				"TermesDetails": {
+					"CoverageTerm": 75,
+					"PaidUpTermRule": 1,
+					"PaidUpAgeOrDuration": 75,
+					"MaturityTermRule": 75,
+					"MaturityAgeOrDuration": 1,
+					"MaximalAgeForLevel": null
+				},
+				"DescriptiveCodeInfos": {
+					"CodeDescription": [
+						"MaladiesGrave1",
+						"MaladiesGravesTemporaire1"
+					],
+					"CodeConditionMedicale": [
+						"MaladiesGraves25Temporaire"
+					]
+				}
+			},
+			{
+				"IdProtection": "87f8b4de-42cd-4e30-9231-ac8f87a4de24",
+				"CodePlan": "0F7560",
+				"DateVersionProduit": "2017-12-01T00:00:00",
+				"Specification": {
+					"IsAcceleratedPaymentRider": false,
+					"IsAdditionalBenefit": false,
+					"IsChildModule": false,
+					"IsChildModulePlus": false,
+					"IsComplementaryIncome": false,
+					"IsCoverage": true,
+					"IsCriticalIllness": false,
+					"IsCriticalIllnessChildModule": false,
+					"IsGuaranteedPremiumRider": false,
+					"IsHospitalization": false,
+					"IsIncreasedBenefit": false,
+					"IsIntegratedCoverageDecreasing": false,
+					"IsInvalidityCoverage": false,
+					"IsLifeCoverage": false,
+					"IsPickaTerm": false,
+					"IsRembFlexPrime": true,
+					"IsRembPrimeDeces": false,
+					"IsResiliable": true,
+					"IsSubCoverage": true,
+					"IsTermCoverage": true,
+					"IsWithoutInsuranceVolume": false,
+					"IsCashValueAvailable": false,
+					"IsRenewable": false
+				},
+				"Boundaries": {
+					"AmountBoundaries": [
+						{
+							"MinimumIssueAge": 0,
+							"MaximumIssueAge": 17,
+							"MinimumIssueAmount": 10000,
+							"MaximumIssueAmount": 2500000
+						},
+						{
+							"MinimumIssueAge": 18,
+							"MaximumIssueAge": 49,
+							"MinimumIssueAmount": 10000,
+							"MaximumIssueAmount": 2500000
+						}
+					]
+				},
+				"TermesDetails": {
+					"CoverageTerm": null,
+					"PaidUpTermRule": 1,
+					"PaidUpAgeOrDuration": 75,
+					"MaturityTermRule": 75,
+					"MaturityAgeOrDuration": 1,
+					"MaximalAgeForLevel": null
+				},
+				"DescriptiveCodeInfos": {
+					"CodeDescription": [
+						"ROPF1",
+						"ProtectionAdditionnelle1"
+					]
+				}
+			},
+			{
+				"IdProtection": "9e165779-1476-4c09-b363-497b10c75da6",
+				"CodePlan": "0D7560",
+				"DateVersionProduit": "2017-12-01T00:00:00",
+				"Specification": {
+					"IsAcceleratedPaymentRider": false,
+					"IsAdditionalBenefit": false,
+					"IsChildModule": false,
+					"IsChildModulePlus": false,
+					"IsComplementaryIncome": false,
+					"IsCoverage": true,
+					"IsCriticalIllness": false,
+					"IsCriticalIllnessChildModule": false,
+					"IsGuaranteedPremiumRider": false,
+					"IsHospitalization": false,
+					"IsIncreasedBenefit": false,
+					"IsIntegratedCoverageDecreasing": false,
+					"IsInvalidityCoverage": false,
+					"IsLifeCoverage": false,
+					"IsPickaTerm": false,
+					"IsRembFlexPrime": false,
+					"IsRembPrimeDeces": true,
+					"IsResiliable": true,
+					"IsSubCoverage": true,
+					"IsTermCoverage": true,
+					"IsWithoutInsuranceVolume": false,
+					"IsCashValueAvailable": false,
+					"IsRenewable": false
+				},
+				"Boundaries": {
+					"AmountBoundaries": [
+						{
+							"MinimumIssueAge": 0,
+							"MaximumIssueAge": 17,
+							"MinimumIssueAmount": 10000,
+							"MaximumIssueAmount": 2500000
+						},
+						{
+							"MinimumIssueAge": 18,
+							"MaximumIssueAge": 65,
+							"MinimumIssueAmount": 10000,
+							"MaximumIssueAmount": 2500000
+						}
+					]
+				},
+				"TermesDetails": {
+					"CoverageTerm": null,
+					"PaidUpTermRule": 1,
+					"PaidUpAgeOrDuration": 75,
+					"MaturityTermRule": 75,
+					"MaturityAgeOrDuration": 1,
+					"MaximalAgeForLevel": null
+				},
+				"DescriptiveCodeInfos": {
+					"CodeDescription": [
+						"ROPD1",
+						"ProtectionAdditionnelle1"
+					]
+				}
+			}
+		]
+	},
+	"PourcentagePayableDeces": null
+}

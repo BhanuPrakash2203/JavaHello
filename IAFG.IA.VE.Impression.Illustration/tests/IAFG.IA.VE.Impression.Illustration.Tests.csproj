@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net48</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.2.2" />
+    <PackageReference Include="IAFG.IA.VI.IPDFVie" Version="5.1.0" />
+    <PackageReference Include="IAFG.IA.VI.Services.PDF" Version="30.1.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="NLog" Version="4.5.6" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Cas\*.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\IAFG.IA.VE.Impression.Illustration.DIContainer\src\IAFG.IA.VE.Impression.Illustration.DIContainer.csproj" />
+    <ProjectReference Include="..\..\IAFG.IA.VE.Impression.Illustration.Resources\src\IAFG.IA.VE.Impression.Illustration.Resources.csproj" />
+    <ProjectReference Include="..\..\IAFG.IA.VE.Impression.Illustration.Tiers.Reports\src\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.csproj" />
+    <ProjectReference Include="..\..\IAFG.IA.VE.Impression.Illustration.Types\src\IAFG.IA.VE.Impression.Illustration.Types.csproj" />
+    <ProjectReference Include="..\..\IAFG.IA.VE.Impression.CoreForTests\IAFG.IA.VE.Impression.CoreForTests.csproj" />
+    <ProjectReference Include="..\src\IAFG.IA.VE.Impression.Illustration.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="IAFG.IA.VE.Impression.Illustration.Tiers.Reports.dll.GrapeCity.Licenses">
+      <HintPath>..\..\References\Internes\Tiers.ActiveReports.License\src\IAFG.IA.VE.Impression.Illustration.Tiers.Reports.dll.GrapeCity.Licenses.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+</Project>

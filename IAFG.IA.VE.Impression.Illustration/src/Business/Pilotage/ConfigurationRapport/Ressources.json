@@ -1,0 +1,846 @@
+﻿{
+  "Produits": {
+    "CapitalValeur": {
+      "Libelles": {
+        "Libelle": "Capital Valeur",
+        "LibelleEn": "Equibuild"
+      }
+    },
+    "CapitalValeur3": {
+      "Libelles": {
+        "Libelle": "Capital Valeur 3",
+        "LibelleEn": "Equibuild 3"
+      }
+    },
+    "Genesis": {
+      "Libelles": {
+        "Libelle": "Genesis",
+        "LibelleEn": "Genesis"
+      }
+    },
+    "RegimeVieMD": {
+      "Libelles": {
+        "Libelle": "Régime Vie MD",
+        "LibelleEn": "MD Life Plan"
+      }
+    },
+    "Tendance": {
+      "Libelles": {
+        "Libelle": "Tendance",
+        "LibelleEn": "Trend"
+      }
+    },
+    "Transition": {
+      "Libelles": {
+        "Libelle": "Transition",
+        "LibelleEn": "Transition"
+      }
+    }
+  },
+  "Enums": {
+    "BoniFidelite": {
+      "NonApplicable": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "Regle1_Topaz": {
+        "Libelle": "Boni de fidélité : disponible à la fin de la 5e année et à chaque anniversaire quinquennal par la suite, selon les critères d’admissibilité précisés au contrat",
+        "LibelleEn": "Incentive Bonus : available at the end of the 5th year and on each 5-year anniversary thereafter, according to the eligibility criteria  specified in the contract"
+      },
+      "Regle2_Meridia": {
+        "Libelle": "Boni de fidélité : disponible à la fin de la 5e année et à chaque anniversaire quinquennal par la suite, selon les critères d’admissibilité précisés au contrat",
+        "LibelleEn": "Incentive Bonus : available at the end of the 5th year and on each 5-year anniversary thereafter, according to the eligibility criteria  specified in the contract"
+      },
+      "Regle3_Meridia": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "Regle4_Flex": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "Regle5_Flex": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "Regle6_NL": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "Regle7": {
+        "Libelle": "Boni d'investissement: disponible à la fin de la {0} année, selon les critères d’admissibilité précisés au contrat",
+        "LibelleEn": "Investment Bonus: available at the end of the {0} year, based on eligibility criteria specified in the contract"
+      }
+    },
+    "BoniInteret": {
+      "Regle0_AucunBoni": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "Regle5_TopazMeridia": {
+        "Libelle": "Boni d’intérêt : disponible à compter de la {0} année, selon les critères d’admissibilité précisés au contrat",
+        "LibelleEn": "Interest Bonus : available from the {0} year, according to the eligibility criteria  specified in the contract"
+      },
+      "RegleB_Meridia": {
+        "Libelle": "Boni {1} : disponible à compter de la {0} année, selon les critères d’admissibilité précisés au contrat",
+        "LibelleEn": "{1} Bonus : available from the {0} year, according to the eligibility criteria  specified in the contract"
+      },
+      "RegleC_Genesis": {
+        "Libelle": "Boni {1} : disponible à compter de la {0} année, selon les critères d’admissibilité précisés au contrat",
+        "LibelleEn": "{1} Bonus : available from the {0} year, according to the eligibility criteria  specified in the contract"
+      },
+      "RegleI_MDLife": {
+        "Libelle": "Boni {1} : disponible à compter de la {0} année, selon les critères d’admissibilité précisés au contrat",
+        "LibelleEn": "{1} Bonus : available from the {0} year, according to the eligibility criteria  specified in the contract"
+      },
+      "RegleJ_Tendance": {
+        "Libelle": "Boni {1} : disponible à compter de la {0} année, selon les critères d’admissibilité précisés au contrat",
+        "LibelleEn": "{1} Bonus : available from the {0} year, according to the eligibility criteria  specified in the contract"
+      },
+      "RegleK": {
+        "Libelle": "",
+        "LibelleEn": ""
+      }
+    },
+    "OptionPrestationDeces": {
+      "NonApplicable": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "Capital": {
+        "Libelle": "Capital seulement",
+        "LibelleEn": "Face amount only"
+      },
+      "CapitalPlusFonds": {
+        "Libelle": "Capital + fonds",
+        "LibelleEn": "Face amount + fund"
+      },
+      "CapitalPlusFondsPlusRGP_LibreAction": {
+        "Libelle": "Capital + remboursement garanti des primes",
+        "LibelleEn": "Face amount + guaranteed return of premiums"
+      },
+      "ValeurMaximisee": {
+        "Libelle": "Valeur maximisée (Capital + fonds avec minimisation supérieure)",
+        "LibelleEn": "Wealth Maximizer (Face amount + fund with superior minimization)"
+      },
+      "CapitalPlusFondsValMax": {
+        "Libelle": "Capital + fonds avec option valeur maximisée",
+        "LibelleEn": "Face amount + fund with wealth maximizer option"
+      },
+      "CapitalPlusRemboursementPrimeGarantie": {
+        "Libelle": "Capital + remboursement garanti des primes",
+        "LibelleEn": "Face amount + guaranteed return of premiums"
+      },
+      "CapitalPlusFondsPlusRemboursementCBR": {
+        "Libelle": "Capital + fonds + CBR",
+        "LibelleEn": "Face amount + fund + ACB"
+      },
+      "CapitalPlusRGP_NL": {
+        "Libelle": "Capital + remboursement garanti des primes",
+        "LibelleEn": "Face amount + guaranteed return of premiums"
+      },
+      "CapitalPlusCBR_NL": {
+        "Libelle": "Capital + CBR",
+        "LibelleEn": "Face amount + ACB"
+      },
+      "ValeurMinimiseePlusCBR_NL": {
+        "Libelle": "Valeur minimisée + CBR",
+        "LibelleEn": "Wealth minimizer + ACB"
+      },
+      "ValeurMinimisee_NL": {
+        "Libelle": "Valeur minimisée",
+        "LibelleEn": "Wealth minimizer"
+      }
+    },
+    "StatutTabagisme": {
+      "NonApplicable": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "NonDefini": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "NonFumeurElite": {
+        "Libelle": "Non (Élite)",
+        "LibelleEn": "No (Elite)"
+      },
+      "NonFumeurPrivilege": {
+        "Libelle": "Non (Privilège)",
+        "LibelleEn": "No (Preferred)"
+      },
+      "NonFumeur": {
+        "Libelle": "Non",
+        "LibelleEn": "No"
+      },
+      "FumeurElite": {
+        "Libelle": "Oui (Élite)",
+        "LibelleEn": "Yes (Elite)"
+      },
+      "FumeurPrivilege": {
+        "Libelle": "Oui (Privilège)",
+        "LibelleEn": "Yes (Preferred)"
+      },
+      "Fumeur": {
+        "Libelle": "Oui",
+        "LibelleEn": "Yes"
+      }
+    },
+    "TypeAssurance": {
+      "NonApplicable": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "NonDefini": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "Individuelle": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "Conjointe1erDec": {
+        "Libelle": "(Conjointe premier décès)",
+        "LibelleEn": "(Joint first to die)"
+      },
+      "ConjointeDernierDec": {
+        "Libelle": "(Conjointe dernier décès)",
+        "LibelleEn": "(Joint last to die)"
+      },
+      "ConjointeDernierDecLib1er": {
+        "Libelle": "(Conjointe dernier décès libéré au 1er décès)",
+        "LibelleEn": "(Joint last to die paid-up on 1st death)"
+      },
+      "ConjointeDernierDecNonAssurable": {
+        "Libelle": "(Conjointe dernier décès)",
+        "LibelleEn": "(Joint last to die)"
+      }
+    },
+    "ChoixBoniInteret": {
+      "NonDefini": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "Aucun": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "Variable": {
+        "Libelle": "variable",
+        "LibelleEn": "Variable"
+      },
+      "Garanti": {
+        "Libelle": "garanti {0}",
+        "LibelleEn": "Guaranteed {0}"
+      },
+      "Rendement": {
+        "Libelle": "de rendement",
+        "LibelleEn": "Performance"
+      },
+      "FraisMinimum": {
+        "Libelle": "Option frais minimum",
+        "LibelleEn": "Low Fees Option"
+      },
+      "Regulier": {
+        "Libelle": "Régulier",
+        "LibelleEn": "Regular"
+      }
+    },
+    "TypeCout": {
+      "NonApplicable": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "TRA": {
+        "Libelle": "TRA",
+        "LibelleEn": "YRT"
+      },
+      "Nivele": {
+        "Libelle": "Coûts Nivelés",
+        "LibelleEn": "Level cost"
+      },
+      "NiveleEpargne": {
+        "Libelle": "Coûts Nivelés Épargne",
+        "LibelleEn": "Level cost saving"
+      }
+    },
+    "TypeDetailPrime": {
+      "NonApplicable": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "PrimeMinimale": {
+        "Libelle": "Prime minimale",
+        "LibelleEn": "Minimum premium"
+      },
+      "PrimeSansFrais": {
+        "Libelle": "Prime totale (excluant les frais)",
+        "LibelleEn": "Premium (excluding fees)"
+      },
+      "PrimeReference": {
+        "Libelle": "Prime de référence",
+        "LibelleEn": "Reference premium"
+      },
+      "FraisDePolice": {
+        "Libelle": "Frais de police",
+        "LibelleEn": "Policy fees"
+      },
+      "PrimeAvecFrais": {
+        "Libelle": "Prime totale (1re année)",
+        "LibelleEn": "Total premium (1st year)"
+      },
+      "PrimeMaximale": {
+        "Libelle": "Prime maximale",
+        "LibelleEn": "Maximum premium"
+      },
+      "PrimeSelectionneePremiereAnnee": {
+        "Libelle": "Prime sélectionnée pour la première année de projection",
+        "LibelleEn": "Selected premium for the first year of projection"
+      },
+      "ContributionOptionDepotSupplementaire": {
+        "Libelle": "Contribution à l’option de dépôt supplémentaire (ODS)",
+        "LibelleEn": "Contributions to the additional deposit option (ADO)"
+      },
+      "PrimeTotale": {
+        "Libelle": "Prime totale",
+        "LibelleEn": "Total premium"
+      },
+      "PrimeTotaleIncluantOptionDepotSupplementairePremiereAnnee": {
+        "Libelle": "Prime totale et contribution à l’ODS pour la première année de projection",
+        "LibelleEn": "First-year total premium and contributions to ADO"
+      },
+      "PrimeTotaleSansFrais": {
+        "Libelle": "Prime totale (excluant les frais)",
+        "LibelleEn": "Total premium (excluding fees)"
+      }
+    },
+    "TypePret": {
+      "NonDefini": {
+        "Libelle": "Non défini",
+        "LibelleEn": "Undefined"
+      },
+      "Avance": {
+        "Libelle": "Avance",
+        "LibelleEn": "Policy Loan"
+      },
+      "AvanceAutomatique": {
+        "Libelle": "Avance automatique",
+        "LibelleEn": "Automatic Loan"
+      },
+      "EpargnePlus": {
+        "Libelle": "Avance Iris",
+        "LibelleEn": "Iris Policy Loan"
+      },
+      "Iris": {
+        "Libelle": "Prêt Iris",
+        "LibelleEn": "Iris Loan"
+      }
+    },
+    "TypePrestationPlan": {
+      "NonApplicable": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "PrestationMensuelle65Ans": {
+        "Libelle": "Prestation mensuelle jusqu’à 65 ans",
+        "LibelleEn": "Monthly benefit until age 65"
+      },
+      "PrestationMensuellePour2Ans": {
+        "Libelle": "Prestation mensuelle pour 2 ans",
+        "LibelleEn": "Monthly benefit for 2 years"
+      },
+      "PrestationMensuellePour5Ans": {
+        "Libelle": "Prestation mensuelle pour 5 ans",
+        "LibelleEn": "Monthly benefit for 5 years"
+      },
+      "PrestationJournaliere": {
+        "Libelle": "Prestation quotidienne",
+        "LibelleEn": "Daily benefit"
+      }
+    },
+    "TypeProtectionComplementaire": {
+      "NonApplicable": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "CDC": {
+        "Libelle": "Contribution mensuelle. Le décès doit survenir avant l'âge de {0} ans.",
+        "LibelleEn": "Monthly contribution. Death must occur before age {0}."
+      },
+      "CIA": {
+        "Libelle": "Contribution mensuelle. L'invalidité doit survenir avant l'âge de {0} ans.",
+        "LibelleEn": "Monthly contribution. Disability must occur before age {0}."
+      },
+      "CIC": {
+        "Libelle": "Contribution mensuelle. L'invalidité doit survenir avant l'âge de {0} ans.",
+        "LibelleEn": "Monthly contribution. Disability must occur before age {0}."
+      }
+    },
+    "TypeRenouvellement": {
+      "Aucun": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "Courant": {
+        "Libelle": "Renouvellements courants",
+        "LibelleEn": "Reissue renewals"
+      },
+      "Garanti": {
+        "Libelle": "Renouvellements garantis",
+        "LibelleEn": "Guaranteed renewals"
+      },
+      "TRA": {
+        "Libelle": "Temporaire Renouvelable Annuellement (TRA)",
+        "LibelleEn": "Yearly Renewable Term (YRT)"
+      }
+    },
+    "TypeTransactionFluxMonetaire": {
+      "Depot": {
+        "Libelle": "Dépôts forfaitaires annuels prévus",
+        "LibelleEn": "Annual lump-sum deposits prevision"
+      },
+      "Retrait": {
+        "Libelle": "Prévisions annuelles de retrait",
+        "LibelleEn": "Annual Withdrawals prevision"
+      }
+    },
+    "FluxMonetaireTransaction": {
+      "DepositType.Deposit": {
+        "Libelle": "Dépôts",
+        "LibelleEn": "Deposits"
+      },
+      "DepositType.StandardPolicyLoanRefund": {
+        "Libelle": "Remboursement avance",
+        "LibelleEn": "Loan principal repayment"
+      },
+      "WithdrawalType.PartialWithdrawal": {
+        "Libelle": "Retraits partiels",
+        "LibelleEn": "Partial withdrawals"
+      },
+      "WithdrawalType.PartialWithdrawalStandardPolicyLoan": {
+        "Libelle": "Retraits partiels avec avance sur police",
+        "LibelleEn": "Partial withdrawals and policy loans"
+      },
+      "WithdrawalType.StandardPolicyLoan": {
+        "Libelle": "Avance sur police",
+        "LibelleEn": "Policy loans"
+      }
+    },
+    "TypeOptionVersementBoni": {
+      "Aucun": {
+        "Libelle": "Fonds de capitalisation",
+        "LibelleEn": "Accumulation fund"
+      },
+      "AvecBoni": {
+        "Libelle": "Achat d’ASL",
+        "LibelleEn": "PUA purchase"
+      },
+      "AvecFonds": {
+        "Libelle": "Fonds de capitalisation",
+        "LibelleEn": "Accumulation fund"
+      },
+      "AvecBoniEtFonds": {
+        "Libelle": "Achat d’ASL",
+        "LibelleEn": "PUA purchase"
+      }
+    },
+    "TypeOptionParticipation": {
+      "NonSpecifie": {
+        "Libelle": "",
+        "LibelleEn": ""
+      },
+      "AchatAssuranceSupplementaireLiberee": {
+        "Libelle": "Bonifications d’assurance libérée",
+        "LibelleEn": "Paid-up additions"
+      },
+      "Depot": {
+        "Libelle": "En dépôt avec intérêts",
+        "LibelleEn": "Deposit with interest"
+      },
+      "ReduirePrime": {
+        "Libelle": "Réduction de la prime annuelle",
+        "LibelleEn": "Annual premium reduction"
+      },
+      "Comptant": {
+        "Libelle": "Payable au comptant",
+        "LibelleEn": "Payable in cash"
+      }
+    },
+    "TypeScenarioPrime": {
+      "NonApplicable": {
+        "Libelle": "Aucun",
+        "LibelleEn": "None"
+      },
+      "Variable_Minimale": {
+        "Libelle": "Prime minimale",
+        "LibelleEn": "Minimum premium"
+      },
+      "Variable_Reference": {
+        "Libelle": "Prime de référence",
+        "LibelleEn": "Reference premium"
+      },
+      "Variable_Maximale": {
+        "Libelle": "Prime maximale",
+        "LibelleEn": "Maximum premium"
+      },
+      "Variable_MaximaleGarantie": {
+        "Libelle": "Maximale garantie",
+        "LibelleEn": "Guaranteed maximum"
+      },
+      "Variable_Couts": {
+        "Libelle": "Coût d’assurance",
+        "LibelleEn": "Insurance cost"
+      },
+      "Variable_MinimaleAllocationASL": {
+        "Libelle": "Prime minimale + ASL",
+        "LibelleEn": "Minimum premium + PUA"
+      },
+      "Variable_MinimalePlusAuChoix": {
+        "Libelle": "Prime minimale + au choix",
+        "LibelleEn": "Minimum premium + specify"
+      },
+      "Variable_PlusGrandMinimaleOuCouts": {
+        "Libelle": "Plus grand : prime minimale ou coût",
+        "LibelleEn": "Greater : minimum premium or cost"
+      },
+      "Variable_PlusGrandAuChoixOuCouts": {
+        "Libelle": "Plus grand : au choix ou coût",
+        "LibelleEn": "Greater : specify or cost"
+      },
+      "Variable_MinimaleCroissanteTRA": {
+        "Libelle": "Coûts d'assurance + taxe",
+        "LibelleEn": "Insurance costs + tax"
+      },
+      "Calculee_PaiementRapide": {
+        "Libelle": "Paiement rapide",
+        "LibelleEn": "Quick payment"
+      },
+      "Calculee_MaximumNivelee": {
+        "Libelle": "Maximale nivelée",
+        "LibelleEn": "Maximum level"
+      },
+      "Calculee_MaintienEnVigueur": {
+        "Libelle": "Maintien nivelée",
+        "LibelleEn": "Maintain level"
+      },
+      "Calculee_SoldeFonds_Duree": {
+        "Libelle": "Fonds cible",
+        "LibelleEn": "Target fund"
+      },
+      "Calculee_SoldeFonds_Prime": {
+        "Libelle": "Fonds cible",
+        "LibelleEn": "Target fund"
+      },
+      "Calculee_RetourPrimes_Duree": {
+        "Libelle": "Retour de prime",
+        "LibelleEn": "Return of premium"
+      },
+      "Calculee_RetourPrimes_Prime": {
+        "Libelle": "Retour de prime",
+        "LibelleEn": "Return of premium"
+      },
+      "Fixe": {
+        "Libelle": "Au choix",
+        "LibelleEn": "Specify"
+      },
+      "Modale": {
+        "Libelle": "Prime",
+        "LibelleEn": "Premium"
+      },
+      "ModalePlusODE": {
+        "Libelle": "Prime + ODS",
+        "LibelleEn": "Premium + ADO"
+      }
+    },
+    "Province": {
+      "Alabama": {
+        "Libelle": "Alabama",
+        "LibelleEn": "Alabama"
+      },
+      "Alaska": {
+        "Libelle": "Alaska",
+        "LibelleEn": "Alaska"
+      },
+      "Alberta": {
+        "Libelle": "Alberta",
+        "LibelleEn": "Alberta"
+      },
+      "Arizona": {
+        "Libelle": "Arizona",
+        "LibelleEn": "Arizona"
+      },
+      "Arkansas": {
+        "Libelle": "Arkansas",
+        "LibelleEn": "Arkansas"
+      },
+      "Californie": {
+        "Libelle": "Californie",
+        "LibelleEn": "California"
+      },
+      "CarolineDuNord": {
+        "Libelle": "Caroline Du Nord",
+        "LibelleEn": "North Carolina"
+      },
+      "CarolineDuSud": {
+        "Libelle": "Caroline Du Sud",
+        "LibelleEn": "South Carolina"
+      },
+      "ColombieBritannique": {
+        "Libelle": "Colombie Britannique",
+        "LibelleEn": "British Columbia"
+      },
+      "Colorado": {
+        "Libelle": "Colorado",
+        "LibelleEn": "Colorado"
+      },
+      "Connecticut": {
+        "Libelle": "Connecticut",
+        "LibelleEn": "Connecticut"
+      },
+      "DakotaDuNord": {
+        "Libelle": "Dakota Du Nord",
+        "LibelleEn": "North Dakota"
+      },
+      "DakotaDuSud": {
+        "Libelle": "Dakota Du Sud",
+        "LibelleEn": "South Dakota"
+      },
+      "Delaware": {
+        "Libelle": "Delaware",
+        "LibelleEn": "Delaware"
+      },
+      "DistrictDeColombie": {
+        "Libelle": "District De Colombie",
+        "LibelleEn": "District Of Columbia"
+      },
+      "EtatInconnuUSA": {
+        "Libelle": "État inconnu aux USA",
+        "LibelleEn": "Unknown State in USA"
+      },
+      "Floride": {
+        "Libelle": "Floride",
+        "LibelleEn": "Florida"
+      },
+      "Georgie": {
+        "Libelle": "Géorgie",
+        "LibelleEn": "Georgia"
+      },
+      "Hawaii": {
+        "Libelle": "Hawaii",
+        "LibelleEn": "Hawaii"
+      },
+      "Idaho": {
+        "Libelle": "Idaho",
+        "LibelleEn": "Idaho"
+      },
+      "IleDuPrinceEdouard": {
+        "Libelle": "Ile-du-Prince-Édouard",
+        "LibelleEn": "Prince Edward Island"
+      },
+      "Illinois": {
+        "Libelle": "Illinois",
+        "LibelleEn": "Illinois"
+      },
+      "Inconnu": {
+        "Libelle": "Inconnu",
+        "LibelleEn": "Unknown"
+      },
+      "Indiana": {
+        "Libelle": "Indiana",
+        "LibelleEn": "Indiana"
+      },
+      "Iowa": {
+        "Libelle": "Iowa",
+        "LibelleEn": "Iowa"
+      },
+      "Kansas": {
+        "Libelle": "Kansas",
+        "LibelleEn": "Kansas"
+      },
+      "Kentucky": {
+        "Libelle": "Kentucky",
+        "LibelleEn": "Kentucky"
+      },
+      "Louisiane": {
+        "Libelle": "Louisiane",
+        "LibelleEn": "Louisiana"
+      },
+      "Maine": {
+        "Libelle": "Maine",
+        "LibelleEn": "Maine"
+      },
+      "Manitoba": {
+        "Libelle": "Manitoba",
+        "LibelleEn": "Manitoba"
+      },
+      "Maryland": {
+        "Libelle": "Maryland",
+        "LibelleEn": "Maryland"
+      },
+      "Massachusetts": {
+        "Libelle": "Massachusetts",
+        "LibelleEn": "Massachusetts"
+      },
+      "Michigan": {
+        "Libelle": "Michigan",
+        "LibelleEn": "Michigan"
+      },
+      "Minnesota": {
+        "Libelle": "Minnesota",
+        "LibelleEn": "Minnesota"
+      },
+      "Mississippi": {
+        "Libelle": "Mississippi",
+        "LibelleEn": "Mississippi"
+      },
+      "Missouri": {
+        "Libelle": "Missouri",
+        "LibelleEn": "Missouri"
+      },
+      "Montana": {
+        "Libelle": "Montana",
+        "LibelleEn": "Montana"
+      },
+      "Nebraska": {
+        "Libelle": "Nebraska",
+        "LibelleEn": "Nebraska"
+      },
+      "Nevada": {
+        "Libelle": "Nevada",
+        "LibelleEn": "Nevada"
+      },
+      "NewHampshire": {
+        "Libelle": "New Hampshire",
+        "LibelleEn": "New Hampshire"
+      },
+      "NewJersey": {
+        "Libelle": "New Jersey",
+        "LibelleEn": "New Jersey"
+      },
+      "NewYork": {
+        "Libelle": "New York",
+        "LibelleEn": "New York"
+      },
+      "NonDefini": {
+        "Libelle": "Non défénie",
+        "LibelleEn": "Undefined"
+      },
+      "NouveauBrunswick": {
+        "Libelle": "Nouveau-Brunswick",
+        "LibelleEn": "New Brunswick"
+      },
+      "NouveauMexique": {
+        "Libelle": "Nouveau Mexique",
+        "LibelleEn": "New Mexico"
+      },
+      "NouvelleEcosse": {
+        "Libelle": "Nouvelle-Écosse",
+        "LibelleEn": "Nova Scotia"
+      },
+      "Nunavut": {
+        "Libelle": "Nunavut",
+        "LibelleEn": "Nunavut"
+      },
+      "Ohio": {
+        "Libelle": "Ohio",
+        "LibelleEn": "Ohio"
+      },
+      "Oklahoma": {
+        "Libelle": "Oklahoma",
+        "LibelleEn": "Oklahoma"
+      },
+      "Ontario": {
+        "Libelle": "Ontario",
+        "LibelleEn": "Ontario"
+      },
+      "Oregon": {
+        "Libelle": "Oregon",
+        "LibelleEn": "Oregon"
+      },
+      "Pennsylvanie": {
+        "Libelle": "Pennsylvanie",
+        "LibelleEn": "Pennsylvania"
+      },
+      "InconnuCAN": {
+        "Libelle": "Province inconnue du Canada",
+        "LibelleEn": "Unknown Province of Canada"
+      },
+      "Quebec": {
+        "Libelle": "Québec",
+        "LibelleEn": "Quebec"
+      },
+      "RhodeIsland": {
+        "Libelle": "Rhode Island",
+        "LibelleEn": "Rhode Island"
+      },
+      "Saskatchewan": {
+        "Libelle": "Saskatchewan",
+        "LibelleEn": "Saskatchewan"
+      },
+      "Tennessee": {
+        "Libelle": "Tennessee",
+        "LibelleEn": "Tennessee"
+      },
+      "TerreNeuve": {
+        "Libelle": "Terre-Neuve",
+        "LibelleEn": "Newfoundland"
+      },
+      "TerreNeuveEtLabrador": {
+        "Libelle": "Terre-Neuve et Labrador",
+        "LibelleEn": "Newfoundland and Labrador"
+      },
+      "TerritoireDuNordOuest": {
+        "Libelle": "Territoires du Nord-Ouest",
+        "LibelleEn": "Northwest Territories"
+      },
+      "Texas": {
+        "Libelle": "Texas",
+        "LibelleEn": "Texas"
+      },
+      "Utah": {
+        "Libelle": "Utah",
+        "LibelleEn": "Utah"
+      },
+      "Vermont": {
+        "Libelle": "Vermont",
+        "LibelleEn": "Vermont"
+      },
+      "Virginie": {
+        "Libelle": "Virginie",
+        "LibelleEn": "Virginia"
+      },
+      "VirginieOccidentale": {
+        "Libelle": "Virginie Occidentale",
+        "LibelleEn": "West Virginia"
+      },
+      "Washington": {
+        "Libelle": "Washington",
+        "LibelleEn": "Washington"
+      },
+      "Wisconsin": {
+        "Libelle": "Wisconsin",
+        "LibelleEn": "Wisconsin"
+      },
+      "Wyoming": {
+        "Libelle": "Wyoming",
+        "LibelleEn": "Wyoming"
+      },
+      "Yukon": {
+        "Libelle": "Yukon",
+        "LibelleEn": "Yukon"
+      }
+    }
+  },
+  "TauxIndiceReferenceBonis": [
+    {
+      "DateDebut": "2016-01-01",
+      "Taux": 0.055,
+      "EstGarantie": true
+    },
+    {
+      "DateDebut": "2020-01-01",
+      "Taux": 0.04,
+      "EstGarantie": false
+    }
+  ]
+}
