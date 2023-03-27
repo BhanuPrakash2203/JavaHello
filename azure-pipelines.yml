@@ -32,5 +32,5 @@ stages:
     - task: PythonScript@0
       displayName: 'Run a Python script'
       inputs:
-        scriptPath: gatekeeper.py
-        arguments: '-r http://arch-ps-7:8087/rest -u admin -p admin -a rocky1'    
+        scriptPath: C:\Data\CastEnv\gatekeeper\gatekeeper.py
+        arguments: '-r http://localhost:8081/rest -u admin -p admin -a TestApp'    
