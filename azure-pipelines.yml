@@ -29,7 +29,7 @@ stages:
     - task: CmdLine@2
       displayName: 'Run Source Code Scan'
       inputs:
-        script: 'java -jar $(SlaCliJar)  add  --apikey="$(SlaApIKey)" -n "TestApp1" -f "$(CastSourcePath)\$(Build.Repository.Name)" -s "$(SlaServerName)" --auto-create --auto-create'
+        script: 'java -jar $(SlaCliJar)  add  --apikey="$(SlaApIKey)" -n "TestApp1" -f "$(CastSourcePath)\$(Build.Repository.Name)" -s "$(SlaServerName)" --auto-create --process-imaging'
     - task: PythonScript@0
       displayName: 'Check Added Critical Violations'
       inputs:
