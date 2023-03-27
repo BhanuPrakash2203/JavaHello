@@ -17,11 +17,10 @@ stages:
     - checkout: self
     - script: echo "$(Build.SourcesDirectory)"
       displayName: 'Display Sources Directory of Azure agent working directory'
-    - # Invoke REST API v1
-# Invoke a REST API as a part of your pipeline.
+
 -    task: InvokeRESTAPI@1
      inputs:
-      connectionType: 'connectedServiceName' # 'connectedServiceName' | 'connectedServiceNameARM'. Alias: connectedServiceNameSelector. Required. Connection type. Default: connectedServiceName.
+      connectionType: 'connectedServiceName' 
       serviceConnection: $(dashboardRestURL) 
       #azureServiceConnection: # string. Alias: connectedServiceNameARM | azureSubscription. Required when connectedServiceNameSelector = connectedServiceNameARM. Azure subscription. 
       method: 'GET'
