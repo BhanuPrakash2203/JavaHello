@@ -29,3 +29,8 @@ stages:
     - task: CmdLine@2
       inputs:
         script: 'java -jar $(SlaCliJar)  add  --apikey="$(SlaApIKey)" -n "$(Build.Repository.Name)" -f "$(CastSourcePath)\$(Build.Repository.Name)" -s "$(SlaServerName)"'
+    - task: PythonScript@0
+      displayName: 'Run a Python script'
+      inputs:
+        scriptPath: gatekeeper.py
+        arguments: '-r http://arch-ps-7:8087/rest -u admin -p admin -a rocky1'    
