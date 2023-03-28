@@ -33,5 +33,5 @@ stages:
     - task: PythonScript@0
       displayName: 'Check Added Critical Violations'
       inputs:
-        scriptPath: C:\Data\CastEnv\gatekeeper\gatekeeper.py
+        scriptPath: $(AddedCVScriptPath)\gatekeeper.py
         arguments: '-r $(dashboardRestURL) -u $(dashboardRestUID) -p $(dashboardRestPwd) -a TestApp1'   
