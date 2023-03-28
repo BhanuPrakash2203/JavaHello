@@ -34,4 +34,4 @@ stages:
       displayName: 'Check Added Critical Violations'
       inputs:
         scriptPath: C:\Data\CastEnv\gatekeeper\gatekeeper.py
-        arguments: '-r http://localhost:8091/rest -u admin -p admin -a TestApp1'    
+        arguments: '-r $(dashboardRestURL) -u $(dashboardRestUID) -p $(dashboardRestPwd) -a TestApp1'   
